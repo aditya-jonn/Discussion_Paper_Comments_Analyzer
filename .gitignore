@@ -1,0 +1,20 @@
+# Temporary and binary files
+*~
+*.py[cod]
+*.so
+__pycache__/
+.cache/
+*.egg-info
+.pytest_cache
+
+# Build and docs
+build/
+dist/
+docs/_build/
+
+# Virtual environments
+.venv*/
+.python-version
+
+# Test outputs
+*.log

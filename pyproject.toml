@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.2", "setuptools_scm>=7"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rst_template"
+version = "0.1.0"
+authors = [
+    {name = "Your Name", email = "your.email@fda.hhs.gov"}
+]
+description = "A minimal template with multiple packages demonstrating cross-package imports"
+readme = "README.rst"
+license = {text = "CC0-1.0"}
+requires-python = ">=3.12"
+dependencies = [
+    "sphinx>=3.2.1",
+    "pytest>=7.0",
+    "numpy>=1.20",
+    "tomli>=2.0.0; python_version<'3.11'",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/DIDSR/rst_template"
+Repository = "https://github.com/DIDSR/rst_template"
+Issues = "https://github.com/DIDSR/rst_template/issues"
+
+[project.scripts]
+process-data = "package_b.module_b:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = ["-v", "--tb=short"]
+pythonpath = ["."]
