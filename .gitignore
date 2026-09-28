@@ -18,3 +18,9 @@ docs/_build/
 
 # Test outputs
 *.log
+
+# Tools
+my_tools/
+trace_comment.py
+*.png
+*.svg
