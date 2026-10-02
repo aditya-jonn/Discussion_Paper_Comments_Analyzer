@@ -1,0 +1,339 @@
+{
+  "codes": {
+    "GENERAL": {
+      "label": "Overall views, background and definitions",
+      "priority": 3,
+      "covers": "Views on FDA's approach or on generative AI in healthcare as a whole (general support, hopes, worries or opposition), proposals that span several parts of the paper, such as a whole-lifecycle framework, and points about the paper's framing: its introduction, background, definitions of terms such as generative AI or foundation model, and which products count as devices (Sections I-III and VIII, which ask no numbered questions).",
+      "cues": "support FDA's approach, too risky, promising, general worries about errors or hallucinations, definitions, scope",
+      "excludes": "A specific proposal about one part of the paper goes to that part's code, even when it opens with a general remark. A worry about something the paper doesn't address, such as privacy or cost, even when stated as a general concern (MISC)."
+    },
+    "RISK": {
+      "label": "Assessing a device's risk",
+      "priority": 2,
+      "covers": "How FDA should judge how risky a device is (Section IV, Questions 1-6). FDA proposes two axes: how independently the device acts, from giving neutral information, to directing what someone should do, to taking actions such as prescribing on its own; and how severe the harm would be if someone relied on a wrong output. Also covered: patient-facing versus clinician-facing use, generalist versus specialist users, risks that build up over a multi-turn conversation, and failing to escalate care or escalating it needlessly.",
+      "cues": "risk framework, risk tiers, autonomy, severity of harm, patient-facing, escalation, triage, human in the loop",
+      "excludes": "General warnings that AI is dangerous (GENERAL). How much evidence a device needs given its risk (PREMARKET). Systems that plan and carry out multi-step tasks with tools (AGENTIC)."
+    },
+    "PREMARKET": {
+      "label": "Evaluating a device before it is sold",
+      "priority": 2,
+      "covers": "What a device should demonstrate before FDA authorizes it (Section V, Questions 7-17). FDA proposes a competency-based approach with two parts: benchmarking, meaning large-scale testing of the finished device's knowledge, reasoning, safety behavior and communication across many inputs; and clinical confirmation, meaning evidence that it performs as intended in real or realistic clinical use. Also covered: scaling evidence to the device's risk, statistics, synthetic test data, comparators and acceptance criteria for open-ended outputs, comparison with care without the device, independent third-party testing, and other model architectures.",
+      "cues": "benchmark, validation, test set, red-teaming, clinical study, performance metrics, acceptance threshold, synthetic data, independent lab, before clearance",
+      "excludes": "Re-testing after the device is on the market, for example after an update (POSTMARKET). Testing specific to agentic systems (AGENTIC)."
+    },
+    "POSTMARKET": {
+      "label": "Oversight once a device is in use",
+      "priority": 2,
+      "covers": "How devices are watched and changed after they reach the market (Section VI, Questions 18-24). Monitoring: tracking real-world performance, drift and errors, audit trails, whether AI supervisory agents could do some of the monitoring, and accepting more uncertainty before sale in return for stronger monitoring after. Shared responsibility: the roles of manufacturers, clinicians, hospitals, payers and others in monitoring and reporting. Changes: software updates, retraining, models that keep learning, how much evidence each change needs, predetermined change control plans (PCCPs), and changes made by a third-party foundation model's developer.",
+      "cues": "postmarket, real-world performance, drift, monitoring, audit, adverse event reporting, update, retraining, version, PCCP, change control",
+      "excludes": "A clinician monitoring a patient, which is care, not device oversight. The voluntary master file program (MASTER_FILES)."
+    },
+    "MASTER_FILES": {
+      "label": "Foundation model master files",
+      "priority": 1,
+      "covers": "FDA's idea of voluntary Foundation Model Master Files (Section VII.A, Question 25): the developer of a foundation model would confidentially give FDA information about it, such as a model card, known limitations, evaluation results and update commitments, which device makers could reference, with the developer's permission, in their own submissions.",
+      "cues": "master file, MAF, model card, system card, foundation model developer, confidential",
+      "excludes": "How a device maker should handle a third-party model's updates after launch (POSTMARKET)."
+    },
+    "AGENTIC": {
+      "label": "Agentic AI systems",
+      "priority": 1,
+      "covers": "Agentic AI (Section VII.B, Question 26): systems that plan and carry out multi-step tasks on their own, use external tools, or take a sequence of actions, for example in care coordination, documentation, patient outreach or workflow support; and how FDA should approach them, including which of these functions should count as devices.",
+      "cues": "agent, agentic, autonomous workflow, multi-step, tool use, orchestration",
+      "excludes": "The risk of a device taking a single action, such as prescribing (RISK). AI supervisory agents that monitor a device in use (POSTMARKET)."
+    },
+    "MISC": {
+      "label": "Outside the paper's topics",
+      "priority": 3,
+      "covers": "A substantive point that fits none of the codes above, such as insurance or reimbursement, cost, workforce training, or a privacy or ethics concern not tied to any part of FDA's proposal. Its stance is always neutral, because it responds to nothing FDA proposed.",
+      "cues": "insurance, reimbursement, cost, jobs, training of staff",
+      "excludes": "A privacy or ethics point about a specific part of the proposal goes to that part's code."
+    }
+  },
+  "skip": {
+    "label": "Skipped: no point of its own",
+    "covers": "Text that makes no point about the paper: greetings, thanks, introductions of the writer, disclaimers, signatures, contact details, and lead-ins that only announce a list of points to come.",
+    "cues": "thank you, sincerely, on behalf of, in my individual capacity, the following points",
+    "excludes": "Thanks or an introduction that also states a view, such as support for FDA's direction, gets a tag for that view (GENERAL). A heading that introduces a paragraph is not skipped: it is tagged together with that paragraph, as a range."
+  },
+  "stances": {
+    "support": {
+      "label": "Supports FDA's approach",
+      "covers": "Agrees with what FDA proposed on this point, as it stands.",
+      "cues": "we support, agree, welcome, appropriately recognizes",
+      "excludes": "Agreement that comes with requests for changes, additions or conditions (conditional)."
+    },
+    "conditional": {
+      "label": "Supports it with changes",
+      "covers": "Accepts FDA's approach on this point but wants something added, changed, limited or clarified, including suggestions that extend what FDA proposed.",
+      "cues": "should also, consider adding, provided that, however, we recommend",
+      "excludes": "Rejecting the approach itself (oppose). Information that takes no position (neutral)."
+    },
+    "oppose": {
+      "label": "Opposes FDA's approach",
+      "covers": "Disagrees with what FDA proposed on this point, or argues against the direction as a whole.",
+      "cues": "should not, oppose, too risky, unnecessary, instead of",
+      "excludes": "Wanting one part changed while accepting the rest (conditional)."
+    },
+    "neutral": {
+      "label": "Takes no position",
+      "covers": "Information, examples or concerns that take no position on what FDA proposed, and every MISC point, which responds to nothing FDA proposed.",
+      "cues": "for example, in our experience, I want to note",
+      "excludes": "A concern offered as a reason to change FDA's approach (conditional) or to reject it (oppose), unless it is a MISC point."
+    }
+  },
+  "subcodes": {
+    "GEN": {
+      "code": "GENERAL",
+      "label": "Overall approach and general views",
+      "covers": "Views on the paper or FDA's direction as a whole rather than on one question: overall support, concerns or opposition; regulatory philosophy (risk-based oversight, least burdensome principles, total product life cycle, balancing innovation with safety); whether, when and how FDA should move to guidance, rules, pilots or further engagement; legal-authority questions; consistency with existing FDA AI policies; international harmonization; comment-process requests such as extensions or public meetings.",
+      "cues": "least burdensome, total product life cycle, TPLC, 2024 Digital Health Advisory Committee, innovation and patient access, guidance timeline, pilot program, statutory authority, harmonization, IMDRF, EU AI Act, comment period extension, public workshop"
+    },
+    "BKG": {
+      "code": "GENERAL",
+      "label": "GenAI characteristics, risks and benefits",
+      "covers": "General discussion of what makes GenAI-enabled devices different (Section II) when not tied to a specific proposal: benefits such as personalization, adaptability and access, and characteristic risks such as confabulation or hallucination, output variability, unclear bounds of intended use, opacity of third-party foundation models, performance degradation and automation bias, including evidence or real-world examples of these.",
+      "cues": "hallucination, confabulation, non-determinism, output variability, black box, opacity, open-ended inputs, automation bias, benefits for patients, access to care, real-world incidents"
+    },
+    "DEF": {
+      "code": "GENERAL",
+      "label": "Definitions, scope and device status",
+      "covers": "Section III: definitions of GenAI, foundation model, large language model, agentic AI system and multimodal; what counts as a GenAI-enabled device or device software function; which GenAI functions are devices, fall outside the device definition, are excluded under section 520(o) (including the clinical decision support criteria) or sit under enforcement discretion; multiple-function products and 'other functions'; the principle that FDA regulates devices rather than GenAI itself; requests to clarify the regulatory status of particular product types such as ambient scribes, documentation, administrative or wellness tools.",
+      "cues": "definition, section 201(h), section 520(o), clinical decision support, CDS criteria, enforcement discretion, multiple function device products, other functions, device software function, non-device software, ambient scribe, clinical documentation, general wellness, regulatory status"
+    },
+    "Q1": {
+      "code": "RISK",
+      "label": "Two-axis risk framework and additional dimensions",
+      "covers": "Whether a risk framework built on two axes (how much the function acts or directs action, and how severe the harm is from relying on a wrong output) captures what matters for GenAI risk; whether and how to add dimensions such as reversibility of the resulting action, downstream safeguards, time pressure in the setting, or traceability of outputs to primary sources.",
+      "cues": "two-axis, activity axis, consequences axis, severity of harm, Figure 1, degree of independence, reversibility, downstream safeguards, time pressure, traceability, source attribution, IMDRF SaMD risk categories, risk classification"
+    },
+    "Q2": {
+      "code": "RISK",
+      "label": "Directiveness spectrum for informational functions",
+      "covers": "How to handle informational functions that range from non-directive to action-directing; which output features (wording, specificity, personalization, context) should raise or lower risk once intended use is accounted for; what would give manufacturers clarity and predictability given that directiveness is a continuum. Includes FDA's views that substance and context matter more than trigger words, that disclaimers such as 'talk to your doctor' may not make an output less directive, and that consequence severity moderates the risk of action-directing outputs.",
+      "cues": "action-directing, non-directive, directiveness, continuum, lisinopril examples, recommend / should / consider, disclaimers, talk to your doctor, hydrocortisone for poison ivy, basal insulin dose, sore throat vs chest pain, personalization, predictability"
+    },
+    "IV-ACT": {
+      "code": "RISK",
+      "label": "Action-taking functions (no numbered question)",
+      "covers": "FDA's view that functions that take clinical action (assigning a diagnosis, prescribing, initiating an order set) are typically higher risk than informational ones, moderated by the severity of consequences and the level of clinician supervision; views on autonomy levels and supervision in risk assessment.",
+      "cues": "action-taking, autonomous, autonomous prescribing, order set, assigning a diagnosis, antibiotics for strep throat, thrombolytic therapy, stroke workflow, clinician supervision, human in the loop, levels of autonomy"
+    },
+    "IV-MEAS": {
+      "code": "RISK",
+      "label": "Measurement, signal-processing and IVD functions (no numbered question)",
+      "covers": "FDA's view that GenAI-enabled in vitro diagnostic, measurement and signal-processing functions may be higher risk even though non-directive, because users usually cannot check the output independently (linked to the independent-review criterion for clinical decision support).",
+      "cues": "in vitro diagnostic, IVD, measurement, signal processing, image reconstruction, image enhancement, denoising, synthetic images, outputs the user cannot verify, independent review, 520(o)(1)(E)"
+    },
+    "Q3": {
+      "code": "RISK",
+      "label": "Patient-facing vs clinician-facing functions",
+      "covers": "Whether and when delivering clinical information to patients rather than clinicians creates different or higher risk, weighed against empowerment, engagement, access and avoiding paternalism; which device characteristics, output features or safeguards reduce risk for users who cannot evaluate outputs, without underestimating patients.",
+      "cues": "patient-facing, consumer-facing, lay users, empowerment, democratization, paternalism, health literacy, self-treatment, delayed care, consumer chatbot, safeguards for patients"
+    },
+    "Q4": {
+      "code": "RISK",
+      "label": "Generalist vs specialist clinician users",
+      "covers": "Whether the generalist/specialist distinction should shape risk for clinician-facing functions; when risk changes if a clinician without the relevant specialty training receives specialist-domain output; characteristics and safeguards that mitigate this; the potential to extend access to specialty knowledge.",
+      "cues": "generalist, specialist, primary care, specialty knowledge, scope of practice, access to specialty care, rural, advanced practice providers, expert contextualization"
+    },
+    "Q5": {
+      "code": "RISK",
+      "label": "Multi-turn conversational risk",
+      "covers": "How to assess risk across realistic conversation trajectories when a conversational device can drift from non-directive to action-directing output; how to describe intended use when behavior emerges over a conversation.",
+      "cues": "multi-turn, conversation, conversational trajectory, drift within a conversation, emergent behavior, intended use statement, conversation-level testing, long conversations, chatbot"
+    },
+    "Q6": {
+      "code": "RISK",
+      "label": "Care escalation: under- vs over-escalation",
+      "covers": "How to characterize and weigh under-escalation (failing to send someone to needed care) against over-escalation (unneeded emergency care, anxiety, cost, eroded trust), given that the two errors are not directly comparable and acceptable trade-offs differ by clinical context.",
+      "cues": "escalation, triage, under-triage, over-triage, emergency department, urgent care, asymmetric errors, sensitivity vs specificity, false reassurance, resource burden"
+    },
+    "Q7": {
+      "code": "PREMARKET",
+      "label": "Competency-based approach overall",
+      "covers": "Whether device benchmarking followed by clinical confirmation is a useful and appropriate premarket framework; evaluating the final, configured, user-facing device rather than the foundation model alone; the analogy to how clinicians are trained, examined, licensed and credentialed, and critiques of it such as accountability gaps; tailoring the approach to intended use and risk in general.",
+      "cues": "competency-based, licensure analogy, credentialing, board examinations, residency, supervised practice, as-deployed configuration, final user-facing device, foundation model alone, accountability, Patel and Blumenthal, Bergman, Wachter and Emanuel, Freyer et al."
+    },
+    "Q8": {
+      "code": "PREMARKET",
+      "label": "Using the risk framework to scale premarket evidence",
+      "covers": "How the two-axis risk framework could set the level of premarket evidence: which benchmarking elements apply, the range and difficulty of test conditions, and how much clinical confirmation is needed.",
+      "cues": "risk-proportionate evidence, level of evidence, tiered evidence, evidence scaling, risk-based testing"
+    },
+    "Q9": {
+      "code": "PREMARKET",
+      "label": "Benchmarking structure and methods",
+      "covers": "Whether the proposed benchmarking elements (safety, clinical proficiency, generalizability, agentic) would give adequate evidence of safety and effectiveness; missing, redundant or miscategorized elements; external standards that could be used. Also the general benchmarking principles: prespecified methods and acceptance criteria, scoring rubrics grounded in guidelines or expert input, independent adjudicators (including LLM adjudicators), enough clinical scope, datasets representative of deployment settings, and simulation, synthetic test generation or virtual patients. It also covers points about any single benchmarking element: safety-critical recognition and escalation; scope maintenance and boundary adherence; calibration, uncertainty and clinical deferral; clinical knowledge and task fidelity; information gathering and clinical analysis; quantitative and measurement analysis; communication quality and user comprehension; robustness, reliability and reproducibility; subgroup performance; agentic competencies.",
+      "cues": "benchmarking, benchmark elements, scoring rubric, prespecified acceptance criteria, expert adjudication, LLM-as-a-judge, adjudicator independence, simulation, virtual patient avatars, synthetic test cases, consensus standards, ISO 14971, IEC 62304, AAMI, NIST AI RMF, ISO/IEC 42001"
+    },
+    "Q10": {
+      "code": "PREMARKET",
+      "label": "Benchmark validity and sponsor-developed benchmarks",
+      "covers": "How a sponsor can show that benchmark performance predicts safe and effective real-world behavior; what evidence supports a benchmark's construct validity; what role sponsor-built benchmarks should play given independence and teaching-to-the-test concerns; how contamination, saturation and limited representativeness of public benchmarks affect the approach.",
+      "cues": "data contamination, leakage, saturation, construct validity, external validity, predictive validity, overfitting to the test, Goodhart, held-out or sequestered test sets, public benchmarks, HealthBench, MedHELM"
+    },
+    "Q11": {
+      "code": "PREMARKET",
+      "label": "Choosing a clinical confirmation approach",
+      "covers": "How a sponsor should select and justify a clinical confirmation approach proportionate to intended use and risk, given FDA's view that a prospective study may not always be needed; the options (retrospective evaluation on real inputs, shadow deployment, standardized patient interactions, clinician adjudication of real cases, blinded or unblinded, and prospective studies or randomized trials); device types or risk profiles for which options fall short; accounting for the real-world input distribution; other confirmation methods.",
+      "cues": "clinical confirmation, clinical validation, retrospective evaluation, shadow deployment, silent mode, standardized patients, patient actors, blinded review, prospective study, randomized controlled trial, pragmatic trial, input distribution"
+    },
+    "V-RWD": {
+      "code": "PREMARKET",
+      "label": "Real-world and ex-US data in clinical confirmation (no numbered question)",
+      "covers": "Considerations for using real-world data and data collected outside the United States in clinical confirmation, which FDA invited in the text of Section V.C.",
+      "cues": "real-world data, RWD, real-world evidence, RWE, OUS data, foreign clinical data, EHR data, registries, applicability to the US population"
+    },
+    "Q12": {
+      "code": "PREMARKET",
+      "label": "Statistical rigor and combining evidence",
+      "covers": "How to get statistically meaningful performance estimates; accounting for differences between synthetic and real-world input distributions; when benchmarking and clinical confirmation evidence may be combined into one estimate; how endpoints and sample sizes should be set when studies are not powered for traditional effectiveness endpoints.",
+      "cues": "statistical power, sample size, confidence intervals, endpoints, distribution shift, synthetic-to-real gap, reweighting, pooling evidence, Bayesian methods, prediction-powered inference"
+    },
+    "Q13": {
+      "code": "PREMARKET",
+      "label": "Suitability and safeguards for synthetic data",
+      "covers": "Which clinical domains, device functions or subpopulations synthetic data suits well or poorly as a supplement to real-world evidence; safeguards against synthetic data generated by the same class of model reproducing the gaps the evaluation should catch, especially for underrepresented subgroups; use of synthetic data for small or hard-to-sample subgroups.",
+      "cues": "synthetic data, synthetic patients, LLM-generated test cases, circularity, model collapse, rare diseases, underrepresented subgroups, validating synthetic data, fidelity"
+    },
+    "Q14": {
+      "code": "PREMARKET",
+      "label": "Comparators and acceptance criteria for open-ended outputs",
+      "covers": "How to choose comparators and acceptance criteria when many different outputs can be acceptable; clinician panels and whether the standard should be the standard of care or a median practicing clinician; generalist vs specialist comparators; when to evaluate human-AI team performance rather than the device alone; setting performance thresholds; using a conventional reference standard where one exists.",
+      "cues": "comparator, reference standard, ground truth, clinician panel, median clinician, standard of care, non-inferiority, human-AI team, standalone performance, reader study, acceptance thresholds"
+    },
+    "Q15": {
+      "code": "PREMARKET",
+      "label": "Comparing with care in the device's absence",
+      "covers": "Assessing performance against what would happen without the device (unaided clinical judgment, delayed specialist review, no intervention) instead of expert comparators; how to identify and justify such comparators.",
+      "cues": "counterfactual, status quo, absence of the device, no intervention, delayed specialist review, unaided judgment, access gaps, current practice"
+    },
+    "Q16": {
+      "code": "PREMARKET",
+      "label": "Role of independent third parties",
+      "covers": "Whether and how qualified, independent third parties should take part in benchmarking and clinical confirmation (conducting or evaluating assessments and issuing certificates, maintaining sequestered datasets, adjudicating, building FDA-qualified tools, developing recognized standards); qualification and independence criteria; where third-party involvement is impractical; safeguards so it does not limit competition or innovation; analogies to FDA's ASCA and MDDT programs.",
+      "cues": "third party, independent evaluation, assurance labs, certification, accreditation, ASCA, MDDT, sequestered datasets, conflicts of interest, competition, cost to startups, bottleneck"
+    },
+    "Q17": {
+      "code": "PREMARKET",
+      "label": "Other model architectures",
+      "covers": "Whether the competency-based approach works for other architectures such as multimodal vision-language models and generative or predictive world models; what would be ineffective or inapplicable; what additional considerations apply.",
+      "cues": "vision-language model, VLM, multimodal, world models, image generation, diffusion models, report generation, radiology, video, audio, waveforms"
+    },
+    "Q18": {
+      "code": "POSTMARKET",
+      "label": "Trading premarket uncertainty for postmarket monitoring",
+      "covers": "Conditions under which FDA could accept more uncertainty about benefit-risk at market entry by relying more on postmarket monitoring; what a monitoring program would need to justify less premarket evidence; device types or risk profiles for which this would be inappropriate.",
+      "cues": "premarket uncertainty, benefit-risk, reliance on postmarket data, conditional authorization, postmarket commitments, phased rollout, limited release"
+    },
+    "Q19": {
+      "code": "POSTMARKET",
+      "label": "Postmarket performance evaluation approaches",
+      "covers": "Periodic re-benchmarking, sample-based clinician review and performance degradation (drift) monitoring: feasibility, additional approaches, and how to set the cadence and triggering events for reassessment.",
+      "cues": "postmarket monitoring, drift, performance degradation, re-benchmarking, sampling, audits, cadence, trigger events, logging, real-world performance, adverse event reporting, MDR, complaint handling"
+    },
+    "Q20": {
+      "code": "POSTMARKET",
+      "label": "Machine-based supervisory agents",
+      "covers": "Whether postmarket monitoring can be supported by machine-based supervisory agents, and what to consider, including how the supervisory agent itself is evaluated and how reliable it is.",
+      "cues": "supervisory agent, AI monitoring AI, automated monitoring, LLM judge in production, monitor models, who monitors the monitor"
+    },
+    "Q21": {
+      "code": "POSTMARKET",
+      "label": "Shared ecosystem roles and accountability",
+      "covers": "Roles for clinicians, health systems, professional societies, standards bodies, payers, public-private consortia and other authorities in deploying, monitoring and reporting on GenAI-enabled devices; how to structure those roles without diluting the manufacturer's accountability.",
+      "cues": "health systems, deployers, local validation, AI governance committees, professional societies, registries, public-private partnerships, shared responsibility, manufacturer accountability, state authorities"
+    },
+    "Q22": {
+      "code": "POSTMARKET",
+      "label": "Scaling evidence for modifications; what a PCCP can cover",
+      "covers": "Using the premarket competency assessment as a baseline for re-evaluating changes; scaling re-benchmarking or other evidence to a change's nature and expected impact; which changes could be handled within the quality system and which need FDA review before implementation; which change categories suit a PCCP (for example prompt, retrieval, guardrail, orchestration, interface or model updates).",
+      "cues": "modifications, change control, new 510(k) for changes, letter to file, quality management system, re-benchmarking, prompt changes, retrieval updates, guardrail changes, model updates, change categories"
+    },
+    "Q23": {
+      "code": "POSTMARKET",
+      "label": "Adapting PCCPs to changes that can't be fully prespecified",
+      "covers": "How PCCP concepts or other change-control approaches could work when the nature or scope of future modifications cannot be fully specified in advance, including model-evolution changes from continuous or adaptive learning.",
+      "cues": "predetermined change control plan, PCCP, modification protocol, impact assessment, performance envelope, continuous learning, adaptive systems, prespecification"
+    },
+    "Q24": {
+      "code": "POSTMARKET",
+      "label": "Changes initiated by third-party foundation model developers",
+      "covers": "How manufacturers can detect, evaluate and respond in time to changes made by the developer of an underlying third-party foundation model; contractual, technical or PCCP mechanisms that provide assurance, for example version pinning, advance notice, deprecation schedules, regression testing and supplier controls.",
+      "cues": "foundation model updates, vendor-initiated changes, version pinning, model deprecation, change notification, API versioning, contracts, service-level agreements, supplier controls, purchasing controls, regression testing, open-weight models"
+    },
+    "Q25": {
+      "code": "MASTER_FILES",
+      "label": "Voluntary Foundation Model Master Files",
+      "covers": "Whether voluntary Foundation Model Master Files under the Device Master File program are practical for developers to provide and keep current; what they should contain (model or system cards, architecture, training data provenance, supported uses, limitations and failure modes, healthcare benchmark results including subgroups, guardrails, update-notification commitments, audit logs); how to make a voluntary program useful given weak incentives to disclose; alternative ways to get information about foundation models.",
+      "cues": "master file, MAF, model card, system card, transparency, training data provenance, confidentiality, right of reference, disclosure incentives, foundation model developers, alternative mechanisms"
+    },
+    "Q26": {
+      "code": "AGENTIC",
+      "label": "Agentic AI systems",
+      "covers": "Additional premarket and postmarket considerations for agentic GenAI-enabled devices; reflecting the higher risk of autonomous multi-step action, tool use and reduced human review in acceptance criteria and oversight; device status of agentic uses such as care coordination, documentation, outreach or control of other devices.",
+      "cues": "agentic, AI agents, autonomy, tool use, multi-step actions, orchestration, human oversight, control of other devices, care coordination, audit trails, kill switch"
+    },
+    "X-PRIV": {
+      "code": "MISC",
+      "label": "Privacy and data protection",
+      "covers": "Privacy, confidentiality and data-protection concerns that are not tied to any part of FDA's proposal, such as who can see patients' data or how it is kept. A privacy point about a specific part of the proposal goes to that part's code: for example, data sensitivity as a risk dimension goes to RISK (Q1), and privacy safeguards in postmarket monitoring go to POSTMARKET (Q19).",
+      "cues": "privacy, data protection, HIPAA, confidentiality, personal health information, data sharing"
+    },
+    "X-SEC": {
+      "code": "MISC",
+      "label": "Cybersecurity",
+      "covers": "Security of devices and data against attack or misuse: hacking, data breaches, adversarial inputs, prompt injection, ransomware. Robustness testing before sale goes to PREMARKET (Q9), and testing whether an agentic system stays within its permitted data and tools goes to AGENTIC (Q26).",
+      "cues": "cybersecurity, security, hacking, data breach, adversarial attack, prompt injection, jailbreak, ransomware, vulnerability"
+    },
+    "X-LIAB": {
+      "code": "MISC",
+      "label": "Liability",
+      "covers": "Legal liability for harm caused by a device: who is legally responsible or can be sued, malpractice, product liability and indemnification. Who is accountable for deploying and monitoring a device, including the manufacturer's accountability, goes to POSTMARKET (Q21); FDA's own legal authority goes to GENERAL (GEN).",
+      "cues": "liability, liable, malpractice, lawsuit, litigation, legal responsibility, indemnification, standard of care"
+    },
+    "X-PAY": {
+      "code": "MISC",
+      "label": "Reimbursement, coverage and cost",
+      "covers": "Payment and cost: reimbursement and coverage by insurers or public programs, pricing, and what AI devices cost patients, clinicians or the health system. Payers' role in monitoring devices goes to POSTMARKET (Q21), the cost of third-party testing to developers goes to PREMARKET (Q16), and the cost of unneeded care from over-escalation goes to RISK (Q6).",
+      "cues": "reimbursement, coverage, insurance, insurer, CMS, Medicare, Medicaid, payment, billing, cost to patients, price, affordability"
+    },
+    "X-LABEL": {
+      "code": "MISC",
+      "label": "Labeling and transparency to users",
+      "covers": "What patients and clinicians are told about a device: labeling, instructions for use, disclosure that AI is involved, and explanations of how outputs come about. How well a device's outputs communicate, as part of performance evaluation, goes to PREMARKET (Q9); what foundation model developers disclose through master files goes to MASTER_FILES (Q25).",
+      "cues": "labeling, label, instructions for use, disclosure, transparency to users, informing patients, notice of AI use, explainability"
+    },
+    "X-WORK": {
+      "code": "MISC",
+      "label": "Workforce and staff training",
+      "covers": "Effects on the health workforce and what staff need to learn: jobs, staffing, deskilling, and training or education of clinicians and other staff in using AI devices. Training the model itself (training data, retraining) goes to PREMARKET or POSTMARKET; the level of clinician supervision, as a factor in a device's risk, goes to RISK (IV-ACT).",
+      "cues": "workforce, jobs, staffing, deskilling, staff training, clinician education, AI literacy, user competence"
+    },
+    "X-ADOPT": {
+      "code": "MISC",
+      "label": "Clinical adoption",
+      "covers": "Uptake of AI devices in practice: integration into clinical workflow, clinicians' and patients' willingness to use them, barriers to use and the pace of adoption. Overall views on generative AI in healthcare go to GENERAL (GEN), automation bias to GENERAL (BKG), and the roles of health systems in deploying and monitoring devices to POSTMARKET (Q21).",
+      "cues": "adoption, uptake, implementation, workflow, integration into practice, willingness to use, barriers to use, burden on clinicians"
+    },
+    "X-INTEROP": {
+      "code": "MISC",
+      "label": "Interoperability",
+      "covers": "Exchange of data between AI devices and electronic health records or other systems, and the technical standards that make it possible.",
+      "cues": "interoperability, EHR, electronic health record, system integration, HL7, FHIR, data exchange, data standards"
+    },
+    "X-IP": {
+      "code": "MISC",
+      "label": "Intellectual property",
+      "covers": "Ownership and protection of data, models and outputs: copyright, patents, trade secrets and licensing. Protecting what a foundation model developer shares with FDA through a master file goes to MASTER_FILES (Q25).",
+      "cues": "intellectual property, copyright, patent, trade secret, licensing, ownership of data, proprietary"
+    },
+    "X-OTHER": {
+      "code": "MISC",
+      "label": "Other topics outside the paper",
+      "covers": "A substantive point outside the paper's topics that fits none of the MISC subcodes above, including an ethical concern not tied to any part of FDA's proposal.",
+      "cues": "ethics, ethical concerns, societal impact"
+    }
+  }
+}

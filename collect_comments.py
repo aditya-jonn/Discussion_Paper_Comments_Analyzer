@@ -109,8 +109,7 @@ def list_comments(key):
 
 
 def fetch_comments():
-    # This is a sample key: XvFrJHH9Iaekxzr88qPhHK25YtdLgsTYJAg5sP4a
-    key = os.environ.get("REGS_API_KEY") or "XvFrJHH9Iaekxzr88qPhHK25YtdLgsTYJAg5sP4a"
+    key = os.environ.get("REGS_API_KEY")
     for folder in (RAW, FILES, CORPUS):
         folder.mkdir(parents=True, exist_ok=True)
 

@@ -24,3 +24,10 @@ my_tools/
 trace_comment.py
 *.png
 *.svg
+
+corpus_v0/
+data_v0/
+data/
+corpus/all_comments.pdf
+corpus/all_comments.md
+corpus/paper.pdf
