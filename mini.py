@@ -66,7 +66,8 @@ SECTIONS = HERE / "summary"                   # Claude's summary, one section fi
 SUMMARY = HERE / "summary.md"                 # the sections put together; cites writes it when all are there and clean
 CITES = HERE / "cites.md"                     # the full report of the cites job
 CLAIMS = HERE / "cites"                       # for each section, every claim next to the paragraphs it cites
-CITATION = re.compile(r"\[(FDA-\d{4}-N-\d{4}-\d{4}) \u00b6(p\d{3})\]")   # [FDA-2026-N-7874-0039 ¶p003], as build writes them
+COMMENT_ID = r"FDA-\d{4}-N-\d{4}-\d{4}|private-\d{4}"                     # a docket comment, or one received privately (collect_comments.py)
+CITATION = re.compile(r"\[(" + COMMENT_ID + r") \u00b6(p\d{3,})\]")       # [FDA-2026-N-7874-0039 ¶p003] or [private-0001 ¶p003], as build writes them
 CITATION_RUN = re.compile(r"(?:\s*" + CITATION.pattern + r")+")            # one or more citations side by side
 RANGE = re.compile(r"^p(\d{3,})(?:-p(\d{3,}))?$")       # "p004", or a range: "p003-p004"
 PRINT_AT_MOST = 15                            # the terminal shows at most this many findings; check.md has them all
@@ -690,9 +691,9 @@ def cites():
             for bracket in re.findall(r"\[[^\]]*\]", line):
                 match = CITATION.fullmatch(bracket)
                 if not match:
-                    if "\u00b6" in bracket or "FDA-" in bracket:
+                    if "\u00b6" in bracket or "FDA-" in bracket or "private-" in bracket:
                         problems.append(f"{where}, line {number}: {bracket} looks like a citation but isn't in the form "
-                                        f"[FDA-2026-N-7874-0039 \u00b6p003]")
+                                        f"[FDA-2026-N-7874-0039 \u00b6p003] or [private-0001 \u00b6p003]")
                     continue
                 checked += 1
                 comment_id, paragraph = match[1], match[2]

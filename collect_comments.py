@@ -29,6 +29,10 @@ API = "https://api.regulations.gov/v4"
 ROOT = Path(__file__).resolve().parent
 DATA, CORPUS, ANALYSIS = ROOT / "data", ROOT / "corpus", ROOT / "analysis"
 RAW, FILES, COMMENTS, MAPS = DATA / "raw", DATA / "files", CORPUS / "comments", ANALYSIS / "map"
+PRIVATE = ROOT / "private_comments"  # comments received privately (by email): one file each
+# Tesseract's model of English, needed to read scanned pages (OCR); PyMuPDF has the OCR engine itself built in
+OCR_MODEL = DATA / "tessdata" / "eng.traineddata"
+OCR_MODEL_URL = "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/4.1.0/eng.traineddata"
 
 
 ROOT = Path(__file__).resolve().parent
@@ -109,6 +113,7 @@ def list_comments(key):
 
 
 def fetch_comments():
+    # Download key
     key = os.environ.get("REGS_API_KEY")
     for folder in (RAW, FILES, CORPUS):
         folder.mkdir(parents=True, exist_ok=True)
@@ -122,6 +127,8 @@ def fetch_comments():
     # Acquire the discussion paper
     if not (CORPUS / "paper.pdf").exists() and not download(PAPER_URL, CORPUS / "paper.pdf"):
         print(f"   save the discussion paper manually as corpus/paper.pdf ({PAPER_URL})")
+    if not OCR_MODEL.exists() and not download(OCR_MODEL_URL, OCR_MODEL):
+        print(f"   save the OCR model manually as data/tessdata/eng.traineddata ({OCR_MODEL_URL})")
 
     listing = list_comments(key)
     (DATA / "listing.json").write_text(json.dumps(listing, indent=1), encoding="utf-8")
@@ -162,7 +169,10 @@ def fetch_comments():
 
 # ─── extract (offline) ──────────────────────────────────────────────────────────
 
+CONTROL = re.compile(r"[\x00-\x08\x0e-\x1b\x7f\ufffe\uffff]")  # control characters: no text, and Word files can't hold them
+
 def norm(t):
+    t = CONTROL.sub("", t)
     t = re.sub(r"(?<=[a-z])-\n(?=[a-z])", "", t)  # re-join words hyphenated at line ends
     return re.sub(r"\s+", " ", t).strip()
 
@@ -173,6 +183,7 @@ def natural(s):
 
 PAGE_NO = re.compile(r"(?i)(page\s*)?\d{1,3}(\s*(of|/)\s*\d{1,3})?")
 TERMINAL = re.compile(r"[.!?:;)\]\"”’]$")
+COMMON = re.compile(r"\b(the|and|of|to|that|for|with|this|are|not|from|have)\b")  # about 1 word in 7 of English prose
 
 PARA = re.compile(r"^\[p(\d+)\] \(([^)]*)\) (.*)$")
 
@@ -186,6 +197,18 @@ def read_pdf(path):
     pages = []  # one list per page of (text, in_margin)
     with pymupdf.open(path) as doc:
         for page in doc:
+            own = page.get_text()
+            if not norm(own) or len(CONTROL.findall(own)) * 20 > len(own):
+                try:  # at 300 dpi; fewer for an oversized page (a phone photo): about 4,000 pixels long, at least 72 dpi
+                    picture = page.get_pixmap(dpi=max(72, min(300, int(72 * 4000 / max(page.rect.width, page.rect.height)))))
+                    scan = pymupdf.open("pdf", picture.pdfocr_tobytes(compress=False, tessdata=str(OCR_MODEL.parent)))
+                    # OCR makes gibberish of a page it can't read (a photo, a page scanned sideways or upside
+                    # down). Use its reading only if it looks like English: at least 1 word in 30 is a common one.
+                    reading = scan[0].get_text().lower()
+                    if len(COMMON.findall(reading)) * 30 >= len(reading.split()):
+                        page = scan[0]  # the same page, now with the text OCR found in the picture
+                except Exception as error:  # e.g. the OCR model is missing: the page stays unread
+                    print(f"   ! OCR failed: {path.parent.name}/{path.name} p.{page.number + 1} ({error})")
             height, texts = page.rect.height, []
             for x0, y0, x1, y1, text, number, kind in page.get_text("blocks", sort=True):
                 text = norm(text)
@@ -212,7 +235,7 @@ def read_pdf(path):
                 continue
             blocks.append((f"p.{number}", text))
 
-    # 4. A scanned PDF holds images of pages, so it yields little or no text: under 200 characters per page.
+    # 4. A scan that OCR could not read still yields little or no text: under 200 characters per page.
     characters = sum(len(text) for _, text in blocks)
     flag = "no_text_layer" if pages and characters / len(pages) < 200 else ""
     return blocks, len(pages), flag
@@ -236,7 +259,8 @@ def assemble(blocks):
         paragraphs.append((label, text))
     return paragraphs
 
-READERS = [".pdf", ".docx", ".txt"]  # the formats we can read, in order of preference
+PICTURES = [".png", ".jpg", ".jpeg", ".tif", ".tiff", ".gif", ".bmp"]  # a scan or photo of a letter, read by OCR
+READERS = [".pdf", ".docx", ".txt"] + PICTURES  # the formats we can read, in order of preference
 
 
 def pick_attachments(folder):
@@ -431,7 +455,7 @@ def extract_data():
             f"({label}) {text}" for label, text in assemble(blocks)) + "\n", encoding="utf-8")
 
     # 1. Read every comment that isn't withdrawn: its body text, then each attachment in order.
-    comments = {}
+    comments, todo = {}, []  # todo: (comment id, attributes, paragraphs so far, flags so far, files to read)
     for comment_id in sorted(listing, key=natural):
         raw_file = RAW / f"{comment_id}.json"
         if listing[comment_id].get("withdrawn") or not raw_file.exists():
@@ -452,10 +476,24 @@ def extract_data():
         body = plain_text(attributes.get("comment") or "")
         lines = [("", norm(line)) for line in body.split("\n") if norm(line)]  # one block per non-empty line
         paragraphs = [("body", text) for _, text in assemble(lines)]
+        todo.append((comment_id, attributes, paragraphs, flags, chosen))
 
+    # A comment received privately (by email) has no docket record. Each file in private_comments/ is one such comment,
+    # named private-0001, private-0002, ... and titled with its file name. data/private.json remembers each file's
+    # number, so every comment keeps its name when more files are added.
+    numbers_file = DATA / "private.json"
+    numbers = json.loads(numbers_file.read_text(encoding="utf-8")) if numbers_file.exists() else {}
+    for file in sorted(filter(Path.is_file, PRIVATE.glob("[!.~]*")), key=natural):  # not .DS_Store, nor Word's ~$ files
+        number = numbers.setdefault(file.name, max(numbers.values(), default=0) + 1)
+        numbers_file.write_text(json.dumps(numbers, indent=1), encoding="utf-8")
+        chosen = [file] if file.suffix.lower() in READERS else []  # as with attachments, other formats are flagged
+        flags = [] if chosen else [f"unreadable:{file.name}"]
+        todo.append((f"private-{number:04d}", {"title": file.name}, [], flags, chosen))
+
+    for comment_id, attributes, paragraphs, flags, chosen in sorted(todo, key=lambda item: natural(item[0])):
         files, page_count = [], 0
         for number, file in enumerate(chosen, 1):
-            reader = {".pdf": read_pdf, ".docx": read_docx}.get(file.suffix.lower(), read_text)
+            reader = {".docx": read_docx, ".txt": read_text}.get(file.suffix.lower(), read_pdf)  # read_pdf: also pictures
             try:
                 blocks, pages, flag = reader(file)
             except Exception:  # a damaged or unusual file: flag it and carry on with the rest
@@ -491,7 +529,7 @@ def extract_data():
         width = max(3, len(str(len(paragraphs))))  # p001; p0001 only for a comment with 1,000+ paragraphs
         lines = [f"[p{number:0{width}d}] ({label}) {text}" for number, (label, text) in enumerate(paragraphs, 1)]
         header = [f"# {comment_id}", f"title: {row['title']}", f"category: {row['category'] or '-'}",
-                  f"received: {row['received']}", f"attachments: {', '.join(comment['files']) or '-'}", f"words: {words}",
+                  f"received: {row['received'] or '-'}", f"attachments: {', '.join(comment['files']) or '-'}", f"words: {words}",
                   f"text_hash: {text_hash(lines)}", f"flags: {row['flags'] or '-'}", ""]
         text = "\n".join(header + lines) + "\n"
         (COMMENTS / f"{comment_id}.md").write_text(text, encoding="utf-8")
