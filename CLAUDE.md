@@ -6,7 +6,7 @@ These are public comments sent to FDA about its August 2026 discussion paper on 
 
 ## Files
 
-- `codebook.json`: under `codes`, the codes you may use. Each code has a `label` (its name), a `priority` (used only to break ties; see Rules), `covers` (what belongs under it, including what FDA proposed in that part of the paper), `cues` (words commenters often use for it) and `excludes` (cases that look similar but belong under another code, named in brackets). A separate `skip` entry, in the same shape but without a priority, defines text that makes no point and is skipped rather than tagged. A third entry, `stances`, defines in the same shape the four positions a commenter can take on a point. A fourth, `subcodes`, divides each code into finer subcodes, most of them FDA's numbered questions; each subcode names its code in its `code` field.
+- `codebook.json`: under `codes`, the codes you may use. Each code has a `label` (its name), a `priority` (used only to break ties; see Rules), `covers` (what belongs under it, including what FDA proposed in that part of the paper), `cues` (words commenters often use for it) and `excludes` (cases that look similar but belong under another code, named in brackets). A separate `skip` entry, in the same shape but without a priority, defines what is skipped rather than tagged: text that makes no point, and points about topics the paper does not address. A third entry, `stances`, defines in the same shape the positions a commenter can take on a point. A fourth, `subcodes`, divides each code into finer subcodes, most of them FDA's numbered questions; each subcode names its code in its `code` field.
 - `FDA-2026-N-7874-NNNN.md`: one comment per file. A short header comes first. After it, each paragraph is on its own line and starts with its id and its source, for example: `[p003] (body) text of the paragraph`.
 - `mini.py`: the tools, with three jobs. `python mini.py check` compares every tag file with its comment and with the codebook, and reports errors and warnings. It also writes the full report to `check.md` and adds a line to `log.md`. `python mini.py build` sorts the tags by code and subcode, counts them and their stances, and writes the evidence: an overview, `evidence.md`, and one part file per subcode in `evidence/` (see Reviewing the evidence); it runs the check first and refuses to run unless the check is clean. `python mini.py cites` checks the summary sections in `summary/` and, once every section is written and clean, puts them together as `summary.md` (see Checking the summary).
 
@@ -35,12 +35,12 @@ For each comment in your batch:
 
 1. Read the whole comment before tagging any of it.
 2. Tag each substantive point. A tag has five parts:
-   - `code`: the code whose `covers` fits the point best. Check its `excludes` before choosing it. Use MISC only when no other code fits.
+   - `code`: the code whose `covers` fits the point best. Check its `excludes` before choosing it. If no code fits because the point is about a topic the paper does not address, don't force it into a code: skip the paragraph (see step 3).
    - `subcode`: within that code, the subcode whose `covers` fits the point best. Its `code` field must name the tag's code.
    - `paragraph`: the id of the paragraph that makes the point, exactly as written, for example `p003`; or, when one point runs over consecutive paragraphs, the range, for example `p003-p004`.
    - `stance`: the commenter's position on what FDA proposed, on this point: the stance under `stances` whose `covers` fits. Check its `excludes` before choosing it.
    - `gist`: one sentence of at most 25 words, in your own words, saying what the point is. Be specific: write "Wants independent labs to run the benchmark tests", not "Discusses testing".
-3. Skip each paragraph that fits the codebook's `skip` definition. A skip has two parts: `paragraph` and a short `reason`.
+3. Skip each paragraph that fits the codebook's `skip` definition. A skip has two parts: `paragraph` and a short `reason`. For a point outside the paper, start the reason with "Outside the paper:" and name the topic, for example "Outside the paper: reimbursement."
 4. Save the result in `tags/`, one file per comment, named after the comment, for example `tags/FDA-2026-N-7874-0034.json`.
 
 ## Checking your work
@@ -83,9 +83,9 @@ After reviewing a section's part file, write that section, for a reader who want
 A section file looks like this (a made-up example, for illustration only):
 
 ```markdown
-### Q9: Benchmarking structure and methods (2 comments, 3 tags: 3 conditional)
+### Q9: Benchmarking structure and methods (2 comments, 3 tags: 2 conditional-minor, 1 conditional-major)
 
-Both commenters propose additions to testing before sale, on different points, and all three points ask for changes rather than rejecting the approach [FDA-2026-N-7874-0999 ¶p002] [FDA-2026-N-7874-0998 ¶p003]. One wants independent labs, not manufacturers, to run the benchmark tests [FDA-2026-N-7874-0999 ¶p002]; the other wants results reported separately for children, both before sale and after updates [FDA-2026-N-7874-0998 ¶p003] [FDA-2026-N-7874-0998 ¶p005].
+Both commenters propose changes to testing before sale, on different points: of the three points, two ask for small changes and one for a larger one [FDA-2026-N-7874-0999 ¶p002] [FDA-2026-N-7874-0998 ¶p003] [FDA-2026-N-7874-0998 ¶p005]. The larger one is that independent labs, not manufacturers, run the benchmark tests [FDA-2026-N-7874-0999 ¶p002]; the small ones are results reported separately for children, both before sale and after updates [FDA-2026-N-7874-0998 ¶p003] [FDA-2026-N-7874-0998 ¶p005].
 ```
 
 ## Checking the summary
@@ -122,7 +122,7 @@ Each tag file looks like this (a made-up comment, for illustration only):
 {
   "comment_id": "FDA-2026-N-7874-0999",
   "tags": [
-    {"code": "PREMARKET", "subcode": "Q9", "paragraph": "p002", "stance": "conditional",
+    {"code": "PREMARKET", "subcode": "Q9", "paragraph": "p002", "stance": "conditional-major",
      "gist": "Wants independent labs, not manufacturers, to run the benchmark tests."},
     {"code": "POSTMARKET", "subcode": "Q19", "paragraph": "p003-p004", "stance": "support",
      "gist": "Agrees that postmarket monitoring should be scaled to each device's risk."}
@@ -161,7 +161,7 @@ For example (made-up comments, for illustration only):
 
 ## When you finish
 
-After a tagging session, tell me which comments you tagged in this session (your batch), which tag files were already there, and how many comments `check` still lists to tag; which paragraphs were hard to tag or to decide whether to skip, and why; which stances were hard to call, and why; which subcodes were hard to choose, and why; and for each tag under X-OTHER, what new topic might have fit it.
+After a tagging session, tell me which comments you tagged in this session (your batch), which tag files were already there, and how many comments `check` still lists to tag; which paragraphs were hard to tag or to decide whether to skip, and why; which stances were hard to call, and why; which subcodes were hard to choose, and why; and which paragraphs you skipped as outside the paper, with the topic of each.
 
 After a summary session, tell me which sections you wrote in this session (your part), which section files were already there, and how many sections `cites` still lists to summarize; any entry in the evidence that looked out of place; and any claim you changed after reading its file in `cites/`.
 

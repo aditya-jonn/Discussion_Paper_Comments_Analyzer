@@ -49,7 +49,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent        # the mini/ folder, wherever the script is run from
 PARAGRAPH = re.compile(r"^\[(p\d+)\] \([^)]*\) (.*)$")   # "[p003] (body) text"  ->  "p003", "text"
 MAX_GIST_WORDS = 25                           # the limit set in the instructions (CLAUDE.md)
-SECTION_WORDS = 60                            # a summary section may have this many words...
+SECTION_WORDS = 150                           # a summary section may have this many words...
 SECTION_WORDS_PER_TAG = 3                     # ...plus this many for every tag it has to cover...
 MAX_SECTION_WORDS = 500                       # ...up to this many. build states each section's budget in its part file
 WORD = re.compile(r"[A-Za-z0-9]+(?:['\u2019-][A-Za-z0-9]+)*")   # a word: letters or digits, joined by ' or -
@@ -75,7 +75,8 @@ SKIP_FIELDS = {"label", "covers", "cues", "excludes"}               # what the s
 BRACKETED_CODE = re.compile(r"\(([A-Z][A-Z_]+)\)")                 # "(GENERAL)" inside an excludes text
 STANCE_FIELDS = SKIP_FIELDS                                          # each stance has the same four fields
 SUBCODE_FIELDS = {"code", "label", "covers", "cues"}                 # what every subcode must have; "code" is its parent
-BRACKETED_STANCE = re.compile(r"\(([a-z]+)\)")                      # "(conditional)": stances are lowercase
+BRACKETED_STANCE = re.compile(r"\(([a-z]+(?:-[a-z]+)*)\)")          # "(conditional-minor)": lowercase words, joined by hyphens
+STANCE_NAME = re.compile(r"^[a-z]+(?:-[a-z]+)*$")                    # a stance's name has that shape, so that an excludes can point to it
 FILE_KEYS = ("comment_id", "tags", "skipped")                       # a tag file has exactly these fields,
 TAG_KEYS = ("code", "subcode", "paragraph", "stance", "gist")        # a tag exactly these,
 SKIP_KEYS = ("paragraph", "reason")                                  # and a skip exactly these
@@ -182,6 +183,8 @@ def codebook_problems(codebook):
     if not stances:
         problems.append("there are no stances under 'stances'")
     for stance, entry in stances.items():
+        if not STANCE_NAME.match(stance):      # otherwise a pointer to it in brackets could not be recognized, or checked
+            problems.append(f"stance {stance}: its name must be lowercase words joined by hyphens, like conditional-minor")
         if set(entry) != STANCE_FIELDS:
             problems.append(f"stance {stance} has the fields {sorted(entry)}; it needs {sorted(STANCE_FIELDS)}")
         for named in BRACKETED_STANCE.findall(str(entry.get("excludes", ""))):
@@ -225,6 +228,18 @@ def section_budget(tags):
     """How many words a subcode's summary section may have: the more tags it has to cover, the more words, up to a
     ceiling. build states the budget in the section's part file and cites enforces it: one definition for both."""
     return min(MAX_SECTION_WORDS, SECTION_WORDS + SECTION_WORDS_PER_TAG * tags)
+
+
+def stance_columns(stances):
+    """The stances' column headings in build's table: their first four letters, as long as those tell the stances
+    apart. If two stances share them, a name with a hyphen is shortened around it instead (conditional-minor becomes
+    c-min); and if headings still collide, the full names are used."""
+    first_four = [stance[:4] for stance in stances]
+    around_hyphen = [stance[0] + "-" + stance.split("-", 1)[1][:3] if "-" in stance else stance[:4] for stance in stances]
+    for headings in (first_four, around_hyphen):
+        if len(set(headings)) == len(headings):
+            return headings
+    return list(stances)
 
 
 def summary_plan(sections):
@@ -495,18 +510,22 @@ def build():
             evidence[tag["subcode"]].append((tag_file.stem, tag["paragraph"], tag["gist"], tag["stance"]))
 
     def counts(name):
-        """'(3 comments, 6 tags: 6 conditional)': the same form at both levels."""
+        """'(3 comments, 6 tags: 4 support, 2 oppose)': the same form at both levels."""
         taken = ", ".join(f"{stance_count[name][stance]} {stance}" for stance in stances if stance_count[name][stance])
         return f"({plural(len(comments_with[name]), 'comment')}, {plural(tag_count[name], 'tag')}{': ' + taken if taken else ''})"
+
+    columns = stance_columns(stances)             # one short heading per stance
+    widths = [max(5, len(column)) for column in columns]
 
     def row(shown, name, label):
         label = label if len(label) <= 44 else label[:43] + "\u2026"
         return (f"{shown:13} {label:44} {len(comments_with[name]):>8} {tag_count[name]:>5}"
-                + "".join(f" {stance_count[name][stance]:>5}" for stance in stances))
+                + "".join(f" {stance_count[name][stance]:>{width}}" for stance, width in zip(stances, widths)))
 
     # Every code is listed, in codebook order, even with a count of 0: a code nobody raised is information too.
     # Under each code, its subcodes that have tags. Stances are counted per tag, not per comment.
-    print(f"{'code':13} {'label':44} {'comments':>8} {'tags':>5}" + "".join(f" {stance[:4]:>5}" for stance in stances))
+    print(f"{'code':13} {'label':44} {'comments':>8} {'tags':>5}"
+          + "".join(f" {column:>{width}}" for column, width in zip(columns, widths)))
     for code, entry in codes.items():
         print(row(code, code, entry["label"]))
         for name, sub in subcodes.items():
