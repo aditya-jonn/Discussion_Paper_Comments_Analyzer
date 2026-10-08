@@ -1,6 +1,12 @@
 # Discussion paper (FDA, August 2026)
 
-(p.2) Considerations for the Regulation of Generative AI-Enabled Medical Devices: Discussion Paper and Request for Feedback
+(p.1) Considerations for the Regulation of Generative Al-Enabled Medical — Devices: Discussion Paper and Request for Feedback
+
+(p.1) ™ — \ ;
+
+(p.1) " mc) ~@)2 “3 \ 4 | DD. 4 =A © aie) ™Gs —_— 6h ee 2 = {Ve
+
+(p.1) Ome) ye i \ — August 2026 U.S. FOOD & DRUG — Considerations for the Regulation of Generative AI-Enabled Medical Devices: Discussion Paper and Request for Feedback
 
 (p.2) This paper is intended for discussion purposes only and does not represent draft or final guidance. This paper is not intended to propose or implement policy changes regarding how CDRH intends to regulate generative AI-enabled devices. This paper is not intended to communicate CDRH’s proposed (or final) regulatory expectations, including its expectations for supporting evidence in future marketing submissions, but is instead meant to seek early input from groups and individuals outside the Agency and to advance a broader discussion among stakeholders on this topic. Finally, this paper is not intended to address whether the approaches discussed below are within FDA’s existing legal authorities or whether new legal authorities would be necessary.
 
