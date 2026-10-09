@@ -1,0 +1,183 @@
+{
+  "comment_id": "FDA-2026-N-7874-0111",
+  "tags": [
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p006-p011",
+      "stance": "conditional-major",
+      "gist": "Proposes concordance behavior, how far the user's assertions can move a device's view of them, as a named risk dimension dominant in mental health."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p012",
+      "stance": "conditional-minor",
+      "gist": "Says concordance is a compounding trajectory property; multi-turn evaluation should use adversarial trajectories where a simulated user minimizes and asks the device to stand down."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p013",
+      "stance": "neutral",
+      "gist": "Describes its own system letting the risk estimate rise readily on deterioration but fall slowly on reassurance, built into the computation rather than prompted."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p014-p016",
+      "stance": "conditional-minor",
+      "gist": "Says the two escalation errors differ in kind in suicide-risk settings, cautions against netting them, and wants separate rates justified per deployment population."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p017",
+      "stance": "neutral",
+      "gist": "Observes the severity of over-escalation depends on architecture: offering contact leaves the decision human, while initiating contact carries the full false-positive weight."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p018-p021",
+      "stance": "conditional-minor",
+      "gist": "Wants benchmarking to ask whether a safety behavior is enforced by a component the model can influence, since instructions can be overridden, execution paths cannot."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p022-p024",
+      "stance": "conditional-minor",
+      "gist": "Supports traceability and proposes checking a device's statements about the patient against a closed, enumerated record before display as a premarket-evaluable property."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p025",
+      "stance": "conditional-minor",
+      "gist": "Suggests corpus closure may merit its own premarket risk characteristic, since open-retrieval devices cannot have patient assertions verified."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p026-p029",
+      "stance": "conditional-minor",
+      "gist": "Proposes device-generated integrity metrics, such as the rate of unverifiable assertions, as a fourth approach and a continuous, early trigger for re-benchmarking."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p030-p034",
+      "stance": "conditional-minor",
+      "gist": "Says a supervisor is only as reliable as its ground-truth definition; its own narrow roster nearly flagged a true, vital statement as fabricated."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p035",
+      "stance": "conditional-minor",
+      "gist": "Wants supervisor evaluation to show known-true assertions pass unaltered, since false positives that suppress truth look like normal operation."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p036",
+      "stance": "conditional-minor",
+      "gist": "Suggests supervisors run in observation-only mode, recording but not altering output, before gaining authority, as a general expectation."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p037",
+      "stance": "conditional-minor",
+      "gist": "Wants the supervisor's corpus definition treated as an explicitly reviewable artifact, since that is where its errors live."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p038",
+      "stance": "conditional-minor",
+      "gist": "Says monitoring that relies on machine supervision should earn no premarket credit until the supervisor's reliability is separately shown, or uncertainty merely moves."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p039-p040",
+      "stance": "conditional-minor",
+      "gist": "As a self-funded developer, warns that obligations scaled to large firms select for size; automated metrics are feasible, mandatory paid third-party review is not."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p041-p045",
+      "stance": "conditional-minor",
+      "gist": "Asks the framework to distinguish devices where the AI is the endpoint from devices built to bring a human in, a built-in downstream safeguard."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p046",
+      "stance": "neutral",
+      "gist": "Describes its system preparing and offering contact, including a crisis line, but never placing calls, so an autonomous action becomes an offered one."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p047",
+      "stance": "conditional-minor",
+      "gist": "Warns a framework blind to the endpoint-versus-bridge distinction will over-regulate the safer design or under-regulate the other."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p048-p050",
+      "stance": "conditional-minor",
+      "gist": "Raises behavior when connectivity is degraded or absent: for safety-critical functions, evaluation should cover offline behavior and what the device tells users about reduced capability."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p051",
+      "stance": "neutral",
+      "gist": "Notes its offline architecture is designed but mostly unbuilt, saying regulators must be able to rely on the built-versus-designed distinction."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to attachment."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "List of questions addressed."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Introduction of the writer."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Introduction of the writer's system and reason for commenting."
+    },
+    {
+      "paragraph": "p052",
+      "reason": "Thanks and offer of further detail."
+    },
+    {
+      "paragraph": "p053",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p054",
+      "reason": "Signature and contact details."
+    },
+    {
+      "paragraph": "p055",
+      "reason": "Disclaimer."
+    }
+  ]
+}

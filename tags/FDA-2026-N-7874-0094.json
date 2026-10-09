@@ -1,0 +1,313 @@
+{
+  "comment_id": "FDA-2026-N-7874-0094",
+  "tags": [
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p011",
+      "stance": "conditional-minor",
+      "gist": "Says the paper needs to draw the distinction between clinical validity and clinical utility more explicitly."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p013",
+      "stance": "conditional-minor",
+      "gist": "Frames its recommendations as extensions of existing tools, favouring risk-proportionate, postmarket-weighted oversight that keeps entry open for early-stage companies."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p014-p018",
+      "stance": "conditional-minor",
+      "gist": "Urges importing the diagnostic distinction of analytic validity, clinical validity and clinical utility, mapping them to the paper's elements and confirmation."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p019",
+      "stance": "conditional-minor",
+      "gist": "Recommends sponsors test and label every device function separately for clinical validity and clinical utility, not one aggregate assessment."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p020-p022",
+      "stance": "conditional-minor",
+      "gist": "Supports a risk-proportionate competency approach but warns fixed compliance cost must not become the main barrier to entry, entrenching incumbents."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p023",
+      "stance": "conditional-minor",
+      "gist": "Wants enforcement discretion and the existing CDS exclusion kept as the default for low-activity, non-directive, clinician-facing informational functions."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q8",
+      "paragraph": "p024",
+      "stance": "conditional-minor",
+      "gist": "Would reserve prospective studies, mandatory third-party adjudication and extensive subgroup benchmarking for the highest-risk tier, not the middle."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p025",
+      "stance": "conditional-minor",
+      "gist": "Wants third-party accreditation, adjudication and master files strictly voluntary and non-gating, with shared or subsidized infrastructure for small entities."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p026",
+      "stance": "conditional-minor",
+      "gist": "Would make postmarket monitoring, not more premarket evidence, the primary way to manage residual uncertainty, calling continuous signal more accurate."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p028-p031",
+      "stance": "conditional-minor",
+      "gist": "Says deployment-site capacity, not sponsor evidence, often limits safe use; wants minimum site capacity addressed, coordinated with CMS infrastructure."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p032-p033",
+      "stance": "conditional-major",
+      "gist": "Supports the two axes but wants evidentiary traceability to validated anchors as a third dimension or modifier, rewarding anchored functions with less burden."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p034",
+      "stance": "conditional-minor",
+      "gist": "Wants the consequences axis to carry deployment-context modifiers, since the same output matters more where no specialty coverage exists."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p035",
+      "stance": "conditional-minor",
+      "gist": "Recommends harmonizing the two-axis framework with the HHS high-impact AI classification rather than a separate taxonomy."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p036-p038",
+      "stance": "conditional-minor",
+      "gist": "Suggests scope-anchored worker-extender certification, as CMS has integrated, to mitigate patient-facing risk without restricting patient information."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p039-p041",
+      "stance": "conditional-minor",
+      "gist": "Endorses the two-stage frame as mirroring diagnostic validation pathways and asks guidance to say so explicitly."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q8",
+      "paragraph": "p042",
+      "stance": "conditional-major",
+      "gist": "Wants benchmarking alone, without mandatory clinical confirmation, to presumptively suffice across the lower and middle risk bands."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p043-p044",
+      "stance": "conditional-minor",
+      "gist": "Wants elements labelled as validity or utility evidence, plus a new element checking that claim language matches evidence strength."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p045",
+      "stance": "conditional-minor",
+      "gist": "Wants a benchmarking element covering clinician usability and cognitive burden through human factors testing with front-line users."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q11",
+      "paragraph": "p046-p047",
+      "stance": "conditional-minor",
+      "gist": "Wants independently governed longitudinal clinical-genetic and outcomes databanks listed as a confirmation approach between retrospective and prospective."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q11",
+      "paragraph": "p048",
+      "stance": "conditional-minor",
+      "gist": "Wants a rebuttable presumption against requiring prospective studies outside the highest-risk band, given their cost to early-stage firms."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p049-p050",
+      "stance": "conditional-minor",
+      "gist": "Would make human-AI team performance the default comparator for worker-extender deployments, reserving device-alone for autonomous use."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p051",
+      "stance": "conditional-minor",
+      "gist": "Wants the comparator tied to the labelled configuration, with override behaviour and trust calibration measured over time."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p052-p054",
+      "stance": "conditional-major",
+      "gist": "Citing the vacated LDT rule, wants CLIA and CAP accreditation recognized as satisfying benchmarking and third-party elements for laboratory-embedded functions."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p055",
+      "stance": "conditional-minor",
+      "gist": "Suggests accredited laboratory infrastructure host sequestered datasets, cautions against any mandatory third-party gate, and wants subsidized shared infrastructure."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p056-p060",
+      "stance": "conditional-minor",
+      "gist": "Wants the trade-off as the default outside the highest-risk band, as least burdensome, more protective for evolving devices, and cheaper."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p061",
+      "stance": "conditional-minor",
+      "gist": "Would extend the PCCP framework as the vehicle for prespecified monitoring plans with corrective action and auditability, excepting the highest-risk band."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p062-p063",
+      "stance": "conditional-minor",
+      "gist": "Suggests accredited laboratory cadences, proficiency intervals and triggered reverification, as the model for periodic re-benchmarking."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p064",
+      "stance": "conditional-minor",
+      "gist": "Wants sample chart review by sponsor-independent practising clinicians as a standing element, using existing patient safety and peer-review bodies."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p065",
+      "stance": "conditional-minor",
+      "gist": "Wants compensation tied to device use treated as a monitoring risk category, disclosed in plans and weighed when reading performance signals."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p066-p067",
+      "stance": "conditional-minor",
+      "gist": "Would anchor agentic oversight to the CDS exclusion's independent-review criterion: can a human genuinely review and reject a planned sequence."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p068",
+      "stance": "conditional-minor",
+      "gist": "Wants a bright-line test for meaningful independent review, including minimum information surfaced before irreversible actions, mindful of thin rural staffing."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p069-p071",
+      "stance": "conditional-minor",
+      "gist": "Urges holding the device definition: orchestrating a non-device function with an agent should not by itself make it a device."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p072",
+      "stance": "conditional-minor",
+      "gist": "Encourages drawing on the layered validity and utility discipline of diagnostic testing, not only clinician credentialing."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p073",
+      "stance": "conditional-minor",
+      "gist": "Asks CDRH to match evidence and oversight to risk, rigorous where risk is high and light elsewhere, to sustain innovators."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to attachment."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Date and address."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Docket reference line."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Introduction of the organizations."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Introduction of the writer."
+    },
+    {
+      "paragraph": "p006",
+      "reason": "Introduction of the writer's portfolio."
+    },
+    {
+      "paragraph": "p007",
+      "reason": "Introduction of the writer's portfolio."
+    },
+    {
+      "paragraph": "p008",
+      "reason": "Introduction of the writer's portfolio."
+    },
+    {
+      "paragraph": "p009",
+      "reason": "Introduction of the co-writer."
+    },
+    {
+      "paragraph": "p010",
+      "reason": "Introduction of the writers."
+    },
+    {
+      "paragraph": "p012",
+      "reason": "Lead-in naming the questions addressed."
+    },
+    {
+      "paragraph": "p027",
+      "reason": "Lead-in to later sections."
+    },
+    {
+      "paragraph": "p074",
+      "reason": "Offer of collaboration."
+    },
+    {
+      "paragraph": "p075",
+      "reason": "Thanks."
+    },
+    {
+      "paragraph": "p076",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p077",
+      "reason": "Signature."
+    },
+    {
+      "paragraph": "p078",
+      "reason": "Signature."
+    }
+  ]
+}

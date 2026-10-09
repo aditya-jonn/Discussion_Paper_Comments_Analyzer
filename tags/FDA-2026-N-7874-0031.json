@@ -1,0 +1,77 @@
+{
+ "comment_id": "FDA-2026-N-7874-0031",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p015-p016",
+   "stance": "neutral",
+   "gist": "Predicts AI will err far less often than humans, perhaps never, so no one will need to be blamed."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p017",
+   "stance": "oppose",
+   "gist": "Wants AI given room to breathe, with market forces rather than regulation reining it in."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Outside the paper: legal liability (who to blame)."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Outside the paper: legal liability without a doctor in the loop."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Outside the paper: legal liability, contrasted with deaths from human error."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Outside the paper: product liability of manufacturers and distributors."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Outside the paper: history of product liability law."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Outside the paper: history of product liability law (privity)."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Outside the paper: history of product liability law (MacPherson)."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Outside the paper: history of product liability law (strict liability)."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Outside the paper: history of product liability law (strict liability)."
+  },
+  {
+   "paragraph": "p010",
+   "reason": "Outside the paper: legal liability standard for AI versus doctors."
+  },
+  {
+   "paragraph": "p011",
+   "reason": "Outside the paper: liability of distributors and suppliers."
+  },
+  {
+   "paragraph": "p012",
+   "reason": "Outside the paper: liability standard for AI versus hospitals."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Outside the paper: liability of designers."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Outside the paper: liability standard for AI versus medical associations."
+  }
+ ]
+}

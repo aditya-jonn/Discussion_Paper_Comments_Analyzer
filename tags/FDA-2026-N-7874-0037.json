@@ -1,0 +1,67 @@
+{
+ "comment_id": "FDA-2026-N-7874-0037",
+ "tags": [
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p002",
+   "stance": "conditional-major",
+   "gist": "Finds the activity axis insufficient because neither axis captures the architecture that lets a bad output reach patients, citing an agent sandbox escape as proof."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p003",
+   "stance": "conditional-major",
+   "gist": "Lists dimensions to add: reversibility, safeguards, time pressure, traceability, user interpretive capacity, and architectural connectedness with least-privilege tool inventories."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p003",
+   "stance": "conditional-major",
+   "gist": "Would not make directiveness a new category but a modifier of an existing benefit-risk factor, how probable a harmful event is, reusing settled FDA vocabulary."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p004-p006",
+   "stance": "conditional-major",
+   "gist": "Proposes replacing fixed instructions and user labels with risk-scaled affirmation of user competency that gates the function and is re-affirmed over time."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p007-p008",
+   "stance": "conditional-major",
+   "gist": "Objects that credentials do not confer output-evaluation ability and patients often know their condition best; wants device-specific competency assessed, not category membership."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p009",
+   "stance": "conditional-major",
+   "gist": "Refers the generalist-specialist question to its competency-affirmation proposal, replacing the credential distinction."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Says oversight should track the risk of the information provided, and a function that can migrate across a conversation warrants a high oversight burden."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Would weigh escalation errors according to the user's knowledge and competency."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Points to the attachment."
+  }
+ ]
+}

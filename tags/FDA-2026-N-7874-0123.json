@@ -1,0 +1,502 @@
+{
+  "comment_id": "FDA-2026-N-7874-0123",
+  "tags": [
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p003",
+      "stance": "conditional-major",
+      "gist": "Calls the competency-based approach the right frame but says it lacks credentialing's measurement properties, which must be re-established for a stochastic examinee."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p004",
+      "stance": "conditional-minor",
+      "gist": "Wants competency evaluation to complement software validation, with every competency claim scoped to a task, population, oversight level and version."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p005",
+      "stance": "conditional-major",
+      "gist": "Proposes a new element testing whether clinical judgment stays unaffected by account history, persistent memory, personalization and what the user asserts or claims."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p006",
+      "stance": "conditional-minor",
+      "gist": "Wants clinicians to prespecify a taxonomy separating perturbations which must leave the output unchanged from those which must change it."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p007",
+      "stance": "conditional-minor",
+      "gist": "Wants every gating benchmark to carry a validity argument on the five standard sources of validity evidence, including links to clinical-confirmation outcomes."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p008",
+      "stance": "conditional-minor",
+      "gist": "Prefers sequestered, independently governed item banks; a sponsor benchmark may gate only if prespecified, custodian-held and independently scored."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p009",
+      "stance": "conditional-minor",
+      "gist": "Treats the case, not the run, as the unit of inference, reporting variance components and applying zero-failure bounds to safety-critical behavior."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p010",
+      "stance": "conditional-major",
+      "gist": "Treats the clinician panel as a measuring instrument with reported reliability, and wants safety elements held to conjunctive standards proficiency cannot offset."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p011",
+      "stance": "conditional-minor",
+      "gist": "Would make clinician-device team performance the primary criterion whenever a clinician takes part in the decision, counting how often incorrect outputs are adopted."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q17",
+      "paragraph": "p012",
+      "stance": "conditional-minor",
+      "gist": "Wants image-ablation and image-substitution tests for vision-language devices, with cases where color-coded classifications diverge from the correct reading."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p013",
+      "stance": "conditional-minor",
+      "gist": "Presumes each new foundation-model version is a different examinee, scaling re-examination to observed behavioral change rather than the update's nominal size."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p014",
+      "stance": "support",
+      "gist": "Supports the competency approach: where inputs and outputs cannot all be enumerated, competence must be inferred from a performance sample, as for clinicians."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p015",
+      "stance": "support",
+      "gist": "Says the case for the approach rests on the output's form, an open-ended recommendation without a single reference label, not on whether models reason."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p016",
+      "stance": "conditional-minor",
+      "gist": "Keeps cybersecurity, version control, logging and failure-mode analysis as necessary but insufficient, since none shows clinical competence."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p017",
+      "stance": "conditional-major",
+      "gist": "Says the analogy carries credentialing's structure but not its psychometric properties, such as case numbers, examiner reliability and standards, which must be rebuilt."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p018",
+      "stance": "conditional-minor",
+      "gist": "Notes a device, unlike a person, can be re-tested on one case under counterfactual variation, provided memory and personalization settings are fixed and disclosed."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p019",
+      "stance": "conditional-minor",
+      "gist": "Wants competency claims scoped like entrustment, to version, configuration, task, population and oversight level, with new evidence to move along the activity axis."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p020",
+      "stance": "conditional-minor",
+      "gist": "Shares the cited concern that accountability is where the analogy weakens; the credentialable thing is the socio-technical system with responsibility allocated explicitly."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p021",
+      "stance": "conditional-major",
+      "gist": "Says the robustness element misses state persisting across sessions and deference to user assertions, which bend judgment toward the user."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p022",
+      "stance": "conditional-minor",
+      "gist": "Cites own work on cross-session adaptation and wants evaluation to test the conditioned state that memory and personalization produce, especially on ambiguous inputs."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p023",
+      "stance": "conditional-minor",
+      "gist": "Cites sycophancy findings and says the elements cover symptom minimizing and emotional manipulation, yet omit pressure from an expert user."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p024",
+      "stance": "conditional-minor",
+      "gist": "Wants both capitulation under disagreement and rigidity toward new evidence tested, as appropriate corrigibility: updating on evidence, not assertion."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p025",
+      "stance": "conditional-minor",
+      "gist": "Says repeated runs cannot catch this directional error; it needs paired counterfactual presentations with and without conditioned history and user belief."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p026",
+      "stance": "conditional-major",
+      "gist": "Recommends an element on invariance to user state and belief, covering history, memory, personalization and expert assertion, scored in both directions."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p027",
+      "stance": "conditional-minor",
+      "gist": "Wants invariance specified in both directions: paraphrase and history must not change output, while a risk-changing finding or patient sex must."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p028-p031",
+      "stance": "neutral",
+      "gist": "Points to metamorphic testing, which checks prespecified relations between related inputs, with a glaucoma example of invariance and directional relations."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p032",
+      "stance": "conditional-minor",
+      "gist": "Recommends sponsors prespecify with clinicians, before testing, a perturbation taxonomy listing both invariance and directional relations."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p033",
+      "stance": "conditional-minor",
+      "gist": "Treats a gating benchmark as a high-stakes test and wants a validity argument along the five sources in the educational testing standards."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p034",
+      "stance": "conditional-minor",
+      "gist": "Says an item validated on human examinees must be re-validated for a model whose jagged capability profile fails easy items and passes hard ones."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p035",
+      "stance": "conditional-minor",
+      "gist": "Cites a study where models alone found the condition far more often than lay users with the same models, which standard benchmarks did not predict."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p036-p037",
+      "stance": "conditional-minor",
+      "gist": "Wants the validity argument to include a content blueprint mapping items to intended-use tasks, with coverage by condition, severity and population."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p038",
+      "stance": "conditional-minor",
+      "gist": "Wants rubric and adjudicator reliability plus behavioral evidence from perturbation, ablation and counterfactual tests, not the model's stated rationale."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p039",
+      "stance": "conditional-minor",
+      "gist": "Wants the benchmark's internal structure examined, reporting subscores only when reliable."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p040",
+      "stance": "conditional-minor",
+      "gist": "Wants benchmark scores correlated with clinical-confirmation results on the same device, as proof that benchmark results predict behavior in practice."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p041",
+      "stance": "conditional-minor",
+      "gist": "Wants the classes of error a benchmark cannot detect stated explicitly."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p042",
+      "stance": "conditional-minor",
+      "gist": "Recommends sequestered banks under independent third-party custody, sponsor benchmarks only with custodian-held items and independent scoring, and specialty consortia maintaining banks."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p043",
+      "stance": "conditional-minor",
+      "gist": "Makes the case the unit of inference: intervals computed at case level by mixed-effects models or clustered bootstrap, not pooled runs."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p044",
+      "stance": "conditional-minor",
+      "gist": "Wants variance components across case, run, paraphrase, context and adjudicator reported, with decision studies setting how many of each are needed."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p045",
+      "stance": "conditional-minor",
+      "gist": "Says results are intervals, wide with few cases; comparisons need paired designs over shared cases, and rankings need uncertainty on the ranks."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p046",
+      "stance": "conditional-minor",
+      "gist": "Applies zero-failure bounds: bounding a safety-critical failure rate below one percent needs about three hundred independent failure-free cases."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p047",
+      "stance": "conditional-minor",
+      "gist": "Applies the same arithmetic inside a case: a handful of identical runs still permits a sizeable per-run deviation probability."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p048",
+      "stance": "conditional-minor",
+      "gist": "Recommends deriving the numbers of cases and runs from the required precision, reporting both levels and the bound each zero-failure count supports."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p049",
+      "stance": "conditional-minor",
+      "gist": "Treats the panel as an instrument: report inter-rater agreement and rater numbers, and grade open-ended outputs against a set of acceptable answers."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p050",
+      "stance": "conditional-minor",
+      "gist": "Says the median clinician must be sampled with uncertainty; suggests standard of care for safety, the realistic alternative for benefit, specialist standards for specialist questions."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p051",
+      "stance": "conditional-major",
+      "gist": "Wants thresholds from established standard-setting methods, with conjunctive standards: failing a safety element is not compensated by proficiency elsewhere."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p052",
+      "stance": "conditional-minor",
+      "gist": "Wants an LLM adjudicator's agreement with the human panel shown on a held-out sample, and from a different model family than the device."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p053",
+      "stance": "conditional-minor",
+      "gist": "Makes clinician-device team performance the primary criterion when a clinician decides, with device-alone secondary, and reports an error-propagation rate."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q17",
+      "paragraph": "p054",
+      "stance": "conditional-minor",
+      "gist": "Says the approach fits vision-language devices, but their benchmarking needs two added tests and a wider perturbation taxonomy."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q17",
+      "paragraph": "p055",
+      "stance": "conditional-minor",
+      "gist": "Wants image-ablation and image-substitution tests on cases where the image carries the decisive finding, to show the image drives the answer."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q17",
+      "paragraph": "p056",
+      "stance": "conditional-minor",
+      "gist": "Wants benchmark cases where normative color codes in imaging reports diverge from the correct interpretation, so devices cannot shortcut via flags."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q17",
+      "paragraph": "p057",
+      "stance": "conditional-minor",
+      "gist": "Wants the perturbation taxonomy to cover acquisition device, protocol, image quality, overlays and accompanying text, oversampling ambiguous images."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p058",
+      "stance": "conditional-minor",
+      "gist": "Treats each upstream foundation-model version as presumptively a new examinee, with re-examination depth scaled to observed behavioral change."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p059-p061",
+      "stance": "conditional-minor",
+      "gist": "Proposes three re-examination tiers: sentinel testing on every change, targeted re-benchmarking of sensitive elements, and full re-examination when material change appears."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p062",
+      "stance": "conditional-minor",
+      "gist": "Wants evaluation version-pinned and provider contracts guaranteeing pinned-version access and deprecation notice long enough to finish re-examination."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p063",
+      "stance": "conditional-minor",
+      "gist": "Wants re-examination on statistically linked forms from a sequestered bank, so score changes reflect the device rather than test optimization."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p064",
+      "stance": "conditional-minor",
+      "gist": "Proposes a sentinel set of safety-critical cases run on a schedule against the deployed configuration, catching silent updates; changed outputs trigger review."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p065",
+      "stance": "conditional-major",
+      "gist": "Closes: evaluate the device as a competence, examined as a distribution, tested for user-conditioned drift and certified in scope by independent examiners."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to the attachment."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Letter header and addressee."
+    },
+    {
+      "paragraph": "p066",
+      "reason": "Sign-off."
+    },
+    {
+      "paragraph": "p067",
+      "reason": "Signature and affiliation."
+    },
+    {
+      "paragraph": "p068",
+      "reason": "Disclaimer."
+    },
+    {
+      "paragraph": "p069",
+      "reason": "Disclosures."
+    },
+    {
+      "paragraph": "p070",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p071",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p072",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p073",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p074",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p075",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p076",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p077",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p078",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p079",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p080",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p081",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p082",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p083",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p084",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p085",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p086",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p087",
+      "reason": "Reference list."
+    }
+  ]
+}

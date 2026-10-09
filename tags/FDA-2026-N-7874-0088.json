@@ -1,0 +1,168 @@
+{
+  "comment_id": "FDA-2026-N-7874-0088",
+  "tags": [
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p002-p004",
+      "stance": "conditional-minor",
+      "gist": "Wants history completeness scored by recall of a case-locked required-question list written beforehand, never by the model grading itself."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p005-p006",
+      "stance": "conditional-minor",
+      "gist": "Says re-asking a question already answered in the transcript should count as a reliability miss, not thoroughness."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p007-p008",
+      "stance": "conditional-minor",
+      "gist": "Wants replay consistency required on action-relevant fields such as diagnosis family and next step, not on wording."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p009-p010",
+      "stance": "conditional-minor",
+      "gist": "Wants guardrail tests scored pass or fail on visible output and required to hold across turns, since hard rules fail later."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p011-p012",
+      "stance": "conditional-minor",
+      "gist": "Says hallucination checks cannot rely on regex over a fixed entity list; combine checks against sources with clinician review of samples."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p013-p014",
+      "stance": "conditional-minor",
+      "gist": "Wants these measures re-run whenever the foundation-model identifier or the prompt template changes."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p015-p016",
+      "stance": "conditional-minor",
+      "gist": "Prefers commonly defined test items alongside a hidden holdout set, with licensed clinicians reviewing only the decision gold."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p020-p021",
+      "stance": "conditional-minor",
+      "gist": "Says the sketch under-weights multi-turn information gathering and run-to-run reliability, which prototype testing exposed and should be first-class elements."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p021",
+      "stance": "support",
+      "gist": "Calls benchmarking plus risk-proportionate clinical confirmation the right frame."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p022-p023",
+      "stance": "conditional-minor",
+      "gist": "Warns high knowledge or single-turn safety scores can mask conversational failures such as closing history early, repeating questions or inventing facts."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p024",
+      "stance": "conditional-minor",
+      "gist": "Says these product behaviors must be tested on the finished configuration of prompt, tools and served snapshot, and retested when it changes."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p025-p028",
+      "stance": "conditional-minor",
+      "gist": "Reports models self-grading histories complete while omitting the decisive exposure question; asks for recall against a pre-specified question list for intake functions."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p029",
+      "stance": "conditional-minor",
+      "gist": "Says multi-turn risk includes failing to use state the device already collected, not only drift from information toward action."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p029-p030",
+      "stance": "conditional-minor",
+      "gist": "Wants multi-turn intake benchmarked with an explicit already-answered set, scoring repeats of resolved questions as reliability misses."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p031-p032",
+      "stance": "conditional-minor",
+      "gist": "Wants a repeated-run consistency metric on diagnosis family, site of care and test-or-treat decisions for fixed transcripts and pinned decoding."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p033-p034",
+      "stance": "conditional-minor",
+      "gist": "Wants a small instruction-lock set of pinned negatives in nonclinical benchmarking, scored pass or fail and holding on later turns."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p035",
+      "stance": "conditional-minor",
+      "gist": "Says traceability to sources is part of risk assessment, since invented facts may surface in any clause and escape entity-list rules."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p035-p036",
+      "stance": "conditional-minor",
+      "gist": "For documentation and history write-back, wants denial-aware source-conditioned checks plus clinician review of sampled sentences, not a clean regex report."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p038",
+      "stance": "conditional-minor",
+      "gist": "Summarizes seven asks: case-locked completeness scoring, repeat and consistency metrics, instruction-lock tests, open-ended hallucination checks, re-runs on change, hidden holdouts."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Introduction of the writer's prototype and lead-in."
+    },
+    {
+      "paragraph": "p017",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p018",
+      "reason": "Introduction of the writer."
+    },
+    {
+      "paragraph": "p019",
+      "reason": "Date and introduction of the writer's prototype, repeating the body's opening."
+    },
+    {
+      "paragraph": "p037",
+      "reason": "Disclaimer of what is not claimed."
+    },
+    {
+      "paragraph": "p039",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p040",
+      "reason": "Signature."
+    }
+  ]
+}

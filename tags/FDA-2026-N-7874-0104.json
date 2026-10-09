@@ -1,0 +1,27 @@
+{
+  "comment_id": "FDA-2026-N-7874-0104",
+  "tags": [
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p004-p006", "stance": "conditional-minor",
+     "gist": "Offers the framework an added question: does accumulating evidence actually yield independent information about failure, since different technologies need not mean different exposure."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p007-p012", "stance": "conditional-minor",
+     "gist": "Suggests examining the paper's assurance layers together as an evidence architecture, asking each mechanism's function, reliance, coupling and independence."},
+    {"code": "PREMARKET", "subcode": "Q16", "paragraph": "p013-p015", "stance": "conditional-minor",
+     "gist": "Says an organizationally independent evaluator may still share the device's reference standard, data assumptions or model family, so institutional independence is not operational independence."},
+    {"code": "POSTMARKET", "subcode": "Q20", "paragraph": "p014-p015", "stance": "conditional-minor",
+     "gist": "Warns a separately administered supervisory system inheriting the device's upstream exposure adds monitoring without commensurate independent protection."},
+    {"code": "POSTMARKET", "subcode": "Q19", "paragraph": "p016-p019", "stance": "conditional-minor",
+     "gist": "Says if benchmarking, adjudication and re-benchmarking share one clinical representation, a persistent blind spot can survive updates while performance looks stable."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p020-p025", "stance": "conditional-minor",
+     "gist": "Distinguishes institutional, methodological and operational independence, saying the first two do not establish the third."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p026-p028", "stance": "conditional-minor",
+     "gist": "Proposes, for higher-risk devices, an evidence-independence assessment mapping each safeguard's reliance and convergence, complementing existing measures."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p029-p030", "stance": "neutral",
+     "gist": "Frames the central question as what shows seemingly independent assurance sources truly give independent information, and describes the lens as yielding testable hypotheses."}
+  ],
+  "skipped": [
+    {"paragraph": "p001", "reason": "Lead-in to attachment naming the questions addressed."},
+    {"paragraph": "p002", "reason": "Introduction of the writer and the instrument."},
+    {"paragraph": "p003", "reason": "Lead-in naming the questions addressed."},
+    {"paragraph": "p031", "reason": "Signature."}
+  ]
+}

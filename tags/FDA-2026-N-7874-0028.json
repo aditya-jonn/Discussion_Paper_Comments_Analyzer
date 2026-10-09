@@ -1,0 +1,244 @@
+{
+ "comment_id": "FDA-2026-N-7874-0028",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p001",
+   "stance": "support",
+   "gist": "Appreciates CDRH's collaborative approach of inviting comment before any draft guidance."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p002-p007",
+   "stance": "conditional-major",
+   "gist": "Supports the two axes as a starting point, not a scoring tool, and would add reversibility, validated downstream safeguards, time pressure and traceability as modifiers."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Agrees disclaimers should not lower classification and wants examples or a decision tree on specificity, personalization and clinical context."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Would not put patient-facing functions automatically in the top tier; assessment should weigh understandable communication, uncertainty signaling and escalation triggers."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Wants risk for generalist- and specialist-facing functions to reflect user expertise against the function's knowledge domain."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Wants intended use for conversational devices to define scope and maximum directiveness, with adherence tested across trajectories."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Wants manufacturers to justify their own under- versus over-escalation balance by clinical context, reviewed by CDRH rather than set by a universal threshold."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p012",
+   "stance": "support",
+   "gist": "Supports benchmarking followed by confirmation in the clinic as a practical substitute for exhaustively testing every open-ended output."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p013",
+   "stance": "conditional-minor",
+   "gist": "Wants an interoperability and context-integrity element added, and subgroup results built into safety acceptance criteria so disparities are not averaged away."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p014",
+   "stance": "conditional-minor",
+   "gist": "Wants benchmarks shown to correlate with an independent clinical reference, sponsor benchmarks to use held-out sets, and consensus benchmarks possibly via MDDT."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p015",
+   "stance": "conditional-minor",
+   "gist": "Supports risk-proportionate confirmation options and wants combinations of methods accepted when together they give sufficient evidence."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p016",
+   "stance": "conditional-minor",
+   "gist": "Accepts synthetic data for rare cases if sponsors validate it against real distributions, disclose generation methods and assess shifts when combining sources."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p017",
+   "stance": "conditional-minor",
+   "gist": "Wants sponsors to justify a consensus standard, clinician benchmark or ground truth, with combined team performance primary for human-AI systems."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p017",
+   "stance": "conditional-minor",
+   "gist": "Suggests independent bodies adjudicate results and steward sequestered datasets, piloted through ASCA and MDDT without burdening smaller sponsors."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p018",
+   "stance": "conditional-minor",
+   "gist": "Accepts more postmarket reliance given a specific, auditable plan with human oversight and sensitive metrics, but not for fully autonomous high-consequence functions."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Wants periodic re-benchmarking versus the premarket baseline as default, drift detection for updating models, and clinician review reserved for higher risk."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Accepts supervisory agents as monitoring support if they are independently validated and version controlled."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p020",
+   "stance": "support",
+   "gist": "Welcomes CDRH's proactive, collaborative publication of the paper ahead of draft guidance."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p021",
+   "stance": "conditional-major",
+   "gist": "Wants reversibility, credited engineered safeguards, deployment time pressure and traceability layered onto the two axes as explicit modifiers."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Wants the paper's worked examples formalized into a decision tree or checklist using specificity, personalization and workflow context."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Proposes a middle path: patient-facing informational tools showing literacy-adjusted comprehensibility, uncertainty signaling and escalation triggers need not take the top tier."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Wants generalist-versus-specialist risk tied to the verifiable gap between a function's knowledge domain and its intended users, not a blanket rule."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Supports trajectory-level assessment and wants intended use to state conversational scope and maximum directiveness, verified by drift testing."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Wants manufacturers to define and justify an escalation operating point like a sensitivity-specificity trade-off, reviewed case by case."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p023",
+   "stance": "support",
+   "gist": "Supports the two-stage architecture as a scalable alternative to exhaustive testing that fits open-ended outputs."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p024",
+   "stance": "conditional-minor",
+   "gist": "Calls the taxonomy comprehensive but wants a context-integrity element for structured data and subgroup results embedded in each safety element's criteria."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p024",
+   "stance": "conditional-minor",
+   "gist": "Wants a construct-validity requirement like analytical validation, independence safeguards for sponsor benchmarks, and consensus benchmarks developed publicly."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p024",
+   "stance": "conditional-minor",
+   "gist": "Wants a matrix crossing risk position with confirmation rigor, and acknowledgment that combined approaches can satisfy confirmation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p024",
+   "stance": "conditional-minor",
+   "gist": "Wants synthetic generators validated against real distributions, methods disclosed, and shift analyses applied, with caution in pediatric triage and mental health."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p024",
+   "stance": "conditional-minor",
+   "gist": "Would let sponsors justify either a standard-of-care or median-clinician comparator, with team performance primary and device-alone results supportive."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p024",
+   "stance": "conditional-minor",
+   "gist": "Supports third parties as adjudicators and dataset stewards, piloted through ASCA and MDDT with accreditation criteria and capacity planning."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p025",
+   "stance": "conditional-minor",
+   "gist": "Conditions greater postmarket reliance on an auditable plan agreed at review, human oversight, sensitive metrics and prompt remediation, excluding autonomous high-consequence functions."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p025",
+   "stance": "conditional-minor",
+   "gist": "Makes periodic re-benchmarking the default, adds drift detection for updating models, and reserves clinician review for higher risk or drift signals."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p025",
+   "stance": "conditional-minor",
+   "gist": "Supports exploring supervisory agents provided the agent itself gets independent validation and version control."
+  }
+ ],
+ "skipped": []
+}

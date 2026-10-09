@@ -1,0 +1,313 @@
+{
+ "comment_id": "FDA-2026-N-7874-0055",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p001",
+   "stance": "conditional-minor",
+   "gist": "Recommends three separate assurance layers, competency testing, clinical confirmation and operational assurance, since benchmark results alone cannot assure safety."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p005-p011",
+   "stance": "conditional-minor",
+   "gist": "Proposes three assurance layers, competency, clinical confirmation and operational assurance, and says no layer can replace another."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p012-p020",
+   "stance": "conditional-major",
+   "gist": "Calls the two-axis framework insufficient, since activity does not equal probability of harm, and would use standard probability-and-severity hazard analysis with risk controls."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p021",
+   "stance": "conditional-minor",
+   "gist": "Would let reversibility, time pressure, traceability and safeguards modify the risk analysis, without adding more graphical axes."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p022-p030",
+   "stance": "conditional-major",
+   "gist": "Would replace grading by wording with one division, general versus patient-specific output, treating patient-specific output as potentially action-directing."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p031",
+   "stance": "conditional-minor",
+   "gist": "Accepts professional review as reducing residual risk only if the manufacturer proves the control effective, including against automation bias."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p032-p033",
+   "stance": "support",
+   "gist": "Agrees patient-facing devices can carry more risk when patients cannot assess outputs, while not assuming patients lack capability."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p034-p040",
+   "stance": "conditional-minor",
+   "gist": "Lists patient-facing controls: limited scope, clear sources, uncertainty information, human review before high-consequence actions, escalation, and tests across users and long conversations."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p041",
+   "stance": "conditional-minor",
+   "gist": "Wants users giving false information or bypassing safety controls treated as foreseeable and included in the risk analysis."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p042-p043",
+   "stance": "conditional-minor",
+   "gist": "Suggests monitoring interactions to flag high-risk conversations for human review, possibly by a second AI that must itself be tested and monitored."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p044-p046",
+   "stance": "conditional-minor",
+   "gist": "Says risk rises where safe use requires specialist knowledge the user lacks, and treats specialist and generalist devices as different devices to confirm separately."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p047-p052",
+   "stance": "conditional-minor",
+   "gist": "Lists controls such as verified roles, role-based access, specialist confirmation and automatic deferral, using verified role data rather than inferring specialty."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p053-p060",
+   "stance": "conditional-minor",
+   "gist": "Wants complete conversations assessed, including long sessions, boundary-crossing attempts, fictional framing, conflicting information, memory and repeated runs."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p061-p070",
+   "stance": "conditional-minor",
+   "gist": "Would use deterministic filters outside the model for measurable scope boundaries such as age, role, domain and permitted actions, as current devices do."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p071",
+   "stance": "conditional-minor",
+   "gist": "Says out-of-scope behavior that no control stops must be treated as foreseeable and included in the safety evaluation."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p072-p076",
+   "stance": "conditional-minor",
+   "gist": "Adds a third error type, failed escalation, where the handoff goes to the wrong service, arrives late or is not acted on."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p077-p082",
+   "stance": "conditional-minor",
+   "gist": "Lists escalation measures: sensitivity, error rates, time to escalation, destination, handoff completion and clinical result."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p083",
+   "stance": "conditional-major",
+   "gist": "Wants severe under-escalation to have its own pass-or-fail limit that good performance on common cases cannot offset."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p084-p086",
+   "stance": "conditional-minor",
+   "gist": "Calls the competency approach necessary, requires testing the final configuration with all components, and treats benchmarking as a gate rather than full assurance."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p087",
+   "stance": "conditional-major",
+   "gist": "Wants a separate acceptance limit for each high-consequence failure, since an average score can hide one."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p088-p099",
+   "stance": "conditional-minor",
+   "gist": "Lists competency tests from omissions and scope control to tool use, unauthorized actions and post-change behavior, each mapped to intended use or a hazard."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p100-p106",
+   "stance": "conditional-minor",
+   "gist": "Wants sponsors to show representative and rare cases, prespecified limits, held-out data, independent review, stable repeats and clinical support for benchmark results."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p107",
+   "stance": "oppose",
+   "gist": "Says the amount of evidence should follow hazard analysis and control effectiveness, not the two-axis framework directly."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q17",
+   "paragraph": "p108-p118",
+   "stance": "conditional-minor",
+   "gist": "Says the three-layer approach fits multimodal and world models, adding tests for cross-modal mismatches, multi-step error and counterfactuals; the final device stays the unit."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p119-p132",
+   "stance": "conditional-minor",
+   "gist": "Sees a master file as useful dependency information, not proof of safety, listing contents from version and failure modes to rollback and withdrawal plans."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p133",
+   "stance": "conditional-minor",
+   "gist": "Says a voluntary master file can reduce repeated work, but another method should be required where the provider withholds sufficient information."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p134-p143",
+   "stance": "conditional-minor",
+   "gist": "Wants agentic devices assessed for wrong plans, compounding errors, wrong tools, unauthorized actions, prompt injection, privilege escalation and failure to stop or reverse."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p144-p152",
+   "stance": "conditional-minor",
+   "gist": "Wants least privilege, deterministic tool and action limits, human approval for high-consequence actions, full logs, a stop control and rollback, with permissions matched to function."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p153-p158",
+   "stance": "conditional-minor",
+   "gist": "Would pick the confirmation method by harm and uncertainty: retrospective for narrow objective tasks, shadow for local effects, prospective for irreversible actions, multi-site where needed."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p159-p171",
+   "stance": "conditional-minor",
+   "gist": "Wants a defined unit of analysis, clustering handled, repeated runs to measure variation, stratified reporting, and synthetic, real and benchmark results kept separate."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p172-p187",
+   "stance": "conditional-minor",
+   "gist": "Finds synthetic data useful for scope, rare hazards and adversarial tests but not for communication, behavior or outcomes; wants an independent generator and real-data confirmation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p188-p192",
+   "stance": "conditional-minor",
+   "gist": "Finds synthetic data useful for scope, rare hazards and adversarial tests but not communication, behavior or outcomes; wants independent generators and real-data confirmation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p193-p194",
+   "stance": "conditional-minor",
+   "gist": "Would compare against care as it would happen without the device, including current software, measuring safety, time to care, workload and subgroup differences."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p195-p204",
+   "stance": "conditional-minor",
+   "gist": "Gives third parties roles from holding hidden test data to auditing monitoring, with expertise, conflict disclosure, multiple qualified bodies and continued manufacturer accountability."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p205-p214",
+   "stance": "conditional-minor",
+   "gist": "Allows more premarket uncertainty only with limited deployment, fallback, version records, alert limits, named reviewers and rollback, never for irreversible or undetectable harm."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p215-p224",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring across system operation, input quality, performance, human-device interaction and outcomes, including overrides and automation bias."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p225-p227",
+   "stance": "conditional-minor",
+   "gist": "Wants random plus risk-based review and a specified action for every signal; a dashboard with no action process is not a control."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p228-p239",
+   "stance": "conditional-minor",
+   "gist": "Accepts machine supervisors for case selection if tested as safety components, built on a different model family, backed by deterministic controls and sampled by humans."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p240-p247",
+   "stance": "conditional-minor",
+   "gist": "Keeps the manufacturer accountable, assigns local roles to providers and clinicians, and suggests FDA back a confidential monitoring network across sites."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p248-p262",
+   "stance": "conditional-minor",
+   "gist": "Would classify changes by effect: quality-system control for low-effect, PCCPs for bounded prompt, retrieval and guardrail changes, and FDA review for material changes."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p263-p280",
+   "stance": "conditional-minor",
+   "gist": "Wants contracts giving notice, versions, deprecation periods and rollback, plus technical controls such as pinned versions and regression tests, with full reassessment after changes."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p281-p287",
+   "stance": "conditional-major",
+   "gist": "Concludes with three assurance layers, a general-versus-patient-specific division instead of wording, deterministic boundary controls and action-linked monitoring signals."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p002",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Description of the company."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Description of the company's leadership and work."
+  }
+ ]
+}

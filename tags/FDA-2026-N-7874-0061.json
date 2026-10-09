@@ -1,0 +1,267 @@
+{
+ "comment_id": "FDA-2026-N-7874-0061",
+ "tags": [
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Says three measurable considerations specific to agentic devices are not reached by element A.1 as drafted."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Says a device's self-report of its actions is an unverified instrument, and A.1 does not test whether a reported step succeeded."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Says persistent state an agent writes about a user is an invisible, self-authored evidence store read back as authority."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Says for the commenter's users the opportunity for human review is absent by definition, not merely reduced."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p012",
+   "stance": "conditional-minor",
+   "gist": "Says written instructions do not control this class; a criterion satisfiable by a system prompt or policy should not be credited."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p013-p015",
+   "stance": "conditional-minor",
+   "gist": "Argues the integrity of an agent's status channel is a safety property, since unreliable step reports would blind every postmarket mechanism."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p017-p019",
+   "stance": "neutral",
+   "gist": "Reports a session in which a model's confident step reports, both passes and failures, bore no relation to the work actually done."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p020-p021",
+   "stance": "neutral",
+   "gist": "Reports measurements of a dictation tool producing fluent transcribed words from audio windows carrying no live signal."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Notes that in an agentic device a fabricated reading becomes an established input to the next step rather than text a human may reject."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p023-p025",
+   "stance": "neutral",
+   "gist": "Reports an assistant's hidden persistent memory store in which every entry it flagged as questionable was wrong, including an invented regulatory obligation."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p026-p028",
+   "stance": "conditional-minor",
+   "gist": "Reports a written rule in context that did not hold hours later, concluding instruction governs wording after an action is chosen, not the choice."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p029-p033",
+   "stance": "neutral",
+   "gist": "Cites the advisory committee's concern with sycophancy and studies finding models affirm users far more than humans, a result of training for agreeableness."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p034",
+   "stance": "conditional-minor",
+   "gist": "Argues a prompt-level safeguard acts one layer too late, at every step of an agentic sequence, so documented policy is not sufficient control."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p035-p039",
+   "stance": "neutral",
+   "gist": "Describes the commenter's own approach: constraints that are architectural rather than instructional, and systems permitted to produce nothing."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p040",
+   "stance": "neutral",
+   "gist": "Points to a released open-source ledger as evidence that an independent execution record is cheap to build."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p042",
+   "stance": "support",
+   "gist": "Supports the A.1 competencies as drafted, from planning and tool use to oversight checkpoints and prompt-injection resistance."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p043-p047",
+   "stance": "conditional-minor",
+   "gist": "Lists four gaps in A.1: truthfulness of step reports, self-written user state, claims of absence and properties visible only across sessions."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p048",
+   "stance": "conditional-minor",
+   "gist": "Offers automatable acceptance criteria as additions beside A.1, not replacements for it."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p049",
+   "stance": "conditional-minor",
+   "gist": "Proposes scoring a device's account of a sequence against an independent execution record, with any unexecuted reported step counted as failure."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p050",
+   "stance": "conditional-minor",
+   "gist": "Proposes requiring any claim of absence to report the locations and method searched, tested where the target exists outside the first location."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p051",
+   "stance": "conditional-minor",
+   "gist": "Proposes evaluating persistent state as part of the device, with user-inspectable entries, provenance, age disclosure and no self-corroboration."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p052-p053",
+   "stance": "conditional-minor",
+   "gist": "Proposes a longitudinal affect-invariance criterion: hold clinical input constant, vary user displeasure, and measure drift in the recommendation."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p054",
+   "stance": "conditional-minor",
+   "gist": "Proposes null-input refusal extended inward: agents may not act on or pass forward output derived from input lacking valid signal."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p055",
+   "stance": "conditional-minor",
+   "gist": "Proposes re-evaluating agentic competencies after removing or contradicting the instruction layer and reporting the difference."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p056",
+   "stance": "neutral",
+   "gist": "Clarifies the observations were uncontrolled uses of commercial assistants and offer a failure class and tests, not an error rate."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p057",
+   "stance": "conditional-minor",
+   "gist": "Recommends against a standard turning on candour or intent, which is unfalsifiable, in favor of observable properties of assertion and evidence."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p058",
+   "stance": "conditional-minor",
+   "gist": "Does not seek exclusion of agentic devices, but wants a criterion against output that gives no way to tell useful results from unreliable ones."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p063-p064",
+   "stance": "conditional-minor",
+   "gist": "Says nonverbal users have no second channel to contest a device, so an agentic device's errors there read exactly like normal operation."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Note that the comment responds to Question 26 and is attached."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Submitter details."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Question addressed and submitter."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Organization and basis of the comment."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Restatement of Question 26."
+  },
+  {
+   "paragraph": "p016",
+   "reason": "Lead-in to the four observations."
+  },
+  {
+   "paragraph": "p041",
+   "reason": "Lead-in stating that the criteria are measurable by any party."
+  },
+  {
+   "paragraph": "p059",
+   "reason": "Note on a figure omitted pending correction."
+  },
+  {
+   "paragraph": "p060",
+   "reason": "List of evidence retained and available on request."
+  },
+  {
+   "paragraph": "p061",
+   "reason": "Note that the figures can be regenerated from retained files."
+  },
+  {
+   "paragraph": "p062",
+   "reason": "Description of the organization and submitter."
+  },
+  {
+   "paragraph": "p065",
+   "reason": "Dates, docket and contact details."
+  },
+  {
+   "paragraph": "p066",
+   "reason": "Submitter signature block."
+  },
+  {
+   "paragraph": "p067",
+   "reason": "Signature line."
+  }
+ ]
+}

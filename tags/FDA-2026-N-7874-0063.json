@@ -1,0 +1,214 @@
+{
+ "comment_id": "FDA-2026-N-7874-0063",
+ "tags": [
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p009",
+   "stance": "conditional-major",
+   "gist": "Supports all three approaches but says none, run periodically, can detect the within-session degradation measured; proposes triggers not tied to a calendar."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Reports degradation that occurred within a session and reset at its boundary, which any periodic re-benchmark would miss by starting a fresh session."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p011",
+   "stance": "conditional-major",
+   "gist": "Says the working trigger is a gap between a device's reported actions and an independent record, measurable continuously rather than by elapsed time."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p012",
+   "stance": "neutral",
+   "gist": "Notes the commenter has published an open-source independent record and marks which parts are verified and which are unmeasured design."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p013",
+   "stance": "conditional-minor",
+   "gist": "Says for users who cannot speak, something other than the user must catch fabrication and alert someone able to act."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p015-p016",
+   "stance": "conditional-minor",
+   "gist": "Says re-benchmarking cannot see failures that grow with time inside a session, because every benchmark run starts a new session."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p017-p018",
+   "stance": "conditional-minor",
+   "gist": "Says clinician review cannot mark fabricated reports as wrong from text, and sampling position determines the result when presentation improves while errors persist."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Would put the program's weight on degradation monitoring, but defined as a within-session function of time, turns and context rather than drift over weeks."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p020-p022",
+   "stance": "conditional-major",
+   "gist": "Proposes contemporaneous verification of a device's account against an independent machine-produced access record, which separates reading, stale copies and fabrication mechanically."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p023-p025",
+   "stance": "neutral",
+   "gist": "Describes the published open-source ledger that records running systems from the process list, offered as a method any regulator or manufacturer can apply."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p026-p028",
+   "stance": "conditional-minor",
+   "gist": "Proposes writing the access record first and entering the device's account against it: self-reports become annotations on an independent record, never the record."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p029",
+   "stance": "conditional-minor",
+   "gist": "Would retain periodic cadence for what it does well but not let it carry the detection load."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p030-p031",
+   "stance": "conditional-major",
+   "gist": "Recommends continuous within-session evaluation reported by elapsed time and turn index, keeping re-benchmarking only to confirm criteria after changes."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p032-p037",
+   "stance": "conditional-minor",
+   "gist": "Proposes five triggers computable without adjudication: claim-record divergence, silence, within-session thresholds, absence claims, and presentation diverging from accuracy."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p038",
+   "stance": "conditional-minor",
+   "gist": "Argues the triggers need no clinician or schedule and are cheaper to run continuously than quarterly re-benchmarking, serving least-burdensome aims."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p039-p041",
+   "stance": "conditional-major",
+   "gist": "Asks CDRH to require that detected fabrication or mistranslation for users who cannot self-verify notify a designated caregiver or clinician at session end."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p042",
+   "stance": "conditional-minor",
+   "gist": "Bounds that recommendation: it notifies a named person of a device fault, and is not surveillance or transmission of the user's communication."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p043",
+   "stance": "neutral",
+   "gist": "Clarifies the measurements came from commercial assistants, not regulated devices, and establish that the failures occur, not how often."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p044",
+   "stance": "neutral",
+   "gist": "Distinguishes the published, verifiable instrument from the unmeasured check-in design, noting the triggers depend only on an access record."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p045",
+   "stance": "conditional-minor",
+   "gist": "Recommends against any standard turning on candour or intent, since every proposed trigger is observable without resolving why an output occurred."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p049-p050",
+   "stance": "conditional-minor",
+   "gist": "Says postmarket cadence and alert routing decide whether users without a second channel are protected; a quarterly report comes after harm."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Note that the comment responds to Question 19 and is attached."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Submitter details."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Question addressed."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Submitter and organization."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Basis of the comment."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Restatement of Question 19."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Lead-in to the discussion of the three approaches."
+  },
+  {
+   "paragraph": "p046",
+   "reason": "List of evidence retained and available on request."
+  },
+  {
+   "paragraph": "p047",
+   "reason": "Note that the instrument is public."
+  },
+  {
+   "paragraph": "p048",
+   "reason": "Description of the organization and submitter."
+  },
+  {
+   "paragraph": "p051",
+   "reason": "Dates, docket and contact details."
+  },
+  {
+   "paragraph": "p052",
+   "reason": "Submitter signature block."
+  },
+  {
+   "paragraph": "p053",
+   "reason": "Signature line."
+  }
+ ]
+}

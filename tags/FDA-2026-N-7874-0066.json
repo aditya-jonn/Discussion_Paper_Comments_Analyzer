@@ -1,0 +1,188 @@
+{
+ "comment_id": "FDA-2026-N-7874-0066",
+ "tags": [
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Says supervisory agents can help and the commenter uses one, but their reliability is the whole question and the failure mode is quite specific."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p009",
+   "stance": "neutral",
+   "gist": "Reports four occasions in one session when a model acting as reviewer made confident assertions its evidence could not support, caught only by the operator."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p010-p012",
+   "stance": "neutral",
+   "gist": "Notes the agent disclosed its evidence's age only when challenged, used one register regardless of evidence quality, and left sound and unsound conclusions indistinguishable."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p013",
+   "stance": "conditional-minor",
+   "gist": "Says intent is not a useful axis, since calling the outputs errors or misstatements changes nothing for someone relying on them."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p015-p028",
+   "stance": "neutral",
+   "gist": "Details the four occasions: inverted causation, a sentence never spoken, a rule remembered rather than executed, and the present answered from a stale copy."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p029-p033",
+   "stance": "conditional-minor",
+   "gist": "Finds one failure kind in all four: correct evidence was available but a cheaper proxy was reported as measurement, and proxy-record agreement is no corroboration."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p034-p037",
+   "stance": "conditional-minor",
+   "gist": "Argues the failure is disclosure order: a caveat after challenge is a concession, and an agent reporting normal from unconfirmed data gives a false finding."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p038-p044",
+   "stance": "conditional-minor",
+   "gist": "Recommends evaluating supervisory agents on four observable properties of unsupported, undisclosed assertions, avoiding any standard that turns on candour or intent."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p045-p047",
+   "stance": "conditional-minor",
+   "gist": "Wants supervisory agents validated on cases the operator cannot independently check, without carrying expert-in-the-loop performance over to unsupervised use."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p049",
+   "stance": "conditional-minor",
+   "gist": "Would require an agent to emit the artifact consulted and its timestamp with each finding, before the finding rather than on request."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p050",
+   "stance": "conditional-minor",
+   "gist": "Would count a present-tense answer taken from a copy older than a set limit as a failure, not something to caveat."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p051",
+   "stance": "conditional-minor",
+   "gist": "Would bar an agent from vouching for a component it belongs to, and discount agreement with a device log when both share an instrument."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p052",
+   "stance": "conditional-minor",
+   "gist": "Would validate agents against output that cannot be checked against a reference at the point of use, rather than against a benchmark set."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p053",
+   "stance": "conditional-minor",
+   "gist": "Would require every assertion to be labeled with its evidence class, measured, cached or inferred, so reviewers can filter rather than infer from tone."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p054-p055",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring programs to say what happens when no one in the loop can catch an error, and not to treat operator acceptance as validation."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p056",
+   "stance": "neutral",
+   "gist": "Clarifies this is a single uncontrolled session with a commercial assistant, offered as a failure class rather than an error rate."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p057",
+   "stance": "neutral",
+   "gist": "Does not seek to exclude supervisory agents, noting the same agent helped and misled within one hour with no way to tell which."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p058",
+   "stance": "neutral",
+   "gist": "Takes no position on whether the behavior is error or something stronger, holding that the standard should leave that question out."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p061",
+   "stance": "conditional-minor",
+   "gist": "Says the commenter's users cannot check, so a supervisory agent wrongly reporting their device fine is a monitoring failure that looks like normal operation."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Note that the comment responds to Question 20 and is attached."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Submitter details."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Question addressed and submitter."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Organization and basis of the comment."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Restatement of Question 20."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Disclosure that the agent discussed helped draft the comment."
+  },
+  {
+   "paragraph": "p048",
+   "reason": "Lead-in to the recommended considerations."
+  },
+  {
+   "paragraph": "p059",
+   "reason": "List of evidence retained and available on request."
+  },
+  {
+   "paragraph": "p060",
+   "reason": "Description of the organization and submitter."
+  },
+  {
+   "paragraph": "p062",
+   "reason": "Dates, docket and contact details."
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "comment_id": "FDA-2026-N-7874-0051",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p001",
+   "stance": "conditional-major",
+   "gist": "Supports the paper's risk-proportionate orientation and lists eight recommendations, from modifiers on the consequences axis to change-envelope PCCPs and international alignment."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Commends the paper's organizing concepts as sound and consistent with recent FDA policy, and urges international alignment, including through IMDRF, as they mature."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Would keep two axes, treat the extra dimensions as documented modifiers of the consequences axis, and add user error detectability as another modifier."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Suggests CDRH issue a directiveness rubric with anchored levels and worked examples, giving manufacturers predictability."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p012",
+   "stance": "conditional-minor",
+   "gist": "Would make the upward shift for patient-facing functions conditional on demonstrated mitigations, with tested lay comprehension allowed to offset part of it."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p013",
+   "stance": "conditional-minor",
+   "gist": "Proposes labeling the expected user competency, testing with the least specialized intended user, and treating referral prompting as a tested competency."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p014",
+   "stance": "conditional-minor",
+   "gist": "Would characterize intended use as a behavioral envelope, with conversational drift beyond it counted as a failure mode to report."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p015",
+   "stance": "conditional-minor",
+   "gist": "Encourages prespecified, context-specific weighting of missed versus unnecessary escalation, with both error rates reported separately and justified per indication."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p016",
+   "stance": "conditional-minor",
+   "gist": "Wants a published, even illustrative, evidence gradient in which benchmarking breadth, adjudication independence and confirmation rigor rise with risk position."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p017",
+   "stance": "conditional-minor",
+   "gist": "Would add temporal validity of clinical knowledge, input integrity handling, and non-English language performance to the benchmarking elements."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p018",
+   "stance": "conditional-minor",
+   "gist": "Would permit sponsor-developed benchmarks but complement them with a sequestered set kept by a party independent of sponsor and model developer."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "V-RWD",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Recommends a formal transportability assessment, with quantitative adjustment where needed, for real-world and non-US data used in clinical confirmation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Advises against pooling benchmarking and clinical confirmation into one estimate unless sampling frames are exchangeable; present them as separate lines of evidence."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p021",
+   "stance": "support",
+   "gist": "Supports comparators reflecting care in the device's absence, and notes usual-care characterization and target-trial emulation as ways to build them."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Says trading premarket evidence for monitoring is ill-suited to autonomous severe-consequence functions and where users cannot detect errors; fold this into existing benefit-risk guidance."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p023",
+   "stance": "conditional-minor",
+   "gist": "Encourages adding outcome-linked surveillance in claims and EHR data as a fourth approach, since behavioral metrics can miss downstream harms."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p024",
+   "stance": "conditional-major",
+   "gist": "Proposes a change-envelope PCCP that prespecifies the verification protocol and acceptance criteria rather than the modifications themselves."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p025",
+   "stance": "conditional-minor",
+   "gist": "Wants acceptance criteria to tighten as autonomy rises, and an agent that controls another device judged against that device's risk profile."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p026",
+   "stance": "conditional-major",
+   "gist": "Restates support for the paper's orientation and the eight recommendations, from consequence-axis modifiers to change-envelope PCCPs and international alignment."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p002",
+   "reason": "Thanks and offer of further input."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Date and name of the writer."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Address block."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Docket reference line."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Salutation."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Thanks and introduction of the writer."
+  },
+  {
+   "paragraph": "p027",
+   "reason": "Thanks and offer of further input."
+  },
+  {
+   "paragraph": "p028",
+   "reason": "Signature and contact details."
+  }
+ ]
+}

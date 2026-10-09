@@ -1,0 +1,241 @@
+{
+ "comment_id": "FDA-2026-N-7874-0077",
+ "tags": [
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Says the commenter's users cannot provide the complaints and reports that postmarket programs quietly treat as the first line of defense."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p009-p010",
+   "stance": "conditional-minor",
+   "gist": "States the measurements' limits and recommends against any standard turning on developer intent, proposing only conditions observable without knowing why an output occurred."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p017",
+   "stance": "conditional-minor",
+   "gist": "Supports the trade in principle, with the comment addressing the condition it depends on and one device class for which it should not be available."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p018",
+   "stance": "conditional-major",
+   "gist": "Says a reduction is a trade only if monitoring can detect what premarket evidence would have caught; grant it against demonstrated detection, never mere existence."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p019",
+   "stance": "conditional-major",
+   "gist": "Reports a failure mode that resets at each session boundary, which periodic re-benchmarking cannot see and so should not justify any premarket reduction."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p020",
+   "stance": "conditional-major",
+   "gist": "Says monitoring built on the device's self-report inherits its errors, so a reduction resting on it amounts to the device vouching for itself."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p021",
+   "stance": "conditional-minor",
+   "gist": "Would make the approach unavailable where users cannot self-verify, devices run offline, or harm is complete before detection can occur."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p022-p024",
+   "stance": "conditional-minor",
+   "gist": "Argues the trade assumes monitoring can resolve the residual uncertainty; the measured GenAI failures never accumulate into a rate and reassessment erases them."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p025-p028",
+   "stance": "neutral",
+   "gist": "Reports within-session input loss that doubled between recordings and a session where presentation improved while false statements continued, offered without any rate."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p030-p033",
+   "stance": "conditional-major",
+   "gist": "Wants any reduction tied to a named failure mode and a detection demonstration showing the program surfaces it at a stated interval and sensitivity."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p034-p035",
+   "stance": "conditional-major",
+   "gist": "Wants the monitoring record independent of the device, a machine-produced access record against which the device's account is mechanically compared."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p036-p037",
+   "stance": "neutral",
+   "gist": "Describes the published open-source ledger, offered for any reviewer to apply to any device."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p038-p040",
+   "stance": "conditional-major",
+   "gist": "Wants a named recipient and notification interval for detected faults, shorter than the harm window; a caregiver at session end for users who cannot self-verify."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p041",
+   "stance": "conditional-minor",
+   "gist": "Bounds that recommendation: a named person learns of a device fault, with no surveillance or transmission of the user's communication."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p042-p046",
+   "stance": "conditional-minor",
+   "gist": "Would exclude devices whose users cannot self-verify or report, since the feedback loop the trade relies on is absent by construction for them."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p047-p048",
+   "stance": "conditional-minor",
+   "gist": "Would exclude disconnected operation, or require an on-device record that persists offline and reconciles later, since telemetry may never reach the sponsor."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p049-p050",
+   "stance": "conditional-minor",
+   "gist": "Would make reversibility an explicit gate: no exchange where the credible harm cannot be reversed within the program's detection interval."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p051-p052",
+   "stance": "conditional-minor",
+   "gist": "Would exclude single-user, long-duration deployments, where population signals are weak and averaging hides failures about one person."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p053-p057",
+   "stance": "conditional-major",
+   "gist": "Asks that the exchange be granted specifically, against demonstrated detection, an independent record and a named recipient, with four categories excluded."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p058-p059",
+   "stance": "neutral",
+   "gist": "Clarifies the measurements came from commercial assistants, establish occurrence not frequency, and separates verified instrument from policy argument."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p060",
+   "stance": "conditional-minor",
+   "gist": "Recommends against any standard turning on candour or intent, since every proposed condition can be observed without knowing why an output occurred."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p064-p065",
+   "stance": "conditional-minor",
+   "gist": "Says a premarket reduction asks users to carry uncertainty personally, which is reasonable only for people who can see and report what happens to them."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Note that this is an introductory comment to separately filed responses."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Submitter details."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Description of the organization and submitter."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Explanation of filing separate comments per question."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Lead-in."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Description of the measurement basis and published instruments."
+  },
+  {
+   "paragraph": "p011",
+   "reason": "Contact details."
+  },
+  {
+   "paragraph": "p012",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Question addressed."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Submitter and organization."
+  },
+  {
+   "paragraph": "p015",
+   "reason": "Basis of the comment."
+  },
+  {
+   "paragraph": "p016",
+   "reason": "Restatement of Question 18."
+  },
+  {
+   "paragraph": "p029",
+   "reason": "Lead-in to the three conditions."
+  },
+  {
+   "paragraph": "p061",
+   "reason": "List of evidence retained and available on request."
+  },
+  {
+   "paragraph": "p062",
+   "reason": "Note that the instrument is public."
+  },
+  {
+   "paragraph": "p063",
+   "reason": "Description of the organization and submitter."
+  },
+  {
+   "paragraph": "p066",
+   "reason": "Dates, docket and contact details."
+  },
+  {
+   "paragraph": "p067",
+   "reason": "Submitter signature block."
+  },
+  {
+   "paragraph": "p068",
+   "reason": "Signature and date."
+  }
+ ]
+}

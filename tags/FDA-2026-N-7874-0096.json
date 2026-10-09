@@ -1,0 +1,19 @@
+{
+  "comment_id": "FDA-2026-N-7874-0096",
+  "tags": [
+    {"code": "POSTMARKET", "subcode": "Q24", "paragraph": "p003-p004", "stance": "conditional-minor",
+     "gist": "Calls silent upstream updates to hosted models a critical hurdle, to be met by local model locking, quality-system version management and automated drift detection."},
+    {"code": "POSTMARKET", "subcode": "Q24", "paragraph": "p005-p007", "stance": "conditional-minor",
+     "gist": "Suggests deploying domain-specific small language models locally or in locked private environments, so weight updates come only through manufacturer release cycles."},
+    {"code": "POSTMARKET", "subcode": "Q24", "paragraph": "p008-p009", "stance": "conditional-minor",
+     "gist": "Says locking shifts the burden to multi-version lifecycle management; FDA should encourage compatibility test matrices, revalidation suites and deprecation schedules in the QMS."},
+    {"code": "POSTMARKET", "subcode": "Q24", "paragraph": "p010-p013", "stance": "conditional-minor",
+     "gist": "For unavoidable hosted APIs, wants automated golden benchmark runs, embedding-based drift analysis and guardrail trigger telemetry to catch behavior shifts."},
+    {"code": "POSTMARKET", "subcode": "Q24", "paragraph": "p014-p017", "stance": "conditional-minor",
+     "gist": "Asks FDA to recognize local version locking as acceptable change-control mitigation, set standards for continuous automated benchmarking, and define multi-version documentation."}
+  ],
+  "skipped": [
+    {"paragraph": "p001", "reason": "Title line."},
+    {"paragraph": "p002", "reason": "Line naming the question addressed."}
+  ]
+}

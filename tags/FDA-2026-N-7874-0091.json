@@ -1,0 +1,418 @@
+{
+  "comment_id": "FDA-2026-N-7874-0091",
+  "tags": [
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p001",
+      "stance": "conditional-minor",
+      "gist": "Answers Q10 with a measurement-system qualification package, likened to the performance specifications clinical laboratories must establish before reporting."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p002",
+      "stance": "conditional-minor",
+      "gist": "Says acceptance criteria for open-ended outputs cannot be read unless the evaluation process's own variability is known, which bears on PCCPs."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p003",
+      "stance": "conditional-minor",
+      "gist": "Summarizes ten recommendations: qualification components, a null comparison, validated observation windows, separate escalation outcomes, mapped re-benchmarking and adjudicator bridging."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p010",
+      "stance": "neutral",
+      "gist": "Reports that specifying benchmark content and scoring was not enough, on its own, to make the numbers interpretable."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p011-p012",
+      "stance": "support",
+      "gist": "Calls the ten benchmarking elements a sound content specification, with the safety elements naming the failure modes that matter."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p013",
+      "stance": "support",
+      "gist": "Says the paper is right to ask about construct validity alongside sponsor benchmarks, independence and optimisation to the test."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p014-p015",
+      "stance": "conditional-minor",
+      "gist": "Says construct validity needs evidence about how the scoring instrument behaves, as laboratories establish performance specifications, not just its contents."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p016",
+      "stance": "conditional-minor",
+      "gist": "Reports that scoring window, reference labels and implementation each shifted results independently, so unqualified scores have uncharacterised precision."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p017-p019",
+      "stance": "conditional-minor",
+      "gist": "Wants sponsors to characterise device, adjudicator and reference-standard variability together, since PCCP acceptance criteria for generated language depend on it."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p020-p022",
+      "stance": "conditional-minor",
+      "gist": "Warns an uncalibrated threshold either passes evaluation noise as change or, set high, blocks most modifications and returns them to FDA."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p023-p024",
+      "stance": "conditional-minor",
+      "gist": "Would have sponsors qualify the measurement system through six evidence components before any device result is read."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p025",
+      "stance": "conditional-minor",
+      "gist": "Wants reference answers fixed in advance and independently of the adjudicator, or scores measure agreement rather than correctness."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p026-p027",
+      "stance": "conditional-minor",
+      "gist": "Wants multi-turn sponsors to show the scoring window is long enough to capture the behaviour measured."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p028",
+      "stance": "conditional-minor",
+      "gist": "Wants automated adjudicators calibrated against qualified human raters dimension by dimension, since aggregates hide weak dimensions."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p029",
+      "stance": "conditional-minor",
+      "gist": "Wants evidence that the configuration evaluated matched the configuration specified, since declared and executed settings diverge."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p030",
+      "stance": "conditional-minor",
+      "gist": "Wants a written rule for resolving rater or adjudicator disagreement before any result is seen."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p031",
+      "stance": "conditional-minor",
+      "gist": "Wants adjudicator, corpus, prompt versions and a configuration hash recorded with every reported score."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p032-p034",
+      "stance": "conditional-minor",
+      "gist": "Urges a low-burden null comparison: resample the unchanged configuration against itself to build an empirical null before claiming change."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p035",
+      "stance": "support",
+      "gist": "Calls the two-stage structure of benchmarking then clinical confirmation correct."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p035",
+      "stance": "neutral",
+      "gist": "Offers an openly licensed benchmark with independent ground truth and provenance manifest as a reproducible starting point, not a finished standard."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p036-p039",
+      "stance": "conditional-minor",
+      "gist": "Says multi-turn scores collapse required-action turn, timeliness and observation window, so a late escalation and a miss can score alike."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p040",
+      "stance": "conditional-minor",
+      "gist": "Says a late escalation remains a timeliness failure whatever follows; recovery should be recorded, not credited."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p041-p042",
+      "stance": "conditional-minor",
+      "gist": "Asks that the observation window be prespecified, justified and validated, with timeliness and later recovery reported separately."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p043-p044",
+      "stance": "conditional-minor",
+      "gist": "Agrees the two escalation errors are incommensurable and says they need separate denominators and thresholds, never only a composite."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p045-p046",
+      "stance": "conditional-minor",
+      "gist": "Wants missed and unnecessary escalations reported as separate prespecified outcomes with separate denominators, requiring declared non-escalation cases in corpora."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p047",
+      "stance": "conditional-minor",
+      "gist": "Accepts context-specific composite weighting if component rates stay reported and weights are justified prospectively by consequence."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p048-p056",
+      "stance": "conditional-minor",
+      "gist": "Proposes scaling re-benchmarking by a published mapping from seven modification types to affected competency suites, with partial scope justified."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p057",
+      "stance": "conditional-minor",
+      "gist": "Wants a fixed critical-safety regression core re-run unchanged on every modification that could alter outputs, controls or actions."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p058",
+      "stance": "conditional-minor",
+      "gist": "Says change-triggered re-benchmarking should complement periodic assessment, which catches undeclared drift in models, dependencies or use environment."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p059",
+      "stance": "conditional-minor",
+      "gist": "Wants the adjudicator pinned and versioned in the baseline, with any adjudicator change bridge-tested before comparison to history."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q11",
+      "paragraph": "p060",
+      "stance": "support",
+      "gist": "Finds the two-axis framing a sensible way to choose among confirmation approaches and sees no need for a third axis."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q11",
+      "paragraph": "p061-p062",
+      "stance": "conditional-minor",
+      "gist": "Says a lighter confirmation approach justified by benchmark strength should require qualification evidence, with well-qualified benchmarks carrying more weight."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p063",
+      "stance": "conditional-minor",
+      "gist": "Says synthetic conversations suit stress tests of rare, adversarial and safety-critical situations and controlled ablations, though not real use."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p064",
+      "stance": "conditional-minor",
+      "gist": "Says clinician validation of a synthetic case confirms coherence and label, not that the case distribution matches use."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p065",
+      "stance": "conditional-minor",
+      "gist": "Opposes naive pooling; combination needs a common estimand, distribution comparison, prospective weighting and sensitivity analysis, else report separately."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p066",
+      "stance": "conditional-minor",
+      "gist": "Wants reference labels established apart from the generating model and adversarial cases built against a declared failure taxonomy."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p067",
+      "stance": "conditional-minor",
+      "gist": "Prefers open, reproducible methods with independence concentrated on reference-standard adjudication and third-party sequestered safety sets over certification."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p068",
+      "stance": "conditional-minor",
+      "gist": "Says paid certification by few bodies raises cost and concentration; targeted independence with open methods gives most assurance."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p071-p072",
+      "stance": "conditional-minor",
+      "gist": "Describes planned research reporting minimum detectable effect against repeated runs, so sponsors and reviewers can read off needed repeats."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p074",
+      "stance": "conditional-minor",
+      "gist": "Recommends requiring six-component qualification evidence on the measurement system behind any benchmark gating device evaluation."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p075",
+      "stance": "conditional-minor",
+      "gist": "Recommends considering a required null comparison of the unchanged configuration against itself as minimum evidence of discrimination."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p076",
+      "stance": "conditional-minor",
+      "gist": "Recommends treating the multi-turn observation window as a validated parameter and reporting timeliness apart from recovery."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p077",
+      "stance": "conditional-minor",
+      "gist": "Recommends separate prespecified outcomes and denominators for under- and over-escalation, with declared non-escalation cases."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p078",
+      "stance": "conditional-minor",
+      "gist": "Recommends mapped re-benchmarking by modification type, an invariant safety core, and periodic assessment kept alongside change triggers."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p079",
+      "stance": "conditional-minor",
+      "gist": "Recommends that swapping the adjudicator count as an evaluation-system change needing bridge testing."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p080",
+      "stance": "conditional-minor",
+      "gist": "Recommends not pooling benchmarking and confirmation evidence unless stated conditions are met."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p081",
+      "stance": "conditional-minor",
+      "gist": "Recommends synthetic case labels be set or verified independently of the generating model."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p082",
+      "stance": "conditional-minor",
+      "gist": "Recommends open methods, reproducible sponsor testing and targeted independent adjudication rather than a certification regime."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p083",
+      "stance": "conditional-minor",
+      "gist": "Recommends every acceptance criterion come with a characterisation of evaluation variability, treating one without as hard to interpret."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p004",
+      "reason": "Disclosure of interest."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p006",
+      "reason": "Docket reference line."
+    },
+    {
+      "paragraph": "p007",
+      "reason": "Submitter details."
+    },
+    {
+      "paragraph": "p008",
+      "reason": "Disclosure of interest."
+    },
+    {
+      "paragraph": "p009",
+      "reason": "Introduction of the writer's artifacts and licences."
+    },
+    {
+      "paragraph": "p069",
+      "reason": "Disclaimer of what is not claimed."
+    },
+    {
+      "paragraph": "p070",
+      "reason": "Offer of the writer's artifacts."
+    },
+    {
+      "paragraph": "p073",
+      "reason": "Offer to provide materials."
+    },
+    {
+      "paragraph": "p084",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p085",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p086",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p087",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p088",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p089",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p090",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p091",
+      "reason": "Signature."
+    }
+  ]
+}

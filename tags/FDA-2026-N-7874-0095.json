@@ -1,0 +1,161 @@
+{
+  "comment_id": "FDA-2026-N-7874-0095",
+  "tags": [
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p002-p004",
+      "stance": "conditional-minor",
+      "gist": "Supports Sections V and VI but asks that sponsors report a reproducibility floor, the device's variation on identical inputs, treating smaller differences as uninformative."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p005",
+      "stance": "neutral",
+      "gist": "Cites a study where a clinical agent's action changed in 8.7 percent of identical re-runs, varying eightfold across actions, with no disparity finding."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p006",
+      "stance": "conditional-minor",
+      "gist": "Says the right null is the device's difference against itself; report floors per graded endpoint under the marketed configuration, not pooled."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p007",
+      "stance": "conditional-minor",
+      "gist": "Wants any benchmark gating a decision to carry a documented floor, noting saturation arrives when device spread falls below benchmark noise."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p008",
+      "stance": "conditional-minor",
+      "gist": "Would have sponsors state the minimum detectable difference, since a null subgroup result without it carries no information."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p009",
+      "stance": "conditional-minor",
+      "gist": "Says the floor should set monitoring's minimum detectable effect, driving sampling volume and thresholds, and be re-established after model changes."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p010",
+      "stance": "conditional-minor",
+      "gist": "Citing judge-model instability, says supervisors cannot detect changes below their own instability, their prompts need change control, and shared-model errors correlate."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p011",
+      "stance": "conditional-minor",
+      "gist": "Wants acceptance criteria set per action, measuring highest-consequence actions most carefully, since instability varied eightfold across actions."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p012",
+      "stance": "conditional-minor",
+      "gist": "Proposes no numeric instability threshold, leaving that to the Section IV framework, asking only that the quantity be measured and reported."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p016-p019",
+      "stance": "conditional-minor",
+      "gist": "Asks CDRH to add to Sections V and VI a reported reproducibility floor, because every evaluation compares differences and generative variation is not zero."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p021-p028",
+      "stance": "neutral",
+      "gist": "Details the study: 8.7 percent action instability across 4,320 cells, uneven by action, replicated on a second model, only partly reduced by voting."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p029-p032",
+      "stance": "conditional-minor",
+      "gist": "Wants a per-endpoint reproducibility floor as the null, with overlapping intervals read as lacking resolution; acknowledges the bounded extra cost."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p033-p035",
+      "stance": "conditional-minor",
+      "gist": "Says gating benchmarks need a documented floor so reviewers see what differences they can resolve, and noise-based saturation precedes ceiling effects."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p036-p038",
+      "stance": "conditional-minor",
+      "gist": "Wants submissions reporting no subgroup difference to state the minimum detectable difference, since underpowered audits do not show fairness."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p039-p041",
+      "stance": "conditional-minor",
+      "gist": "Wants degradation triggers and cadence justified by the floor, showing what drift they could catch, with the floor re-measured after model changes."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p042-p044",
+      "stance": "conditional-minor",
+      "gist": "Applies the floor to supervisors: no credit below their instability, supervisory prompts under change control, no assumed independence from a shared model."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p045-p046",
+      "stance": "conditional-minor",
+      "gist": "Wants per-action floors and acceptance criteria along the trajectory, since aggregates favour frequent over consequential decisions and steps compound."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p047-p048",
+      "stance": "conditional-minor",
+      "gist": "Sets no instability threshold and does not call devices unstable; wants the number reported so the two-axis framework can guide the call."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in naming the questions addressed."
+    },
+    {
+      "paragraph": "p013",
+      "reason": "Signature."
+    },
+    {
+      "paragraph": "p014",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p015",
+      "reason": "Author and contact details."
+    },
+    {
+      "paragraph": "p020",
+      "reason": "Lead-in naming the questions addressed."
+    },
+    {
+      "paragraph": "p049",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p050",
+      "reason": "Signature."
+    }
+  ]
+}

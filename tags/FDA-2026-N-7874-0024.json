@@ -1,0 +1,33 @@
+{
+  "comment_id": "FDA-2026-N-7874-0024",
+  "tags": [
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p004", "stance": "support",
+     "gist": "Applauds FDA for seeking comment first, agrees the paper correctly recognizes GenAI's distinctive risks, and wants the open iterative approach kept."},
+    {"code": "RISK", "subcode": "Q1", "paragraph": "p005", "stance": "conditional-major",
+     "gist": "Wants the two axes to also weigh how constrained autonomy is, users' ability to catch errors, reversibility, population vulnerability and clinical context."},
+    {"code": "PREMARKET", "subcode": "Q7", "paragraph": "p006", "stance": "conditional-minor",
+     "gist": "Finds the competency approach valuable if FDA turns capability into task-specific evidence expectations tied to intended use, user, setting and decision limits."},
+    {"code": "PREMARKET", "subcode": "Q9", "paragraph": "p006", "stance": "conditional-minor",
+     "gist": "Wants benchmarking to cover difficult, out-of-distribution, incomplete, adversarial and ambiguous cases plus subgroup consistency, not only average performance."},
+    {"code": "PREMARKET", "subcode": "Q9", "paragraph": "p007", "stance": "conditional-minor",
+     "gist": "Wants human factors evidence premarket: validated user safeguards, uncertainty communication, protection against overreliance, escalation and usability under time pressure."},
+    {"code": "PREMARKET", "subcode": "Q7", "paragraph": "p008", "stance": "conditional-minor",
+     "gist": "Wants a traceability expectation covering the foundation model's lineage and version, prompts, orchestration, safety controls and validation of the final configuration."},
+    {"code": "AGENTIC", "subcode": "Q26", "paragraph": "p008", "stance": "conditional-minor",
+     "gist": "Wants manufacturers of agentic systems to set enforceable autonomy limits, authorizations, oversight, audit records and safe fallback states."},
+    {"code": "POSTMARKET", "subcode": "Q18", "paragraph": "p009", "stance": "conditional-minor",
+     "gist": "Accepts risk-proportional monitoring but not as a substitute for adequate premarket proof in high-consequence applications."},
+    {"code": "POSTMARKET", "subcode": "Q19", "paragraph": "p009", "stance": "conditional-minor",
+     "gist": "Wants higher-risk devices to have a monitoring plan with data quality control, drift detection, thresholds, corrective actions and user communication, tied to existing obligations."},
+    {"code": "POSTMARKET", "subcode": "Q24", "paragraph": "p010", "stance": "conditional-minor",
+     "gist": "Wants PCCPs to specify bounded modifications, acceptance standards, verification, monitoring periods, rollback and user notification for foundation model and retrieval updates."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p010", "stance": "conditional-minor",
+     "gist": "Wants FDA to pursue global convergence through IMDRF and regulators such as Health Canada and MHRA."}
+  ],
+  "skipped": [
+    {"paragraph": "p001", "reason": "Points to the attachment."},
+    {"paragraph": "p002", "reason": "Docket header."},
+    {"paragraph": "p003", "reason": "Introduction; describes a person without making a point about the paper."},
+    {"paragraph": "p011", "reason": "Thanks."}
+  ]
+}

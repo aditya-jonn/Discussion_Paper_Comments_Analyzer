@@ -1,0 +1,436 @@
+{
+ "comment_id": "FDA-2026-N-7874-0035",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p001",
+   "stance": "conditional-major",
+   "gist": "Summarizes its proposal: the authorized device system, not the model, is the unit of assurance, with deterministic safety enforcement, assurance cases and bounded autonomy."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p005",
+   "stance": "conditional-major",
+   "gist": "Wants competency evaluation combined with an auditable assurance case binding configuration, authority boundaries, operational evidence, exchanges, signals and change decisions."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p006",
+   "stance": "support",
+   "gist": "Appreciates CDRH's early engagement and supports a risk-proportionate, least-burdensome approach."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Supports the two-axis heuristic and competency approach and agrees on evaluating the configured device, asking that this focus extend across the lifecycle."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p008",
+   "stance": "conditional-major",
+   "gist": "Recommends nine principles, including risk modifiers, trajectory evaluation, deterministic safety invariants, versioned assurance cases, identity controls, an AI bill of materials and data governance."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p009",
+   "stance": "conditional-major",
+   "gist": "Proposes a technology-neutral auditable lifecycle assurance framework specifying the minimum relationships that must stay provable across the lifecycle."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p010-p013",
+   "stance": "conditional-major",
+   "gist": "Argues trust needs proof of what acted under whose authority, calling for probabilistic intelligence under deterministic governance, compatible with existing QMS and PCCP practice."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p014",
+   "stance": "conditional-minor",
+   "gist": "Asks FDA to coordinate with HHS civil rights, health IT and consumer protection authorities where they hold primary authority, to avoid conflicting requirements."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p015-p016",
+   "stance": "conditional-minor",
+   "gist": "Says location is an unreliable boundary and wants the device function characterized by purpose, recipient, personalization, directiveness, review opportunity, authority, time to harm and persistence."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p017-p026",
+   "stance": "conditional-minor",
+   "gist": "Offers five illustrative classes, from device-contained assistance to distributed clinical AI systems, each with a boundary-defining characteristic and assurance focus."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p027",
+   "stance": "conditional-minor",
+   "gist": "Says a cloud or subscription service may hold a device function if its intended use is medical, while hospital use alone does not."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p028-p029",
+   "stance": "conditional-minor",
+   "gist": "Illustrates how a check-in service becomes a device function once it uses patient-specific data to classify risk or triage, wanting that boundary defined, not emergent."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p030-p031",
+   "stance": "conditional-minor",
+   "gist": "Illustrates how a hospital copilot crosses into device territory when it analyzes patterns, makes unreviewable recommendations or directs time-sensitive action."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p032-p033",
+   "stance": "conditional-minor",
+   "gist": "Illustrates how an orchestration service becomes action-taking software once it changes thresholds, adjusts therapy or sends control commands."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p034",
+   "stance": "conditional-minor",
+   "gist": "Wants sponsors able to validate bounded functions inside a broader service while nominally non-device features are kept from becoming diagnostic through personalization or tools."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p035",
+   "stance": "conditional-minor",
+   "gist": "Asks FDA to clarify which hospital configuration changes remain deployment settings, which modify a device function, who validates the integration, and how evidence is exchanged."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p036-p037",
+   "stance": "conditional-minor",
+   "gist": "Lists scope questions: what makes a hospital assistant a device function, how the responsible boundary is set among organizations, and when local configuration needs review."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p038-p047",
+   "stance": "conditional-major",
+   "gist": "Keeps the two axes for inherent risk but adds a modifier profile: reversibility, time to harm, independent oversight, traceability, state persistence, exposure and uncertainty visibility."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p048-p049",
+   "stance": "conditional-minor",
+   "gist": "Wants directiveness judged across trajectories, with intended use describing permitted trajectory classes, prohibited transitions and when human review becomes mandatory."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p050-p051",
+   "stance": "conditional-minor",
+   "gist": "Wants longitudinal conversations tested that cross scope gradually, including adversarial, manipulative and incomplete inputs."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p050-p051",
+   "stance": "conditional-minor",
+   "gist": "Wants under- and over-escalation measured against separate clinically justified thresholds rather than one accuracy score."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p050-p051",
+   "stance": "conditional-minor",
+   "gist": "Wants patient-facing status treated as a context modifier, not a presumption of unacceptable risk, with agency preserved through calibrated uncertainty and real handoff."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p052-p053",
+   "stance": "conditional-minor",
+   "gist": "Supports benchmarking then confirmation, provided every result is tied to one uniquely identified configuration, since unbound scores are not reproducible."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p054",
+   "stance": "conditional-minor",
+   "gist": "Wants reliability shown as a bounded outcome distribution through repeated tests, with error frequencies, bounds and severity, plus scenario coverage for rare catastrophic hazards."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p055",
+   "stance": "conditional-major",
+   "gist": "Wants statistical evidence paired with safety invariants enforced outside the model, such as scope prohibitions and authenticated approvals, since prompts are not deterministic controls."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p056-p058",
+   "stance": "conditional-minor",
+   "gist": "Wants a cross-cutting assurance-integrity element checking configuration, evidence, runtime and change integrity under operation, failure, attack and change."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p059-p060",
+   "stance": "conditional-minor",
+   "gist": "Wants benchmark validity shown through a documented package covering construct, coverage, contamination, subgroup representation and adjudicator agreement, with sequestered assets for high-consequence claims."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p061-p062",
+   "stance": "conditional-minor",
+   "gist": "Wants the confirmation method to depend on whether the device assists a human, directs action or acts on its own."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p061-p062",
+   "stance": "conditional-minor",
+   "gist": "Wants team performance as comparator when the team is the intended use, and autonomous performance where human review is not effective."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p061-p062",
+   "stance": "conditional-minor",
+   "gist": "Wants synthetic data to supplement, not erase, evidence from representative distributions, especially for rare events and groups that are underrepresented."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p063-p064",
+   "stance": "conditional-minor",
+   "gist": "Supports third parties for sequestered assets, adversarial testing, adjudication and integrity verification, with disclosed conflicts and no exclusive certification structures."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p065-p066",
+   "stance": "conditional-minor",
+   "gist": "Would allow more postmarket reliance only with prespecified signals, thresholds, escalation, pause authority and coverage evidence, not for autonomous or irreversible actions."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p067",
+   "stance": "conditional-minor",
+   "gist": "Wants observability proportionate and privacy preserving, emphasizing configuration identifiers and control interventions over wholesale retention of prompts and records."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p068-p072",
+   "stance": "conditional-minor",
+   "gist": "Wants an explicit lifecycle for data GenAI creates, covering purpose, access, retention, correction, secondary use and suppliers, preserving enough evidence to investigate failures."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p073-p074",
+   "stance": "conditional-minor",
+   "gist": "Wants reassessment both periodic and event-triggered, with triggers from model, prompt, tool or site changes to drift, cybersecurity events and complaint patterns."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p075-p076",
+   "stance": "conditional-minor",
+   "gist": "Wants supervisors with narrower roles, diverse implementation, restricted privileges and validated detection, warning that the same model family reviewing itself is not supervision."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p077-p078",
+   "stance": "conditional-minor",
+   "gist": "Welcomes ecosystem signals and adjudication while the manufacturer keeps aggregation, triage, corrective action and reporting, under data-sharing agreements."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p079-p080",
+   "stance": "conditional-minor",
+   "gist": "Wants consequential information exchanges across hospitals, clouds and providers to carry identity, purpose, scope, provenance and integrity, with evidence properties specified, not technologies."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p081-p083",
+   "stance": "conditional-minor",
+   "gist": "Wants changes classified by affected competency, hazard, control and population rather than component type, with a baseline defining the re-evaluation set per impact pathway."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p081-p083",
+   "stance": "conditional-minor",
+   "gist": "Says PCCPs can define change envelopes, triggers, evidence modules, thresholds and rollback criteria even when future model weights are unknown."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p081-p083",
+   "stance": "conditional-minor",
+   "gist": "Wants provider contracts with notice, pinning, prior-version access and incident cooperation, technical detection of unannounced changes, and an exit strategy."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p084-p085",
+   "stance": "conditional-minor",
+   "gist": "Finds a master file useful if versioned and contractually referenced, lists contents, and wants tiered disclosure protecting proprietary detail."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p086",
+   "stance": "conditional-minor",
+   "gist": "Wants the master file to feed, not replace, a sponsor-maintained AI bill of materials covering model, prompts, retrieval, tools, policies, evidence and change lineage."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p087-p089",
+   "stance": "conditional-minor",
+   "gist": "Wants a declared authority envelope, verifiable identities, authenticated checkpoints for irreversible actions, least-privilege tools, containment and multi-step failure testing."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p090-p091",
+   "stance": "conditional-major",
+   "gist": "Describes the assurance case as a versioned argument linking intended use to hazards, controls, tests, configuration, deployment evidence, signals and changes."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p092-p098",
+   "stance": "conditional-major",
+   "gist": "Sets out a minimum identity and provenance graph relating device, configuration, competency, actors, runtime events, signals and changes."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p099-p101",
+   "stance": "conditional-major",
+   "gist": "Proposes a supplemental AI bill of materials layered on existing product and cybersecurity records, covering model, data, configuration, tools, evidence and data-governance layers."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p102-p104",
+   "stance": "conditional-minor",
+   "gist": "Proposes an exchange envelope for distributed functions carrying sender, purpose, schema, provenance and outcome, with control commands protected more strongly than observations."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p105-p112",
+   "stance": "conditional-major",
+   "gist": "Proposes eight lifecycle gates from scope and configuration through competency, deployment, runtime, signal, change and retirement."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p113-p115",
+   "stance": "conditional-minor",
+   "gist": "Wants consequential events reconstructable, including who acted, which versions and policies applied, what was authorized or reversed, and how data was handled, without hoarding records."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p116-p121",
+   "stance": "conditional-minor",
+   "gist": "Illustrates evidence depth rising from baseline for non-directive uses to independent supervision and sequestered testing for autonomous high-consequence ones."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p122",
+   "stance": "conditional-minor",
+   "gist": "Suggests outcome metrics such as time to escalation, boundary adherence across turns, calibration, tool accuracy, checkpoint compliance and time to detect and correct."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p123-p128",
+   "stance": "conditional-minor",
+   "gist": "Wants the framework implemented incrementally, reusing existing design, risk, cybersecurity and PCCP evidence, with modular updates and a multi-stakeholder pilot."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p129",
+   "stance": "conditional-major",
+   "gist": "Calls competency assessment a strong foundation that must be tied into an assurance case that stays auditable, to survive change and autonomy."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p130",
+   "stance": "conditional-minor",
+   "gist": "Recommends FDA test the assurance framework through open workshops and a voluntary pilot covering AI bills of materials and privacy-preserving observability."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p002",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Subtitle and docket."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Submitter and date."
+  },
+  {
+   "paragraph": "p131",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p132",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p133",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p134",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p135",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p136",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p137",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p138",
+   "reason": "References."
+  }
+ ]
+}

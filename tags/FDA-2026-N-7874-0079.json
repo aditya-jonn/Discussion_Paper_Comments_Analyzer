@@ -1,0 +1,250 @@
+{
+ "comment_id": "FDA-2026-N-7874-0079",
+ "tags": [
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p004",
+   "stance": "conditional-major",
+   "gist": "Supports the master file concept but doubts it can bear the load the question places on it."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p005",
+   "stance": "conditional-major",
+   "gist": "Says currency, not candour, is the constraint: a hosted model was swapped 153 times in fourteen hours, so even an honest filing would be stale."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p006",
+   "stance": "neutral",
+   "gist": "Reports a second provider showing the same undisclosed substitution in a different rhythm, while five locally resident systems showed none."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Calls execution locality the most important master file field, having measured a model reachable at the local loopback address that answered from a datacenter."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p008",
+   "stance": "conditional-major",
+   "gist": "Proposes two alternatives: a user-side record needing no developer cooperation, and a device-held lineage record reported alongside each output."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "States the measurements' limits and recommends no standard turn on intent, which cannot be falsified."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p017",
+   "stance": "conditional-major",
+   "gist": "Restates support for the concept alongside doubt that it can bear the weight expected, with a measurement as the first part."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p018",
+   "stance": "conditional-major",
+   "gist": "Restates that currency is the constraint: with the answering model exchanged every few minutes, no document can stay current even with full cooperation."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Says the same behavior at a second provider shows substitution comes with hosted delivery itself, which a program must be designed for."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Says where the model executes is the most important and most easily omitted field, since reaching a model and containing one differ."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p021",
+   "stance": "conditional-major",
+   "gist": "Says an alternative mechanism exists without developer participation, a user-side record of which model answered, plus a device-side mechanism."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p022-p029",
+   "stance": "neutral",
+   "gist": "Reports ledger measurements: 153 substitution cycles in one day at one assistant, a different pattern at another, and none for locally running systems."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p030-p032",
+   "stance": "conditional-major",
+   "gist": "Concludes document currency is unachievable and would limit master files to stable facts, treating the identity of the answering model as a continuous record."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p033-p039",
+   "stance": "conditional-minor",
+   "gist": "Would add execution locality, change classes with notice intervals, substitution routing disclosure, and a machine-readable version the serving system reports."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p040-p044",
+   "stance": "conditional-minor",
+   "gist": "Says willingness cannot fix currency while user-side records need no participation, and warns a thin voluntary filing should earn only narrowly stated credit."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p046-p051",
+   "stance": "neutral",
+   "gist": "Describes the published ledger that separates what process runs locally from which model answers and where it runs, with no developer cooperation."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p052-p055",
+   "stance": "conditional-minor",
+   "gist": "Says such a record shows whether and when the model changed, whether stated locality holds, and whether a filed version matches what answered."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p056-p062",
+   "stance": "neutral",
+   "gist": "States the record's limits: it shows no intent, no identity of substituted models, no output quality change, and nothing beyond one machine and day."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p063-p066",
+   "stance": "conditional-major",
+   "gist": "Proposes a device-held lineage record of authorized model lineage, serving version, purpose and refusal conditions, reportable with each output and surviving registry failure."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p067-p073",
+   "stance": "conditional-major",
+   "gist": "Lists seven recommendations: limit master files to stable facts, require locality and reported versions, treat model identity as a continuous record, and admit independent records."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p074",
+   "stance": "neutral",
+   "gist": "Clarifies the measurements came from commercial assistants on one workstation over one day and support no rate or generalization."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p075",
+   "stance": "conditional-minor",
+   "gist": "Recommends against any standard turning on candour or intent, since every proposed mechanism is observable without knowing why a substitution occurred."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p076",
+   "stance": "neutral",
+   "gist": "Separates the verified instrument and ledger from the device-held lineage record, which is a design recommendation."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p077",
+   "stance": "neutral",
+   "gist": "Notes the instrument observes commercial systems the commenter uses, not its own products, and is offered as a method for any device."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p081-p082",
+   "stance": "conditional-minor",
+   "gist": "Says for users who cannot speak, a developer-filed document would be the only record of what answered, and offers a desktop-produced counterexample."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Statement of the question addressed."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Submitter details."
+  },
+  {
+   "paragraph": "p010",
+   "reason": "Pointer to the attachment."
+  },
+  {
+   "paragraph": "p011",
+   "reason": "Contact details."
+  },
+  {
+   "paragraph": "p012",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Question addressed."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Submitter and organization."
+  },
+  {
+   "paragraph": "p015",
+   "reason": "Basis of the comment."
+  },
+  {
+   "paragraph": "p016",
+   "reason": "Restatement of Question 25."
+  },
+  {
+   "paragraph": "p045",
+   "reason": "Lead-in to the alternative mechanisms."
+  },
+  {
+   "paragraph": "p078",
+   "reason": "List of evidence retained and available on request."
+  },
+  {
+   "paragraph": "p079",
+   "reason": "Note that the instrument is public."
+  },
+  {
+   "paragraph": "p080",
+   "reason": "Description of the organization and submitter."
+  },
+  {
+   "paragraph": "p083",
+   "reason": "Dates, docket and contact details."
+  },
+  {
+   "paragraph": "p084",
+   "reason": "Signature block."
+  },
+  {
+   "paragraph": "p085",
+   "reason": "Date line."
+  }
+ ]
+}

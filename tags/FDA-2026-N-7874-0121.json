@@ -1,0 +1,529 @@
+{
+  "comment_id": "FDA-2026-N-7874-0121",
+  "tags": [
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p014",
+      "stance": "conditional-minor",
+      "gist": "Wants postmarket monitoring with sample-based clinician review, rates at which nurses or physicians override outputs, and performance broken out by chronic-care subgroup."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p017",
+      "stance": "support",
+      "gist": "Closes with simple principles: licensed judgment stays accountable, risk is autonomy times harm, and the deployed system must prove competent."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p018",
+      "stance": "neutral",
+      "gist": "Sees nursing assessment as the safest first home for clinical AI, with care-plan drafts bound to patient data and signed off by a nurse."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p019",
+      "stance": "support",
+      "gist": "Says the technology is already in workflows, so the safest step is writing its tests in public and plain language now."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p026",
+      "stance": "neutral",
+      "gist": "Proposes a nursing body score tools on intended-use honesty, autonomy, contestability, equity testing and monitoring, and publish the results."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p029",
+      "stance": "neutral",
+      "gist": "Proposes a non-punitive registry of AI-related near misses in nursing workflows, like existing patient-safety organizations."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p034",
+      "stance": "conditional-major",
+      "gist": "Adopts the two axes but adds explicit modifiers: reversibility, time to detection, and whether a licensed professional must authenticate the output."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p035",
+      "stance": "support",
+      "gist": "Wants sponsors of documentation and care-plan generators to benchmark the product users actually see, prompts, retrieval and escalation rules included."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p036",
+      "stance": "conditional-minor",
+      "gist": "Would treat care-plan generators as informational devices or non-device decision support only if they cannot initiate orders or emit a medical diagnosis."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p037",
+      "stance": "conditional-minor",
+      "gist": "Wants competency evidence on high-consequence recognition tasks chronic-care tools face, such as decompensated heart failure, withdrawal and suicidal ideation."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p040",
+      "stance": "support",
+      "gist": "Places a nurse-authenticated care-plan generator as informational to action-directing, with mandatory authentication and interruptive escalation mitigating consequences."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p041",
+      "stance": "neutral",
+      "gist": "Argues existing nursing bodies' AI statements are necessary but not sufficient, so a dedicated AI nursing association is needed."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p042",
+      "stance": "neutral",
+      "gist": "Describes the association's purpose: practice standards for nursing AI, credentialing, docket comments and an evidence registry of evaluated tools."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p045",
+      "stance": "conditional-minor",
+      "gist": "Wants generators bound to current practice guidelines, citing the clause used, and escalating rather than improvising when none applies."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "BKG",
+      "paragraph": "p046",
+      "stance": "neutral",
+      "gist": "Cites comparisons of nurse-written and model care plans: time-saving drafts with characteristic errors, supporting a supervised generator over an unsupervised author."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p049",
+      "stance": "conditional-minor",
+      "gist": "Would keep draft and authenticated plan with a version stamp of model, prompts and guideline library, so review can measure unchanged acceptance."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q8",
+      "paragraph": "p052",
+      "stance": "support",
+      "gist": "Says fully autonomous diagnosis should be rare and paired with heightened competency evidence and postmarket surveillance."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p053",
+      "stance": "neutral",
+      "gist": "Allocates duties: manufacturers for design, validation and change control; facilities for selection, integration and monitoring; clinicians for appropriate use."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p061",
+      "stance": "conditional-minor",
+      "gist": "Warns a generator free to invent interventions will invent unsafe ones, so proposed actions should be bound to guidelines and protocols."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p063",
+      "stance": "conditional-minor",
+      "gist": "Would reserve autonomous classification for narrowly validated, contestable tasks; open-ended generative diagnosis should never default to it."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p065-p066",
+      "stance": "neutral",
+      "gist": "Describes the AMA Appendix S taxonomy of assistive, augmentative and autonomous software, with three autonomous levels by contestability."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p067",
+      "stance": "support",
+      "gist": "Says the two-axis framework maps cleanly onto the Appendix S autonomy taxonomy, with consequence setting each cell's evidence and monitoring."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p070-p071",
+      "stance": "neutral",
+      "gist": "Gives AI a bounded job in nursing assessment: organize data, compare vital signs to thresholds and draft diagnoses and plans for a nurse."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p072",
+      "stance": "neutral",
+      "gist": "Says the machine must not make a medical diagnosis, silently drop findings, or treat a draft plan as live before a nurse authenticates it."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q23",
+      "paragraph": "p073",
+      "stance": "neutral",
+      "gist": "Would feed accepted and rejected proposals, de-identified, into local quality review, rather than letting the model silently retrain on identified records without governance."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p074",
+      "stance": "neutral",
+      "gist": "Keeps physician decision-making with the physician; AI may cut documentation burden and retrieve guidelines but cannot be the attending of record."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p075-p076",
+      "stance": "neutral",
+      "gist": "Would default documentation tools to assistive and diagnostic support such as risk scores to augmentative, with documented clinician use."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p078-p079",
+      "stance": "support",
+      "gist": "Offers simple principles described as consistent with nursing bodies' positions, the Appendix S taxonomy and FDA's two-axis view."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p080",
+      "stance": "neutral",
+      "gist": "Principle that a licensed professional stays responsible for what enters the legal record; software may only draft, score or recommend."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p081",
+      "stance": "conditional-minor",
+      "gist": "Wants intended use stated at the lowest defensible autonomy level, so a documentation assistant is not marketed as a diagnostician."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p082",
+      "stance": "support",
+      "gist": "Agrees risk equals autonomy times harm, so reversible, contestable outputs need less burden than action-directing or autonomous ones."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p083",
+      "stance": "support",
+      "gist": "Agrees the deployed system, with prompts, retrieval, guardrails and interface, is the unit of evaluation, not the model alone."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p084",
+      "stance": "conditional-minor",
+      "gist": "Wants human review treated as a designed control: contestability, override, escalation and an audit trail of who accepted or rejected outputs."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p085",
+      "stance": "conditional-minor",
+      "gist": "Wants performance examined across age, sex, race and ethnicity where relevant, language, disability and care setting, as a safety requirement."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p089",
+      "stance": "neutral",
+      "gist": "Says the professions need standing organizations to set competencies, comment on dockets and keep vendors from capturing clinical language."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p090",
+      "stance": "neutral",
+      "gist": "Argues nursing assessment is the right first place for clinical AI, being structured, repeated and assistable without claiming medical diagnosis."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p093",
+      "stance": "conditional-minor",
+      "gist": "Wants the gap between a note-drafting scribe and a diagnosis-recommending system forced into intended-use statements, oversight design and monitoring."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p102",
+      "stance": "neutral",
+      "gist": "States the governing idea that AI may inform, organize and scale clinical work but not replace licensed judgment or accountable human review."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to the attachments."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Source list."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Source list."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Source list."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Source list."
+    },
+    {
+      "paragraph": "p006",
+      "reason": "Source list."
+    },
+    {
+      "paragraph": "p007",
+      "reason": "Source list."
+    },
+    {
+      "paragraph": "p008",
+      "reason": "Source list."
+    },
+    {
+      "paragraph": "p009",
+      "reason": "Source list."
+    },
+    {
+      "paragraph": "p010",
+      "reason": "Source list."
+    },
+    {
+      "paragraph": "p011",
+      "reason": "Heading of the disclaimer."
+    },
+    {
+      "paragraph": "p012",
+      "reason": "Disclaimer on the essay's status."
+    },
+    {
+      "paragraph": "p013",
+      "reason": "Page footer."
+    },
+    {
+      "paragraph": "p015",
+      "reason": "Outside the paper: payment claims and CPT coding."
+    },
+    {
+      "paragraph": "p016",
+      "reason": "Outside the paper: nursing's standing in labeling and quality measures."
+    },
+    {
+      "paragraph": "p020",
+      "reason": "Source list."
+    },
+    {
+      "paragraph": "p021",
+      "reason": "Source list."
+    },
+    {
+      "paragraph": "p022",
+      "reason": "Source list."
+    },
+    {
+      "paragraph": "p023",
+      "reason": "Page footer."
+    },
+    {
+      "paragraph": "p024",
+      "reason": "Heading of a list whose first item is outside the paper."
+    },
+    {
+      "paragraph": "p025",
+      "reason": "Outside the paper: AI literacy and workforce competencies for nurses."
+    },
+    {
+      "paragraph": "p027",
+      "reason": "Outside the paper: nursing terminology mappings."
+    },
+    {
+      "paragraph": "p028",
+      "reason": "Outside the paper: docket and payment advocacy by the association."
+    },
+    {
+      "paragraph": "p030",
+      "reason": "Outside the paper: nursing education."
+    },
+    {
+      "paragraph": "p031",
+      "reason": "Outside the paper: patient disclosure and a right to a human decision-maker."
+    },
+    {
+      "paragraph": "p032",
+      "reason": "Outside the paper: the proposed association's three-year roadmap."
+    },
+    {
+      "paragraph": "p033",
+      "reason": "Lead-in announcing the list of positions."
+    },
+    {
+      "paragraph": "p038",
+      "reason": "Page footer."
+    },
+    {
+      "paragraph": "p039",
+      "reason": "Continuation of the worked heart-failure care-plan example; no point about the paper."
+    },
+    {
+      "paragraph": "p043",
+      "reason": "Outside the paper: membership and governance of the proposed association."
+    },
+    {
+      "paragraph": "p044",
+      "reason": "Page footer."
+    },
+    {
+      "paragraph": "p047",
+      "reason": "Outside the paper: input design of a nursing care-plan generator."
+    },
+    {
+      "paragraph": "p048",
+      "reason": "Outside the paper: processing steps of a nursing care-plan generator."
+    },
+    {
+      "paragraph": "p050",
+      "reason": "Start of a worked example of a care-plan draft; no point about the paper."
+    },
+    {
+      "paragraph": "p051",
+      "reason": "Page footer."
+    },
+    {
+      "paragraph": "p054",
+      "reason": "Outside the paper: CPT coding paired with practice guidelines."
+    },
+    {
+      "paragraph": "p055",
+      "reason": "Outside the paper: coding map for documentation tools."
+    },
+    {
+      "paragraph": "p056",
+      "reason": "Outside the paper: remote monitoring billing codes."
+    },
+    {
+      "paragraph": "p057",
+      "reason": "Outside the paper: remote therapeutic monitoring billing codes."
+    },
+    {
+      "paragraph": "p058",
+      "reason": "Outside the paper: chronic-care coordination billing."
+    },
+    {
+      "paragraph": "p059",
+      "reason": "Outside the paper: coding of algorithmic analysis."
+    },
+    {
+      "paragraph": "p060",
+      "reason": "Outside the paper: coding of autonomous diagnosis."
+    },
+    {
+      "paragraph": "p062",
+      "reason": "Page footer."
+    },
+    {
+      "paragraph": "p064",
+      "reason": "Outside the paper: billing for co-management services."
+    },
+    {
+      "paragraph": "p068",
+      "reason": "Outside the paper: billing codes for machine-assisted diagnoses."
+    },
+    {
+      "paragraph": "p069",
+      "reason": "Page footer."
+    },
+    {
+      "paragraph": "p077",
+      "reason": "Page footer."
+    },
+    {
+      "paragraph": "p086",
+      "reason": "Outside the paper: disclosure of AI use to patients as part of consent."
+    },
+    {
+      "paragraph": "p087",
+      "reason": "Outside the paper: payment for AI-generated diagnoses."
+    },
+    {
+      "paragraph": "p088",
+      "reason": "Outside the paper: standardized nursing language."
+    },
+    {
+      "paragraph": "p091",
+      "reason": "Page footer."
+    },
+    {
+      "paragraph": "p092",
+      "reason": "Restates the paper's two axes and competency-based approach without comment."
+    },
+    {
+      "paragraph": "p094",
+      "reason": "Outside the paper: the CMS ACCESS payment model."
+    },
+    {
+      "paragraph": "p095",
+      "reason": "Outside the paper: CMS payment and the demand it creates."
+    },
+    {
+      "paragraph": "p096",
+      "reason": "Describes the FDA and CMS tests a tool faces, without a point about the paper."
+    },
+    {
+      "paragraph": "p097",
+      "reason": "Page footer."
+    },
+    {
+      "paragraph": "p098",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p099",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p100",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p101",
+      "reason": "Abstract describing the FDA paper and the CMS model."
+    },
+    {
+      "paragraph": "p103",
+      "reason": "Section heading introducing a description of the paper."
+    },
+    {
+      "paragraph": "p104",
+      "reason": "Describes the discussion paper's status and purpose without comment."
+    },
+    {
+      "paragraph": "p105",
+      "reason": "Restates the paper's two-axis heuristic without comment."
+    },
+    {
+      "paragraph": "p106",
+      "reason": "Page footer."
+    }
+  ]
+}

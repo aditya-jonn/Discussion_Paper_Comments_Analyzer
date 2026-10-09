@@ -1,0 +1,191 @@
+{
+ "comment_id": "FDA-2026-N-7874-0027",
+ "tags": [
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p004",
+   "stance": "support",
+   "gist": "Supports evaluating the deployed device configuration rather than the foundation model alone as the correct unit of evaluation."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Wants model compression such as quantization or distillation named as a change category, with the exact deployed artifact validated afterward."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Says representative real-world sampling cannot show adversarial resistance; wants active re-benchmarking against a versioned adversarial battery on its own cadence."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Wants re-benchmarking compared at the level of individual attack classes against a taxonomy fixed at premarket, since an element pass can hide regression."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Wants multi-turn trajectory testing to be a distinct behavior with its own acceptance criteria, required for conversational and action-directing functions."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Says fine-tuning can erode safety even with benign data, so subgroup evaluation must run on the fine-tuned artifact, not be inherited."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Notes a master file describes the model before fine-tuning, compression and prompts; wants downstream transformations documented and stability characterized."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Wants public adversarial benchmarks treated as potentially exposed, with construct-validity arguments addressing exposure and sponsor taxonomies and rubrics disclosed."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p012",
+   "stance": "conditional-minor",
+   "gist": "Wants agentic acceptance criteria tied to action surface, reversibility, authorization scope, confirmation checkpoints and halt or rollback, evaluated as interacting controls."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p018-p019",
+   "stance": "support",
+   "gist": "Agrees the final configured device, not an isolated subcomponent, is the right unit of evaluation and says this closes a widespread gap."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p020-p027",
+   "stance": "conditional-minor",
+   "gist": "Tabulates its requests: compression as a change event, active adversarial re-benchmarking, finer re-benchmarking resolution, fine-tuned subgroup tests, master file caveats and agentic criteria."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p028-p038",
+   "stance": "conditional-minor",
+   "gist": "Argues compression fits none of the three change kinds and urges caution before treating it as a QMS-only change; wants the deployed artifact validated."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p039-p045",
+   "stance": "conditional-minor",
+   "gist": "Says clinician review and drift monitoring cannot detect degraded boundary behavior, so safety and robustness elements need active re-benchmarking on a separate cadence."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p046-p051",
+   "stance": "conditional-minor",
+   "gist": "Because scope-maintenance failure modes are mechanistically distinct, wants re-benchmarking compared per constituent failure mode against a versioned taxonomy."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p052-p058",
+   "stance": "conditional-minor",
+   "gist": "Argues crescendo escalation needs no skill, hides turn by turn and is orthogonal to single-turn resistance, so trajectory testing must be a required behavior."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p059-p064",
+   "stance": "conditional-minor",
+   "gist": "Cites evidence that benign fine-tuning can degrade safety and wants subgroup testing on the fine-tuned model, never presumed risk-reducing."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p065-p071",
+   "stance": "conditional-minor",
+   "gist": "Warns reviewers may over-trust a master file describing only the reference configuration; wants downstream changes documented and stability under modification characterized."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p072-p075",
+   "stance": "conditional-minor",
+   "gist": "Says public adversarial assets may sit in alignment training data, so construct validity must address exposure and attack taxonomies be disclosed, payloads aside."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p076-p079",
+   "stance": "conditional-minor",
+   "gist": "Says a boundary failure with tool access becomes an action; wants criteria to weigh action surface, reversibility, authorization, confirmation and rollback jointly."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p080",
+   "stance": "conditional-minor",
+   "gist": "Calls the competency structure a sound response to untestable input space, asking that it hold across the lifecycle so the evaluated artifact reaches patients."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Introduction of the writer."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Lead-in naming the questions addressed."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Disclosure."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Docket header."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Submitter and date."
+  },
+  {
+   "paragraph": "p015",
+   "reason": "Introduction of the writer's work."
+  },
+  {
+   "paragraph": "p016",
+   "reason": "Disclosure."
+  },
+  {
+   "paragraph": "p017",
+   "reason": "Lead-in naming the questions addressed."
+  },
+  {
+   "paragraph": "p081",
+   "reason": "Offer of further detail."
+  },
+  {
+   "paragraph": "p082",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p083",
+   "reason": "Signature and contact details."
+  }
+ ]
+}

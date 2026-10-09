@@ -1,0 +1,64 @@
+{
+ "comment_id": "FDA-2026-N-7874-0022",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Wants regulation to ensure accuracy in every medical decision made by a device without medical training that cannot lose a license."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Wants an enforceable off switch as a guiding principle, likening it to the switch that turns off an android in Star Trek."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Says the bar must be higher for AI that replaces a doctor's decisions than for people who went to medical school and got licensed."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Subject line."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Thanks."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Outside the paper: legal liability of device owners, developers and sellers."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Outside the paper: legal liability, stressed for autonomous agentic AI."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Outside the paper: legal accountability of the device and its makers, likened to a doctor's."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Outside the paper: legal liability and loss of licenses for device makers."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Outside the paper: legal liability, argued as cheaper to design in up front."
+  },
+  {
+   "paragraph": "p011",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p012",
+   "reason": "Signature."
+  }
+ ]
+}

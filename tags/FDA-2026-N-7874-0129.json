@@ -1,0 +1,69 @@
+{
+  "comment_id": "FDA-2026-N-7874-0129",
+  "tags": [
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p006",
+      "stance": "neutral",
+      "gist": "Describes a system where the clinician prompts the generation and reviews each output before the patient sees it, calling it clinician-directed content, not a recommendation."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p007",
+      "stance": "conditional-minor",
+      "gist": "Wants devices whose clinician previews and approves every directive output to rank below autonomous-delivery devices on the activity axis."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q4",
+      "paragraph": "p008",
+      "stance": "conditional-minor",
+      "gist": "Wants sponsors allowed to restrict users to clinicians trained in a defined modality, with labeling and access controls lowering the risk tier."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p009-p010",
+      "stance": "conditional-major",
+      "gist": "Says the safety elements treat provoking distress as failure, misclassifying exposure-therapy devices; wants a therapeutic-calibration sub-element or per-device reinterpretation."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p011-p012",
+      "stance": "conditional-major",
+      "gist": "Wants a prespecified feasibility-stage study with validated outcome measures allowed to serve as both clinical confirmation and benchmarking evidence for small sponsors."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q17",
+      "paragraph": "p013-p014",
+      "stance": "conditional-minor",
+      "gist": "Wants an explicit branching point separating content-generation devices from world-model devices, whose risk lies in predictive fidelity, before choosing benchmarking elements."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Introduction of the writer."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Thanks and lead-in to the responses."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Introduction of the writer."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Repeats the introduction and lead-in."
+    }
+  ]
+}

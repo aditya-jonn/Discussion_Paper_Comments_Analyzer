@@ -1,0 +1,26 @@
+{
+  "comment_id": "FDA-2026-N-7874-0112",
+  "tags": [
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p006", "stance": "support",
+     "gist": "Welcomes the initiative to build a framework, responding only where research-site operations add a perspective."},
+    {"code": "RISK", "subcode": "Q1", "paragraph": "p007-p010", "stance": "conditional-major",
+     "gist": "Calls the two axes sound but wants a supplementary category for non-device AI tools in GCP-regulated research, with regulatory harm as a consequence class."},
+    {"code": "POSTMARKET", "subcode": "Q21", "paragraph": "p011-p014", "stance": "conditional-minor",
+     "gist": "Wants oversight extended to operator-level staff such as research coordinators, with sponsors showing site personnel have defined competency standards for judging outputs."},
+    {"code": "POSTMARKET", "subcode": "Q19", "paragraph": "p015-p018", "stance": "conditional-minor",
+     "gist": "Wants monitoring to include audit-trail transparency recording AI recommendations, operator decisions and reasons, since accepted outputs otherwise leave no trace."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p019-p020", "stance": "conditional-minor",
+     "gist": "Calls the paper a necessary foundation with gaps for research sites in risk assessment, operator oversight and audit trails that will surface as GCP deficiencies."}
+  ],
+  "skipped": [
+    {"paragraph": "p001", "reason": "Lead-in to attachment."},
+    {"paragraph": "p002", "reason": "Organization and author line."},
+    {"paragraph": "p003", "reason": "Date and addressee lines."},
+    {"paragraph": "p004", "reason": "Docket reference line."},
+    {"paragraph": "p005", "reason": "Introduction of the writer."},
+    {"paragraph": "p021", "reason": "Offer of further engagement."},
+    {"paragraph": "p022", "reason": "Closing."},
+    {"paragraph": "p023", "reason": "Signature."},
+    {"paragraph": "p024", "reason": "Organization line."}
+  ]
+}

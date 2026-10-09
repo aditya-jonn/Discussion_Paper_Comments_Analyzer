@@ -1,0 +1,347 @@
+{
+  "comment_id": "FDA-2026-N-7874-0113",
+  "tags": [
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p001",
+      "stance": "conditional-minor",
+      "gist": "Supports exploring competency assessment if anchored in real workflows, intended use, human rights and clear accountability so clinicians do not bear sole liability."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p001",
+      "stance": "conditional-major",
+      "gist": "Says effective premarket oversight needs a valid clinical association established before any analytical benchmarking."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p001",
+      "stance": "oppose",
+      "gist": "Says postmarket monitoring must verify premarket performance, never substitute for deficient premarket evidence."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p003",
+      "stance": "conditional-minor",
+      "gist": "Restates support for exploring competency assessment, conditioned on anchoring in workflows, intended use, human rights and accountability lines protecting clinicians and hospitals."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p003",
+      "stance": "conditional-major",
+      "gist": "Restates that a valid clinical association must be established before analytical benchmarking."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p003",
+      "stance": "oppose",
+      "gist": "Restates that monitoring verifies premarket performance rather than replacing missing premarket evidence."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p004",
+      "stance": "conditional-minor",
+      "gist": "Applauds recent oversight updates, pilots and sandboxes, but wants any flexibility strictly contingent on robust premarket clinical evidence and independent verification."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p007",
+      "stance": "conditional-minor",
+      "gist": "Recommends risk assessment be based on the device's intended use, clinical task and real-world workflow."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p007",
+      "stance": "conditional-major",
+      "gist": "Recommends establishing clinical association before any benchmarking or setting of premarket evidence levels."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p007",
+      "stance": "conditional-minor",
+      "gist": "Recommends evaluating human-AI interactions and agentic workflows holistically, including multi-turn conversational trajectories."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q11",
+      "paragraph": "p007",
+      "stance": "conditional-major",
+      "gist": "Recommends requiring risk-proportionate clinical validation, from retrospective review to prospective study, for all devices before market entry."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p007",
+      "stance": "conditional-major",
+      "gist": "Recommends mandatory transparency and disclosure from foundation model developers on training data, safety limits and updates."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p007",
+      "stance": "conditional-major",
+      "gist": "Recommends independent third parties verify benchmarking, fairness and performance of medium- and high-risk devices, mitigating conflicts of interest."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p007",
+      "stance": "oppose",
+      "gist": "Recommends designing monitoring to verify premarket claims and detect drift, not to stand in for inadequate premarket evidence."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p008-p010",
+      "stance": "conditional-major",
+      "gist": "Answers no: wants intended use and scope added as explicit considerations, plus reversibility, human intervention, time pressure and traceability."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p011-p012",
+      "stance": "conditional-major",
+      "gist": "Would judge directiveness by real-world workflow, measuring how often clinicians override outputs, with disclaimers never counted as mitigation."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p013",
+      "stance": "conditional-minor",
+      "gist": "Would treat patient-facing tools on high-stakes topics as higher risk, anchored in task and error impact rather than user role, with mandated safeguards."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q4",
+      "paragraph": "p014",
+      "stance": "conditional-minor",
+      "gist": "Prefers a focus on intended use and on the qualifications needed for safe use over a generalist-versus-specialist distinction, with institutional controls."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p015",
+      "stance": "conditional-minor",
+      "gist": "Wants whole conversations evaluated by multi-turn simulation for drift and escalation, with intended use stating conversation limits such as turns and advice types."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p016",
+      "stance": "conditional-minor",
+      "gist": "Wants missed and unnecessary escalations measured separately in benchmarks, balanced by clinical context."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p017-p019",
+      "stance": "conditional-major",
+      "gist": "Wants intended use and clinical association established through a research study, as under existing device regulations, before benchmarking and risk classification."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p020",
+      "stance": "conditional-major",
+      "gist": "Conditions support on proportionality, institutional readiness with regulatory expertise and quality systems before deployment, and benchmarking always paired with clinical confirmation."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q8",
+      "paragraph": "p021",
+      "stance": "conditional-major",
+      "gist": "Says the two-axis framework cannot stand alone and is meaningful only after clinical association; all devices need both validations, with confirmation rigor scaling."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p022-p023",
+      "stance": "conditional-major",
+      "gist": "Calls Q9 the wrong problem: the issue is whether benchmarks predict deployment; wants prospective clinical-association analyses and acceptance criteria before benchmarking."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p023",
+      "stance": "conditional-minor",
+      "gist": "Asks FDA to bring back the archived Clinical Evaluation guidance for software as a medical device."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p024",
+      "stance": "conditional-minor",
+      "gist": "Wants benchmark cases compared with real cases, real-world performance tracked against predictions, independent experts reviewing sponsor benchmarks, and synthetic data documented."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q11",
+      "paragraph": "p025",
+      "stance": "conditional-major",
+      "gist": "Wants clinical confirmation required for all devices, lighter for low risk, prospective for high risk, always covering the intended populations."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p026",
+      "stance": "conditional-major",
+      "gist": "Says clinical association must precede any sample-size question; then verify representativeness, define acceptable performance and collect until confidence is met."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p027",
+      "stance": "conditional-major",
+      "gist": "Allows synthetic data for variations and stress tests, not subgroup or safety validation; wants real-data fairness assessment as an approval condition for high-risk devices."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p028-p029",
+      "stance": "conditional-minor",
+      "gist": "Prefers ground truth where it exists, median clinician otherwise, specialists for high stakes, and structured expert opinion for novel areas, all prespecified."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q15",
+      "paragraph": "p030",
+      "stance": "conditional-minor",
+      "gist": "Accepts status quo, delayed specialist review or no-intervention comparators under IRB oversight when prespecified and justified for the intended use."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p031",
+      "stance": "conditional-major",
+      "gist": "Would require independent third parties, not AI tools, for benchmarking verification, clinician validation and fairness review of medium- and high-risk devices."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q17",
+      "paragraph": "p032-p033",
+      "stance": "conditional-minor",
+      "gist": "Says the framework adapts to multimodal and predictive systems, adding cross-modal consistency checks, bounded variability and confirmation of predicted trajectories."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q8",
+      "paragraph": "p034-p035",
+      "stance": "conditional-minor",
+      "gist": "Sets premarket evidence by tier: benchmarking alone for low risk, plus one confirmation method for medium, plus a prospective study for high risk."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p036",
+      "stance": "oppose",
+      "gist": "Strongly recommends against monitoring as a stand-in for inadequate premarket evidence, and against conditional approval pending postmarket data."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p037",
+      "stance": "conditional-minor",
+      "gist": "Sets cadences by risk: annual review for low risk, quarterly re-benchmarking for medium, monthly drift tracking and semi-annual fairness audits for high."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p038",
+      "stance": "conditional-minor",
+      "gist": "Lets machine agents collect metrics, flag threshold breaches and report, but not judge importance or decide changes; GenAI monitors need independent testing."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p039",
+      "stance": "conditional-minor",
+      "gist": "Wants explicit roles so clinicians and hospitals do not absorb sole liability: manufacturers monitor and act, institutions train and limit access, FDA enforces."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p040",
+      "stance": "conditional-minor",
+      "gist": "Would give small prompt or data updates focused retesting within PCCPs, while new uses, populations or major model changes need submission and IRB review."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q23",
+      "paragraph": "p041",
+      "stance": "conditional-minor",
+      "gist": "Proposes a tiered PCCP keyed to accuracy change bands including subgroups, from no submission to expedited to full review, with continuous monitoring against thresholds."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p042",
+      "stance": "conditional-minor",
+      "gist": "Keeps the manufacturer responsible, with contracts requiring notice, rollback access, safety disclosures, audit rights and performance guarantees from developers."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p043-p044",
+      "stance": "conditional-major",
+      "gist": "Says voluntary master files will not work; wants mandatory disclosure of model identity, training data categories, limitations and contractual commitments before approval."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p045-p046",
+      "stance": "conditional-minor",
+      "gist": "Wants required testing of multi-step behavior, tool use, approval points and stop ability, with audit trails, clinician review and escalation before irreversible actions."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p047",
+      "stance": "conditional-major",
+      "gist": "Concludes the framework should prioritize clinical association, workflow-based validation and strict accountability for models over mere benchmarking."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p002",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Lead-in to the recommendations."
+    },
+    {
+      "paragraph": "p006",
+      "reason": "Footnote references and the rest of the lead-in."
+    },
+    {
+      "paragraph": "p048",
+      "reason": "Offer of further engagement."
+    },
+    {
+      "paragraph": "p049",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p050",
+      "reason": "Signatures."
+    },
+    {
+      "paragraph": "p051",
+      "reason": "Introduction of the organization and writers."
+    },
+    {
+      "paragraph": "p052",
+      "reason": "Introduction of the co-writer."
+    }
+  ]
+}

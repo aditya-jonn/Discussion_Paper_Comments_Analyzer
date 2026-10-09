@@ -1,0 +1,241 @@
+{
+ "comment_id": "FDA-2026-N-7874-0056",
+ "tags": [
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p004",
+   "stance": "conditional-minor",
+   "gist": "Wants competency assessed as task-specific and consequence-sensitive, including uncertainty recognition, abstention, escalation and reliability after deployment, since fluency is not judgment."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p005",
+   "stance": "conditional-major",
+   "gist": "Lists seven recommendations spanning risk factors, deployed-device testing, specialist comparators, team evaluation, independent adjudication, triggered reassessment and agentic boundaries."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Says the generalist-specialist distinction should shape risk when safety depends on whether the user can spot a specialty-specific error."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p007",
+   "stance": "neutral",
+   "gist": "Illustrates with radiation oncology: a plausible recommendation can hide an unsafe fractionation or overlooked prior course visible only against full history."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Would weigh error detectability, reversibility and realistic specialist escalation for functions extending specialty knowledge to generalists; disclaimers are not safeguards."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Lists mitigations such as narrow intended use, provenance, calibrated uncertainty, abstention and workflow controls on high-consequence recommendations."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p009",
+   "stance": "conditional-major",
+   "gist": "Wants benchmarking and clinical confirmation by qualified specialists where safe interpretation needs specialist knowledge, even for generalist users."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Calls the benchmarking structure a useful start if it tests the deployed configuration, and warns it is no proxy for clinical confirmation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p011-p013",
+   "stance": "conditional-minor",
+   "gist": "Would add consequence-graded failure modes, decision-boundary cases, abstention, traceability, multi-turn robustness and automation-bias testing to the elements."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p014",
+   "stance": "conditional-major",
+   "gist": "Wants ceilings on critical errors and failures to abstain or escalate in acceptance criteria, regardless of strong overall performance."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p014",
+   "stance": "conditional-minor",
+   "gist": "Accepts sponsor-developed assets for specialized tasks if protocol and scoring are independently reviewed, with sequestered, rotating and external cases."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p015",
+   "stance": "conditional-major",
+   "gist": "Wants a specialist panel to define the reference standard for specialty tasks; a median generalist should not set acceptable safety."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p016",
+   "stance": "conditional-minor",
+   "gist": "Proposes four evaluation conditions, device alone, user alone, user with device and a specialist panel, to separate device capability from team effects."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p017",
+   "stance": "conditional-minor",
+   "gist": "Would make team performance a principal basis where review is intended, keep device-alone testing, and credit oversight only when users demonstrably catch errors."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p018",
+   "stance": "conditional-minor",
+   "gist": "Wants prespecified acceptance criteria stratified by consequence that also cover omissions, unnecessary or delayed care, unjustified certainty and missed specialist referral."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Gives third parties roles in protocol review, benchmark governance, adjudication and disputed-error review for moderate and high-consequence functions."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Wants adjudicators matched to the function and setting, specialty-certified for specialty tasks, with independence criteria on finances and sponsor influence."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p021",
+   "stance": "conditional-minor",
+   "gist": "Wants third-party participation proportionate to risk, with reusable protocols and transparent standards so it does not become a barrier or a closed market."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Would pair periodic review with reassessment on triggers, since a fixed cadence misses changes to model, prompts, retrieval, guardrails or tools."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p023",
+   "stance": "conditional-minor",
+   "gist": "Lists triggers such as material changes, new settings, sentinel events, rising overrides and subgroup degradation, with sampling enriched for high-consequence outputs."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p024",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring to follow outcomes that matter clinically and process failures, including near misses, rather than lexical similarity or general accuracy."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p025",
+   "stance": "conditional-minor",
+   "gist": "Gives clinicians, institutions and societies reporting and local-monitoring roles while manufacturers keep responsibility for funding, operating and reporting."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p026",
+   "stance": "conditional-minor",
+   "gist": "Wants low-friction reporting that keeps clinical context, manufacturer summaries of changes and findings, and no diffusion of ownership of the response."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p027",
+   "stance": "conditional-minor",
+   "gist": "Says agentic systems need evaluation of the whole action chain because small early errors can compound into high-consequence actions."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p028",
+   "stance": "conditional-minor",
+   "gist": "Wants each agentic function to define an autonomy boundary, with hard human checkpoints for high-consequence or irreversible actions."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p029",
+   "stance": "conditional-minor",
+   "gist": "Wants premarket tests under tool failure, stale sources, prompt injection and nonresponse, with criteria on least privilege, audit logs and rollback."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p030",
+   "stance": "conditional-minor",
+   "gist": "Wants more frequent postmarket oversight when an agent can act, with reassessment triggered by changes to any component of the chain."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p030",
+   "stance": "conditional-minor",
+   "gist": "Says a supervisory model may help monitoring but cannot count as independent validation until its own performance and shared dependencies are evaluated."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p031",
+   "stance": "conditional-minor",
+   "gist": "Calls the competency approach promising provided competency is defined per task and tested where the output will be used, distinguishing fluency from judgment."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p032",
+   "stance": "conditional-minor",
+   "gist": "Wants evidence, adjudication, human-factors testing and monitoring to strengthen as a device directs action more and its errors are harder to detect."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Pointer to the attachment."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Title block naming the writer and the questions addressed."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Thanks and introduction of the writer."
+  },
+  {
+   "paragraph": "p033",
+   "reason": "Thanks."
+  },
+  {
+   "paragraph": "p034",
+   "reason": "Signature."
+  },
+  {
+   "paragraph": "p035",
+   "reason": "Reference list."
+  }
+ ]
+}

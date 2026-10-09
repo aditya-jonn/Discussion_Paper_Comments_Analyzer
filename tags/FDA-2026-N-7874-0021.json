@@ -1,0 +1,173 @@
+{
+ "comment_id": "FDA-2026-N-7874-0021",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p005",
+   "stance": "neutral",
+   "gist": "Says GenAI systems usually fail through omission, harmful agreement, drift and escalation that fails in practice, drawing on thousands of tested teen exchanges."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p006",
+   "stance": "neutral",
+   "gist": "Writes as an optimist: young people wait months for mental health care and a good device could reach them right when they need it."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p007",
+   "stance": "neutral",
+   "gist": "Notes mental health is among the hardest tests because harm builds over months, and the failures recur in triage, oncology and dementia."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p008-p009",
+   "stance": "conditional-major",
+   "gist": "Says the consequence axis counts only incorrect outputs; wants omission and harmful affirmation, called iatrogenic reinforcement, added as failure types."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Wants benchmarks to test reasonably foreseeable use, such as suicide questions, not only the labeled indication."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p010",
+   "stance": "conditional-major",
+   "gist": "Wants routine and high-hazard performance reported separately, rare cases oversampled, and a minimum standard per named catastrophic failure with no offsetting credit."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Once safety floors are met, wants evaluation of added value in the real workflow: outcomes, workload, overrides, time to intervention and access versus usual care."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p012-p014",
+   "stance": "conditional-minor",
+   "gist": "Wants multi-turn to mean days and months, with results stratified by length, tested across sessions and under fictional framing, including reliance-building features."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p015-p016",
+   "stance": "conditional-major",
+   "gist": "Adds a third escalation error, escalating badly, and wants sponsors to name who responds, how fast, and under which clinical protocol."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p016",
+   "stance": "conditional-minor",
+   "gist": "Would withhold human-in-the-loop credit until a sponsor shows end to end who gets the alert, how fast they act, and that the handoff happened."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p017",
+   "stance": "conditional-major",
+   "gist": "After two apps vanished mid-study, wants authorization to include a risk-proportionate discontinuation plan with notice, data access, referral and continuity."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p018",
+   "stance": "conditional-minor",
+   "gist": "Wants outcomes such as diagnostic delay, overrides and disparities monitored, and sycophancy and boundary-keeping re-benchmarked after every upstream model change."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p018",
+   "stance": "conditional-major",
+   "gist": "Wants a cross-manufacturer sentinel network like the Vaccine Safety Datalink and a confidential FDA map of each device to its model version."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Wants sponsors to hold enforceable information rights with model providers, since an unevaluable dependency is itself a device risk a voluntary master file cannot fix."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p020-p022",
+   "stance": "conditional-major",
+   "gist": "Says the grid misses whether a product feels like a relationship; wants relational features such as memory, avatars and affective language as risk modifiers."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p023",
+   "stance": "conditional-major",
+   "gist": "Wants pediatric use as a risk multiplier with its own pathway: age-banded testing, real age assurance, relational boundaries and adult oversight for high-risk functions."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p024",
+   "stance": "support",
+   "gist": "Accepts the paper's paternalism warning: a regulated device harder to reach than an open chatbot tab will lose to the tab."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p025",
+   "stance": "neutral",
+   "gist": "Offers to share the lab's full methodology and transcript-level findings and compare them with the Appendix A elements."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Title line."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Addressee and sender."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Date and subject."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Salutation."
+  },
+  {
+   "paragraph": "p026",
+   "reason": "Thanks."
+  },
+  {
+   "paragraph": "p027",
+   "reason": "Signature and reference."
+  },
+  {
+   "paragraph": "p028",
+   "reason": "Reference."
+  },
+  {
+   "paragraph": "p029",
+   "reason": "Reference."
+  },
+  {
+   "paragraph": "p030",
+   "reason": "Reference."
+  },
+  {
+   "paragraph": "p031",
+   "reason": "Reference."
+  }
+ ]
+}

@@ -1,0 +1,207 @@
+{
+ "comment_id": "FDA-2026-N-7874-0071",
+ "tags": [
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "States the principle that whatever verifies a system must stand apart from it structurally, down to the evaluator model itself."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p012",
+   "stance": "conditional-major",
+   "gist": "Calls independent third parties structurally necessary for the safety-critical recognition, escalation and calibration elements, where self-assessment cannot resolve the conflict of interest."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p013-p014",
+   "stance": "conditional-minor",
+   "gist": "Calls independent third parties structurally necessary for the safety-critical recognition, escalation and calibration elements, where self-assessment cannot resolve the conflict."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p015",
+   "stance": "conditional-minor",
+   "gist": "Prefers an accreditation structure like ASCA, open to any entity meeting criteria, over a closed panel of named evaluators, to protect competition."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p017-p019",
+   "stance": "conditional-minor",
+   "gist": "Calls the three approaches necessary but individually insufficient, since each works at a different latency and misses unanticipated, rare or lagging failures."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Adds a fourth approach: continuous verification of every live output against current authoritative sources, logging a citation for each claim cleared or flagged."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p021",
+   "stance": "conditional-minor",
+   "gist": "Would trigger reassessment on any change to the model or deployment components, while continuous verification makes exact cadence less critical."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Says one passed benchmark run proves little; prefers a reliability profile from repeated runs of reusable, prespecified test bundles."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p024",
+   "stance": "conditional-minor",
+   "gist": "Supports supervisory agents provided the agent has its own governance, organized in the commenter's build around three loops."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p025",
+   "stance": "conditional-minor",
+   "gist": "Would trigger reassessment on any change to the model or deployment components, while continuous verification makes the exact cadence matter less."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p026",
+   "stance": "conditional-minor",
+   "gist": "Says an agent's reliability cannot rest on its own logs; it needs an organizationally and architecturally separate evaluator, or it merely relocates the trust problem."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p027",
+   "stance": "conditional-minor",
+   "gist": "Suggests naming turn budgets and per-session action or cost caps as a circuit breaker for supervisory agents."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p028",
+   "stance": "conditional-minor",
+   "gist": "Decomposes the judge into deterministic, semantic, policy and trace evaluators rather than one model judging another."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p028",
+   "stance": "conditional-minor",
+   "gist": "Suggests that agentic systems be judged postmarket on their full execution path, since endpoint checks miss mid-process failures such as skipped escalation."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p029",
+   "stance": "conditional-minor",
+   "gist": "Says decomposition reduces the single point of failure, but the chain of supervision must end in a structurally independent, non-agentic check."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p031",
+   "stance": "conditional-minor",
+   "gist": "Proposes tiering modifications by reversibility and blast radius rather than technical nature, so a prompt change touching escalation may outrank a model swap."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p032",
+   "stance": "conditional-minor",
+   "gist": "Would let low-tier changes sit in a PCCP with quality-system documentation, while changes touching safety-critical behaviors trigger re-benchmarking before deployment."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p034",
+   "stance": "conditional-minor",
+   "gist": "Adds mid-session escalation of authority: evaluation should test whether an agent notices when its own available scope expands during a task."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p035",
+   "stance": "conditional-minor",
+   "gist": "Adds tool-output trust: criteria should distinguish tool outputs from structurally independent sources from those sharing the agent's developer or lineage."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p036",
+   "stance": "support",
+   "gist": "Welcomes CDRH running the process openly and inviting builders, not only manufacturers, and offers further discussion."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Introduction of the writer and the company."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Description of the commenter's own product."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Reason for commenting and the questions addressed."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Signature and contact details."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Submitter details and deadline."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Introduction of the writer and the company."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Description of the commenter's own product."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Reason for commenting and the questions addressed."
+  },
+  {
+   "paragraph": "p011",
+   "reason": "Restatement of Question 16."
+  },
+  {
+   "paragraph": "p016",
+   "reason": "Restatement of Question 19."
+  },
+  {
+   "paragraph": "p023",
+   "reason": "Restatement of Question 20."
+  },
+  {
+   "paragraph": "p030",
+   "reason": "Restatement of Question 22."
+  },
+  {
+   "paragraph": "p033",
+   "reason": "Restatement of Question 26."
+  },
+  {
+   "paragraph": "p037",
+   "reason": "Signature."
+  }
+ ]
+}

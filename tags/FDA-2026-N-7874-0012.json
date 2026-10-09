@@ -1,0 +1,24 @@
+{
+  "comment_id": "FDA-2026-N-7874-0012",
+  "tags": [
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p001", "stance": "support",
+     "gist": "Strongly supports CDRH's proactive, lifecycle-based framework for GenAI-enabled devices."},
+    {"code": "GENERAL", "subcode": "BKG", "paragraph": "p002", "stance": "neutral",
+     "gist": "Says GenAI with robust oversight could save lives, ease clinician burnout, close diagnostic blind spots and widen access."},
+    {"code": "PREMARKET", "subcode": "Q7", "paragraph": "p003-p007", "stance": "conditional-minor",
+     "gist": "Strongly supports the competency-based model and urges streamlined pathways for uses such as radiology second reads, ambient scribing and lab analysis."},
+    {"code": "RISK", "subcode": "Q1", "paragraph": "p008", "stance": "conditional-minor",
+     "gist": "Wants scribing, EHR screening and supervised imaging second reads anchored in lower-risk tiers, with heavy scrutiny reserved for unmonitored autonomy."},
+    {"code": "PREMARKET", "subcode": "Q9", "paragraph": "p009", "stance": "conditional-minor",
+     "gist": "Wants the safety escalation and quantitative analysis elements prioritized to prevent numerical confabulation in lab analysis."},
+    {"code": "MASTER_FILES", "subcode": "Q25", "paragraph": "p010", "stance": "support",
+     "gist": "Wants master files fully operationalized so downstream developers can use upstream model cards without exposing weights."},
+    {"code": "POSTMARKET", "subcode": "Q20", "paragraph": "p011", "stance": "support",
+     "gist": "Supports enabling machine-based supervisory agents to help govern model drift."},
+    {"code": "POSTMARKET", "subcode": "Q23", "paragraph": "p011", "stance": "conditional-minor",
+     "gist": "Wants flexible PCCPs under section 515C to govern drift without burdensome supplemental clearances."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p012", "stance": "conditional-minor",
+     "gist": "Asks FDA to advance the paper into draft guidance with streamlined pathways for clinician-supervised tools and an operational master file program."}
+  ],
+  "skipped": []
+}

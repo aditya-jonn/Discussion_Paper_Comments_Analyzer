@@ -1,0 +1,538 @@
+{
+ "comment_id": "FDA-2026-N-7874-0052",
+ "tags": [
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p003-p004",
+   "stance": "conditional-minor",
+   "gist": "Supports a risk-proportionate framework and calls the two axes a pragmatic start, but wants the paper to define what kind of risk assessment it means."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Warns the paper's initial regulatory assessment may be confused with product-specific risk assessment; only information reliably known at the start should feed the former."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Notes the ISO 14971 definition of risk overlaps the consequences axis, which some passages use more broadly, so the relationship needs defining."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Asks the paper to state at which level the term risk operates, calling the initial level criticality and keeping risk for ISO 14971."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p008-p010",
+   "stance": "conditional-minor",
+   "gist": "Proposes two delineated phases: criticality stratification to set oversight and evidence, and product-specific risk management under ISO 14971 across the lifecycle."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p011-p023",
+   "stance": "conditional-minor",
+   "gist": "Lists factors usable at stratification, from severity and autonomy to scope limits, user, reversibility, setting, time criticality, binding safeguards and traceability."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p024",
+   "stance": "conditional-minor",
+   "gist": "Would credit a safeguard at stratification only when it is a binding, enforceable part of the device or workflow, never an anticipated future control."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p025",
+   "stance": "conditional-minor",
+   "gist": "Suggests probability or evidence-certainty information could count at stratification where already supported, to fit requirements to a technology's maturity."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p026",
+   "stance": "conditional-minor",
+   "gist": "Would extend stratification to define the criticality profile and the constraints that hold the product within its level."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p027",
+   "stance": "conditional-minor",
+   "gist": "Wants stratification to reflect conservatively the highest criticality that cannot be excluded by enforceable constraints, using probability assumptions only when bounded."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p028",
+   "stance": "conditional-minor",
+   "gist": "Would make stratification reassessable when later development, clinical or postmarket information challenges its assumptions."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p029-p031",
+   "stance": "conditional-minor",
+   "gist": "States the principle for Questions 2 to 6: a factor affects stratification only as a defined, assured property; others belong to product-specific risk management."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p032-p039",
+   "stance": "conditional-minor",
+   "gist": "Agrees directiveness is a continuum and lists relevant aspects such as specificity, strength of recommendation, enforceable safeguards, time criticality and personalization."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p040-p048",
+   "stance": "conditional-minor",
+   "gist": "Agrees the patient-facing distinction matters, but would base it on how reliably safeguards and independent review can be enforced in the setting, not the label."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p049-p052",
+   "stance": "conditional-minor",
+   "gist": "Agrees the generalist-specialist distinction may be relevant, with caveats, and would base any effect on assurable competence and workflow rather than designation."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p053",
+   "stance": "conditional-minor",
+   "gist": "Would anchor stratification on the highest criticality reasonably foreseeable across conversational trajectories that safeguards cannot exclude."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p054-p059",
+   "stance": "conditional-minor",
+   "gist": "Lists enforceable safeguards that could hold a conversation at a defined criticality, such as scope restrictions, refusal, mandatory handoff and oversight checkpoints."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p060",
+   "stance": "conditional-minor",
+   "gist": "Agrees the escalation errors are not commensurable; stratification can use their severity and built-in escalation procedures, but detailed weighting comes later."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p061-p067",
+   "stance": "conditional-minor",
+   "gist": "Cautions against a binary view of escalation, since errors include wrong level, timing or destination along a graded spectrum."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p068-p069",
+   "stance": "support",
+   "gist": "Generally supports benchmarking plus clinical confirmation tailored to intended use and criticality, since exhaustive testing is infeasible."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p070",
+   "stance": "conditional-minor",
+   "gist": "Wants assumptions and safeguards that lower criticality or evidence burden, such as human review, themselves validated and fed back into the assessment."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p071",
+   "stance": "conditional-minor",
+   "gist": "Would use criticality, aligned with the two axes plus added aspects, to set evaluation extent, allowing staged reassessment as evidence develops."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p072",
+   "stance": "conditional-minor",
+   "gist": "Finds the clinician analogy useful but cautions against assuming equivalence, noting deskilling, and would treat human oversight as a control needing evaluation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p073-p075",
+   "stance": "conditional-minor",
+   "gist": "Asks the paper to distinguish output errors from their clinical consequences and clarify which each evaluation phase best addresses."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p076-p079",
+   "stance": "conditional-major",
+   "gist": "Proposes progressive deployment from a controlled envelope to expanded use through predetermined evidence gates, with rollback criteria and PCCP-like mechanisms."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p080-p081",
+   "stance": "conditional-minor",
+   "gist": "Would expand benchmarking into a suite of representative, risk-enriched, subgroup, boundary and multi-turn assets with consequence-related metrics."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p080-p081",
+   "stance": "conditional-major",
+   "gist": "Says average performance must not offset poor results on critical subsets; wants prespecified floors for safety-critical failure modes."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p082",
+   "stance": "conditional-minor",
+   "gist": "Would develop simulated conversational trajectories into an explicit layer between static benchmarks and clinical confirmation, without replacing real users."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p083",
+   "stance": "conditional-minor",
+   "gist": "Wants benchmarking to test device-specific safeguards, and to consider independence and common-mode failure where one AI supervises another."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p084",
+   "stance": "conditional-minor",
+   "gist": "Suggests a prespecified regression suite on safety-critical competencies to show the impact of a foundation model change on the deployed configuration."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p085",
+   "stance": "conditional-minor",
+   "gist": "Would set clinical confirmation by criticality and residual uncertainty, favoring prospective evidence where human interaction matters and challenge testing for rare failures."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p086",
+   "stance": "conditional-minor",
+   "gist": "Wants retrospective evaluation to preserve temporal fidelity, withholding later findings from the device while allowing them in the reference standard."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p087",
+   "stance": "conditional-minor",
+   "gist": "Treats representativeness as multidimensional, separating evidence that estimates expected performance from evidence covering rare high-consequence situations."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p088",
+   "stance": "conditional-minor",
+   "gist": "Wants prespecified subgroup and failure-mode analyses, with sample sizes driven by the precision risk-based claims need rather than a uniform minimum."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p089",
+   "stance": "conditional-minor",
+   "gist": "Would scale clinical confirmation to criticality and residual uncertainty: prospective evidence where human interaction matters, challenge testing for rare failures."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p090",
+   "stance": "conditional-minor",
+   "gist": "Suggests proportionate local deployment qualification where safety depends on site conditions, stronger the more the regulatory case relies on them."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p091-p093",
+   "stance": "conditional-major",
+   "gist": "Would separate an independent reference standard from the comparator, which should be care without the device, judged by relative non-inferiority."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p094-p096",
+   "stance": "conditional-major",
+   "gist": "Would compare the intended user with and without the device against the same reference standard, with absolute criteria kept for critical safety outcomes."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p097-p104",
+   "stance": "conditional-major",
+   "gist": "Supports the approach while asking to strengthen it in six areas, from consequence-based evaluation and dynamic suites to relative comparison and lifecycle reassessment."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p105-p106",
+   "stance": "support",
+   "gist": "Supports the view that robust postmarket monitoring is especially important, including re-benchmarking, clinician review and degradation monitoring."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p107",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring to also check whether the assumptions and safeguards behind a device's criticality stay effective in real use."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p108",
+   "stance": "conditional-minor",
+   "gist": "Would extend postmarket evaluation beyond model performance to interaction, automation bias, team performance and clinical consequences, by criticality."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p109",
+   "stance": "conditional-minor",
+   "gist": "Notes device and environment co-evolve, so monitoring should reassess whether benchmarks, reference standards and deployment assumptions remain valid."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p110",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring tied to predefined metrics, triggers and actions such as rollback or restriction, on a timescale matching system change."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p111",
+   "stance": "conditional-minor",
+   "gist": "Accepts more postmarket reliance in principle but rejects a general trade-off that lets stronger monitoring automatically cut premarket evidence."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p112-p118",
+   "stance": "conditional-minor",
+   "gist": "Lists considerations for acceptable premarket uncertainty: severity, reversibility, failure detectability, autonomy, exposure, ability to roll back and model stability."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p119",
+   "stance": "conditional-minor",
+   "gist": "Would let monitoring offset premarket uncertainty only when the residual uncertainty is observable, reversible and controllable."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p120",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring to verify that stratification assumptions, including effective human oversight and scope limits, still hold."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p121",
+   "stance": "conditional-minor",
+   "gist": "Supports the three approaches as complementary, not interchangeable, and would add team performance, near misses, overrides and outcomes by criticality."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p122",
+   "stance": "conditional-minor",
+   "gist": "Suggests dynamic postmarket evaluation with multi-turn scenarios and simulated or real interactions under changing deployment conditions."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p123-p128",
+   "stance": "conditional-minor",
+   "gist": "Wants reassessment both periodic and triggered, listing triggers from adverse events and drift signals to guideline, workflow and foundation model changes."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p129",
+   "stance": "conditional-minor",
+   "gist": "Would monitor several forms of drift and ask whether the benchmark is still representative, not just whether the device still passes it."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p130",
+   "stance": "conditional-minor",
+   "gist": "Sees supervisory agents aiding scalable monitoring, provided a safety-relevant agent is itself validated and kept under surveillance."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p131",
+   "stance": "conditional-minor",
+   "gist": "Lists considerations for supervisory agents, with caution where device and supervisor share foundation models or architectures."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p132",
+   "stance": "conditional-minor",
+   "gist": "Would keep machine supervision as one layer, not a closed loop, with periodic human review especially for higher-criticality devices."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p133",
+   "stance": "conditional-minor",
+   "gist": "Welcomes stakeholder input but says distributed data collection must not distribute accountability; the manufacturer owns the strategy and corrective action."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p134",
+   "stance": "conditional-minor",
+   "gist": "Gives institutions a role in spotting deployment-environment changes and societies in guideline shifts, with defined interfaces and agreements."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p135",
+   "stance": "conditional-minor",
+   "gist": "Accepts the premarket baseline but would scale reassessment to a change's impact on competencies and safeguards, including cumulative small changes."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p136",
+   "stance": "conditional-minor",
+   "gist": "Wants post-change evaluation on retrospective cases to preserve temporal fidelity of the information available at decision time."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p137",
+   "stance": "conditional-major",
+   "gist": "Would base GenAI PCCPs on procedural and boundary prespecification instead of specifying every modification technically in advance."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p138",
+   "stance": "conditional-major",
+   "gist": "Would build staged progression from supervised use to independence into PCCPs, with downgrading when postmarket signals emerge."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p139",
+   "stance": "conditional-minor",
+   "gist": "Wants PCCPs to cover environmental changes that can invalidate prior assumptions even when the device is unchanged."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p140",
+   "stance": "conditional-minor",
+   "gist": "Would put foundation model change assessment in the monitoring strategy, with benchmarking and possible return to a supervised stage until evidence gates pass."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p141",
+   "stance": "conditional-minor",
+   "gist": "Asks for case-level reconstructability of the configuration in use, such as model version, prompts and guardrails, to investigate signals."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p142",
+   "stance": "conditional-minor",
+   "gist": "Frames monitoring as an active control system across the lifecycle whose permitted rate of change must match the ability to detect consequences."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p143",
+   "stance": "conditional-minor",
+   "gist": "Says agentic systems add system-level risks and make attributing and controlling failures harder when components come from different organizations."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p144",
+   "stance": "conditional-minor",
+   "gist": "Wants responsibility for the end-to-end system clearly assigned and backed by contractual, technical and quality arrangements, not diffused."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p145",
+   "stance": "conditional-minor",
+   "gist": "Wants premarket evaluation of representative end-to-end workflows, failure combinations and recovery, given error propagation across steps."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p146",
+   "stance": "conditional-minor",
+   "gist": "Calls for risk-based system-level testing of safety-relevant configurations, with integration-testing responsibilities clearly allocated."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p147",
+   "stance": "conditional-minor",
+   "gist": "Notes agentic systems need technical, semantic and governance interoperability, which grows harder when composition changes dynamically."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p148",
+   "stance": "conditional-minor",
+   "gist": "Wants stricter acceptance criteria as autonomy rises, including oversight checkpoints, failure containment and reverting to a safe state."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p149",
+   "stance": "conditional-minor",
+   "gist": "Concludes agentic AI needs end-to-end accountability, pathway-based evaluation and proportionate autonomy controls, not treatment as merely more capable GenAI."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p150-p151",
+   "stance": "conditional-minor",
+   "gist": "Supports a risk-proportionate lifecycle approach that separates initial stratification from risk management and verifies the conditions for safe operation."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Thanks and pointer to the attachment."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Salutation, thanks and lead-in to the comments."
+  },
+  {
+   "paragraph": "p152",
+   "reason": "Thanks and offer to discuss further."
+  },
+  {
+   "paragraph": "p153",
+   "reason": "Signature and affiliation."
+  },
+  {
+   "paragraph": "p154",
+   "reason": "Disclosure of generative AI use in writing the comment."
+  }
+ ]
+}

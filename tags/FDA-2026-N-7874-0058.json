@@ -1,0 +1,283 @@
+{
+ "comment_id": "FDA-2026-N-7874-0058",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p002",
+   "stance": "support",
+   "gist": "Strongly supports the paper's direction and calls the clinician training-and-examination model the right instinct for device evaluation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p003",
+   "stance": "conditional-minor",
+   "gist": "Wants benchmarking to test sensitivity to who the input claims to come from, their seniority and authority, not only adversarial wording."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p004",
+   "stance": "conditional-minor",
+   "gist": "Wants the human-oversight dimension tested under realistic override conditions, since a human who can intervene may not."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Wants postmarket monitoring modeled on clinician re-credentialing: periodic re-examination against the original competencies, not drift monitoring alone."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p018",
+   "stance": "support",
+   "gist": "Restates strong support for the paper's direction and the clinician-training analogy."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Restates that benchmarks should test the speaker's claimed identity and authority, since outputs shift with perceived seniority."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Restates that the human-oversight dimension should be tested under realistic override conditions."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p021",
+   "stance": "conditional-minor",
+   "gist": "Restates the re-credentialing model: periodic re-examination against the original competencies."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p022-p025",
+   "stance": "conditional-minor",
+   "gist": "Says elements S.2 and R.1 miss one dimension: sensitivity to the claimed identity, seniority and authority of the speaker."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p026-p027",
+   "stance": "neutral",
+   "gist": "Cites controlled work showing clinical AI outputs shifted more when input was attributed to a senior clinician, without any gain in accuracy."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p028",
+   "stance": "conditional-minor",
+   "gist": "Argues deference to claimed credentials is a failure mode distinct from adversarial prompting, since the input is an ordinary second opinion."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p029-p030",
+   "stance": "conditional-minor",
+   "gist": "Suggests R.1 protocols prespecify speaker-authority conditions, with safety behavior that moves with the user's claimed credential counted as failed robustness."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p031-p032",
+   "stance": "conditional-minor",
+   "gist": "Calls the two axes sound and would add the degree of human oversight as an empirically measured property of the setting, not a present-or-absent feature."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p033",
+   "stance": "conditional-minor",
+   "gist": "Notes that an override option is often unused under time pressure, and that E.4 treats automation bias only as a communication attribute."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p034",
+   "stance": "conditional-minor",
+   "gist": "Encourages treating automation bias as a modifier on the activity axis, since unexercised supervision moves a function toward autonomy."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p035",
+   "stance": "conditional-minor",
+   "gist": "Wants the degree of human oversight demonstrated in representative time-pressured conditions rather than asserted in labeling."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p036",
+   "stance": "conditional-minor",
+   "gist": "Asks sponsors to show that intended users catch incorrect outputs in realistic workflows, as override-rate and detection-rate evidence."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p037",
+   "stance": "conditional-minor",
+   "gist": "Says both directiveness and oversight should be judged by observed user behavior, since an unused override interface provides no oversight."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p038-p039",
+   "stance": "conditional-minor",
+   "gist": "Finds the Section VI approaches reasonable and suggests framing cadence and triggers explicitly as examination-based re-certification."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p040-p041",
+   "stance": "conditional-minor",
+   "gist": "Proposes re-examining a cleared device on its original competency set on a fixed cycle, plus re-examination after model, prompt or guardrail changes."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p042",
+   "stance": "conditional-major",
+   "gist": "Suggests sponsors prespecify the re-examination triggered by any change, rather than every permissible future change."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p043",
+   "stance": "conditional-major",
+   "gist": "Would require safety and robustness elements re-run in full after any model or guardrail change, however minor the expected impact."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p044-p045",
+   "stance": "conditional-minor",
+   "gist": "Would add refusal behavior, content-policy changes between versions and output stability under user framing to master file contents."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p046-p047",
+   "stance": "conditional-minor",
+   "gist": "Suggests a documented master file let sponsors satisfy parts of re-examination by reference, as an incentive for model developers."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p048-p050",
+   "stance": "conditional-minor",
+   "gist": "Encourages treating subgroup performance and the anticipated real-world input distribution as one question."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p051",
+   "stance": "neutral",
+   "gist": "Cites dermatology evidence that shifts in presenting conditions degrade performance more than skin-tone differences alone."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p052",
+   "stance": "conditional-minor",
+   "gist": "Wants test populations whose disease distribution differs from training data, and sponsors to characterize the expected deployment case mix."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p053-p054",
+   "stance": "conditional-minor",
+   "gist": "Calls the physician-training analogy the paper's strongest idea and asks FDA to include pressure, hierarchy and unfamiliar patients in the examination."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Introduction of the writer and the questions the comment addresses."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Title block of the attachment."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Title block and comment deadline."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Submitter details and affiliation."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Contact details and scope of the partial response."
+  },
+  {
+   "paragraph": "p010",
+   "reason": "Introduction of the writer's background."
+  },
+  {
+   "paragraph": "p011",
+   "reason": "Description of the writer's development experience."
+  },
+  {
+   "paragraph": "p012",
+   "reason": "Description of the writer's development experience."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Description of the writer's patents."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Description of the writer's patents."
+  },
+  {
+   "paragraph": "p015",
+   "reason": "Description of the writer's teaching."
+  },
+  {
+   "paragraph": "p016",
+   "reason": "Disclosure of interest."
+  },
+  {
+   "paragraph": "p017",
+   "reason": "Disclosure of interest."
+  },
+  {
+   "paragraph": "p055",
+   "reason": "Thanks and offer of further detail."
+  },
+  {
+   "paragraph": "p056",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p057",
+   "reason": "Signature and contact details."
+  },
+  {
+   "paragraph": "p058",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p059",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p060",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p061",
+   "reason": "Reference list."
+  }
+ ]
+}

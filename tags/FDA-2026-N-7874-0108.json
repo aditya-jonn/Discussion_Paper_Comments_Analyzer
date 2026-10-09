@@ -1,0 +1,27 @@
+{
+  "comment_id": "FDA-2026-N-7874-0108",
+  "tags": [
+    {"code": "PREMARKET", "subcode": "Q17", "paragraph": "p001", "stance": "conditional-minor",
+     "gist": "Says the competency approach extends to vision-language models, subject to two conditions drawn from an experiment on them."},
+    {"code": "PREMARKET", "subcode": "Q17", "paragraph": "p002", "stance": "neutral",
+     "gist": "Describes an experiment sending imaging prompts with no image attached to three frontier models, varying only a demographic descriptor, over 11,700 calls."},
+    {"code": "PREMARKET", "subcode": "Q17", "paragraph": "p003-p004", "stance": "conditional-minor",
+     "gist": "Wants benchmarks to include missing-image cases, since models diagnosed without images and abstention, the crucial behavior when scans fail to arrive, goes untested."},
+    {"code": "PREMARKET", "subcode": "Q17", "paragraph": "p005", "stance": "conditional-minor",
+     "gist": "Says robustness and subgroup elements collapse when the image is absent, leaving the demographic descriptor driving large differences in diagnoses given."},
+    {"code": "PREMARKET", "subcode": "Q17", "paragraph": "p006", "stance": "neutral",
+     "gist": "Cautions the subgroup finding could reflect prevalence priors rather than bias, though a diagnosis without an image is indefensible either way."},
+    {"code": "PREMARKET", "subcode": "Q17", "paragraph": "p007-p008", "stance": "conditional-minor",
+     "gist": "Says the measurement channel matters: free text hedged while the structured diagnosis field was filled, and the schema's image indicator never contradicted a fabrication."},
+    {"code": "PREMARKET", "subcode": "Q17", "paragraph": "p009", "stance": "neutral",
+     "gist": "Reports that rephrasing prompts moved results far less than the demographic signal, so prompt sensitivity does not explain the findings."},
+    {"code": "PREMARKET", "subcode": "Q17", "paragraph": "p010", "stance": "conditional-minor",
+     "gist": "Wants multimodal evaluation criteria to specify missing and broken-input benchmarking, subgroup consistency under them, per-channel abstention, and no reliance on self-reported input adequacy."},
+    {"code": "PREMARKET", "subcode": "Q17", "paragraph": "p011", "stance": "neutral",
+     "gist": "Notes caveats: schema enforcement and the attachment prompt are interventions, and one model's baseline diagnosis rate makes reported differences lower bounds."}
+  ],
+  "skipped": [
+    {"paragraph": "p012", "reason": "Data availability note and capacity statement."},
+    {"paragraph": "p013", "reason": "Signature."}
+  ]
+}

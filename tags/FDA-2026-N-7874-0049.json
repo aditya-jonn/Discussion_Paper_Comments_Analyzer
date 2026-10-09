@@ -1,0 +1,439 @@
+{
+ "comment_id": "FDA-2026-N-7874-0049",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p006",
+   "stance": "conditional-major",
+   "gist": "Frames the central challenge as keeping consequential behavior attributable, reconstructable and governed as models, tools and workflows change, not only competent at one point."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p007",
+   "stance": "conditional-major",
+   "gist": "Supports the risk-proportionate competency direction with qualifications: risk modifiers, system-assurance mechanisms, root-cause-capable monitoring and an execution-authority distinction for agents."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p008-p010",
+   "stance": "conditional-major",
+   "gist": "States that being technically capable does not establish clinical supportability, permission to rely on an output, or authority to execute an action."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p011",
+   "stance": "conditional-major",
+   "gist": "Asks FDA to assess a reconstructable event record for higher-consequence devices linking patient, evidence, versions, configuration, tool use, output, reliance and outcome."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p012-p021",
+   "stance": "conditional-major",
+   "gist": "Lists ten recommendations, from risk modifiers and configured-device evaluation to event-level evidence, hybrid reassessment, evaluable supervisors and agentic authority characterization."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p023-p024",
+   "stance": "support",
+   "gist": "Calls the two axes a useful, intuitive and scalable primary heuristic and urges FDA to keep them rather than build an unmanageable multidimensional matrix."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p025",
+   "stance": "support",
+   "gist": "Agrees that diagnostic, measurement and signal-processing functions deserve special risk consideration because users cannot directly check their outputs."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p026-p027",
+   "stance": "conditional-major",
+   "gist": "Wants traceability, reversibility, time pressure, downstream safeguards, user capability and execution authority as modifiers that shift placement and required controls."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p028-p029",
+   "stance": "conditional-minor",
+   "gist": "Wants assurance proportionate to how much of the clinically relevant system state sits beyond the sponsor's control, such as external models, tools and data."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p030-p031",
+   "stance": "conditional-minor",
+   "gist": "Wants directiveness assessed functionally by what a reasonable user would do, weighing specificity, imperative strength, confidence display, urgency and suppressed alternatives."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p032-p033",
+   "stance": "conditional-minor",
+   "gist": "Would not treat patient-facing status as automatically higher risk, relying instead on calibrated uncertainty, scope limits, escalation and designs that curb automation bias."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p034-p035",
+   "stance": "conditional-minor",
+   "gist": "Treats the generalist-specialist split as a context modifier and wants required domain knowledge and specialist review built into the workflow, not just labeling."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p036-p037",
+   "stance": "conditional-minor",
+   "gist": "Wants transition testing of whether a device notices a conversation crossing into patient-specific direction, adjusts safeguards and keeps enough history to reconstruct it."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p038-p039",
+   "stance": "conditional-minor",
+   "gist": "Wants both escalation errors measured as distinct classes against prespecified, context-justified thresholds rather than one accuracy figure."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p040-p041",
+   "stance": "support",
+   "gist": "Finds the competency approach useful and appropriate, especially its focus on the final configured device rather than the bare model."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p042-p043",
+   "stance": "conditional-major",
+   "gist": "Calls competency necessary but not sufficient, since it does not show the right context, current evidence, unchanged configuration or authorized action; adds proportionate assurance functions."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p044-p046",
+   "stance": "conditional-minor",
+   "gist": "Agrees the axes can scale evidence but wants continuous scaling rather than rigid bins, with least burdensome meaning tailored, not least, control."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p047-p048",
+   "stance": "conditional-minor",
+   "gist": "Calls the elements a strong foundation and wants benchmark records to preserve test asset, versions, configuration, scoring and adjudication so results stay reproducible."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p049-p050",
+   "stance": "conditional-minor",
+   "gist": "Wants benchmarks counted as evidence only with established construct validity, using prespecified plans, sequestered sets, contamination disclosure and transparent sponsor benchmarks."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p051-p052",
+   "stance": "conditional-minor",
+   "gist": "Finds the ladder appropriate, with retrospective evaluation for stable low-risk functions, shadow deployment for workflow effects, and prospective studies for high-consequence autonomy."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p053-p054",
+   "stance": "conditional-minor",
+   "gist": "Wants synthetic and real performance reported separately before any combined estimate, which must justify transportability and weighting, with generation details recorded."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p055-p056",
+   "stance": "conditional-minor",
+   "gist": "Finds synthetic data useful for rare events and perturbations but wants independent generation, real holdouts and independent adjudication against correlated blind spots."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p057-p058",
+   "stance": "conditional-minor",
+   "gist": "Wants the comparator to match the intended clinical role and multidimensional acceptance criteria covering omissions, reasoning, calibration, escalation and consistency."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p059-p061",
+   "stance": "conditional-minor",
+   "gist": "Supports counterfactual comparators where benefit comes from access or speed, if sponsors justify them and separate device-alone, human-alone and team performance."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p062-p063",
+   "stance": "conditional-minor",
+   "gist": "Sees third parties adding value in custody, adjudication and tool qualification, while avoiding a small mandatory certification market and keeping sponsors accountable."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q17",
+   "paragraph": "p064-p065",
+   "stance": "conditional-minor",
+   "gist": "Wants the framework architecture-neutral, with extra attention for multimodal systems to cross-modal consistency, provenance per modality and one modality silently dominating."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p066-p068",
+   "stance": "conditional-minor",
+   "gist": "Accepts more postmarket reliance when uncertainty is measurable and rollback feasible, but not for autonomous, severe or hard-to-detect failures."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p069-p070",
+   "stance": "conditional-minor",
+   "gist": "Wants the three approaches supplemented by event-level evidence for root cause, with a hybrid periodic and event-triggered cadence."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p071-p074",
+   "stance": "conditional-major",
+   "gist": "Details the reconstructable event record, which need not reproduce probabilistic outputs or retain all data, using hashes and version attestations instead."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p075-p080",
+   "stance": "conditional-minor",
+   "gist": "Wants supervisory agents evaluated independently, with observation, recommendation and intervention authority distinguished and any intervention scope reconstructable."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p081-p085",
+   "stance": "conditional-minor",
+   "gist": "Would translate shared responsibility into defined technical control duties naming who controls, changes and monitors each material state variable, without disclaiming dependencies."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p086-p087",
+   "stance": "conditional-minor",
+   "gist": "Proposes a change taxonomy from documentary changes to high-consequence changes of function or authority, with re-benchmarking targeted to affected capabilities."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p088-p089",
+   "stance": "conditional-major",
+   "gist": "Would shift PCCPs from prespecifying parameter values to prespecifying bounded change classes and the governance process that qualifies, restricts or rolls them back."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p090-p091",
+   "stance": "conditional-minor",
+   "gist": "Wants verifiable version identifiers, change manifests, regression suites and pinning, with a defined restricted mode when a provider changes the model unexpectedly."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p092-p096",
+   "stance": "conditional-minor",
+   "gist": "Finds master files useful if current, lists contents, insists they never replace device validation, and suggests attestations and contractual disclosure if participation lags."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p097-p099",
+   "stance": "conditional-minor",
+   "gist": "Wants higher-consequence agents to characterize tool permissions, action authority, oversight checkpoints, reversibility, error propagation, injection resilience and change control."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p100-p103",
+   "stance": "conditional-major",
+   "gist": "Proposes separating governed reliance from governed execution, with non-binary dispositions such as authorized with constraints or requiring supervision."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p104",
+   "stance": "conditional-minor",
+   "gist": "Wants interoperability treated as an evidence problem so the assurance system can tell which source supplied which information, when and with what provenance."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p105",
+   "stance": "conditional-major",
+   "gist": "Repeats the call for regulatory-science work on an outcome-neutral reconstructable event record for higher-consequence devices."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p106",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring to move from isolated output sampling toward continuous assurance able to reveal subgroup or environment degradation hidden by aggregates."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p107-p110",
+   "stance": "conditional-major",
+   "gist": "Offers a modular seven-stage assurance model from event state through governed data, context, competency, reliance and execution to continuous assurance, scaled to risk."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p111",
+   "stance": "conditional-minor",
+   "gist": "Wants FDA to regulate safety properties rather than prescribe an architecture, letting sponsors meet the same assurance question in different ways."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p118",
+   "stance": "support",
+   "gist": "Calls the paper a strong foundation that connects risk-proportionate oversight, competency, confirmation, monitoring, foundation models and agentic oversight."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p119-p121",
+   "stance": "conditional-major",
+   "gist": "Concludes that model competency must be distinguished from the assurance conditions around a consequential action, since capability does not confer authority."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Points to the attachment and describes its scope."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Docket and submitters."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Date and note that the paper is for discussion only."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Describes the lens of the submission."
+  },
+  {
+   "paragraph": "p022",
+   "reason": "Note on the organization of the responses."
+  },
+  {
+   "paragraph": "p112",
+   "reason": "Describes the writers' own patents as illustrative technical examples."
+  },
+  {
+   "paragraph": "p113",
+   "reason": "Describes the writers' own patents as illustrative technical examples."
+  },
+  {
+   "paragraph": "p114",
+   "reason": "Describes the writers' own patents as illustrative technical examples."
+  },
+  {
+   "paragraph": "p115",
+   "reason": "Describes the writers' own patents as illustrative technical examples."
+  },
+  {
+   "paragraph": "p116",
+   "reason": "Describes the writers' own patents as illustrative technical examples."
+  },
+  {
+   "paragraph": "p117",
+   "reason": "Describes the writers' own patents as illustrative technical examples."
+  },
+  {
+   "paragraph": "p122",
+   "reason": "Thanks."
+  },
+  {
+   "paragraph": "p123",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p124",
+   "reason": "Signature and disclosure."
+  },
+  {
+   "paragraph": "p125",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p126",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p127",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p128",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p129",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p130",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p131",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p132",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p133",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p134",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p135",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p136",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p137",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p138",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p139",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p140",
+   "reason": "References."
+  }
+ ]
+}

@@ -1,0 +1,341 @@
+{
+ "comment_id": "FDA-2026-N-7874-0017",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p002",
+   "stance": "neutral",
+   "gist": "Sees GenAI improving surgical safety and access, but notes an operating-room output can shape an irreversible act with seconds to catch errors."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p003",
+   "stance": "conditional-major",
+   "gist": "Supports the competency approach but wants risk to weigh system authority, irreversibility, time to harm, detection opportunity and rescue capacity."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p004",
+   "stance": "conditional-minor",
+   "gist": "Wants premarket evaluation of the whole human-AI team in realistic workflows, covering rare events, degraded inputs, latency, automation bias and takeover."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Would refuse the premarket-for-postmarket trade for any function that can influence or execute an invasive, immediate or irreversible action."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Wants surveillance specific to model version, setting and subgroups, capturing near misses, overrides, abstentions, failed takeovers and drift."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Wants duties for manufacturers, model providers, institutions and clinicians proportionate to what each knows, controls, can prevent and gains from."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Wants foundation-model changes handled as safety-relevant supply-chain events."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Wants agentic systems to have explicit action and tool boundaries, confirmation steps, stop conditions, immutable logs, safe failure modes and takeover testing."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Wants access-expanding systems evaluated beyond wealthy academic centers, across populations, anatomy, rural settings, resource levels and user experience."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Says a framework that judges the deployed human-AI system and keeps someone responsible wherever control sits can protect the opportunity."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p014",
+   "stance": "neutral",
+   "gist": "Sees the greatest surgical benefit when GenAI is integrated with operative video, robotics, digital operating rooms and telecollaboration."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p015",
+   "stance": "conditional-minor",
+   "gist": "Says a model built around informational outputs falls short for physical acts, so the unit of evaluation must be the human-AI team in its workflow."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p016",
+   "stance": "conditional-major",
+   "gist": "Supports the competency approach with five refinements spanning added risk factors, team evaluation, no trade for invasive actions, surveillance and accountability."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p018",
+   "stance": "conditional-minor",
+   "gist": "Argues surgery's immediate, irreversible, seconds-to-detect, team-distributed risks justify explicit attention within the general framework."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p019-p021",
+   "stance": "conditional-major",
+   "gist": "Wants the two axes supplemented with irreversibility, time to harm, detection and rescue opportunity, system authority, review quality and environmental dependence."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Offers a five-step procedural continuum from observing to autonomous action, and warns a nominal clinician in the loop does not make a function low risk."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p023",
+   "stance": "conditional-minor",
+   "gist": "Wants realistic conversational and action trajectories evaluated for cumulative anchoring, overconfidence, premature closure and drift beyond intended use."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p023",
+   "stance": "conditional-minor",
+   "gist": "Wants the two escalation errors assessed apart from each other, since their harms cannot be traded one for one."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p024-p025",
+   "stance": "conditional-minor",
+   "gist": "Finds the competency model useful only if competency refers to the whole device in its real environment, not a bare foundation model."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p026",
+   "stance": "conditional-minor",
+   "gist": "Lists benchmark elements including spatial reasoning, abstention, adversarial robustness, rare anatomy and faults, team communication, safe degradation and agentic boundaries."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p027",
+   "stance": "conditional-minor",
+   "gist": "Says public benchmarks alone are inadequate under contamination or weak validity; wants proof they predict workflow performance, with protected test sets."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p028",
+   "stance": "conditional-minor",
+   "gist": "Would allow retrospective or silent deployment for observational functions but require prospective evaluation under stress conditions for invasive ones."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p029",
+   "stance": "conditional-minor",
+   "gist": "Wants high-risk surgical confirmation to progress through simulation, cadaveric or preclinical work, staged introduction and prospective study, as in IDEAL."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p030-p031",
+   "stance": "conditional-minor",
+   "gist": "Where a device supports a clinician, wants team evaluation measuring error recognition, automation bias, workload, takeover time, skill retention and experience effects."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p032",
+   "stance": "conditional-major",
+   "gist": "Accepts a care-without-device comparator but wants an absolute safety floor so a poor local baseline cannot institutionalize substandard care."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p033",
+   "stance": "conditional-minor",
+   "gist": "Would let synthetic data supplement rare-event testing but not replace representative clinical data in procedural use, with real and synthetic results reported separately."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p034",
+   "stance": "conditional-minor",
+   "gist": "Wants third parties in high-risk benchmarking, confirmation, cybersecurity review and postmarket audit, with independence criteria including freedom to publish."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p035-p036",
+   "stance": "conditional-minor",
+   "gist": "Finds more postmarket reliance reasonable only for reviewable, reversible, low-consequence functions, never where harm precedes review or rescue is uncertain."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p037-p038",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring to capture versions, out-of-scope use, subgroup and site performance, overrides, near misses, interface failures, automation bias and case-mix shifts."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p039",
+   "stance": "conditional-minor",
+   "gist": "Wants cadence set by risk and reassessment triggered by model, workflow, hardware or population changes and unexpected signals."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p039",
+   "stance": "conditional-minor",
+   "gist": "Welcomes data from clinicians, institutions, registries and societies as long as participation does not diffuse manufacturer accountability."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p040",
+   "stance": "conditional-minor",
+   "gist": "Accepts supervisory agents as aids if their sensitivity, specificity, independence, failure modes and correlated-error risk are evaluated."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p041",
+   "stance": "conditional-minor",
+   "gist": "Wants contracts giving notice, version access and update suspension, technical blocks on unreviewed substitution, and FDA review of changes to authority or scope."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p042-p043",
+   "stance": "conditional-major",
+   "gist": "Finds master files useful if current, and asks FDA to consider expecting an adequate file whenever a device depends heavily on a third-party model."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p044-p046",
+   "stance": "conditional-minor",
+   "gist": "Wants defined permitted actions, confirmation for consequential actions, validated stop states, immutable logs, sub-agent detection, safe degradation and takeover testing."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p047",
+   "stance": "conditional-minor",
+   "gist": "Would credit a human supervisor only when they have the training, attention, authority, information and time to intervene."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p051",
+   "stance": "conditional-minor",
+   "gist": "Would assign manufacturers design and monitoring, institutions local validation and credentialing, clinicians reasonable use, and model providers duties matching their control."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p052",
+   "stance": "conditional-minor",
+   "gist": "Wants documentation and labeling to expose who controls what, rather than letting contracts shift risk downstream."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p053",
+   "stance": "conditional-minor",
+   "gist": "Wants evidence across demographic groups, disease severity, community settings and resource levels, with aggregation not hiding subgroup failures."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p054",
+   "stance": "conditional-minor",
+   "gist": "Wants clinicians, patients and rural representatives involved early in defining intended use, endpoints, transparency and monitoring."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p055",
+   "stance": "conditional-minor",
+   "gist": "Wants regulation to protect the opportunity while placing firm safeguards where software begins to direct physical action."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p056",
+   "stance": "conditional-major",
+   "gist": "Summarizes its asks for procedural uses: evaluate the deployed team, add authority and irreversibility to risk, require realistic confirmation and versioned evidence."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Introduction of the writer."
+  },
+  {
+   "paragraph": "p011",
+   "reason": "Points to the attachment."
+  },
+  {
+   "paragraph": "p012",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Author and capacity."
+  },
+  {
+   "paragraph": "p017",
+   "reason": "Describes the scope of the comment."
+  },
+  {
+   "paragraph": "p048",
+   "reason": "Outside the paper: transparency disclosures and data use (lead-in)."
+  },
+  {
+   "paragraph": "p049",
+   "reason": "Outside the paper: transparency disclosures about data capture, retention and training provenance."
+  },
+  {
+   "paragraph": "p050",
+   "reason": "Outside the paper: labeling and data-collection transparency."
+  },
+  {
+   "paragraph": "p057",
+   "reason": "Disclosures."
+  },
+  {
+   "paragraph": "p058",
+   "reason": "References."
+  }
+ ]
+}

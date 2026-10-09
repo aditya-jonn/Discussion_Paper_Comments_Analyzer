@@ -1,0 +1,173 @@
+{
+ "comment_id": "FDA-2026-N-7874-0020",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p004-p005",
+   "stance": "conditional-major",
+   "gist": "Rates the paper strong as a conceptual framework but weak in evidentiary maturity, warning competency testing could predict exam performance more than clinical benefit."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p006-p010",
+   "stance": "neutral",
+   "gist": "Scores each domain, rating risk recognition and postmarket surveillance highest and statistics, pediatrics and feasibility lowest."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p011",
+   "stance": "support",
+   "gist": "Praises the paper for rejecting static software validation, since open-ended inputs, variable outputs and frequent changes make exhaustive testing impossible."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p012",
+   "stance": "support",
+   "gist": "Finds the two-axis model clinically intuitive and more sensible than regulating anything that contains a language model."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p013",
+   "stance": "support",
+   "gist": "Agrees that informational outputs can direct behavior, that substance and context matter more than trigger words, and that disclaimers do not neutralize advice."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p014",
+   "stance": "support",
+   "gist": "Calls treating multi-turn behavior as a unit of risk excellent, since isolated prompts would miss gradual migration toward treatment advice."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p015",
+   "stance": "support",
+   "gist": "Finds the benchmarking domains a sophisticated picture of clinical AI performance, well beyond simple accuracy testing."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p016",
+   "stance": "support",
+   "gist": "Welcomes recognition of both error directions in triage as more clinically mature than a single accuracy statistic."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p017",
+   "stance": "support",
+   "gist": "Calls the hierarchy of clinical confirmation, and the refusal to equate benchmark scores with effectiveness, one of the paper's strongest parts."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p018",
+   "stance": "support",
+   "gist": "Agrees re-benchmarking, clinician review of real samples, drift monitoring and reassessment after changes suit technologies that change after authorization."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p019-p023",
+   "stance": "conditional-major",
+   "gist": "Says the two axes have too few dimensions and would add error detectability and frequency of exposure across millions of encounters."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p024-p030",
+   "stance": "conditional-major",
+   "gist": "Warns competency could turn into a surrogate endpoint; for high-risk uses it should not stand in for proof of clinical utility and outcomes."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p031-p036",
+   "stance": "conditional-minor",
+   "gist": "Finds the licensure analogy potentially misleading, since machines lack physicians' accountability ecosystem yet can be tested at scale and fail in correlated ways."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p037-p041",
+   "stance": "conditional-minor",
+   "gist": "Says comparator choices give very different conclusions, so the comparator must reflect what would happen to patients without the device."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p042-p046",
+   "stance": "conditional-minor",
+   "gist": "Wants prespecified statistical requirements covering confidence intervals, repeated stochastic outputs, multiplicity, subgroup precision, weighted error severity and worst-case performance."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p047-p050",
+   "stance": "conditional-minor",
+   "gist": "Says synthetic cases may look plausible yet misrepresent rare pediatric presentations, so they should augment, not replace, real-patient validation when stakes are high."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p051-p056",
+   "stance": "conditional-minor",
+   "gist": "Accepts the trade for reversible low-consequence functions only; monitoring cannot rescue weak premarket evidence where the first sign of failure is harm."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p057-p060",
+   "stance": "conditional-minor",
+   "gist": "Wants age- and development-stratified validation required whenever children are in the intended population, not pediatrics as a single subgroup."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p061-p062",
+   "stance": "conditional-major",
+   "gist": "Would evolve the model to consequence times autonomy, detectability, exposure and irreversibility, modified by oversight, time to intervene, vulnerability and recoverability."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p063-p064",
+   "stance": "conditional-minor",
+   "gist": "Proposes evidence tiers from benchmarking alone for low risk up to prospective, possibly randomized, evidence plus intensive surveillance for autonomous high-risk action."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p065-p067",
+   "stance": "conditional-major",
+   "gist": "Finds the diagnosis stronger than the solution: workable for low-risk informational uses, but consequential decisions need far stronger evidence linking competency to outcomes."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p068-p071",
+   "stance": "conditional-major",
+   "gist": "Scores the framework promising but preliminary and urges FDA not to let competency become a surrogate biomarker for safe and effective care."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Introduction of the writer and the attachment."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Describes how the commenter approached the appraisal."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Restates the paper's proposals without a point."
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "comment_id": "FDA-2026-N-7874-0086",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p002",
+   "stance": "neutral",
+   "gist": "Lists hoped-for benefits from patient participation to reduced administrative burden, while insisting innovation in care must begin with safety."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p003",
+   "stance": "conditional-minor",
+   "gist": "Wants risk assessed on real conditions of use such as reversibility, urgency, vulnerability, error detection, scale and staffing, counting both missed and unnecessary warnings."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p004",
+   "stance": "conditional-minor",
+   "gist": "Says benchmarks by themselves do not suffice for systems influencing diagnosis, triage or treatment; high-risk systems need prospective validation in varied patients and settings."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Wants the human-AI team including nurses evaluated for hallucinations, automation bias, cognitive burden and near misses, compared against adequately staffed care."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Says AI should support rather than displace clinical relationships, and clinicians need the ability to question, override and stop unsafe recommendations without retaliation."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Says AI must never replace safe staffing; people should be told when AI shapes their care and who is accountable, and disclosure is not consent."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p008",
+   "stance": "oppose",
+   "gist": "Calls monitoring essential but says it must add to strong premarket evidence rather than replace it, so patients do not become involuntary test subjects."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring to cover subgroup performance, adverse events, near misses, changing errors and protected frontline reporting."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Says a machine must never serve as the only supervisor of another machine."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Says manufacturers must stay responsible for surveillance, correction and transparent communication."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Wants every output traceable to a model version, material changes caught before affecting care with revalidation and FDA review, and prompt suspension and rollback controls."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Says agentic systems that plan, act or interact with other systems warrant a stricter standard because errors can spread before anyone can intervene."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Wants a balanced framework with proportionate pathways requiring strong evidence, transparency, accountability and enforceable safeguards when stakes are high."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p012",
+   "stance": "neutral",
+   "gist": "Says human alignment must come first and those who profit from AI must not shift its risks onto patients, families and clinical teams."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Introduction of the writer."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Signature."
+  }
+ ]
+}

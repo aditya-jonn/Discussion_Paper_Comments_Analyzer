@@ -1,0 +1,132 @@
+{
+ "comment_id": "FDA-2026-N-7874-0059",
+ "tags": [
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p001-p002",
+   "stance": "conditional-minor",
+   "gist": "Recommends adding evidence-quality calibration: a model should tell well-characterized evidence from large volumes of observational or surrogate data."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p003",
+   "stance": "conditional-minor",
+   "gist": "Suggests testing with historical medical reversals, giving a model the pre-trial literature to see whether it recognizes the evidence's limits."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p004",
+   "stance": "conditional-minor",
+   "gist": "Wants subgroup evaluation to ask whether a device is safe and usable for each population, including those facing literacy or language barriers, not parity alone."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Says the goal is an AI that recognizes weak evidence, communicates uncertainty and knows when to hand over to clinical judgment."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Recommends one added check: whether the medical evidence justifies the model's confidence, before asking whether the model is confident."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Warns a model can summarize literature flawlessly yet be wrong because the literature scales a systematic error, so it must recognize weak footing."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p012-p016",
+   "stance": "neutral",
+   "gist": "Explains that more data narrows random error and tightens confidence intervals without making a biased estimate valid."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p017-p018",
+   "stance": "conditional-minor",
+   "gist": "Wants a medical AI to judge study design rather than citation volume or author reputation, since citation snowballing creates false certainty."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p019-p020",
+   "stance": "neutral",
+   "gist": "Gives historical reversals such as hormone therapy and antiarrhythmic trials where randomized evidence overturned large observational data."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p021-p025",
+   "stance": "conditional-minor",
+   "gist": "Wants the model to grade evidence from characterized ground truth to noisy data, widening uncertainty and deferring when evidence is weak."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p026",
+   "stance": "conditional-minor",
+   "gist": "Asks FDA not to make subgroup evaluation a demand for identical error rates, since statistical parity and equitable outcomes differ."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p027-p028",
+   "stance": "neutral",
+   "gist": "Cites a screening simulation where equalizing true-positive rates leveled down one group, while ensuring access cut disparities far more."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p029",
+   "stance": "conditional-minor",
+   "gist": "Would treat subgroup requirements as tests of usability and safety for each group rather than making mathematical parity the primary goal."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p030-p032",
+   "stance": "conditional-minor",
+   "gist": "Proposes a before-and-after benchmark feeding the literature as it stood before a landmark trial, requiring the model to flag the data's limits."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p033-p034",
+   "stance": "conditional-minor",
+   "gist": "Concludes FDA should test whether a model can tell valid evidence from noisy data and warn clinicians before history corrects it."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p006",
+   "reason": "Pointer to the attachment."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Signature."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Thanks and a note of the benchmarks FDA is considering."
+  },
+  {
+   "paragraph": "p035",
+   "reason": "Reference list."
+  }
+ ]
+}

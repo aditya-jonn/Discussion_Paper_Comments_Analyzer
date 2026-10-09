@@ -1,0 +1,167 @@
+{
+ "comment_id": "FDA-2026-N-7874-0047",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p001",
+   "stance": "support",
+   "gist": "Welcomes FDA's risk-based effort, believing AI can improve access, efficiency and outcomes if technology never outpaces patient safety."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p002",
+   "stance": "conditional-minor",
+   "gist": "Would automate low-risk administrative functions while regulating clinical uses by the seriousness of the decision, patient vulnerability and consequences of error."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p003",
+   "stance": "conditional-major",
+   "gist": "Wants diagnosis, prescribing, treatment planning, referrals, triage and escalation to always require licensed clinician approval, with stricter standards for children."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p004-p005",
+   "stance": "conditional-major",
+   "gist": "Wants enforceable requirements rather than voluntary principles, beginning with independent testing before market and recurring audits by third parties."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Wants permanent tamper-resistant decision logs recording inputs, outputs, actions, model version and the individuals responsible for review."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Wants continuous monitoring for accuracy, bias, cybersecurity vulnerabilities, model drift and unequal outcomes across populations."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Wants incident reporting made mandatory and procedures defined to immediately disable, roll back or recall unsafe AI functions."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Wants financial penalties, corrective-action requirements and FDA enforcement whenever developers or provider organizations fall short of their obligations."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p011",
+   "stance": "conditional-major",
+   "gist": "Wants every material change documented and assessed, and independently revalidated before broader deployment when it could affect performance or safety."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p012",
+   "stance": "conditional-minor",
+   "gist": "Wants developers, manufacturers, organizations and users given defined responsibilities so none can shift accountability after an adverse event."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p014",
+   "stance": "conditional-minor",
+   "gist": "Says public trust depends on clear boundaries, measurable standards, independent oversight and real consequences for violations."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p015",
+   "stance": "support",
+   "gist": "Wants innovation to advance with accountability, transparency and safety built in, and offers to work with FDA on a durable framework."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p019",
+   "stance": "support",
+   "gist": "Repeats in the attachment its welcome for a risk-based framework that keeps technology from outpacing patient safety."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p019",
+   "stance": "conditional-major",
+   "gist": "Repeats that clinical decisions such as diagnosis, prescribing and triage must always get licensed clinician approval, with enhanced oversight for vulnerable patients."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p019",
+   "stance": "conditional-major",
+   "gist": "Repeats the call for required independent testing before market and recurring audits by third parties as enforceable guardrails."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Repeats the call for tamper-resistant decision logs and continuous monitoring for accuracy, bias, cybersecurity, drift and unequal outcomes."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Repeats the call for mandatory incident reporting and procedures to disable, roll back or recall unsafe functions."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p020",
+   "stance": "conditional-major",
+   "gist": "Repeats that material changes, including foundation model or agentic capability changes, need independent revalidation before broader deployment."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Repeats that each participant needs defined responsibilities so accountability cannot be shifted after an adverse event."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Repeats that trust requires boundaries, standards, independent oversight and consequences, with innovation advancing alongside accountability."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p007",
+   "reason": "Outside the paper: patient disclosure and consent when AI influences care."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Outside the paper: patient rights and transparency."
+  },
+  {
+   "paragraph": "p016",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p017",
+   "reason": "Signature."
+  },
+  {
+   "paragraph": "p018",
+   "reason": "Contact details."
+  }
+ ]
+}

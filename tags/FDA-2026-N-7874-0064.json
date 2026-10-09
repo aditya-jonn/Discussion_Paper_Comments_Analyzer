@@ -1,0 +1,142 @@
+{
+ "comment_id": "FDA-2026-N-7874-0064",
+ "tags": [
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Says for augmentative communication devices only the no-device comparator describes reality, since no clinician can supply the user's own expression."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p010-p013",
+   "stance": "conditional-minor",
+   "gist": "Argues the no-device baseline is not a floor on performance: a fabricated utterance lands below zero because without the device no false record exists."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p014-p016",
+   "stance": "conditional-minor",
+   "gist": "Explains that for nonverbal users the comparator is no intervention, under which a plausible wrong output is a categorical harm rather than partial success."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p017-p021",
+   "stance": "neutral",
+   "gist": "Reports measurements in which a transcriber produced fluent words, including a sixteen-word sentence, from audio windows carrying no live signal."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p022-p027",
+   "stance": "conditional-minor",
+   "gist": "Shows that panel, standard-of-care and median-clinician comparators score a fabricated sentence as underperformance, while only the absence comparator records a manufactured fact."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p028-p029",
+   "stance": "conditional-minor",
+   "gist": "Says the absence comparator measures benefit poorly and should not replace the others; it serves as a floor test for output worse than nothing."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p030",
+   "stance": "conditional-major",
+   "gist": "Recommends the absence comparator alongside the Section V.C comparators as a pass-or-fail gate that good panel performance cannot offset."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p031-p035",
+   "stance": "conditional-minor",
+   "gist": "Proposes three tests for requiring the absence comparator: no human performs the function, the user cannot contest output, and errors leave a durable attributed record."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p036-p038",
+   "stance": "conditional-minor",
+   "gist": "Proposes a null-input test scoring any output from signal-free input as failure, and would read element S.3 to cover false confidence that input was received."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p039",
+   "stance": "neutral",
+   "gist": "Clarifies the measurements came from a commercial assistant, offered since the failure class belongs to any sensor-plus-generative architecture."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p040",
+   "stance": "neutral",
+   "gist": "Takes no position on justifying a comparator where a human alternative exists but is unavailable in practice."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p041",
+   "stance": "conditional-minor",
+   "gist": "Claims narrowly that where a device's function is the user's expression, omitting the absence comparator records fabricated utterances as partial credit."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p044",
+   "stance": "conditional-minor",
+   "gist": "Says only the comparator asks what the record would hold without the device; for nonverbal users that is nothing, sometimes the safer result."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Note that the comment responds to Question 15 and is attached."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Submitter details."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Question addressed."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Submitter and organization."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Basis of the comment and lead-in to the question."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Restatement of Question 15."
+  },
+  {
+   "paragraph": "p042",
+   "reason": "List of evidence retained and shared with the Question 24 comment."
+  },
+  {
+   "paragraph": "p043",
+   "reason": "Description of the organization and submitter."
+  },
+  {
+   "paragraph": "p045",
+   "reason": "Dates, docket and contact details."
+  }
+ ]
+}

@@ -1,0 +1,607 @@
+{
+ "comment_id": "FDA-2026-N-7874-0025",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p010-p011",
+   "stance": "neutral",
+   "gist": "Draws a lesson from a missed docket: an AI can do exactly what it is asked and still fail because the human asked wrongly."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p012",
+   "stance": "neutral",
+   "gist": "A nurse and patient advocate strongly supports responsible AI, seeing potential to widen access to current knowledge, improve consistency and spot risk sooner."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p013-p019",
+   "stance": "neutral",
+   "gist": "Argues AI must learn to notice when the request differs from the need, since people ask proxy questions, minimize symptoms and omit what matters."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p020-p022",
+   "stance": "conditional-major",
+   "gist": "Worries that patient-facing and agentic tools that look administrative can shape care, and says a regulatory boundary must not become a safety gap."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p024-p026",
+   "stance": "conditional-major",
+   "gist": "Calls the framework a useful start but says incorrect output does not cover the full range of foreseeable patient harm."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p027-p036",
+   "stance": "conditional-major",
+   "gist": "Illustrates with a diabetic patient who asks only for his insurance card while having a heart attack: the AI answered correctly and he died."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p037-p043",
+   "stance": "conditional-major",
+   "gist": "Says patients ask administrative questions about cost, podiatrists or rescheduling when the real need is clinical, which the framework should recognize."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p044-p045",
+   "stance": "conditional-major",
+   "gist": "Wants risk to also cover incomplete interactions, missed latent need, omission, false reassurance, care delay from cost information, follow-up duty and cumulative turns."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p046-p051",
+   "stance": "conditional-major",
+   "gist": "Cites a patient-agent benchmark showing agents fulfilled administrative requests without clinically screening patients, as empirical support for widening the framework."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p052-p054",
+   "stance": "conditional-minor",
+   "gist": "Says completing the task is no measure of safety; patient-facing systems should be tested on spotting when a request is a proxy for a need."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p055-p059",
+   "stance": "conditional-minor",
+   "gist": "Agrees the categories blur: cost estimates, coverage explanations and urgency assessments direct action without imperative wording, so foreseeable influence should count."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p060-p063",
+   "stance": "conditional-major",
+   "gist": "Proposes that oversight track a technology's degree of influence on whether, when, where and from whom care happens, including administrative and benefits tools."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p064-p065",
+   "stance": "conditional-minor",
+   "gist": "Wants personalization, conversational authority, repeated prompting and selective presentation of options weighed as ways to shape choice without a command."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p066-p073",
+   "stance": "conditional-minor",
+   "gist": "Agrees patient-facing risk differs but warns licensure does not make clinicians reliable safeguards, since no practitioner can stay current with all evidence."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p074-p082",
+   "stance": "neutral",
+   "gist": "Sees AI's promise in anchoring clinicians to current evidence against habit and overconfidence, rather than reproducing existing practice variation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p083-p085",
+   "stance": "conditional-major",
+   "gist": "Wants both AI and practitioner judged against a current evidence-based standard, urging a common nationally recognized clinical reference framework."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p086-p095",
+   "stance": "conditional-major",
+   "gist": "Says common is not appropriate and cites mature guideline systems to argue AI should operationalize curated evidence, not derive a standard from training data."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p096-p098",
+   "stance": "conditional-minor",
+   "gist": "Says the safest model is neither AI instead of clinicians nor clinicians as an unquestioned backstop, but AI plus clinician plus an updated evidence standard."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p099-p111",
+   "stance": "conditional-minor",
+   "gist": "Wants whole encounters evaluated with scenarios where the key clinical fact is absent from the first request, scoring whether the AI knew to ask more."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p112-p117",
+   "stance": "conditional-minor",
+   "gist": "Frames triage risk as probability times severity times consequence of delay, asking whether AI weighs rare catastrophic possibilities against needless escalation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p118-p143",
+   "stance": "conditional-minor",
+   "gist": "Wants triage and level-of-care functions shown to be grounded in curated evidence-based sources with provenance, not improvised from the internet."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p144-p149",
+   "stance": "conditional-minor",
+   "gist": "Accepts the approach if competency spans knowledge, reasoning, recognition of danger and restraint about acting independently."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p150-p152",
+   "stance": "conditional-minor",
+   "gist": "Wants a specific competency added for recognizing latent clinical need inside apparently administrative interactions."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p153-p159",
+   "stance": "conditional-major",
+   "gist": "Wants administrative-intent versus clinical-need recognition tested, with task completion and safety scored separately so completion cannot offset missed triage."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p160-p167",
+   "stance": "conditional-minor",
+   "gist": "Wants competency tests to check whether the AI recognizes when a simple request warrants more questions before closing the encounter."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p168-p179",
+   "stance": "conditional-minor",
+   "gist": "Says benchmarks need messy humans who minimize, omit and ask proxy questions, and should test premature closure after apparent success."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p180-p185",
+   "stance": "conditional-major",
+   "gist": "Cautions against making the average clinician the final standard, preferring a comparator that includes a current evidence-based clinical standard."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p186-p197",
+   "stance": "neutral",
+   "gist": "Describes how AI could keep current evidence alongside human judgment to counter anchoring, outdated training and overconfidence."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p198",
+   "stance": "conditional-major",
+   "gist": "Wants evaluation against three comparators: the best evidence-based standard, current unaided practice, and the human-AI team."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p199-p207",
+   "stance": "conditional-major",
+   "gist": "Supports comparing with care absent the device but wants an evidence-based ideal alongside, separating better-than-today from acceptably safe."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p208-p211",
+   "stance": "conditional-minor",
+   "gist": "Backs third parties for high-impact systems, with substantive independence, conflict disclosure and safeguards against cherry-picking and barriers to competition."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p212-p220",
+   "stance": "conditional-minor",
+   "gist": "Accepts the trade only within limits, with tolerance shrinking as harm, irreversibility, autonomy, patient contact and vulnerability rise."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p221-p227",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring to follow the chain from output through decision, care, claim and outcome, since technical metrics alone are not enough."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p228-p232",
+   "stance": "conditional-minor",
+   "gist": "Wants outcomes that matter clinically and near misses tracked, such as delayed care, abandonment after cost information, overrides and wrong routing."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p233-p234",
+   "stance": "conditional-minor",
+   "gist": "Wants accessible channels for clinicians, patients and caregivers to report suspected AI problems into an auditable safety-learning system."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p235-p243",
+   "stance": "conditional-minor",
+   "gist": "Accepts supervisory AI for anomaly, drift and tool-use detection but not as final judge; it must be validated, auditable and under human governance."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p244-p253",
+   "stance": "conditional-minor",
+   "gist": "Insists responsibility that is shared must still be owned, with each party accountable for its part and patients never made to find failures."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p254-p256",
+   "stance": "conditional-minor",
+   "gist": "Wants consequential interactions reconstructable: what was said, what the AI knew, which version answered, what evidence and warnings applied."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p257-p263",
+   "stance": "conditional-minor",
+   "gist": "Says contracts can allocate tasks but not accountability, so no link in the long healthcare AI chain can disclaim its part after harm."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p264-p270",
+   "stance": "conditional-minor",
+   "gist": "Says deployers cannot disclaim provider-made model changes and wants notification, versioning, regression testing, revalidation, rollback and contingency plans."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p271-p285",
+   "stance": "conditional-minor",
+   "gist": "Says agents act, so the question becomes whether the whole chain was appropriate, since individually correct steps can add up to abandoned care."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p286-p299",
+   "stance": "conditional-major",
+   "gist": "Names a clinical-adjacent safety gap and asks who regulates influential non-device AI, urging coordinated oversight proportionate to influence."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p300-p319",
+   "stance": "conditional-minor",
+   "gist": "Points to coverage-algorithm litigation and state laws as safety signals and wants a structured FDA mechanism to monitor such external developments."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p320-p327",
+   "stance": "conditional-minor",
+   "gist": "Wants AI to move knowledge rather than patients, judged on evidence grounding, recognizing generalist limits and escalating when specialists are needed."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p328-p333",
+   "stance": "conditional-minor",
+   "gist": "Wants evidence to rise with foreseeable clinical influence, with the risk framework also counting omission, delay, autonomy and lack of human review."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p334-p337",
+   "stance": "conditional-minor",
+   "gist": "Wants stronger real-world and prospective human-interaction testing as systems become more patient-facing, autonomous and consequential."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p338-p348",
+   "stance": "conditional-minor",
+   "gist": "Finds synthetic data useful but warns synthetic patients are too tidy; wants messy behaviors modeled and generator bias considered, never replacing real behavior."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p349-p356",
+   "stance": "conditional-minor",
+   "gist": "Wants re-testing scaled to whether a change could alter safety-critical behavior, treating such behavior as a protected function."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p357-p362",
+   "stance": "conditional-major",
+   "gist": "Wants regulators to define safety invariants, such as evidence grounding, escalation and human override, that cannot change without revalidation."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p363-p370",
+   "stance": "conditional-minor",
+   "gist": "Sees master files improving efficiency but says voluntary transparency cannot replace required safety information or diffuse the device maker's accountability."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p371-p374",
+   "stance": "conditional-minor",
+   "gist": "Defers on statistics but insists rigor cannot compensate for judging the wrong outcome, such as task completion instead of recognized urgency."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q17",
+   "paragraph": "p375-p378",
+   "stance": "conditional-minor",
+   "gist": "Urges FDA to focus on what a model does rather than what it is, keeping safety expectations constant across architectures."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p379-p382",
+   "stance": "conditional-minor",
+   "gist": "Wants FDA to distinguish factual accuracy, task completion, clinical appropriateness, behavioral safety and patient outcome."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p383-p386",
+   "stance": "conditional-minor",
+   "gist": "Wants testing of whether AI notices when a patient's literal ask differs from the need, especially in benefits, pharmacy, scheduling and cost interactions."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p387-p390",
+   "stance": "conditional-minor",
+   "gist": "Wants safety-critical functions grounded in curated evidence with provenance rather than the statistical popularity of internet content."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p391-p397",
+   "stance": "conditional-major",
+   "gist": "Says professional licensure should not stand in for an evidence standard; AI should make departures from evidence visible rather than agree with clinicians."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p398-p402",
+   "stance": "conditional-minor",
+   "gist": "Cautions that human in the loop says little; asks which human, with what qualifications, information, authority, time and real ability to override."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p403-p406",
+   "stance": "conditional-minor",
+   "gist": "Wants surveillance to include litigation, state laws, board actions, enforcement and public reports, not only device adverse-event channels."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p407-p411",
+   "stance": "conditional-major",
+   "gist": "Calls for an interagency framework with coordinated jurisdiction over clinical-adjacent AI so no agency can say the problem belongs elsewhere."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p412-p427",
+   "stance": "conditional-major",
+   "gist": "Proposes fifteen patient-safety principles, from evidence grounding and restraint to auditability, accountability and regulatory continuity."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p428-p448",
+   "stance": "conditional-major",
+   "gist": "Proposes an influence-based principle: whoever deploys technology that foreseeably shapes care must prove it safe in proportion to that influence."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p449-p456",
+   "stance": "neutral",
+   "gist": "Closes on AI's potential to deliver the right knowledge where and when needed, reduce variation and help patients navigate a complex system."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p457-p475",
+   "stance": "conditional-major",
+   "gist": "Says correct answers cannot define success; healthcare AI should be judged on whether it helped the person get needed care, with escalation and accountability."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p476-p484",
+   "stance": "conditional-major",
+   "gist": "Urges FDA to work with federal and state partners on the territory just beyond the device boundary, since patients cannot tell the difference."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Points to the attachment."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Describes the focus of the comments."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Docket header and salutation."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Apology for missing an earlier docket; no point about the paper."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Apology for missing an earlier docket; no point about the paper."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Apology for missing an earlier docket; no point about the paper."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Apology for missing an earlier docket; no point about the paper."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Apology for missing an earlier docket; no point about the paper."
+  },
+  {
+   "paragraph": "p023",
+   "reason": "Note on how the question headings are worded."
+  },
+  {
+   "paragraph": "p485",
+   "reason": "Thanks."
+  },
+  {
+   "paragraph": "p486",
+   "reason": "Closing remark about the writer's own AI."
+  },
+  {
+   "paragraph": "p487",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p488",
+   "reason": "Signature."
+  },
+  {
+   "paragraph": "p489",
+   "reason": "Professional background of the writer."
+  },
+  {
+   "paragraph": "p490",
+   "reason": "Professional background of the writer."
+  },
+  {
+   "paragraph": "p491",
+   "reason": "Professional background of the writer."
+  },
+  {
+   "paragraph": "p492",
+   "reason": "Professional background of the writer."
+  },
+  {
+   "paragraph": "p493",
+   "reason": "Professional background of the writer."
+  },
+  {
+   "paragraph": "p494",
+   "reason": "Professional background of the writer."
+  },
+  {
+   "paragraph": "p495",
+   "reason": "Professional background of the writer."
+  },
+  {
+   "paragraph": "p496",
+   "reason": "Professional background of the writer."
+  },
+  {
+   "paragraph": "p497",
+   "reason": "Professional background of the writer."
+  },
+  {
+   "paragraph": "p498",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p499",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p500",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p501",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p502",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p503",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p504",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p505",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p506",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p507",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p508",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p509",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p510",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p511",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p512",
+   "reason": "References."
+  }
+ ]
+}

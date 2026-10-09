@@ -1,0 +1,12 @@
+{
+  "comment_id": "FDA-2026-N-7874-0004",
+  "tags": [
+    {"code": "GENERAL", "subcode": "BKG", "paragraph": "p002", "stance": "neutral",
+     "gist": "Worries that device parameters and training may be customized to a provider's risk appetite or to demographic bias."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p003", "stance": "conditional-minor",
+     "gist": "Supports AI overall but finds the top-down view foggy on systemic and subjective bias."}
+  ],
+  "skipped": [
+    {"paragraph": "p001", "reason": "Outside the paper: ethics of AI decision-making, patient agency and AI personhood."}
+  ]
+}

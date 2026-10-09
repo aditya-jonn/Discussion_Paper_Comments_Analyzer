@@ -1,0 +1,178 @@
+{
+ "comment_id": "FDA-2026-N-7874-0062",
+ "tags": [
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Says Question 24 presumes manufacturers know which model their device uses; identifying the component should be a prerequisite to detecting change, not assumed done."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Says no manufacturer can detect changes in a component it has wrongly identified, since documentation drifts silently from deployment."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Reports the most consequential measured failure was upstream of the model, in audio capture, where model monitoring would not look."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Notes the failure left no log entry at all, so a monitoring program cannot see an event that the device never records."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p012",
+   "stance": "conditional-minor",
+   "gist": "Reports an automated reviewer confidently misread the failure's residue as the user simply stopping speaking."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p013-p017",
+   "stance": "neutral",
+   "gist": "Reports that on the commenter's own audited stack the code description named a local model while the code called a different vendor's hosted API."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p018-p026",
+   "stance": "neutral",
+   "gist": "Reports sample-level measurements showing audio capture, not the model, stopped delivering signal, with loss roughly doubling every forty minutes."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p027-p031",
+   "stance": "conditional-minor",
+   "gist": "Reports a transcriber producing fluent words over dead input, and would extend element S.3 to false confidence about having received input."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p032-p033",
+   "stance": "conditional-minor",
+   "gist": "Reports that terminated sessions and lost speech left zero log lines, so surveillance that assumes failures self-report will miss this class."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p034-p037",
+   "stance": "conditional-minor",
+   "gist": "Reports a model reviewer inverting causation twice, and wants supervisory agents validated against failure residue that mimics normal use, without treating log agreement as corroboration."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p039-p040",
+   "stance": "conditional-minor",
+   "gist": "Recommends a runtime component manifest emitted per inference by the calling path, stating the model, version and endpoint that actually served the output."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p041-p042",
+   "stance": "conditional-major",
+   "gist": "Would make version pinning a condition of clearance, with unpinned dependency itself a change and no PCCP for devices calling an unversioned endpoint."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p043-p044",
+   "stance": "conditional-minor",
+   "gist": "Recommends input-integrity monitoring separate from model monitoring, verifying sensor or audio streams carry live signal and logging loss as an adverse event."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p045-p046",
+   "stance": "conditional-minor",
+   "gist": "Wants absence of input, premature termination and dropped capture logged as rigorously as errors, since untraced failures escape every mechanism."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p047-p048",
+   "stance": "conditional-minor",
+   "gist": "Proposes a benchmark element testing devices on inputs with no valid signal, with any fluent output scored as failure."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p049-p050",
+   "stance": "conditional-minor",
+   "gist": "Calls contractual advance notice necessary but insufficient when component identity is not verifiable at runtime."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p055",
+   "stance": "conditional-minor",
+   "gist": "Says the failure was caught only because a sighted user watched the screen; a nonverbal user cannot contest a sentence invented in their name."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Note that the comment responds to Question 24 and is attached."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Submitter details."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Question addressed and submitter."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Organization and basis of the comment."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Restatement of Question 24."
+  },
+  {
+   "paragraph": "p038",
+   "reason": "Lead-in to the recommended mechanisms."
+  },
+  {
+   "paragraph": "p051",
+   "reason": "List of evidence retained and available on request."
+  },
+  {
+   "paragraph": "p052",
+   "reason": "Note that the figures can be regenerated from retained files."
+  },
+  {
+   "paragraph": "p053",
+   "reason": "Note on why no word-error rate is offered."
+  },
+  {
+   "paragraph": "p054",
+   "reason": "Description of the organization and submitter."
+  },
+  {
+   "paragraph": "p056",
+   "reason": "Dates, docket and contact details."
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "comment_id": "FDA-2026-N-7874-0080",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p004",
+   "stance": "support",
+   "gist": "Commends CDRH's early and transparent engagement with stakeholders and focuses on what the framework means for wearables."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p004",
+   "stance": "support",
+   "gist": "Supports the two-axis framework and its recognition that informational, non-directive functions with limited consequences pose the lowest risk."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Asks FDA to clarify that informational, non-directive GenAI functions are non-devices or under enforcement discretion, consistent with its treatment of symptom checkers."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p006-p008",
+   "stance": "conditional-minor",
+   "gist": "Argues this matches the Cures Act exclusion of informational decision support, where the dispositive factor is non-directive character, not subject matter."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p009-p011",
+   "stance": "conditional-minor",
+   "gist": "Asks for a bright line with the wellness policy: a non-directive disease reference that contextualizes a user's wearable data stays low risk, not a device."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p012-p014",
+   "stance": "conditional-minor",
+   "gist": "Asks that LLMs interpreting wearable data face one standard whoever deploys them, since the wellness policy currently leaves this unclear."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p015",
+   "stance": "conditional-minor",
+   "gist": "Shares the view that GenAI will reshape health technology and wants low-risk informational functions anchored in enforcement discretion with one standard for all deployers."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Pointer to the attachment."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Letterhead and docket reference."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Salutation."
+  }
+ ]
+}

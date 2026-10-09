@@ -1,0 +1,435 @@
+{
+  "comment_id": "FDA-2026-N-7874-0116",
+  "tags": [
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p004",
+      "stance": "support",
+      "gist": "The society backs a regulatory approach protecting patients while allowing timely access to safe, effective innovation."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p007",
+      "stance": "conditional-major",
+      "gist": "Recommends FDA mandate that action-directing or action-taking functions with moderate or severe consequences join an independently governed, qualified postmarket data system."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p007",
+      "stance": "conditional-minor",
+      "gist": "Recommends formally studying non-directive informational tools and exempt non-device CDS through similar data systems to learn their risks and benefits."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p008",
+      "stance": "conditional-minor",
+      "gist": "Says joining a qualified data system with expert review should be necessary but not sufficient for accepting premarket uncertainty; some cases still need trials."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p009",
+      "stance": "conditional-minor",
+      "gist": "Says its recommendations, built on existing specialty programs, would connect GenAI use with downstream actions and outcomes and build trust."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p010",
+      "stance": "conditional-major",
+      "gist": "Lists seven recommendations: required data-system participation, qualification criteria, manufacturer accountability, links to change control, shared benchmarking, bidirectional escalation and FDA-CMS coordination."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p011",
+      "stance": "conditional-minor",
+      "gist": "Supports the lifecycle approach but says greater postmarket reliance is justified only with operational monitoring infrastructure overseen by expert clinicians."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p012",
+      "stance": "neutral",
+      "gist": "Cites a review of device reports for 823 AI devices, almost all concerning five devices, showing the limits of passive reporting."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p013",
+      "stance": "conditional-minor",
+      "gist": "Says manufacturer inference records and institutional outcomes must be linked to assess use, overrides and subgroup performance, supporting all three approaches."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p014",
+      "stance": "conditional-minor",
+      "gist": "Says the clinician analogy justifies ongoing assessment akin to maintenance of certification, without implying licensure or replacing authorization."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p015",
+      "stance": "conditional-minor",
+      "gist": "Points to precedent for society-administered postmarket data programs and urges connecting with existing ones rather than duplicating them."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p016-p017",
+      "stance": "neutral",
+      "gist": "Describes coverage-linked national data programs for valve replacement and appendage closure, and a vascular network linked to claims."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p018-p019",
+      "stance": "neutral",
+      "gist": "Describes an FDA-sponsored orthopedic data collaboration and radiology's imaging AI monitoring program as relevant, linkable infrastructure."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p020",
+      "stance": "conditional-minor",
+      "gist": "Draws lessons of independent governance, meaningful data and durable participation enabled by CMS."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p020",
+      "stance": "conditional-minor",
+      "gist": "Says unregulated CDS often fails to match claims and the non-device CDS four-point test seems arbitrary now that chatbots analyze images and signals."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p021-p022",
+      "stance": "conditional-major",
+      "gist": "Recommends mandatory qualified data-system participation for action-directing, action-taking or moderate-to-severe-consequence functions."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p022",
+      "stance": "conditional-minor",
+      "gist": "Recommends studying unregulated non-device CDS and non-directive tools through similar data systems."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p023",
+      "stance": "conditional-minor",
+      "gist": "Asks FDA to identify the legal mechanism per category, such as section 522 orders or special controls, and engage legislators where authority is lacking."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p024",
+      "stance": "conditional-minor",
+      "gist": "Wants the data system's core functions operational at launch; a promise to monitor later should not reduce premarket evidence."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p025",
+      "stance": "conditional-minor",
+      "gist": "Says participation alone cannot justify uncertainty; for irreversible high-consequence functions, monitoring must not replace premarket evidence including trials."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p026",
+      "stance": "conditional-minor",
+      "gist": "Wants surveillance duration tied to ongoing change in models and prompts, not to a payer's evidence timeline or regulatory deadline."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p027-p029",
+      "stance": "conditional-minor",
+      "gist": "Wants qualified data systems governed with professional societies, independent of manufacturers and developers, with industry holding no control over adjudication."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p030-p033",
+      "stance": "conditional-minor",
+      "gist": "Wants the system to capture every encounter with a full denominator, version identity at inference, links from outputs to actions and outcomes, and subgroup results."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p034-p037",
+      "stance": "conditional-minor",
+      "gist": "Wants scheduled independent audits, qualified reviewers, transparent version-specific reporting, privacy-limited collection and guaranteed FDA access and continuity."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p038-p040",
+      "stance": "conditional-minor",
+      "gist": "Keeps roles distinct: the system measures, FDA oversees, manufacturers remain responsible for reporting and corrective action, with independent escalation."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p041",
+      "stance": "conditional-minor",
+      "gist": "Wants sustainable independent funding without buying favorable findings, transparent conflicts, and multiple qualified operators rather than an exclusive one."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p042-p043",
+      "stance": "conditional-minor",
+      "gist": "Supports all three approaches, with re-benchmarking on stable plus contemporary cases and clinician review of prespecified samples by independent, qualified reviewers."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p044",
+      "stance": "conditional-minor",
+      "gist": "Wants degradation monitoring against the baseline with routine cadence, event triggers and prespecified thresholds prompting investigation, rollback or suspension."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q23",
+      "paragraph": "p045",
+      "stance": "conditional-minor",
+      "gist": "Treats a prespecified performance envelope as a monitoring component, not a substitute for defining permissible change, since averages hide subgroup deterioration."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p046",
+      "stance": "conditional-minor",
+      "gist": "Wants contractual notification combined with version identifiers, pinning, logs and rollback, acknowledging data systems may miss hidden revisions."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p047",
+      "stance": "conditional-minor",
+      "gist": "Wants supervisory agents independently evaluated against clinician adjudication and outcomes, logged in the data system, and supplementing not displacing clinical review."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p048",
+      "stance": "conditional-minor",
+      "gist": "Says a society-involved data system can supply a multi-institutional sampling frame and sequestered, versioned, refreshed test sets, plus qualified adjudicators."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p049",
+      "stance": "conditional-minor",
+      "gist": "Says sponsors must still show the benchmark measures relevant capabilities and relates to clinical performance; a distributed system is not presumed representative."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p050",
+      "stance": "conditional-minor",
+      "gist": "Supports qualified third-party roles informed by ASCA and MDDT, with societies eligible when qualified, but affiliation conferring neither qualification nor approval authority."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p051-p052",
+      "stance": "conditional-minor",
+      "gist": "Agrees both escalation errors matter; wants prespecified criteria from independent society-chosen experts, linked outcomes, and separate rates not averaged."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p053-p054",
+      "stance": "conditional-minor",
+      "gist": "Recommends FDA-CMS coordination on data elements and qualification, with payment policy complementing rather than sustaining surveillance alone."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p057",
+      "stance": "conditional-major",
+      "gist": "Concludes qualified independent data systems linking AI use to outcomes should be required for the identified functions."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p058",
+      "stance": "conditional-minor",
+      "gist": "States the principle that more postmarket reliance requires a matching credible ability to produce and act on evidence, societies contributing without assuming responsibility."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p075",
+      "stance": "conditional-minor",
+      "gist": "Measure under- and over-escalation separately with prespecified criteria, a complete denominator and linked outcomes, keeping event reporting."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p076",
+      "stance": "conditional-minor",
+      "gist": "Use sequestered, versioned, refreshed test sets from the data system with documented sampling and adjudication; data source alone does not establish validity."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p077",
+      "stance": "conditional-minor",
+      "gist": "Make societies and data-program operators eligible third parties under transparent criteria, avoiding exclusive operators or automatic qualification."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p078",
+      "stance": "conditional-minor",
+      "gist": "A qualified data system that is operational is necessary but not sufficient for reduced premarket evidence; irreversible risks may need stronger confirmation."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p079",
+      "stance": "conditional-minor",
+      "gist": "Combine re-benchmarking, independent clinician review and degradation monitoring with a defined denominator, prespecified cadence, triggers and thresholds."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p080",
+      "stance": "conditional-minor",
+      "gist": "Independently evaluate supervisory agents, keep auditable records, assess missed and correlated failures and keep human oversight; model agreement alone is insufficient."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p081",
+      "stance": "conditional-minor",
+      "gist": "Societies measure and report independently, manufacturers keep regulatory obligations, institutions keep theirs, with FDA access and FDA-CMS coordination."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p082",
+      "stance": "conditional-minor",
+      "gist": "Scale post-change evaluation to the modification's nature and risk including safety-critical tasks and subgroups; data-system measures supplement validation."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q23",
+      "paragraph": "p083",
+      "stance": "conditional-minor",
+      "gist": "Treat a prespecified performance envelope only as a monitoring tool, not authorization for unspecified changes, within PCCP boundaries."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p084",
+      "stance": "conditional-minor",
+      "gist": "Combine contractual notification with version identity, configuration records, testing and rollback; data-system signals aid investigation but guarantee no detection."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to attachment."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Letterhead and date."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Docket reference line."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Introduction of the society's perspective."
+    },
+    {
+      "paragraph": "p006",
+      "reason": "Scope statement for the comment."
+    },
+    {
+      "paragraph": "p055",
+      "reason": "Proposal of the society's own feasibility study."
+    },
+    {
+      "paragraph": "p056",
+      "reason": "Offer to discuss the proposed study with FDA."
+    },
+    {
+      "paragraph": "p059",
+      "reason": "Thanks and contact details."
+    },
+    {
+      "paragraph": "p060",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p061",
+      "reason": "Signatures."
+    },
+    {
+      "paragraph": "p062",
+      "reason": "Note on references."
+    },
+    {
+      "paragraph": "p063",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p064",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p065",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p066",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p067",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p068",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p069",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p070",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p071",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p072",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p073",
+      "reason": "Reference and appendix heading."
+    },
+    {
+      "paragraph": "p074",
+      "reason": "Lead-in to the appendix table."
+    }
+  ]
+}

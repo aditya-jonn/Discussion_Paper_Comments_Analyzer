@@ -1,0 +1,17 @@
+{
+  "comment_id": "FDA-2026-N-7874-0044",
+  "tags": [],
+  "skipped": [
+    {"paragraph": "p001", "reason": "Outside the paper: privacy of biometric voice prints used to train AI and HIPAA compliance."},
+    {"paragraph": "p002", "reason": "Rhetorical aside."},
+    {"paragraph": "p003", "reason": "Outside the paper: voice print privacy at an EHR vendor."},
+    {"paragraph": "p004", "reason": "Outside the paper: de-identification of voice prints and HIPAA Safe Harbor."},
+    {"paragraph": "p005", "reason": "Outside the paper: informed consent for biometric identifiers."},
+    {"paragraph": "p006", "reason": "Outside the paper: privacy liability and enforcement."},
+    {"paragraph": "p007", "reason": "Exclamation without a point."},
+    {"paragraph": "p008", "reason": "Outside the paper: electronic surveillance law in healthcare settings."},
+    {"paragraph": "p009", "reason": "Outside the paper: privacy law enforcement."},
+    {"paragraph": "p010", "reason": "Outside the paper: patient access to audit trails under privacy law."},
+    {"paragraph": "p011", "reason": "Closing remark about privacy enforcement."}
+  ]
+}

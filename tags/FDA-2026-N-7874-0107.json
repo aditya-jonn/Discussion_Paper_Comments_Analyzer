@@ -1,0 +1,36 @@
+{
+  "comment_id": "FDA-2026-N-7874-0107",
+  "tags": [
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p005", "stance": "conditional-minor",
+     "gist": "Says least-burdensome principles and timely access must not displace FDA's core mandate of reasonable assurance of safety and effectiveness."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p006", "stance": "conditional-minor",
+     "gist": "Sees the GenAI framework as a chance to strengthen evidence standards generally, given 510(k) reliance on surrogates and limited datasets."},
+    {"code": "PREMARKET", "subcode": "Q11", "paragraph": "p007-p011", "stance": "conditional-major",
+     "gist": "Wants prospective clinical studies as the principal evidence for devices directly influencing care, since benchmarks miss human variability, misinterpretation, system effects and emergent risks."},
+    {"code": "PREMARKET", "subcode": "Q10", "paragraph": "p012", "stance": "conditional-minor",
+     "gist": "Calls evaluator judgments of outputs a surrogate for clinical performance whose link to outcomes is unproven, so benchmark results deserve caution."},
+    {"code": "PREMARKET", "subcode": "Q11", "paragraph": "p013", "stance": "conditional-major",
+     "gist": "Says the breadth of GenAI devices is no reason to abandon prospective evaluation where meaningful clinical endpoints exist."},
+    {"code": "PREMARKET", "subcode": "Q11", "paragraph": "p014", "stance": "conditional-major",
+     "gist": "For devices with discrete outcomes, such as insulin-dosing advice, wants a non-inferiority clinical study on outcomes like glycemic control rather than expert rating of text."},
+    {"code": "PREMARKET", "subcode": "Q11", "paragraph": "p015", "stance": "conditional-major",
+     "gist": "For broad-scope devices, pairs patient outcomes with independent adjudication of real cases, doubting retrospective or shadow methods capture interactive use."},
+    {"code": "PREMARKET", "subcode": "Q8", "paragraph": "p016", "stance": "conditional-major",
+     "gist": "Wants a low threshold for prospective evaluation, with action-directing and action-taking devices getting prospective scrutiny regardless of consequence level."},
+    {"code": "PREMARKET", "subcode": "Q8", "paragraph": "p017", "stance": "conditional-major",
+     "gist": "Would let benchmarking and simulation support clearance only of lower-risk informational devices, never establish safety where use affects patient care."},
+    {"code": "PREMARKET", "subcode": "Q7", "paragraph": "p018", "stance": "conditional-major",
+     "gist": "Warns that leaning on benchmarks, surrogates and machine assessment risks detaching regulation from the outcomes that matter to patients."}
+  ],
+  "skipped": [
+    {"paragraph": "p001", "reason": "Lead-in to attachment."},
+    {"paragraph": "p002", "reason": "Title line."},
+    {"paragraph": "p003", "reason": "Docket and submitter details."},
+    {"paragraph": "p004", "reason": "Lead-in describing the comment's perspective and focus."},
+    {"paragraph": "p019", "reason": "Disclosures."},
+    {"paragraph": "p020", "reason": "Reference."},
+    {"paragraph": "p021", "reason": "Reference."},
+    {"paragraph": "p022", "reason": "Reference."},
+    {"paragraph": "p023", "reason": "Reference."}
+  ]
+}

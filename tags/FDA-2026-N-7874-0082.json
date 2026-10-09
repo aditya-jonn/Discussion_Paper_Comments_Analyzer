@@ -1,0 +1,181 @@
+{
+ "comment_id": "FDA-2026-N-7874-0082",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p002",
+   "stance": "conditional-minor",
+   "gist": "Says the two-axis framework describes the commenter's offline bystander-emergency app almost exactly, but the no-clinician setting is undiscussed and changes several answers."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p003",
+   "stance": "conditional-major",
+   "gist": "Wants time pressure and downstream safeguards as first-class dimensions, and protocol fidelity rather than open-endedness as the primary modifier for lay-rescuer guidance."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p004",
+   "stance": "conditional-minor",
+   "gist": "Says bystander outputs should be action-directing; the real modifiers are premise fidelity, age-appropriate technique and call ordering, warranting a protocol-delivery sub-category."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Lists safeguards to count as mitigants: rule-based selection of high-consequence protocols, refusal that redirects rather than abandons, and frozen on-device operation."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Says that for protocol delivery, escalation belongs to every protocol as a step, judged by its ordering per scenario rather than as a scalar trade-off."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Says mechanical scanning is no release check; wants premise-sensitive test items adjudicated by humans, with sponsor benchmarks published in full instead of being required independent."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Would make the unaided user the primary comparator where the intended use is explicitly for when no professional is available."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Says frozen models on the device neither drift nor report home, so re-benchmarking after changes plus field-report intake should be their duty, unlike hosted models."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Says pinned, hash-checked weights on the device settle third-party change detection by construction; fine-tuning an open-weight model from a fixed base counts as manufacturer control."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Asks the guidance to address explicitly the setting where nothing stands behind the device, rather than a clinician."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p014",
+   "stance": "conditional-minor",
+   "gist": "Introduces the offline emergency-guidance product and says the no-clinician, no-cloud setting goes undiscussed in the paper yet changes its answers."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p015-p016",
+   "stance": "conditional-major",
+   "gist": "Wants time pressure and downstream safeguards treated as one first-class axis, with consequences judged against what care would happen without the device."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p017",
+   "stance": "conditional-major",
+   "gist": "Would rank traceability to published protocols first for lay-rescuer guidance, measuring departures from the protocol as the hazard and primary risk modifier."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p018-p021",
+   "stance": "conditional-minor",
+   "gist": "Agrees disclaimers do not reduce directiveness, but says for bystander emergencies the modifiers are premise fidelity, age-appropriate technique and when the call for help comes."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Asks the guidance to recognize a protocol-delivery sub-category of action-directing function, judged by fidelity to a published protocol."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p023-p026",
+   "stance": "conditional-minor",
+   "gist": "Asks that deterministic protocol selection, refusal that redirects to the nearest safe action, and offline on-device operation be recognized as risk mitigants."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p027",
+   "stance": "conditional-minor",
+   "gist": "Says bystander functions make escalation a protocol step, so it should be scored as scenario-specific ordering fidelity rather than a trade-off between error rates."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p028-p031",
+   "stance": "conditional-minor",
+   "gist": "Wants premise-aware items with human adjudication, age-stratified negatives, and full disclosure of sponsor benchmarks instead of an independence requirement."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p032",
+   "stance": "conditional-minor",
+   "gist": "Says the honest comparator for the offline setting is an untrained person acting from memory, with the standard of care only second."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p033",
+   "stance": "conditional-minor",
+   "gist": "Says offline models produce no logs and cannot drift, so re-benchmarking on change should be primary and frozen models distinguished from hosted ones."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p034",
+   "stance": "conditional-minor",
+   "gist": "Says hash-verified shipped weights leave no third-party change to detect, and asks that fixed-version open-weight models count as manufacturer-controlled."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p035",
+   "stance": "conditional-minor",
+   "gist": "Asks the eventual guidance to speak explicitly to settings without network or clinician, where a home-triage rule would be ignored or block the product."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Docket reference and note that the full comment is attached."
+  },
+  {
+   "paragraph": "p012",
+   "reason": "Signature."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p036",
+   "reason": "Thanks."
+  },
+  {
+   "paragraph": "p037",
+   "reason": "Signature."
+  }
+ ]
+}

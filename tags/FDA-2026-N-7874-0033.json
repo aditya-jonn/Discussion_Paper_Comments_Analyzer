@@ -1,0 +1,134 @@
+{
+ "comment_id": "FDA-2026-N-7874-0033",
+ "tags": [
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p008-p012",
+   "stance": "conditional-minor",
+   "gist": "Draws drug-safety lessons: postmarket systems detect only prespecified harms, depend on record quality, and tend to count timeliness rather than detection capability."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p013-p015",
+   "stance": "conditional-minor",
+   "gist": "Would accept the trade only if sponsors state which failure classes monitoring detects and misses, the detection interval, and how claims are verified in operation."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p016-p019",
+   "stance": "conditional-minor",
+   "gist": "Calls sample-based clinician review the right instinct but says it assumes adjudicator agreement that vague criteria like clinically appropriate do not deliver."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p020-p022",
+   "stance": "conditional-minor",
+   "gist": "Wants review criteria written as decision rules spelling out which evidence yields a yes or a no, and what to do when evidence is absent."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p023-p024",
+   "stance": "conditional-minor",
+   "gist": "Wants a share of samples reviewed by more than one adjudicator, with agreement reported against a prespecified acceptable range."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p025-p026",
+   "stance": "conditional-minor",
+   "gist": "Wants adjudicators calibrated through periodic joint review of standardized cases, and recalibrated after model, criteria or panel changes."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p027",
+   "stance": "conditional-minor",
+   "gist": "Wants each adjudication reconstructable, recording what was examined, against which source and on what basis, not only the outcome."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p028",
+   "stance": "conditional-minor",
+   "gist": "Suggests triggers: any model or architecture change including upstream ones, detected drift, input-population change, and accumulated adjudicator divergence."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p029-p030",
+   "stance": "conditional-minor",
+   "gist": "Asks who answers when a supervisor errs, wanting a defined context of use, failure-weighted validation, its own drift monitoring, recorded human override and version provenance."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p031",
+   "stance": "conditional-minor",
+   "gist": "Cautions that automation suits deterministic checks, not the clinical judgment sample review exists for, so throughput should not be reported as assurance."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p032-p035",
+   "stance": "conditional-minor",
+   "gist": "Would separate roles by function: societies build adjudicator calibration libraries, institutions own frictionless reporting pathways, manufacturers keep the monitoring programme."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p036-p038",
+   "stance": "conditional-minor",
+   "gist": "Notes a confident wrong output may not register as a reportable malfunction at complaint intake, and asks for guidance on what counts for generative functions."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p039",
+   "stance": "conditional-minor",
+   "gist": "Concludes monitoring can carry premarket weight only when specified with equal rigor, including candor about what it cannot detect and measured adjudicator agreement."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Points to the attachment."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Title of the comment."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Docket header and submitter."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Introduction of the writer."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Mentions the writer's own prototype toolkit, not offered as a solution."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Disclaimer of interests."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Lead-in naming the questions addressed."
+  },
+  {
+   "paragraph": "p040",
+   "reason": "Thanks."
+  },
+  {
+   "paragraph": "p041",
+   "reason": "Signature and contact details."
+  }
+ ]
+}

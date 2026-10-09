@@ -1,0 +1,22 @@
+{
+  "comment_id": "FDA-2026-N-7874-0018",
+  "tags": [
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p001", "stance": "conditional-minor",
+     "gist": "Calls the paper among FDA's most thoughtful on GenAI, well aligned with a lifecycle approach, while offering additional inputs from cloud platform work."},
+    {"code": "GENERAL", "subcode": "DEF", "paragraph": "p002-p008", "stance": "conditional-minor",
+     "gist": "Wants explicit multiple-function product examples, boundary controls and evidence of independence where one foundation model serves regulated and non-regulated functions."},
+    {"code": "PREMARKET", "subcode": "Q9", "paragraph": "p009-p013", "stance": "conditional-minor",
+     "gist": "Wants a dedicated cybersecurity competency area, or alignment with FDA cybersecurity guidance and standards, covering poisoning, retrieval attacks and tool abuse."},
+    {"code": "PREMARKET", "subcode": "Q9", "paragraph": "p014-p017", "stance": "conditional-minor",
+     "gist": "Wants human factors validation, including trust calibration, overreliance, alert fatigue and automation bias, as a standalone evaluation pillar."},
+    {"code": "PREMARKET", "subcode": "Q9", "paragraph": "p018-p023", "stance": "conditional-minor",
+     "gist": "Says most systems use retrieval, and wants validation expectations defined separately for the foundation model, retrieval layer, orchestrator and final output."},
+    {"code": "PREMARKET", "subcode": "Q12", "paragraph": "p024-p028", "stance": "conditional-minor",
+     "gist": "Finds the statistics vague and suggests non-inferiority or Bayesian approaches, risk-adjusted thresholds and team effectiveness measures."},
+    {"code": "AGENTIC", "subcode": "Q26", "paragraph": "p028-p032", "stance": "conditional-minor",
+     "gist": "Thinks agentic risk is understated and wants approval checkpoints, tool-use verification, audit trails, rollback and runtime supervision before high-risk deployment."},
+    {"code": "POSTMARKET", "subcode": "Q24", "paragraph": "p033-p038", "stance": "conditional-minor",
+     "gist": "Calls provider-initiated model changes the biggest practical challenge and wants locked versions, traceability, supplier agreements, triggered revalidation and PCCP provisions."}
+  ],
+  "skipped": []
+}

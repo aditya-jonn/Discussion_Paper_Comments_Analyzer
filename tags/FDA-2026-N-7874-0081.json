@@ -1,0 +1,13 @@
+{
+ "comment_id": "FDA-2026-N-7874-0081",
+ "tags": [
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p001",
+   "stance": "conditional-minor",
+   "gist": "Wants governance and oversight to involve a broad list of stakeholders, from patients and clinicians to engineers and ethicists, across the lifecycle with clear accountability."
+  }
+ ],
+ "skipped": []
+}

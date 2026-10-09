@@ -1,0 +1,47 @@
+{
+  "comment_id": "FDA-2026-N-7874-0110",
+  "tags": [
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p002",
+      "stance": "conditional-minor",
+      "gist": "Says reassessment is triggered by whether the system still does its work, checked each morning at a top level, since something can always break."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p003",
+      "stance": "conditional-minor",
+      "gist": "From running AI that checks an AI call center, says the checker should come from another company and model, and a person should still review."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p004",
+      "stance": "conditional-minor",
+      "gist": "Says a small practice has nobody to watch the model, must guard its sensitive data, and needs a daily check, not quarterly reports."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p005",
+      "stance": "conditional-minor",
+      "gist": "Says the model changes when its developer decides; when it does, rerun the checks and tell the practice the same day."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Introduction of the writer's business."
+    },
+    {
+      "paragraph": "p006",
+      "reason": "Closing remark about people."
+    },
+    {
+      "paragraph": "p007",
+      "reason": "Signature."
+    }
+  ]
+}

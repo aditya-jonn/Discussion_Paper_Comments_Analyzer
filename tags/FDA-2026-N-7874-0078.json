@@ -1,0 +1,335 @@
+{
+ "comment_id": "FDA-2026-N-7874-0078",
+ "tags": [
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p004",
+   "stance": "support",
+   "gist": "Calls the benchmarking structure sound and the element set better than expected, with a narrow three-part comment to follow."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Says the elements are well chosen but the sampling beneath them is weaker, since results vary with where in a session they are drawn."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Says one element is missing: no element checks that the device received any input, so fluent text over a dead stream fails nothing as written."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Says A.1 is scoped too narrowly, since it alone covers prompt injection through retrieved content, which non-agentic retrieval devices also face."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p008",
+   "stance": "neutral",
+   "gist": "Offers the commenter's published open-source instruments as a method any reviewer could use on any device, in answer to the standards question."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p017",
+   "stance": "support",
+   "gist": "Restates that the benchmarking structure is sound and its elements better than expected."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p018",
+   "stance": "conditional-minor",
+   "gist": "Restates that the elements are well chosen but the framework does not specify when in a session a measurement is drawn."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Restates that an element checking whether input was received is missing, with forensic records showing the alternative behavior."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Restates that the retrieved-content portion of A.1 should not be confined to agentic devices."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p021",
+   "stance": "neutral",
+   "gist": "Restates that the commenter has published an instrument as an external method rather than proposing one."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p022-p024",
+   "stance": "conditional-minor",
+   "gist": "Proposes no removals and praises S.3 as naming the key failure, but says benchmarking is a sampled measurement where the sample's position is decisive."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p025-p027",
+   "stance": "conditional-minor",
+   "gist": "Reports input loss that doubled across one session and argues fresh benchmark runs can never observe a property that grows with elapsed session time."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p028-p030",
+   "stance": "conditional-minor",
+   "gist": "Reports presentation improving while errors persisted, so late samples score better under E.4; without a specified sampling position an element is not a measurement."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p031-p033",
+   "stance": "conditional-minor",
+   "gist": "Recommends stating the session position of each observation, including late in long sessions, and reporting trajectory across an encounter rather than only the aggregate."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p034-p037",
+   "stance": "conditional-minor",
+   "gist": "Argues every element judges output and none establishes the input arrived; R.1 tests known missing inputs, not whether the device detects absence itself."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p038-p044",
+   "stance": "neutral",
+   "gist": "Reports forensic records in which a failing transcription component wrote a stated failure instead of a plausible sentence, with byte-identical measurements across runs."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p045-p046",
+   "stance": "conditional-minor",
+   "gist": "Proposes a Safety element S.4 on input integrity: confirm the input was received before generating, and produce nothing when the referent is missing or unintelligible."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p047",
+   "stance": "conditional-minor",
+   "gist": "Says this matters most for nonverbal users, who cannot notice or retract a sentence spoken for them when no input ever arrived."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p048-p051",
+   "stance": "conditional-minor",
+   "gist": "Recommends moving the retrieved-content and tool-output injection portion of A.1 to Safety beside S.2, leaving A.1 the genuinely agentic competencies."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p052-p053",
+   "stance": "conditional-minor",
+   "gist": "Agrees with E.4's definition of automation bias but would also attach it to Safety, where the mitigation is declining to output rather than presenting better."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p054",
+   "stance": "support",
+   "gist": "Finds nothing redundant: S.3, E.1 and E.2 overlap on uncertainty but test calibration, knowledge limits and information sufficiency separately."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p055-p057",
+   "stance": "conditional-minor",
+   "gist": "Says every element is judged on evidence the device itself produced, and a machine-generated access record would make several elements mechanically checkable."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p058-p066",
+   "stance": "neutral",
+   "gist": "Describes the published ledger that separates the local process record from the answering-model record, including where the model runs."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p067",
+   "stance": "conditional-minor",
+   "gist": "Recommends that any claim about where a model executes be a stated field in a device record rather than an inference."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p068",
+   "stance": "neutral",
+   "gist": "Notes the instrument observes commercial systems the commenter uses, not its own products, and is offered as a method for any device."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p069-p075",
+   "stance": "neutral",
+   "gist": "Describes a second instrument that packages recordings into self-verifying evidence bags with hashes, measured spans and per-segment provenance."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p076-p077",
+   "stance": "conditional-minor",
+   "gist": "Suggests per-output provenance, which component produced a segment and whether it left the device, as a competency no current element asks about."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p079-p080",
+   "stance": "conditional-minor",
+   "gist": "Says no element captures what actually appeared on the person's screen, so investigations must reconstruct the output from evidence the device itself produced."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p081-p086",
+   "stance": "neutral",
+   "gist": "Reports a sealed session record pairing screen captures read by optical character recognition with a spoken transcript on one timeline."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p087-p088",
+   "stance": "conditional-minor",
+   "gist": "Recommends treating the display as capturable evidence whenever an adverse event hinges on what a device told someone, rather than relying on the device's log."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p089",
+   "stance": "neutral",
+   "gist": "Notes the display record establishes only what was on screen and when, leaving every judgment to a reviewer."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p090",
+   "stance": "neutral",
+   "gist": "Clarifies the instruments are not proposed as standards, only as existing inspectable implementations answering the question asked."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p091-p099",
+   "stance": "conditional-minor",
+   "gist": "Lists nine recommendations: keep the elements, specify sampling position, report trajectory, add input integrity, move injection to Safety, and allow independent records and provenance."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p100-p104",
+   "stance": "neutral",
+   "gist": "Clarifies the measurements and evidence bags show the failure modes occur and the behavior is implementable, not any rate or product performance."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p105",
+   "stance": "conditional-minor",
+   "gist": "Recommends against any standard turning on candour or intent, since each proposed element is observable without knowing why an output occurred."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p110-p111",
+   "stance": "conditional-minor",
+   "gist": "Says the commonest measured failure, fluent output over absent input, escapes the element set; for users who cannot check, the benchmark is the only defense."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Statement of the question addressed."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Submitter details."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Disclaimer about the measurements' limits."
+  },
+  {
+   "paragraph": "p010",
+   "reason": "Pointer to the attachment."
+  },
+  {
+   "paragraph": "p011",
+   "reason": "Contact details."
+  },
+  {
+   "paragraph": "p012",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Question addressed."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Submitter and organization."
+  },
+  {
+   "paragraph": "p015",
+   "reason": "Basis of the comment."
+  },
+  {
+   "paragraph": "p016",
+   "reason": "Restatement of Question 9."
+  },
+  {
+   "paragraph": "p078",
+   "reason": "Pointer to a published component."
+  },
+  {
+   "paragraph": "p106",
+   "reason": "List of evidence retained and available on request."
+  },
+  {
+   "paragraph": "p107",
+   "reason": "List of forensic evidence retained."
+  },
+  {
+   "paragraph": "p108",
+   "reason": "Note that the instruments are public."
+  },
+  {
+   "paragraph": "p109",
+   "reason": "Description of the organization and submitter."
+  },
+  {
+   "paragraph": "p112",
+   "reason": "Dates of the measurements."
+  },
+  {
+   "paragraph": "p113",
+   "reason": "Docket and deadline."
+  },
+  {
+   "paragraph": "p114",
+   "reason": "Contact details and signature."
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+  "comment_id": "FDA-2026-N-7874-0039",
+  "tags": [
+    {"code": "PREMARKET", "subcode": "Q9", "paragraph": "p001", "stance": "conditional-minor",
+     "gist": "Wants clear clinically meaningful metrics, acceptance thresholds, critical-error criteria and subgroup performance requirements defined."},
+    {"code": "RISK", "subcode": "Q1", "paragraph": "p002", "stance": "conditional-major",
+     "gist": "Suggests expanding the two axes to autonomy, detectability, reversibility, human oversight, patient vulnerability and severity of harm."},
+    {"code": "POSTMARKET", "subcode": "Q22", "paragraph": "p003", "stance": "conditional-minor",
+     "gist": "Wants retraining requirements covering documentation of data changes, version control, bias assessment and before-and-after performance comparison."},
+    {"code": "POSTMARKET", "subcode": "Q19", "paragraph": "p004", "stance": "conditional-minor",
+     "gist": "Wants proactive monitoring of drift, clinically significant errors, near misses, clinician overrides, subgroup performance and real-world data changes."},
+    {"code": "POSTMARKET", "subcode": "Q22", "paragraph": "p005", "stance": "conditional-minor",
+     "gist": "Wants risk-based reassessment triggers after updates, retraining or third-party model changes, with re-benchmarking against the premarket baseline."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p006", "stance": "support",
+     "gist": "Recommends a continuous, risk-adaptive lifecycle framework linking premarket evaluation, deployment, monitoring, modification and revalidation."}
+  ],
+  "skipped": []
+}

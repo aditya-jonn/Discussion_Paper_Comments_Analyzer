@@ -1,0 +1,165 @@
+{
+ "comment_id": "FDA-2026-N-7874-0046",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p001",
+   "stance": "conditional-minor",
+   "gist": "Thanks FDA and argues the key question is who answers for acting on an output, since accuracy belongs to models and accountability to people."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p002",
+   "stance": "conditional-major",
+   "gist": "Endorses the two axes but wants a named accountable human reviewer and reversibility made first-class variables that move a device down the risk surface."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p003",
+   "stance": "conditional-minor",
+   "gist": "Wants the clinician-facing lower-risk class tied explicitly to the section 520(o)(1)(E) independent-review criterion as a name-the-human design target."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p004",
+   "stance": "conditional-minor",
+   "gist": "Wants the model benchmarked alone but clinical confirmation to score the deployed human-AI team, with the human's role being accountability rather than accuracy."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Says shared postmarket responsibility functions only with a portable, tamper-evident, PHI-free record of who reviewed each output and what they decided."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Would anchor agentic oversight to whether a named licensed human reviews and signs each consequential or hard-to-reverse action, not to autonomy labels."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p006",
+   "stance": "support",
+   "gist": "Calls the principle that a master file is no device approval and the deploying sponsor stays responsible exactly right."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Would keep the path light for retrieval, drafting and triage, reserving the accountable licensed human for consequential clinical or coverage decisions."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p013",
+   "stance": "conditional-minor",
+   "gist": "A physician who runs attestation software supports the paper's central instincts and offers five refinements from systems in use."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p014",
+   "stance": "conditional-minor",
+   "gist": "Urges the framework to keep model accuracy and personal accountability separate and to build around the second."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p015",
+   "stance": "conditional-major",
+   "gist": "Wants the framework to state that routing consequential outputs through an accountable reviewer lowers effective risk, with reversibility treated the same way."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p016",
+   "stance": "conditional-minor",
+   "gist": "Wants devices whose basis a professional can independently review before acting named as a distinct lower-risk class under section 520(o)(1)(E)."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p017-p018",
+   "stance": "conditional-minor",
+   "gist": "Cites evidence that adding a reviewer does not reliably raise accuracy; wants confirmation to measure the team as deployed while the model is benchmarked alone."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p017-p018",
+   "stance": "support",
+   "gist": "Calls the escalation, calibration and clinical-deferral competencies exactly right, since knowing when to hand off is the safety behavior."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Offers a pattern of signed, timestamped, PHI-free attestations anchored to a tamper-evident ledger so human sign-offs can be verified afterward."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Proposes a functional test at each consequential action, whether a qualified human examines the basis and answers for it, as more robust than autonomy levels."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p020",
+   "stance": "support",
+   "gist": "Wants FDA to keep central that a master file is not an approval and the deploying party plus the signing clinician hold accountability."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p021",
+   "stance": "conditional-minor",
+   "gist": "Sums up: name the accountable human as risk-lowering element, regulatory class, unit of confirmation, postmarket record and agentic checkpoint."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p008",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Signature."
+  },
+  {
+   "paragraph": "p010",
+   "reason": "Docket header."
+  },
+  {
+   "paragraph": "p011",
+   "reason": "Addressee."
+  },
+  {
+   "paragraph": "p012",
+   "reason": "Submission details."
+  },
+  {
+   "paragraph": "p022",
+   "reason": "Thanks and offer of further detail."
+  },
+  {
+   "paragraph": "p023",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p024",
+   "reason": "Signature, reference and disclaimer."
+  }
+ ]
+}

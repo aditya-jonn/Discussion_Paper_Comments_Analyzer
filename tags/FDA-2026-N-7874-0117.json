@@ -1,0 +1,118 @@
+{
+  "comment_id": "FDA-2026-N-7874-0117",
+  "tags": [
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p001",
+      "stance": "support",
+      "gist": "Commends the paper as forward-thinking and agrees static validation paradigms cannot handle stochastic, emergent generative systems."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p002",
+      "stance": "conditional-minor",
+      "gist": "Argues from the writer's doctrine that governance must move from paper compliance to runtime enforcement, continuous benchmarking and immutable data lineage."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p003",
+      "stance": "conditional-minor",
+      "gist": "Says the paper moves in the right direction but omits runtime threat defense, data integrity and third-party model risk."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p004",
+      "stance": "support",
+      "gist": "Endorses the two-axis matrix and its recognition that informational outputs may turn action-directing through wording, context and vulnerability."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p004",
+      "stance": "support",
+      "gist": "Calls competency-based assessment modeled on credentialing sound and necessary, paralleling ongoing laboratory-style proficiency testing."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p004",
+      "stance": "support",
+      "gist": "Agrees CDRH rightly emphasizes continuous postmarket surveillance and PCCPs, since premarket tests cannot predict every conversational path."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p005-p006",
+      "stance": "conditional-major",
+      "gist": "Calls accepting premarket uncertainty hazardous unless reduced evidence is strictly contingent on automated runtime boundary controls and kill-switches."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p006-p007",
+      "stance": "conditional-minor",
+      "gist": "Says the paper underestimates indirect prompt injection through records and documents; wants pre-ingestion sanitization as a primary design control."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p007-p008",
+      "stance": "conditional-major",
+      "gist": "Citing a Part 11 audit-trail gap, would mandate a six-field chain-of-custody record per output, including model hash, prompts, retrieval lineage and clinician signature."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p008-p009",
+      "stance": "conditional-major",
+      "gist": "Proposes a three-tier materiality matrix where high-materiality anomalies trigger automated kill-switch, lockout, CAPA investigation and 24-hour reporting."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p009",
+      "stance": "conditional-minor",
+      "gist": "Calls master files insufficient and would require sponsors to secure 14-day advance notice and a sandbox to run golden tests before vendor updates go live."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p009-p010",
+      "stance": "conditional-minor",
+      "gist": "Would add output reversibility and traceability as matrix dimensions, weighting irreversible surgical or pharmacological triggers more heavily."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p010",
+      "stance": "conditional-minor",
+      "gist": "Given saturation and leakage, wants sequestered sponsor-curated ground-truth sets judged by independent panels, with noisy, contradictory inputs."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p010",
+      "stance": "conditional-minor",
+      "gist": "Accepts evaluator agents for high-throughput monitoring if competency-qualified, rule-bound and subordinate to accountable human oversight."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p010",
+      "stance": "conditional-minor",
+      "gist": "Wants mandatory non-bypassable human checkpoints before irreversible agentic actions and isolated vector partitioning against cross-tenant data bleed."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p010",
+      "stance": "conditional-minor",
+      "gist": "Calls the paper a thoughtful foundation but says safety cannot rest on trust or after-the-fact monitoring; urges filtering, kill-switches and chain of custody."
+    }
+  ],
+  "skipped": []
+}

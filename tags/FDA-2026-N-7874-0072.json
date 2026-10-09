@@ -1,0 +1,61 @@
+{
+ "comment_id": "FDA-2026-N-7874-0072",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p003",
+   "stance": "support",
+   "gist": "Appreciates FDA's engagement with stakeholders and wants the framework to support safe, well-governed innovation."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p004",
+   "stance": "neutral",
+   "gist": "Holds that clinical AI should augment physicians within clinical boundaries, with safety, accountability, auditability and human oversight remaining essential as systems grow."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Sees closing the gap between fast technology and slower regulation as shared work, including agreeing consistent terms for clinical functions, autonomy, oversight and risk."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Wants a clear, consistent description of where AI that supports a clinician's plan ends and AI exercising independent clinical judgment begins, mapped to existing frameworks."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Asks FDA to keep clarifying how GenAI risks map to controls and evidence, proportional to risk and crediting design controls, human factors and oversight."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p008",
+   "stance": "support",
+   "gist": "Says industry and regulators share the goal of getting beneficial technology to patients efficiently with appropriate safety standards."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Pointer to the attachment."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Document footer."
+  }
+ ]
+}

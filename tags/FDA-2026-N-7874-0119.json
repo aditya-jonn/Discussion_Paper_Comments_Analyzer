@@ -1,0 +1,369 @@
+{
+  "comment_id": "FDA-2026-N-7874-0119",
+  "tags": [
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p004",
+      "stance": "conditional-minor",
+      "gist": "Reports CMS and seven state coverage regimes place the AI duty on the regulated user, never the developer, reaching suppliers only through regulated entities."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p005-p009",
+      "stance": "conditional-minor",
+      "gist": "Offers a three-question drafting test for any accountability assignment: is the bearer named, does satisfaction act on proof or duty, is the trigger direction-neutral."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p012",
+      "stance": "conditional-minor",
+      "gist": "Summarizes that coverage law reaches model suppliers only through the regulated entity, offering three consistent mechanisms and one way such a mechanism fails."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p012",
+      "stance": "conditional-minor",
+      "gist": "Says state law shows clinician supervision means different things in different settings, and reduces the record to a test for drafting postmarket roles."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p015",
+      "stance": "neutral",
+      "gist": "Offers coverage-decision law, where payers are named ecosystem participants, as a domestic record of who answers when software joins a patient decision."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p016-p018",
+      "stance": "conditional-major",
+      "gist": "Would add a dimension beside downstream safeguards: whether the legal requirement for a safeguard can be discharged without actually performing it."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p019-p026",
+      "stance": "neutral",
+      "gist": "Contrasts Colorado, where supervision attaches to a responsible provider, with Alabama, where attestation satisfies the human-decision duty, placing one device at different axis positions."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p027",
+      "stance": "conditional-minor",
+      "gist": "Suggests the framework acknowledge the supervised position as dependent on whether supervision is enforceable in the deployment setting's governing law."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p028",
+      "stance": "conditional-minor",
+      "gist": "Would keep time pressure as an explicit modifier, since supervision that must happen within seconds may exist in name only."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p029-p032",
+      "stance": "neutral",
+      "gist": "Describes two enforceable state answers: Texas prohibits automated adverse determinations, while Colorado allocates duty to the insurer even when vendors are used."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p033",
+      "stance": "conditional-minor",
+      "gist": "Argues allocation of responsibility outlasts prohibition as models improve, making it the more durable design for a postmarket framework."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p034-p035",
+      "stance": "neutral",
+      "gist": "Shows how a discharge clause undoes allocation: Alabama's act lets attested reliance on vendors satisfy the duty itself, unlike narrower proof provisions elsewhere."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p036-p037",
+      "stance": "conditional-minor",
+      "gist": "Says assigning a role and defining its discharge are separate choices; stakeholder roles should be inputs the manufacturer acts on, not substitute duties."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p038",
+      "stance": "conditional-minor",
+      "gist": "Casts clinicians as reporters of fluent, plausible, wrong outputs seen in use; such a report is a postmarket signal, not transferred accountability."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p039",
+      "stance": "conditional-minor",
+      "gist": "Says institutions owning the deployment environment can preserve logs and notify manufacturers of local configuration changes, but should not re-validate the model."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p040",
+      "stance": "conditional-minor",
+      "gist": "Sees professional societies and standards bodies as natural authors for shared competency batteries and incident taxonomies."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p041-p043",
+      "stance": "conditional-minor",
+      "gist": "Notes state rules restrict denials but never automated approvals, so a rule written for one error direction leaves the other direction unregulated."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p044",
+      "stance": "conditional-minor",
+      "gist": "Suggests postmarket role triggers attach to the system's use in a decision, not to which way its outcome went."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p045-p050",
+      "stance": "neutral",
+      "gist": "Reviews coverage law: duties fall on the regulated user, suppliers appear only through that duty, and self-funded plans and practice remain untested."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p051-p052",
+      "stance": "conditional-minor",
+      "gist": "Proposes supplier information be required through the manufacturer's quality-system purchasing controls, with suppliers producing sensitive material directly to FDA on authorization."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p053",
+      "stance": "conditional-minor",
+      "gist": "Warns that supplier production should demonstrate compliance, never count as satisfying the manufacturer's own obligation, or it repeats Alabama's flaw."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p054",
+      "stance": "conditional-minor",
+      "gist": "Says evaluating the assembled device and using the premarket baseline to detect and re-check developer-initiated changes avoids making developers manufacturers."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p055",
+      "stance": "conditional-minor",
+      "gist": "Accepts a voluntary master file as reducing duplicate review, but says it cannot replace the manufacturer's showing after an uninitiated change, and incentives remain weak."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p056",
+      "stance": "conditional-minor",
+      "gist": "Says a PCCP may govern the response to a class of upstream changes but cannot stand in for supplier information duties and device-level evaluation."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p058-p060",
+      "stance": "neutral",
+      "gist": "Notes Maryland's most categorical prohibition names no bearer, leaving no one to monitor or report, while designation quality and enforceability remain independent."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p061-p065",
+      "stance": "conditional-minor",
+      "gist": "Reduces the record to three drafting questions, bearer named, satisfaction acting on proof, direction-neutral trigger, applicable to CDRH's own role assignments."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Introduction of the writer."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Lead-in naming the questions addressed."
+    },
+    {
+      "paragraph": "p010",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p011",
+      "reason": "Submitter line."
+    },
+    {
+      "paragraph": "p013",
+      "reason": "Introduction of the writer's observatory."
+    },
+    {
+      "paragraph": "p014",
+      "reason": "Scope statement."
+    },
+    {
+      "paragraph": "p057",
+      "reason": "Disclaimer on legal authority."
+    },
+    {
+      "paragraph": "p066",
+      "reason": "Caveats on the evidence sample and sources."
+    },
+    {
+      "paragraph": "p067",
+      "reason": "Closing summary of the contribution."
+    },
+    {
+      "paragraph": "p068",
+      "reason": "Thanks."
+    },
+    {
+      "paragraph": "p069",
+      "reason": "Signature."
+    },
+    {
+      "paragraph": "p070",
+      "reason": "Appendix heading."
+    },
+    {
+      "paragraph": "p071",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p072",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p073",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p074",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p075",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p076",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p077",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p078",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p079",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p080",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p081",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p082",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p083",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p084",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p085",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p086",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p087",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p088",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p089",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p090",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p091",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p092",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p093",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p094",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p095",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p096",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p097",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p098",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p099",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p100",
+      "reason": "Appendix quoted provision."
+    },
+    {
+      "paragraph": "p101",
+      "reason": "Appendix source citation."
+    },
+    {
+      "paragraph": "p102",
+      "reason": "Appendix quoted provision."
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+ "comment_id": "FDA-2026-N-7874-0006",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p002",
+   "stance": "support",
+   "gist": "Calls the paper's direction sound: the two-axis framework workable and the competency model a natural fit with how medicine judges clinicians."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p003",
+   "stance": "conditional-major",
+   "gist": "Wants risk to also reflect the counterfactual care environment and the duration of reliance, with exposure time modifying risk like dose."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p004",
+   "stance": "conditional-minor",
+   "gist": "Wants directiveness judged by substance with auditable modifiers, grounding in validated instruments credited as risk-reducing, and worked examples published."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Asks that patient-facing use not raise risk automatically, crediting verifiable behaviors such as forced deferral and two-way escalation testing."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Wants trajectory-level assessment through adversarial longitudinal simulation with personas, and a testable conversational envelope defining intended use."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "An emergency physician wants asymmetric error tolerances prespecified by context, both rates reported against clinicians, and near-zero under-escalation for alarm features."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Supports the confirmation ladder, with retrospective evaluation plus standardized patients usually enough for low-risk informational functions, and published presumptive tiers."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Wants comparators anchored to the real deployment context, including a usual-information-environment comparator built by sampling what patients find online."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p009",
+   "stance": "conditional-major",
+   "gist": "Would keep clinician-panel parity only for functions displacing clinician judgment, using the median generalist rather than a specialist panel in generalist contexts."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Supports postmarket-weighted evidence if plans prespecify quantitative thresholds, automate drift surveillance with clinician adjudication, report transparently and show rollback."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Wants version pinning as a baseline expectation, sponsor re-benchmarking gates before model changes, and a PCCP category for like-for-like version upgrades."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Wants master files to carry update-notification commitments, with FDA offering more predictable review to devices built on filed models as the incentive."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p012",
+   "stance": "conditional-minor",
+   "gist": "Accepts third-party benchmarks and adjudication but wants fees scaled to sponsor size so certification is not a toll gate for incumbents."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p018",
+   "stance": "support",
+   "gist": "Finds the direction sound, including the workable two-axis heuristic and the recognition that confirmation need not always mean a prospective trial."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p019",
+   "stance": "conditional-major",
+   "gist": "Wants the counterfactual care environment and accumulation of reliance over time represented as risk dimensions, since error in longitudinal tools becomes belief."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Supports substance over wording, lists specificity, personalization, imperative framing and traceability as auditable modifiers, and wants worked examples per domain."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p021",
+   "stance": "conditional-minor",
+   "gist": "Agrees disclaimers are no mitigation but urges against treating patient-facing as automatic elevation, crediting tested non-directive frames, deferral and escalation."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Proposes adversarial longitudinal simulation with standardized personas and a declared conversational envelope whose violation rates are reported."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p023",
+   "stance": "conditional-minor",
+   "gist": "Says both escalation errors are real but incommensurable; wants prespecified asymmetric tolerances, near-zero under-escalation for alarm features, bounded over-referral."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p024",
+   "stance": "conditional-minor",
+   "gist": "Supports proportionate confirmation and asks for published presumptive tiers keyed to the two-axis position, warning trials for every function would favor incumbents."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p025",
+   "stance": "conditional-minor",
+   "gist": "Wants comparator selection anchored to care-access data and a usual-information-environment comparator, since many patient tools replace nothing or internet content."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p025",
+   "stance": "conditional-major",
+   "gist": "Calls a specialist panel often the wrong comparator for patient-facing informational tools, reserving panel parity for action-directing functions and using the median generalist."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p026",
+   "stance": "conditional-minor",
+   "gist": "Supports the trade under conditions of prespecified thresholds, automated drift surveillance with independent adjudication, transparent cadence and rollback capability."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p027",
+   "stance": "conditional-minor",
+   "gist": "Since small sponsors cannot compel developers, wants version pinning expected, re-benchmarking gates before any model change, and a PCCP category for version upgrades."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p027",
+   "stance": "conditional-minor",
+   "gist": "Wants master files to include update-notification commitments and healthcare evaluation summaries, with more predictable review as the incentive to file."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p028",
+   "stance": "conditional-minor",
+   "gist": "Backs sequestered datasets and independent adjudication under ASCA-like scaffolds, cautioning that fees must scale with sponsor size."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p029",
+   "stance": "support",
+   "gist": "Endorses evaluating these systems like clinicians, through demonstrated competency and enforced boundaries rather than enumerating every input."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Introduction of the writer."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Points to the attachment."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Signature."
+  },
+  {
+   "paragraph": "p015",
+   "reason": "Signature."
+  },
+  {
+   "paragraph": "p016",
+   "reason": "Letter header."
+  },
+  {
+   "paragraph": "p017",
+   "reason": "Introduction of the writer."
+  },
+  {
+   "paragraph": "p030",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p031",
+   "reason": "Signature."
+  }
+ ]
+}

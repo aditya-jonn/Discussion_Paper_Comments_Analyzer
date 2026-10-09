@@ -1,0 +1,12 @@
+{
+  "comment_id": "FDA-2026-N-7874-0016",
+  "tags": [
+    {"code": "POSTMARKET", "subcode": "Q23", "paragraph": "p001-p002", "stance": "conditional-major",
+     "gist": "Wants PCCPs to prespecify at a higher abstraction: model updates allowed if they meet benchmarks, safety evaluations and deviation bounds."},
+    {"code": "POSTMARKET", "subcode": "Q23", "paragraph": "p003", "stance": "neutral",
+     "gist": "Describes the commenter's change-agnostic governance layer of QMS, risk management, human oversight, cybersecurity and labeling controls."},
+    {"code": "POSTMARKET", "subcode": "Q23", "paragraph": "p004", "stance": "conditional-major",
+     "gist": "Proposes a Performance-Bounded PCCP category where any change staying within prespecified performance bounds needs no new submission."}
+  ],
+  "skipped": []
+}

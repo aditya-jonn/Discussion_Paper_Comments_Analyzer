@@ -1,0 +1,141 @@
+{
+ "comment_id": "FDA-2026-N-7874-0043",
+ "tags": [
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p001-p002",
+   "stance": "conditional-major",
+   "gist": "Says the two axes can work like probability times consequence if detectability and humans in the loop are added, calling traceability impossible for opaque models."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p004-p005",
+   "stance": "conditional-major",
+   "gist": "Repeats that the framework can function with a detectability layer and human oversight included, and that traceability is unachievable given model opacity."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p006-p007",
+   "stance": "conditional-major",
+   "gist": "Treats directive outputs as medical advice and wants all non-FDA-approved outputs marked for information only with required linguistic modifiers."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p008-p009",
+   "stance": "conditional-major",
+   "gist": "Calls patient-facing use unequivocally higher risk and rejects patient empowerment as a goal, since idiosyncratic self-application cannot be regulated."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p010-p011",
+   "stance": "conditional-minor",
+   "gist": "Wants outputs to carry modifiers telling generalists the content is designed for specialists, lest they act on it under a general license."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p012-p013",
+   "stance": "conditional-minor",
+   "gist": "Wants the model to recognize when it drifts into advice, withhold it from the patient, and warn that the exchange has moved into that territory."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p014-p015",
+   "stance": "conditional-minor",
+   "gist": "Argues over-escalation, an error of commission, can be more dangerous than under-escalation, an error of omission."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p016",
+   "stance": "support",
+   "gist": "Finds the competency approach useful and appropriate, covering the bulk of submissions despite edge cases."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p018",
+   "stance": "conditional-minor",
+   "gist": "Says available external guidelines are insufficient to leverage, while the non-agentic benchmarking elements are robust enough."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p018",
+   "stance": "conditional-minor",
+   "gist": "Calls the single agentic benchmarking element inadequate because it does not probe what the agent does or how deeply enough."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Wants FDA to give sponsors a starting data framework rather than bespoke builds, to steer them away from contamination, saturation and overfitting."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Wants confirmation chosen through a risk framework that weighs therapeutic area, patient exposure and real-world use cases."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p021",
+   "stance": "conditional-minor",
+   "gist": "Would treat synthetic distributions as the control and require real-world distributions to differ meaningfully in clinical and practical significance."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Thinks synthetic subpopulations could suit any non-rare condition, provided they derive from literature meta-analyses rather than single studies."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p023",
+   "stance": "conditional-major",
+   "gist": "Wants meta-analytic data as comparators, with a mix of generalists and specialists as the standard, analyzed like a gauge repeatability study."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p024",
+   "stance": "conditional-minor",
+   "gist": "Considers no intervention the only reliable absence-of-device comparator, the others being too unpredictable."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p025",
+   "stance": "oppose",
+   "gist": "Calls a third-party requirement inadvisable because it invites gaming and profit centers that draw out testing."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q17",
+   "paragraph": "p026",
+   "stance": "conditional-minor",
+   "gist": "Wants each architecture assessed, with multimodal vision-language models categorized as higher risk under the agentic element."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p003",
+   "reason": "Points to the attachment."
+  },
+  {
+   "paragraph": "p017",
+   "reason": "Refers back to the Question 1 answer without a new point."
+  }
+ ]
+}

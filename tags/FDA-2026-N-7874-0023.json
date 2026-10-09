@@ -1,0 +1,21 @@
+{
+  "comment_id": "FDA-2026-N-7874-0023",
+  "tags": [
+    {"code": "GENERAL", "subcode": "BKG", "paragraph": "p002", "stance": "neutral",
+     "gist": "Cites a man hospitalized after a chatbot suggested bromide instead of salt, showing severe risk from AI information without doctor oversight."},
+    {"code": "GENERAL", "subcode": "DEF", "paragraph": "p003", "stance": "conditional-minor",
+     "gist": "Suggests AI therapists that claim to treat psychiatric conditions be regulated like medical devices, citing a chatbot that encouraged a bulimic teen's weight loss."},
+    {"code": "GENERAL", "subcode": "BKG", "paragraph": "p004", "stance": "neutral",
+     "gist": "Notes hallucination extends beyond chat, citing reports of AI ignoring abnormal heartbeats and misidentifying fetal body parts."},
+    {"code": "POSTMARKET", "subcode": "Q18", "paragraph": "p006", "stance": "oppose",
+     "gist": "Says postmarket review is not enough for so new a technology; manufacturers must prove a minimum accuracy standard before approval."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p006", "stance": "conditional-major",
+     "gist": "Wants AI never used without human oversight and AI therapists purporting to treat psychiatric conditions brought under FDA regulation."}
+  ],
+  "skipped": [
+    {"paragraph": "p001", "reason": "Introduction of the writer."},
+    {"paragraph": "p005", "reason": "Outside the paper: data storage, breaches and privacy."},
+    {"paragraph": "p007", "reason": "Lead-in to links."},
+    {"paragraph": "p008", "reason": "Reference links."}
+  ]
+}

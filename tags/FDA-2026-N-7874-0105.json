@@ -1,0 +1,228 @@
+{
+  "comment_id": "FDA-2026-N-7874-0105",
+  "tags": [
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p006",
+      "stance": "conditional-minor",
+      "gist": "Agrees GenAI differences are captured and calls the matrix a starting point, adding that a prior authorization should not be assumed to survive material change."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p007-p008",
+      "stance": "conditional-major",
+      "gist": "Proposes an execution-time Lookback and Revalidation control on any material change, yielding act, suspend or escalate, with failures placing the function on hold."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p010-p011",
+      "stance": "conditional-major",
+      "gist": "Asks FDA to add execution-time authorization integrity as a mandatory gate, since benchmarking, monitoring and PCCPs do not show a system may act now."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p013",
+      "stance": "conditional-major",
+      "gist": "Maps Q1 to adding a mandatory gate on execution-time authorization integrity covering reversibility, traceability and valid human authority."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p014",
+      "stance": "conditional-minor",
+      "gist": "Maps Q5 to treating a conversation as system state that changes, detecting directive drift and revalidating before consequential output."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p015",
+      "stance": "conditional-minor",
+      "gist": "Maps Q18 to Q20 to event-triggered reassessment, independent supervisory controls, fail-closed behavior and governed returns."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p016",
+      "stance": "conditional-minor",
+      "gist": "Maps Q21 to defining authority lineage and duties for each role without diffusing manufacturer accountability."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p017",
+      "stance": "conditional-minor",
+      "gist": "Maps Q22 to Q24 to tiering changes by materiality, revalidating before use and holding when scope or impact is unestablished."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p018",
+      "stance": "conditional-minor",
+      "gist": "Maps Q25 to version-linked, current, decision-relevant model information with sponsor responsibility for intended-use validation retained."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p019",
+      "stance": "conditional-minor",
+      "gist": "Maps Q26 to limiting tools and routes, prohibiting self-authorization, requiring human checkpoints for high-consequence actions and reconciling afterward."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p020-p021",
+      "stance": "conditional-major",
+      "gist": "Wants the framework to evaluate execution-time authorization integrity separately as a pass, hold or escalate gate, testing reversibility, time pressure, traceability and scope."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p022-p023",
+      "stance": "conditional-minor",
+      "gist": "Wants the accumulated conversation state treated as the regulatory object, with manufacturers defining and detecting material trajectory changes that trigger revalidation."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p024",
+      "stance": "conditional-minor",
+      "gist": "Wants evaluation to include long, contradictory and interrupted conversations with delayed disclosures, separating data, interpretation, uncertainty and context."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p025-p026",
+      "stance": "conditional-minor",
+      "gist": "Would allow more postmarket reliance only when uncertainty is bounded, harm reversible and monitoring validated before deployment, with less tolerance for irreversible actions."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p027-p028",
+      "stance": "conditional-minor",
+      "gist": "Wants a defined cadence plus event triggers spanning version, population, output-pattern, evidence and monitoring-loss events, each with owner and response time."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p029-p030",
+      "stance": "conditional-minor",
+      "gist": "Wants supervisory agents separated from the acting function, with limited permissions, immutable logs, fail-closed behavior and no self-approved modification."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p031-p032",
+      "stance": "conditional-minor",
+      "gist": "Wants an authority-lineage record and a role matrix for who monitors, pauses, investigates and reports, with the manufacturer keeping system-level accountability."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p033-p035",
+      "stance": "conditional-minor",
+      "gist": "Wants every modification to pass a materiality determination across all components, in three tiers, with PCCPs prespecifying categories but never redefining their own scope."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p036",
+      "stance": "conditional-minor",
+      "gist": "Wants pinning or controlled updates, contractual notice, integrity checks, fallbacks and suspension capability, treating any opaque upstream change as material."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p037-p038",
+      "stance": "conditional-minor",
+      "gist": "Says a master file helps only if current, version-specific and timely, never replacing manufacturer validation, with verifiable linkage to the deployed version."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p039-p040",
+      "stance": "conditional-minor",
+      "gist": "Wants the whole action chain governed: parent-controlled orchestration, least-privilege tools, fresh human confirmation before irreversible acts, safe-state on failures, reconciliation after."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p041-p047",
+      "stance": "conditional-minor",
+      "gist": "Wants a compact version-linked record per consequential pathway: authorized baseline, change, authority lineage, lookback and revalidation decisions, reconciliation."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p048-p049",
+      "stance": "conditional-major",
+      "gist": "Concludes FDA should require a documented gate for changes, with Lookback and Revalidation, so silence or unavailable authority never counts as permission."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to attachment naming the questions addressed."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Addressee line."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Addressee and submitter lines."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Subject line."
+    },
+    {
+      "paragraph": "p009",
+      "reason": "Introduction of the writer's governance architecture."
+    },
+    {
+      "paragraph": "p012",
+      "reason": "Scope note for the annex."
+    },
+    {
+      "paragraph": "p050",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p051",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p052",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p053",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p054",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p055",
+      "reason": "Note on how the document was developed."
+    },
+    {
+      "paragraph": "p056",
+      "reason": "Scope disclaimer."
+    },
+    {
+      "paragraph": "p057",
+      "reason": "Signature."
+    }
+  ]
+}

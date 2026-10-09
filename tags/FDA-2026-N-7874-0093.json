@@ -1,0 +1,260 @@
+{
+  "comment_id": "FDA-2026-N-7874-0093",
+  "tags": [
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p004",
+      "stance": "support",
+      "gist": "Supports the proposed direction: two-axis risk framework, competency-based evaluation, risk-proportionate monitoring and voluntary master files."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p005",
+      "stance": "conditional-major",
+      "gist": "Recommends a formal third calibration dimension, change dynamics, and counting output-to-source traceability as a capability relevant to risk."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p006",
+      "stance": "conditional-minor",
+      "gist": "Wants the framework run through existing design, supplier and change controls: registered versioned benchmarks, a model-card dossier, gated change control, version custody."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p009",
+      "stance": "conditional-minor",
+      "gist": "Calls the sketched framework coherent and worth pursuing, aiming to fold GenAI devices into regulatory machinery that already exists rather than a parallel track."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p010",
+      "stance": "conditional-major",
+      "gist": "Supports the two axes but would formalize change dynamics, who controls model change and whether gates exist, as a dimension carried through later sections."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p011",
+      "stance": "conditional-minor",
+      "gist": "Agrees directiveness is a continuum and proposes documented risk modifiers, personalization, specificity, consequence framing and interaction design, in a guidance table."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p012",
+      "stance": "conditional-minor",
+      "gist": "Supports placing patient-facing triage, dose or escalation outputs higher on the consequences axis, with uncertainty communication, concrete escalation language and literacy testing."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q4",
+      "paragraph": "p013",
+      "stance": "conditional-minor",
+      "gist": "Would ask separately whether safe use needs specialist contextualization and whether deployment assumes specialists, testing boundary recognition on generalist-context data."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p014",
+      "stance": "conditional-minor",
+      "gist": "Would define conversational intended use as a declared envelope of states, transitions and guardrails, reviewed by whether trajectories stay inside it."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p015",
+      "stance": "conditional-minor",
+      "gist": "Wants both escalation errors reported as paired endpoints, with sponsors declaring and defending context-specific weighting rather than FDA setting one."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p016",
+      "stance": "support",
+      "gist": "Finds the competency frame useful, especially its anchoring to the configured user-facing device, which keeps accountability with the sponsor."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q8",
+      "paragraph": "p017",
+      "stance": "conditional-minor",
+      "gist": "Suggests a non-binding, updatable table mapping axis positions and change dynamics to expected elements, confirmation approaches and cadence."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p018",
+      "stance": "conditional-minor",
+      "gist": "Endorses the element set, adding a provenance element for source attribution and recognition of ISO, NIST and clinical reporting standards."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p019",
+      "stance": "conditional-minor",
+      "gist": "Conditions predictive value on sequestration, currency and demonstrated construct validity; allows sponsor benchmarks with disclosure, versioning and independent custody."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q11",
+      "paragraph": "p020",
+      "stance": "conditional-minor",
+      "gist": "Calls the rigor ladder sound; would justify selection on consequence, autonomy and data nature, with a documented real-world sampling frame."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p021",
+      "stance": "conditional-minor",
+      "gist": "Recommends against pooling the two evidence types, favouring a prespecified hierarchical structure, with sensitivity analyses for synthetic inputs."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p022",
+      "stance": "conditional-minor",
+      "gist": "Finds synthetic data apt for rare events and adversarial tests but weak for subgroups; wants independent generators, labeling and stratified validation."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p023",
+      "stance": "conditional-minor",
+      "gist": "Would pick comparators by autonomy axis, team performance for supervised devices, and accept clinician panels with prespecified, justified standards."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q15",
+      "paragraph": "p024",
+      "stance": "conditional-minor",
+      "gist": "Endorses counterfactual comparators, established from guideline pathways, retrospective record review and shadow deployment."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p025",
+      "stance": "conditional-minor",
+      "gist": "Supports third parties modeled on ASCA and MDDT for asset custody and adjudication, with no exclusivity and key determinations kept inside CDRH."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q17",
+      "paragraph": "p026",
+      "stance": "conditional-minor",
+      "gist": "Says the frame generalizes but element emphasis shifts by architecture; asks for applicability notes rather than one battery."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p027",
+      "stance": "conditional-minor",
+      "gist": "Allows the trade only with characterized monitoring, reversible deployment, defined gates and moderate risk; not for irreversible actions or unmonitorable settings."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p028",
+      "stance": "conditional-minor",
+      "gist": "Would require a combination of the three approaches, an FDA trigger taxonomy, canary deployments and a periodic input-distribution census."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p029",
+      "stance": "conditional-minor",
+      "gist": "Accepts supervisory agents if qualified, logged with human review of cleared events, and independent of the monitored device; they escalate, not conclude."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p030",
+      "stance": "conditional-minor",
+      "gist": "Has stakeholders detect and report while the manufacturer keeps evaluation, thresholds, gates and corrective decisions under its quality system."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p031",
+      "stance": "conditional-minor",
+      "gist": "Proposes three change tiers: quality-system changes with regression subsets, PCCP changes with notification, and premarket review for intended-use or autonomy changes."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q23",
+      "paragraph": "p032",
+      "stance": "conditional-minor",
+      "gist": "Would recast the PCCP as predetermined gates: declared change types, evaluation gates, decision rules, rollback and version chain-of-custody."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p033",
+      "stance": "conditional-minor",
+      "gist": "Combines contractual notification, technical drift and canary monitoring, and procedural gates that re-benchmark affected elements before deployment."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p034",
+      "stance": "conditional-minor",
+      "gist": "Supports master files with a structured template and a sponsor-side floor documenting the deployed model, plus procurement incentives and third-party audits."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p035",
+      "stance": "conditional-minor",
+      "gist": "Adds a read-write action taxonomy, structurally enforced blast-radius limits, version-attributable logs and checkpoint density scaled to autonomy."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p036",
+      "stance": "conditional-minor",
+      "gist": "Calls the lifecycle baseline the paper's key insight and says governing it with versioned benchmarks, dossiers, gates and custody decides its success."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to attachment."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Submitter line."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Docket and submitter details."
+    },
+    {
+      "paragraph": "p007",
+      "reason": "Lead-in announcing responses to all questions."
+    },
+    {
+      "paragraph": "p008",
+      "reason": "Thanks and introduction of the writer."
+    },
+    {
+      "paragraph": "p037",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p038",
+      "reason": "Signature."
+    },
+    {
+      "paragraph": "p039",
+      "reason": "Contact details note."
+    },
+    {
+      "paragraph": "p040",
+      "reason": "Disclaimer."
+    }
+  ]
+}

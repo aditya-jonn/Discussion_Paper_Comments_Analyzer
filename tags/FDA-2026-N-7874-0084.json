@@ -1,0 +1,29 @@
+{
+ "comment_id": "FDA-2026-N-7874-0084",
+ "tags": [
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p002",
+   "stance": "neutral",
+   "gist": "Describes borderline screening readings where under-referral risks missing serious disease while over-referral costs patients time, money and trust."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p003",
+   "stance": "conditional-minor",
+   "gist": "Would require manufacturers to justify how they calibrate escalation thresholds for the particular population and care-access context, not one error rate across settings."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Introduction of the writer and the topic addressed."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Thanks."
+  }
+ ]
+}

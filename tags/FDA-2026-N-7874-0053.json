@@ -1,0 +1,147 @@
+{
+ "comment_id": "FDA-2026-N-7874-0053",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p005",
+   "stance": "conditional-major",
+   "gist": "Says the paper omits GenAI functions that output a physical patient-specific implant, where scoping to the GenAI component ignores the riskiest handoff."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Argues the category is foreseeable and asks CDRH to connect this paper with its point-of-care 3D printing production-system concept."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p007",
+   "stance": "conditional-major",
+   "gist": "Suggests a physical-output modifier placing implant-geometry functions presumptively at the high-consequence end, since surgeons cannot see internal properties."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p008",
+   "stance": "conditional-major",
+   "gist": "Supports evaluating the final configured device, but for physical outputs would make the validated production system, with a generative design envelope, the unit of evaluation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Wants clinical confirmation for implant-generating functions to include physical testing such as dimensional and worst-case mechanical evidence, not only clinician adjudication."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Says accepting more premarket uncertainty is not appropriate for functions producing permanent implants, since monitoring cannot remediate without surgery."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Would add printer, material and postprocessing changes, and their combinations, as re-benchmarking triggers, with tiered handling that a PCCP could enumerate."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Wants production systems to pin model versions so no upstream update can change geometry without passing a release gate."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Recommends a two-signature release, surgeon plus manufacturer release authority, keeping accountability with the manufacturer while bounding the clinician's role."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p012",
+   "stance": "conditional-major",
+   "gist": "Says a design function writing a build file takes an irreversible action, so human-oversight checkpoints should be required, not optional, for physical outputs."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p013",
+   "stance": "conditional-minor",
+   "gist": "Wants a proportionate digital record for each implant that adds the identity of model and configuration and whether geometry was generated or edited."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p014",
+   "stance": "conditional-major",
+   "gist": "Summarizes: make physical output and reversibility an explicit risk dimension, with implant geometry presumptively high consequence."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p015",
+   "stance": "conditional-major",
+   "gist": "Summarizes: premarket evaluation should cover the validated production system, with a prospectively defined envelope and physical evidence of conformance."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p016",
+   "stance": "conditional-minor",
+   "gist": "Summarizes: do not extend reliance on postmarket monitoring to functions that produce permanent implants."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p017",
+   "stance": "conditional-minor",
+   "gist": "Summarizes: couple change control across model, firmware, build, material and postprocessing changes, using tiered triggers and version pinning."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p018",
+   "stance": "conditional-minor",
+   "gist": "Summarizes: surgeon approval and manufacturing release as separate gates, plus a record tying each implant's configuration to its outcome."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Pointer to the attachment."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Address block."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Docket reference line."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Thanks and introduction of the writer."
+  },
+  {
+   "paragraph": "p019",
+   "reason": "Thanks and offer to discuss further."
+  },
+  {
+   "paragraph": "p020",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p021",
+   "reason": "Signature and contact details."
+  }
+ ]
+}

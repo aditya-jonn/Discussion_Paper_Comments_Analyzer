@@ -1,0 +1,87 @@
+{
+ "comment_id": "FDA-2026-N-7874-0070",
+ "tags": [
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p002",
+   "stance": "conditional-minor",
+   "gist": "Says evaluation should rest on team performance whenever an accountable clinician sees the output, which requires fixing the output's workflow position."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p003",
+   "stance": "neutral",
+   "gist": "Cites an autonomous retinopathy screener whose labeling asks physicians to review results they have no means to check against missed cases."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p004",
+   "stance": "neutral",
+   "gist": "Cites a vignette experiment in which patient trust fell when a clinician saw AI output concurrently and rose when the clinician assessed first."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Recommends treating the output's workflow position as a property of the device being evaluated, specified in the intended use as precisely as the output."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Answers that team performance applies when an accountable clinician sees the output, and that the paper's phrase about actual use leaves one thing unspecified."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p010-p011",
+   "stance": "neutral",
+   "gist": "Analyzes the retinopathy screener's authorization: the physician review step in labeling cannot catch cases the autonomous classification missed."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p012",
+   "stance": "neutral",
+   "gist": "Reports preregistered experiments where only the order of clinician assessment and AI support changed, and patient trust changed significantly with it."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p013",
+   "stance": "conditional-minor",
+   "gist": "Asks CDRH to fix display timing, prior independent assessment and accountability in the intended use, and to ask which ordering was tested and enforced."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Statement of the comment's scope and pointer to the attachment."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Signature and affiliation."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Statement of the comment's scope and of the paper's non-binding status."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Statement of no financial interest."
+  },
+  {
+   "paragraph": "p015",
+   "reason": "Signature and references."
+  }
+ ]
+}

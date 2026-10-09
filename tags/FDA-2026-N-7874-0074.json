@@ -1,0 +1,130 @@
+{
+ "comment_id": "FDA-2026-N-7874-0074",
+ "tags": [
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p003",
+   "stance": "conditional-minor",
+   "gist": "Wants verification to cover the whole device pathway, not only the AI model."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p004",
+   "stance": "conditional-minor",
+   "gist": "Says real patient recordings and controlled simulation answer different verification questions and complement each other."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Would judge a benchmark by its credibility, traceability and the purpose of the test rather than how large the dataset is."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Suggests designing premarket benchmarks for reuse as regression baselines once the device changes."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p007",
+   "stance": "support",
+   "gist": "Holds that GenAI raises the scale and frequency of verification while the principles stay the same: risk-appropriate evidence, methods within their limits, re-verification on change."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p012",
+   "stance": "support",
+   "gist": "Says GenAI may need new verification methods but the regulatory logic stays familiar: evidence fit to risk, methods within scope, re-evaluation of safety-relevant changes."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p013-p016",
+   "stance": "conditional-minor",
+   "gist": "Says model-level benchmarking may not suffice for sensor-based devices, whose output depends on sensor, acquisition and processing, so system-level verification should complement it."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p017",
+   "stance": "conditional-minor",
+   "gist": "Sees controlled physiological signals as verifying the repeatable part of performance, with real-world performance left to clinical evidence."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p018-p022",
+   "stance": "conditional-minor",
+   "gist": "Says real data gives clinical representativeness and simulation gives repeatable coverage; a simulator's purpose and limits should be stated, and clinical confirmation remains necessary."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p023-p026",
+   "stance": "conditional-minor",
+   "gist": "Wants benchmark validity judged by a clear verification question, provenance, ground truth and reproducibility, since a small characterized dataset can beat a large unclear one."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p027-p032",
+   "stance": "conditional-minor",
+   "gist": "Would reuse premarket tests as regression baselines recording version, data, conditions and criteria, with risk-based retest scope after changes."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p033",
+   "stance": "support",
+   "gist": "Concludes that GenAI increases verification scale while the principles remain: cover the pathway, keep methods within bounds, fit evidence to purpose, re-verify on change."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p034-p036",
+   "stance": "neutral",
+   "gist": "Describes reusable verification infrastructure for sensor-based devices, from signal generation to regression testing, as a complement to clinical confirmation."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Thanks."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Lead-in announcing four considerations."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Pointer to the attachment."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p010",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p011",
+   "reason": "Thanks and description of the company."
+  },
+  {
+   "paragraph": "p037",
+   "reason": "Thanks."
+  },
+  {
+   "paragraph": "p038",
+   "reason": "Signature."
+  }
+ ]
+}

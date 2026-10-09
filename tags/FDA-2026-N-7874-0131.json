@@ -1,0 +1,369 @@
+{
+  "comment_id": "FDA-2026-N-7874-0131",
+  "tags": [
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p003",
+      "stance": "conditional-major",
+      "gist": "Would represent reversibility as a gate on the postmarket trade, not a third axis, since severity orders reversible and irreversible harms the wrong way round."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p004",
+      "stance": "conditional-major",
+      "gist": "Would define the activity axis by how a function changes the user's choice set, presents, ranks, filters, selects or executes, adding a rung for omission."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p005",
+      "stance": "conditional-minor",
+      "gist": "Says the three monitoring approaches each yield a rate without requiring its population to be stated; offers the commenter's own schema defect as a finding."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p006",
+      "stance": "conditional-major",
+      "gist": "Says the first-order risk is a process receipt reading as human judgment, and lists four record properties that keep the two distinguishable."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p007",
+      "stance": "conditional-minor",
+      "gist": "Wants change notices to record their author so deployer detection counts, manufacturers to show detection capability beyond a contract clause, and fail-closed resumption."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p008",
+      "stance": "conditional-major",
+      "gist": "Calls the incentive problem one of disclosure form: hash commitments to specific results let developers hand over less yet commit to more, scaled by re-testability."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p009",
+      "stance": "conditional-minor",
+      "gist": "Wants agentic records where an unrun checkpoint cannot read as passed, unstated actors read as unknown, and actions commit to input origins and sequence length."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p016",
+      "stance": "conditional-major",
+      "gist": "Recommends declaring reversibility as a property of each function, with an irreversible action disqualifying it from the premarket-for-postmarket trade, instead of a third axis."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p017",
+      "stance": "conditional-major",
+      "gist": "Recommends defining the activity axis by how the function alters the user's choice set, not by wording, with a rung for omission."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p018",
+      "stance": "conditional-minor",
+      "gist": "Recommends that every postmarket performance figure state its population, declaring whether all its sources are accounted for and counting those that are not."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p019",
+      "stance": "conditional-major",
+      "gist": "Recommends allowing supervisory agents only when their output cannot structurally be mistaken downstream for human judgment."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p020",
+      "stance": "conditional-minor",
+      "gist": "Recommends treating a change notice observed by the deployer as equal evidence to one the vendor issues, and requiring detection capability beyond a contractual clause."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p021",
+      "stance": "conditional-major",
+      "gist": "Recommends building the voluntary file on hash-anchored commitments to specific results, scaling expectations by whether anyone can independently re-evaluate the model."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p022",
+      "stance": "conditional-minor",
+      "gist": "Recommends agentic records distinguish skipped from passed checkpoints, treat undeclared actors as undeclared, and commit each action to its input origins and sequence length."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p023-p024",
+      "stance": "conditional-major",
+      "gist": "Says reversibility should be represented, but as a gate on the trade in Question 18 rather than as a third axis."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p025",
+      "stance": "conditional-major",
+      "gist": "Says monitoring detects after the action, so it remedies reversible actions but not irreversible ones, which it only turns from unknown into known harm."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p026",
+      "stance": "conditional-major",
+      "gist": "Says severity does not carry reversibility: the grid scrutinizes most the severe-but-reversible case monitoring could fix and least the limited-but-irreversible one it cannot."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p027",
+      "stance": "conditional-major",
+      "gist": "Would have functions declare a reversibility class, reversible, partially reversible or irreversible, with irreversible ones ineligible for reduced premarket evidence whatever their severity."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p028",
+      "stance": "conditional-major",
+      "gist": "Notes irreversibility already does work in the agentic element A.1, and wants it carried into the risk framework that governs every device."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p029",
+      "stance": "conditional-minor",
+      "gist": "Would record downstream safeguards as a detect-and-rollback ratio, time pressure as its own coarse band, and traceability by the explanation's method plus a hash commitment."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p030-p032",
+      "stance": "conditional-major",
+      "gist": "Says any axis defined over wording shifts whenever the text is edited, so it cannot give manufacturers predictability or let a reviewer reproduce a classification."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p033-p039",
+      "stance": "conditional-major",
+      "gist": "Defines the axis by effect on the choice set in five values, presents, ranks, filters, selects, executes, under which a talk-to-your-doctor statement changes nothing."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p040",
+      "stance": "conditional-major",
+      "gist": "Says the continuum lacks an omission rung: a device dropping options directs by subtraction, is more directive than ranking, and looks neutral to wording measures."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p041",
+      "stance": "conditional-minor",
+      "gist": "Says a single ladder spanning informational and action-taking lets a drifting multi-turn device be characterized by the top rung it is built to reach."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p042-p043",
+      "stance": "conditional-minor",
+      "gist": "Says none of the three approaches must state the population behind its rate, so re-benchmarking results and premarket baselines cannot be compared."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p044",
+      "stance": "neutral",
+      "gist": "Reports as a finding that the commenter's own specification shipped four schemas carrying ratios whose denominators never traveled, a defect that survived review."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p045",
+      "stance": "conditional-minor",
+      "gist": "Wants each postmarket figure accompanied by its inclusion criterion, totals, exclusions with grounds, and whether its sources are wholly accounted for."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p046",
+      "stance": "conditional-minor",
+      "gist": "Adds an arithmetic check: included records plus declared exclusions must sum to the total considered, exposing undeclared exclusions that look fine element by element."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p047",
+      "stance": "conditional-minor",
+      "gist": "Says silent sampling, a program quietly ceasing to ingest a stream, escapes record-level counts, so the completeness check must sit at the source level."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p048-p050",
+      "stance": "conditional-major",
+      "gist": "Calls agent reliability second-order: the first-order risk is that volumes of supervisory records read downstream as human judgment, by default rather than deceit."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p051",
+      "stance": "conditional-major",
+      "gist": "Would permit supervisory agents only if their output cannot structurally pass as human judgment, secured by four mechanical properties."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p052-p055",
+      "stance": "conditional-major",
+      "gist": "The four properties: oversight class re-derivable from the signed record, a hash of what the reviewer saw, a model-assistance flag, and absence reading as absence."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p056",
+      "stance": "conditional-minor",
+      "gist": "Says sample-based clinician review must record whether the reviewer had the context, authority, evidence and time to challenge an output, or judgment was not preserved."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p057-p058",
+      "stance": "conditional-minor",
+      "gist": "Wants change notices to record their author, so deployer-observed changes count as first-class evidence and vendor silence shows as a pattern."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p059",
+      "stance": "conditional-minor",
+      "gist": "Lists what a notice should carry: vendor, model family, versions before and after, change class, effect date and a hash of vendor documentation."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p061",
+      "stance": "conditional-minor",
+      "gist": "Wants proven detection capability, not just a contractual clause: periodically re-benchmark against a fixed set, recording the model version at each run."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q23",
+      "paragraph": "p062",
+      "stance": "conditional-major",
+      "gist": "Where modifications cannot be prespecified, rejects broader prespecification: reliance on a withdrawn model version resumes only on an affirmative record, fail-closed."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p063-p066",
+      "stance": "conditional-major",
+      "gist": "Would build the file on hash commitments to specific evaluation results, not documents, citing the PIP implants, where a valid certificate vouched only for paperwork."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p068",
+      "stance": "conditional-minor",
+      "gist": "Would scale expectations by whether independent re-testing is possible: open-weight models need little, while access-gated models leave provider attestations as the only artifact."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p069",
+      "stance": "conditional-minor",
+      "gist": "Wants prespecified pass and fail bounds committed by hash at a witnessed instant, so a sponsor shifting the acceptance bar after the score is detectable."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p070-p071",
+      "stance": "conditional-minor",
+      "gist": "Proposes four properties for the record an agentic run leaves behind, each catching a way the run can look compliant, without disclosing content."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p072-p076",
+      "stance": "conditional-minor",
+      "gist": "Skipped checkpoints must not read as passed, unstated actors as human; each action commits to input origins against injection, and to sequence length against truncation."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Introduction and lead-in to the attachment."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Introduction of the writer's research."
+    },
+    {
+      "paragraph": "p010",
+      "reason": "Invitation to correct the comment."
+    },
+    {
+      "paragraph": "p011",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p012",
+      "reason": "Submitter details."
+    },
+    {
+      "paragraph": "p013",
+      "reason": "Introduction of the writer's research."
+    },
+    {
+      "paragraph": "p014",
+      "reason": "Lists which questions the comment addresses."
+    },
+    {
+      "paragraph": "p015",
+      "reason": "States the limits of the writer's standing and specification."
+    },
+    {
+      "paragraph": "p060",
+      "reason": "Lead-in announcing two recommendations."
+    },
+    {
+      "paragraph": "p067",
+      "reason": "Lead-in announcing two design points."
+    },
+    {
+      "paragraph": "p077",
+      "reason": "Heading of the disclaimer section."
+    },
+    {
+      "paragraph": "p078",
+      "reason": "Describes the licensing and format of the commenter's specification."
+    },
+    {
+      "paragraph": "p079",
+      "reason": "States the specification's maturity and that it is offered as prior art, not for adoption."
+    },
+    {
+      "paragraph": "p080",
+      "reason": "Funding and interest disclosure."
+    },
+    {
+      "paragraph": "p081",
+      "reason": "Offer of further material and invitation to correct."
+    },
+    {
+      "paragraph": "p082",
+      "reason": "Sign-off."
+    },
+    {
+      "paragraph": "p083",
+      "reason": "Signature and contact details."
+    }
+  ]
+}

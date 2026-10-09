@@ -1,0 +1,1379 @@
+{
+  "comment_id": "FDA-2026-N-7874-0126",
+  "tags": [
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p017",
+      "stance": "support",
+      "gist": "Says CDRH asked the right questions, shares its access and least-burdensome aims, and offers refinements meant to make tests narrower, more auditable and cheaper."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p019-p020",
+      "stance": "conditional-major",
+      "gist": "Makes three proposals: grade risk by whether a function generates or presents a claim and who receives it; score claims against reference standards; bound open-endedness."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p021-p023",
+      "stance": "conditional-major",
+      "gist": "Proposes classifying by what an output asserts, not its wording: a function presents a claim originating elsewhere or generates one originating with the model."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p024-p028",
+      "stance": "conditional-major",
+      "gist": "Would assess risk on four dimensions: output significance, state of the condition, the user's ability to judge and act, and the design's characterizability."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p029",
+      "stance": "conditional-major",
+      "gist": "Says no new evidence category is needed: score the clinical claims in open-ended output against a reference standard, emitted in structured form for higher-risk functions."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p030-p031",
+      "stance": "conditional-major",
+      "gist": "Sees open-endedness and variability as design decisions: bounding should be the primary expectation, and sponsors proposing competency evaluation must justify why bounding is impossible."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p032",
+      "stance": "conditional-major",
+      "gist": "Says inferring competency works worst where consequences are greatest, and the testable analogue of a physician consulting or referring is deferral to human interpretation."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p033",
+      "stance": "conditional-major",
+      "gist": "Draws the comparator from the local standard of care, never from the absence of interpretation, with absolute prespecified thresholds independent of being generative."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p034-p035",
+      "stance": "oppose",
+      "gist": "Treats monitoring as a complement, not a substitute: reduced premarket evidence shifts uncertainty onto patients, and the conditions for substitution rarely hold for high-risk functions."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p036-p037",
+      "stance": "conditional-major",
+      "gist": "Wants architectural safeguards required for high-risk functions, because their failing inputs cannot be enumerated and no control can target an undescribed failure."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p038-p040",
+      "stance": "conditional-major",
+      "gist": "Proposes three safeguards: validated quantified uncertainty at each stage, an independent secondary evaluation path, and structured deferral to humans when checks fail."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q8",
+      "paragraph": "p041",
+      "stance": "conditional-major",
+      "gist": "Would specify performance as finalized-case error rate by consequence, plus the deferral rate, scaling safeguards with risk profile whether supervised or autonomous."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p042-p043",
+      "stance": "conditional-minor",
+      "gist": "Wants one risk framework for all AI functions, with substantial equivalence turning on characteristics: non-reproducible open-ended output should not be equivalent to a bounded predicate."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p044",
+      "stance": "conditional-minor",
+      "gist": "Wants generalizability measured with validated synthetic benchmarks, since real-world test sets leave each equipment, protocol and age combination too thin to measure."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p045",
+      "stance": "conditional-minor",
+      "gist": "Wants independent third parties to provide synthetic benchmarks, confidence resting on the conduct of an evaluation, and MDDT qualification expectations set for them."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p047-p048",
+      "stance": "conditional-major",
+      "gist": "Supports the risk-based approach and distinguishing among informational functions, and offers a refinement built on the paper's own qualifications and the IMDRF framework."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p049",
+      "stance": "support",
+      "gist": "Finds the paper's own qualifications of its two-axis structure persuasive and aims to give them structural standing in the framework."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p050-p053",
+      "stance": "support",
+      "gist": "Endorses the paper's views that directiveness depends on substance, that disclaimers do not reduce it, and that non-evaluable measurement outputs may carry higher risk."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p054",
+      "stance": "support",
+      "gist": "Endorses the paper's view that professionals are better placed than patients to spot wrong outputs, and that specialist-dependent functions are riskier for non-specialists."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p055",
+      "stance": "conditional-minor",
+      "gist": "Notes a cardiovascular risk score, the paper's non-directive example, prompts action when very high, so activity-axis position may depend on the output delivered."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p056-p059",
+      "stance": "conditional-major",
+      "gist": "Argues the analogous FDA and IMDRF matrices organize their axis around significance of the output, which is stable across phrasing, whereas directiveness reads as wording."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p060-p065",
+      "stance": "conditional-major",
+      "gist": "Sets out four dimensions: significance (present or generate claims), state of the condition, the user of the output, and characterizability (reproducible, bounded)."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p066-p067",
+      "stance": "conditional-major",
+      "gist": "Makes traceability the organizing principle of the activity axis: presenting conveys claims from input or identified sources, generating originates them with the model."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p068-p069",
+      "stance": "conditional-major",
+      "gist": "Maps the distinction onto IMDRF's informing versus driving boundary: a function contributing its own clinical claim, even as an aid, is no longer informing."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p070-p073",
+      "stance": "conditional-major",
+      "gist": "Grades generating functions by claim kind: presenting is informational, then generating a measurement, a detection, a diagnosis or a management determination, in rising order."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p074",
+      "stance": "neutral",
+      "gist": "Notes IMDRF groups detection, diagnosis and treatment together, and welcomes CDRH's view on whether the upper levels should be strictly ordered."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p075",
+      "stance": "conditional-major",
+      "gist": "Separates what kind of claim a function generates from whether a qualified person evaluates it before effect, which belongs to the user dimension."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p076-p082",
+      "stance": "conditional-major",
+      "gist": "Clarifies: raw data is no claim; a function generates when it alters a claim's certainty, applies it beyond its source's scope, or synthesizes findings."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p083",
+      "stance": "conditional-major",
+      "gist": "Applies the distinction per claim, not per device, consistent with the multiple-function approach, putting the evidentiary burden exactly on the judgment the model made."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p084-p085",
+      "stance": "neutral",
+      "gist": "Grounds the construct in natural language generation work on attribution to sources, faithfulness versus factuality, and intrinsic versus extrinsic content."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p086",
+      "stance": "conditional-major",
+      "gist": "Warns a citation does not make an output presenting, citing hallucination rates in retrieval-grounded tools; claims must be demonstrably drawn from the source."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p087",
+      "stance": "neutral",
+      "gist": "Says the distinction does not decide device status but tracks the decision-support exclusion: presenting functions for a reviewing professional may qualify, generating ones generally cannot."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p088-p089",
+      "stance": "conditional-minor",
+      "gist": "Retains the consequence axis, graded critical, serious or non-serious as in IMDRF, and would express reversibility and time pressure on it."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p090",
+      "stance": "conditional-major",
+      "gist": "Gives the user a structural place as a dimension assessed through three considerations, two about the user and one about the device."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q4",
+      "paragraph": "p091-p092",
+      "stance": "conditional-minor",
+      "gist": "Asks whether the user can judge the output; for subspecialty content only the specialist can, citing wrong AI suggestions sharply cutting inexperienced readers' accuracy."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p093-p095",
+      "stance": "conditional-minor",
+      "gist": "Says design, not the user, sets whether an output's basis can be evaluated, which must be shown; explainability claimed to lower risk needs benchmarking."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p096",
+      "stance": "conditional-major",
+      "gist": "Asks whether the user can act correctly within the established pathway: the same finding delivered outside that pathway, or to a patient, carries different risk."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p097",
+      "stance": "conditional-major",
+      "gist": "Wants a dedicated user dimension rather than shifting patient-facing functions up the consequence axis, since the user changes error detection, not harm severity."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p098",
+      "stance": "support",
+      "gist": "Shares the paper's recognition that patient- and generalist-facing functions bring real benefits; the dimension identifies what they must demonstrate, not discourages them."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p099",
+      "stance": "conditional-major",
+      "gist": "Says the user dimension covers supervised versus autonomous operation and downstream safeguards, so no separate autonomy position on the activity axis is needed."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p100",
+      "stance": "conditional-major",
+      "gist": "Proposes a fourth dimension of design properties, output determinism and bounding of input and output space, which set how much evidence is needed."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p101-p102",
+      "stance": "conditional-major",
+      "gist": "Defines the two properties: whether the design specifies reproducible output and by what mechanism, and whether inputs and outputs are constrained or open-ended."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p103",
+      "stance": "conditional-major",
+      "gist": "Says a risk dimension must be known from design, not results; variability and openness raise the burden, which claim-level reproducibility then discharges."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p104",
+      "stance": "support",
+      "gist": "Agrees that variation in safety-critical behavior such as diagnostic conclusions is a failure, while varied wording in a presented summary matters little."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p105-p106",
+      "stance": "conditional-major",
+      "gist": "Wants faithfulness, conveying the identified source accurately without addition, alteration or omission, required as a benchmarking element wherever a function presents claims."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p107",
+      "stance": "conditional-minor",
+      "gist": "Resolves conversational drift directly: a function that generates clinical content anywhere in an exchange takes that significance position for the whole exchange."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p108",
+      "stance": "conditional-major",
+      "gist": "Says under- and over-escalation need not be incommensurable: for a defined condition they are sensitivity and specificity, prespecified and weighted by consequence."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p109-p111",
+      "stance": "conditional-minor",
+      "gist": "Says the measurement and output-value issues arise for conventional software too, so the refinement should apply generally, though without a common risk profile."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p113-p114",
+      "stance": "conditional-major",
+      "gist": "Welcomes tailoring competency evaluation to intended use and risk, but questions its premise and limits of inference, offering an alternative making much of it unnecessary."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p115-p117",
+      "stance": "neutral",
+      "gist": "Observes that the competency approach rests on two attributed properties, open-ended inputs and outputs and output variability, quoting the paper's rationale."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p118",
+      "stance": "support",
+      "gist": "Supports extending independence requirements to language-model adjudicators."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p119-p120",
+      "stance": "support",
+      "gist": "Notes the paper elsewhere frames open-endedness and variability conditionally, as properties devices may have, and calls that framing correct and important."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p121-p122",
+      "stance": "conditional-major",
+      "gist": "Says these properties are largely designed in; the framework should ask sponsors to show whether they hold, with bounded devices evaluated by established methods."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p123-p124",
+      "stance": "conditional-major",
+      "gist": "Says the licensing analogy needs careful examination, since these systems' licensing-style performance has not been shown to carry over to open clinical practice."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p125",
+      "stance": "conditional-minor",
+      "gist": "Cites a review finding licensing-style benchmarks near saturation while diagnostic and safety tasks score far lower, plus distraction and contamination effects."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p126",
+      "stance": "conditional-major",
+      "gist": "Says inferring open-practice performance from structured assessment is not currently supported, so the framework should say what would make that inference reliable."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p127",
+      "stance": "conditional-major",
+      "gist": "Argues models underweight rare must-not-miss diagnoses relative to trained clinicians, so competency inference is least reliable where consequence is greatest."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p128",
+      "stance": "conditional-major",
+      "gist": "Says licensing presumes a physician who defers when unsure; deferral is directly testable, so validate it as a device property instead of inferring competency."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p129-p132",
+      "stance": "conditional-major",
+      "gist": "Shows bounding is routine for conventional AI and available for generative: prespecified prompts, curated retrieval, admissibility gates, claim sets, templates, constrained decoding."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q8",
+      "paragraph": "p133",
+      "stance": "conditional-major",
+      "gist": "Expects sponsors to bound functions where they can, earning a lighter evidentiary burden; functions left unbounded sit higher on the risk dimension with greater burden."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p134-p138",
+      "stance": "conditional-minor",
+      "gist": "Lists bounding's limits, structure not correctness, degraded quality and an attack surface, so bounding mechanisms need their own verification and evidenced claims."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p139",
+      "stance": "conditional-major",
+      "gist": "Recommends bounded inputs and outputs as the primary regulatory expectation, allowing competency-based evaluation only where a sponsor justifies that bounding is unachievable."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p140",
+      "stance": "conditional-major",
+      "gist": "Where a rare condition cannot be adequately evidenced, exclude it from the authorized outputs and defer to humans rather than infer from adjacent competence."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p141-p142",
+      "stance": "conditional-major",
+      "gist": "Central recommendation: translate open-ended output into clinical claims that established kinds of valid scientific evidence can assess; no new evidence category needed."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p143-p146",
+      "stance": "conditional-major",
+      "gist": "Says a stated diagnosis is a claim scorable against a reference standard with conventional sensitivity and specificity, powered around traditional endpoints, for correctness and reproducibility."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p147-p151",
+      "stance": "conditional-major",
+      "gist": "Prefers higher-risk functions emit claims in structured form, scored directly without a judging model; any free-text claim extractor needs validation against human extraction."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p152-p154",
+      "stance": "conditional-minor",
+      "gist": "Measures reproducibility per claim: the share of repeated runs, and of runs under irrelevant perturbation, where the function asserts the same claim."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p155-p157",
+      "stance": "conditional-minor",
+      "gist": "Notes three limits: the extractor is a model, unanticipated claims escape scoring unless flagged against the authorized set, and a claim includes its certainty."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p158",
+      "stance": "conditional-minor",
+      "gist": "Says claim-level evaluation against independently adjudicated reference standards reduces reliance on sponsor benchmarks whose validity would need separate proof."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p159",
+      "stance": "conditional-minor",
+      "gist": "Says claim-level endpoints are conventional accuracy endpoints, so sample sizes and confidence intervals follow conventional methods per claim and consequence stratum."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q8",
+      "paragraph": "p160-p161",
+      "stance": "conditional-major",
+      "gist": "Would have the four-dimension risk profile set the nature, rigor and amount of evidence: elements, test conditions, clinical confirmation and expected safeguards."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p162-p166",
+      "stance": "conditional-minor",
+      "gist": "Maps characteristics to benchmarks: claim accuracy for generating, faithfulness for presenting, reproducibility for variable output, scope checks for open-ended, conversational elements for chat."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q17",
+      "paragraph": "p167-p168",
+      "stance": "conditional-minor",
+      "gist": "Says many Appendix A elements presuppose a conversational interface and would burden imaging measurement or segmentation functions without any safety return."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p169-p171",
+      "stance": "conditional-minor",
+      "gist": "Wants detection addressed explicitly as a function type, since in imaging a missed finding produces a confident, complete-looking output with no error signal."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q17",
+      "paragraph": "p172",
+      "stance": "conditional-minor",
+      "gist": "Where an existing regulation and guidance govern a function, such as quantitative imaging repeatability, a generative implementation should stay under them, not a parallel framework."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p173-p174",
+      "stance": "support",
+      "gist": "Agrees that no one comparator fits every device and the choice should follow intended use and deployment environment, as the paper's alternatives allow."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p175-p179",
+      "stance": "conditional-major",
+      "gist": "Makes the comparator the standard of care of the indicated environment: specialist with versus without the device, or a specialist panel for autonomous functions."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q15",
+      "paragraph": "p180",
+      "stance": "oppose",
+      "gist": "Rejects comparing with the care available in the device's absence, since absence changes benefit, not the consequence of errors; use the median specialist instead."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p181",
+      "stance": "conditional-major",
+      "gist": "Would fix the median-specialist comparator from a documented representative sample and use it to set a prespecified absolute threshold, not a moving comparison."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q15",
+      "paragraph": "p182-p183",
+      "stance": "conditional-major",
+      "gist": "Keeps care in the device's absence for the benefit-risk determination only; acceptance criteria should be absolute thresholds per condition, justified by error consequence."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p184",
+      "stance": "neutral",
+      "gist": "Cites the first autonomous diagnostic authorization, which rested on prespecified absolute sensitivity and specificity thresholds against an independent reference standard."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p185",
+      "stance": "conditional-minor",
+      "gist": "Says generative and conventional devices for the same use and environment should face the same comparator and acceptance threshold."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p186-p188",
+      "stance": "oppose",
+      "gist": "Strongly recommends monitoring complement, not substitute for, premarket evidence: reduced evidence transfers discovery of uncertainty to patients while sponsors gain earlier entry."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p189-p193",
+      "stance": "conditional-major",
+      "gist": "Allows monitoring to compensate only where failures are detectable in monitored data, caught before harm, automatically mitigated, and output is reproducible."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p194",
+      "stance": "conditional-minor",
+      "gist": "Says those conditions rarely hold for functions generating diagnoses for serious conditions without prior qualified review, so the approach is inappropriate there."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p195",
+      "stance": "oppose",
+      "gist": "Would build monitoring on premarket evidence made as complete as design permits, rejecting the premise that incomplete premarket characterization is inherent to these devices."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p196-p203",
+      "stance": "support",
+      "gist": "Supports the paper's monitoring approaches, matching each to a reason premarket evidence is incomplete: model evolution, output variability, input drift and open-endedness."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p204",
+      "stance": "conditional-minor",
+      "gist": "Agrees monitoring should vary with risk and would scale its intensity to whichever of the four reasons apply to a given device."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p205",
+      "stance": "conditional-minor",
+      "gist": "Warns zero decoding temperature does not guarantee reproducible output in production serving, so reproducibility should be demonstrated behaviorally, not asserted as a setting."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "BKG",
+      "paragraph": "p206",
+      "stance": "neutral",
+      "gist": "Notes conventional inference is deterministic only when configured so, while batch-composition dependence persists in generative serving regardless of settings."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p207",
+      "stance": "conditional-minor",
+      "gist": "Says fixed-weight bounded devices face mainly drift, while variable open-ended ones on third-party models face all four, so cadence and triggers should differ."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p208",
+      "stance": "conditional-minor",
+      "gist": "Stresses reproducibility still leaves monitoring necessary, since equipment and population shifts degrade unchanged devices; intensity should match the sources of variation present."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p209",
+      "stance": "conditional-minor",
+      "gist": "Would reduce proactive monitoring's scope and cadence where premarket evidence characterizes a conventional AI device across broad acquisition conditions and populations."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p210",
+      "stance": "support",
+      "gist": "Supports machine-based supervisory monitoring, noting an EU-certified autonomous breast screening device already uses a supervisory layer that returns sites to full reading."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p211-p212",
+      "stance": "conditional-minor",
+      "gist": "Wants a supervisory function treated as a device function in its own right, with specification, verification and validation, complementing premarket evidence rather than reducing it."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p213-p214",
+      "stance": "conditional-minor",
+      "gist": "Recommends version pinning as a specification, contractual change notice, mandatory re-benchmarking on any model change, and a PCCP for anticipated changes."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p215-p217",
+      "stance": "support",
+      "gist": "Agrees a master file would not authorize the model and sponsors remain responsible; files may inform review but not substitute for device-level evidence."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p218-p219",
+      "stance": "conditional-major",
+      "gist": "Says the paper evaluates unreviewed functions' standalone performance but not how their risk can be controlled by design, and offers safeguards."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p220-p221",
+      "stance": "conditional-major",
+      "gist": "Says autonomy is no distinct class: a supervised stochastic open-ended function whose basis the supervisor cannot inspect carries comparable risk, so safeguards follow risk profile."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p222",
+      "stance": "conditional-major",
+      "gist": "Offers three architectural properties that together make an unbounded failure space bounded and measurable, as controls for high-risk functions."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p223-p224",
+      "stance": "conditional-major",
+      "gist": "First safeguard: quantified uncertainty at each stage, validated against observed error and propagated forward, so unstable conclusions are withheld."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p225-p226",
+      "stance": "conditional-major",
+      "gist": "Second safeguard: an independent secondary path differing in task, data and architecture, catching confident single-model errors; disagreement blocks finalization."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p227-p228",
+      "stance": "conditional-major",
+      "gist": "Third safeguard: structured deferral to humans when validity checks fail, a finding falls outside the authorized set, paths disagree, or uncertainty exceeds threshold."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q8",
+      "paragraph": "p229-p234",
+      "stance": "conditional-major",
+      "gist": "Scales safeguards with risk profile: conventional validation for lower, uncertainty with deferral for moderate, all three for higher including autonomous and patient-facing functions."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p235",
+      "stance": "conditional-major",
+      "gist": "Would characterize performance as the error rate among finalized cases, with intervals and stratified by consequence, plus the deferral rate as an operating parameter."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p236",
+      "stance": "conditional-minor",
+      "gist": "Supports treating under- and over-deferral as failures, and wants both reported with a prespecified, justified operating point."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p237",
+      "stance": "conditional-major",
+      "gist": "Illustrates that a supervised narrative CT reporting function generating unbounded claims still warrants full safeguards, since supervision removes none of its characteristics."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p238-p239",
+      "stance": "conditional-major",
+      "gist": "Contrasts two fracture detectors with identical use and user: stochastic open-ended versus reproducible bounded design yields a substantially different risk profile."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p240-p241",
+      "stance": "conditional-minor",
+      "gist": "Wants CDRH to state explicitly that most of its recommendations are technology-agnostic, so the framework also reaches non-generative functions raising the same questions."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p242",
+      "stance": "neutral",
+      "gist": "Notes the user's role and evaluation of unreviewed outputs are equally open for conventional AI devices and unaddressed by current guidance."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p243",
+      "stance": "conditional-minor",
+      "gist": "Says autonomy risk comes from absent human review, not model class, and wants autonomy handled as its own cross-cutting topic."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p244",
+      "stance": "conditional-minor",
+      "gist": "Says one framework with the fourth dimension can serve generative and conventional functions alike, consistent with FDA not regulating GenAI as such."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "BKG",
+      "paragraph": "p245-p248",
+      "stance": "neutral",
+      "gist": "Explains why generative implementations need more scrutiny, reproducibility and bounding must be engineered, while stressing conventional AI's advantage is evaluability, not safety."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p249",
+      "stance": "conditional-minor",
+      "gist": "Keeps classification by intended use, with generative measurement, detection or diagnosis functions inside existing device types; no parallel classifications."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p250-p251",
+      "stance": "conditional-minor",
+      "gist": "Wants substantial equivalence to turn on characteristics: a generative device with non-reproducible or open-ended output should not be equivalent to a bounded predicate."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p252-p256",
+      "stance": "neutral",
+      "gist": "Illustrates with a volumetric measurement, lesion detection and an added narrative function; existing substantial equivalence standards suffice, applied to new characteristics."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p257-p258",
+      "stance": "support",
+      "gist": "Strongly supports the generalizability element, synthetic data for small subgroups and third-party benchmarking, and says the three belong together."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p259",
+      "stance": "conditional-minor",
+      "gist": "Says generalizability deserves greater weight: as accuracy rises and benchmarks saturate, what matters is where remaining errors concentrate."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p260",
+      "stance": "conditional-minor",
+      "gist": "Shows a realistic real-world test set leaves each equipment, protocol and age combination too thin for confident estimates, and authorized devices rarely report subgroup data."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "V-RWD",
+      "paragraph": "p261",
+      "stance": "conditional-minor",
+      "gist": "Supports real-world and ex-US data as the paper proposes, but says they enlarge a test set without filling thin strata and vary many factors together."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p262-p270",
+      "stance": "conditional-minor",
+      "gist": "Lists synthetic data's strengths: coverage by design, one-factor variation, known reference standards, freedom from contamination, repeatability and boundary testing."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p271",
+      "stance": "conditional-minor",
+      "gist": "Finds synthetic data best suited to imaging, where input formation is modelable and outputs score against known references; less so for outcomes or clinician use."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p272",
+      "stance": "conditional-minor",
+      "gist": "Wants a synthetic benchmark to show realism by blinded expert discrimination, perceptible labeled findings, and agreement with real-world results for reference devices."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p273",
+      "stance": "conditional-minor",
+      "gist": "Would report synthetic and real-world results separately by default, combining them only under a prespecified method once agreement has been shown."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p274-p275",
+      "stance": "conditional-minor",
+      "gist": "Answers the same-class concern with independence: a generator built on explicit anatomy and image-formation models, or an independent third-party benchmark, avoids shared blind spots."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p276",
+      "stance": "support",
+      "gist": "Says synthetic data complements real-world evidence and does not replace it, extending evaluation to what real data cannot practically reach."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p277-p278",
+      "stance": "conditional-major",
+      "gist": "Where neither real nor synthetic data can evidence a condition, drop it from the authorized outputs and defer to human interpretation."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p279-p283",
+      "stance": "conditional-minor",
+      "gist": "Sees third parties contributing most through synthetic benchmarks, bringing capability smaller sponsors lack, independence from the device, and comparability across devices."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p284",
+      "stance": "conditional-minor",
+      "gist": "Defines independence relative to the device under evaluation, noting device developers often build the best tools and MDDT already accepts their proposals."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p285-p290",
+      "stance": "conditional-minor",
+      "gist": "Rests confidence on how an evaluation is run: prespecified with a hashed test set, automatically scored, reported identically to FDA and sponsor, and fully auditable."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p291",
+      "stance": "conditional-minor",
+      "gist": "Keeps acceptance decisions with FDA and sponsors; FDA should qualify tools, not designate providers, with non-discriminatory access and alternative evidence allowed."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p292",
+      "stance": "conditional-minor",
+      "gist": "Recommends retaining generalizability as a distinct evidence element for all AI devices, with performance reported across intended-use strata, not only in aggregate."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p293",
+      "stance": "conditional-minor",
+      "gist": "Recommends recognizing validated synthetic benchmarks as evidence of generalizability in submissions, PCCP verification and postmarket re-benchmarking."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p294",
+      "stance": "conditional-minor",
+      "gist": "Recommends publishing MDDT qualification expectations for synthetic benchmarking tools, prioritizing proposals that address the paper's evidence gaps."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p295",
+      "stance": "conditional-minor",
+      "gist": "Recommends FDA keep supporting independent benchmarking capability through existing research and qualification mechanisms."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p296",
+      "stance": "conditional-minor",
+      "gist": "Recommends postmarket expectations allow reduced proactive monitoring where broad premarket generalizability evidence exists for a conventional AI device."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p297",
+      "stance": "support",
+      "gist": "Appreciates early stakeholder engagement, noting several of its recommendations would raise evidentiary expectations for the commenter's own device class."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p298-p299",
+      "stance": "neutral",
+      "gist": "Says the field's main risk is an early avoidable failure in a high-consequence setting, not over-demanding regulation; precision and proportion serve all."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p303-p307",
+      "stance": "neutral",
+      "gist": "Illustrates the distinction with impression drafting: restating documented findings presents, while adding an untraceable suspicion or follow-up interval generates."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p308-p312",
+      "stance": "neutral",
+      "gist": "Illustrates with serial oncology reports: summarizing presents, concluding treatment failed generates, applying named response criteria presents, measuring images generates."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p313-p316",
+      "stance": "neutral",
+      "gist": "Illustrates with a cholesterol value: guideline lookup presents, while textually identical model output citing the guideline generates, so citations prove nothing."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p317-p322",
+      "stance": "neutral",
+      "gist": "Illustrates with consensus diagnostic criteria: applying them to documented findings presents, a model producing the same sentence generates; omitting conditions breaks faithfulness."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p323-p325",
+      "stance": "neutral",
+      "gist": "Illustrates with a wearable: classifications, alerts and risk scores are generated claims, as are measurements computed from raw sensor signals."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p326-p331",
+      "stance": "neutral",
+      "gist": "Illustrates with renal dosing: returning the labeled adjustment presents and needs faithfulness evidence; deriving a dose from the clinical picture generates a management claim."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p332-p338",
+      "stance": "neutral",
+      "gist": "Profiles a medication-history summary for a pharmacist as presenting, source-linked and verifiable: lower risk, faithfulness benchmarking including omissions."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p339-p344",
+      "stance": "neutral",
+      "gist": "Profiles a wearable atrial fibrillation notification as a generated detection for a serious condition to a lay user: moderate risk, uncertainty with deferral."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p345-p350",
+      "stance": "neutral",
+      "gist": "Profiles an intensive-care deterioration score as a generated detection for a critical condition: moderate to higher, showing why significance, not directiveness, should grade it."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p351-p356",
+      "stance": "neutral",
+      "gist": "Profiles a consumer skin-lesion app as a generated diagnosis to a lay user: higher risk under either implementation, with all three safeguards."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p357-p362",
+      "stance": "neutral",
+      "gist": "Profiles a patient-facing emergency-care advisor as a generated management determination: higher risk, all safeguards, escalation scored as sensitivity and specificity."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p363-p369",
+      "stance": "neutral",
+      "gist": "Illustrates bounding by intended use, such as closed finding vocabularies for report drafting and closed dispositions with mandatory escalation for conversational triage."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p370-p372",
+      "stance": "neutral",
+      "gist": "Illustrates structure-first versus text-first knee MRI reporting: structured findings are scored directly, free text needs a validated extractor."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p373-p375",
+      "stance": "neutral",
+      "gist": "Illustrates claim-level reproducibility: twenty runs plus perturbation per case, agreement recorded per finding and stratified by consequence."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to the attachment."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Signature."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Docket and author details."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Table of contents."
+    },
+    {
+      "paragraph": "p006",
+      "reason": "Table of contents."
+    },
+    {
+      "paragraph": "p007",
+      "reason": "Table of contents."
+    },
+    {
+      "paragraph": "p008",
+      "reason": "Table of contents."
+    },
+    {
+      "paragraph": "p009",
+      "reason": "Table of contents."
+    },
+    {
+      "paragraph": "p010",
+      "reason": "Table of contents."
+    },
+    {
+      "paragraph": "p011",
+      "reason": "Table of contents."
+    },
+    {
+      "paragraph": "p012",
+      "reason": "Table of contents."
+    },
+    {
+      "paragraph": "p013",
+      "reason": "Table of contents and section heading."
+    },
+    {
+      "paragraph": "p014",
+      "reason": "Introduction of the company."
+    },
+    {
+      "paragraph": "p015",
+      "reason": "Introduction of the company, continued."
+    },
+    {
+      "paragraph": "p016",
+      "reason": "Introduction of the writer."
+    },
+    {
+      "paragraph": "p018",
+      "reason": "Note on quotations."
+    },
+    {
+      "paragraph": "p046",
+      "reason": "Note on how the comment cites its evidence."
+    },
+    {
+      "paragraph": "p112",
+      "reason": "Pointer to the appendices."
+    },
+    {
+      "paragraph": "p300",
+      "reason": "Offer to discuss further."
+    },
+    {
+      "paragraph": "p301",
+      "reason": "Sign-off."
+    },
+    {
+      "paragraph": "p302",
+      "reason": "Signature and appendix heading."
+    },
+    {
+      "paragraph": "p376",
+      "reason": "Reference list heading."
+    },
+    {
+      "paragraph": "p377",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p378",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p379",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p380",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p381",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p382",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p383",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p384",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p385",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p386",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p387",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p388",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p389",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p390",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p391",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p392",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p393",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p394",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p395",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p396",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p397",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p398",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p399",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p400",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p401",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p402",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p403",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p404",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p405",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p406",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p407",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p408",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p409",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p410",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p411",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p412",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p413",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p414",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p415",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p416",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p417",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p418",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p419",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p420",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p421",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p422",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p423",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p424",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p425",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p426",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p427",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p428",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p429",
+      "reason": "Reference list."
+    },
+    {
+      "paragraph": "p430",
+      "reason": "Reference list."
+    }
+  ]
+}

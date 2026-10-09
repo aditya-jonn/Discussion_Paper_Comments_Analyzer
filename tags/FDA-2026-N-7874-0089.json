@@ -1,0 +1,127 @@
+{
+  "comment_id": "FDA-2026-N-7874-0089",
+  "tags": [
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p002-p003",
+      "stance": "conditional-major",
+      "gist": "Wants human oversight of agentic devices required as a verifiable, tamper-evident record that a present human authorized each consequential action."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p004",
+      "stance": "conditional-major",
+      "gist": "Says evaluation should demand proof that the specific act was authorized, not identity at login, without biometrics and resistant to spoofing."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p005",
+      "stance": "conditional-minor",
+      "gist": "Wants agentic devices distinguished by how reversible and consequential their autonomous actions are, with authorization evidence scaled accordingly."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p006",
+      "stance": "conditional-major",
+      "gist": "Wants premarket proof that the device generates a tamper-evident record of authorization for every class of consequential action."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p007",
+      "stance": "conditional-minor",
+      "gist": "Wants postmarket retention and auditability of authorization evidence, proportionate to consequence, so surveillance is not guesswork."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p008",
+      "stance": "conditional-major",
+      "gist": "Proposes positive human control for the gravest irreversible actions: no completion without verifiable authorization, failing safe without it."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p015-p016",
+      "stance": "conditional-major",
+      "gist": "Commends the agentic question and answers that oversight must be provable through a record of contemporaneous human authorization per action."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p017",
+      "stance": "conditional-minor",
+      "gist": "Recommends the risk framework separate agents by how reversible and consequential their autonomous actions are, scaling acceptance criteria."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p018",
+      "stance": "conditional-major",
+      "gist": "Recommends premarket submissions show a tamper-evident record of who authorized each consequential action, without storing biometrics."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p019",
+      "stance": "conditional-minor",
+      "gist": "Says authorization records would make adverse-event investigation and fleet pattern detection tractable; wants their retention and auditability expected."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p020",
+      "stance": "conditional-major",
+      "gist": "Draws on other high-consequence fields: unforgeable authorization, sometimes by more than one person, as a demonstrable operational control."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p021",
+      "stance": "conditional-major",
+      "gist": "Concludes that requiring a verifiable authorization record, proportionate to consequence, makes oversight testable premarket and real postmarket."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Disclosure and introduction of the writer."
+    },
+    {
+      "paragraph": "p009",
+      "reason": "Thanks."
+    },
+    {
+      "paragraph": "p010",
+      "reason": "Signature."
+    },
+    {
+      "paragraph": "p011",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p012",
+      "reason": "Submission details."
+    },
+    {
+      "paragraph": "p013",
+      "reason": "Submitter and date."
+    },
+    {
+      "paragraph": "p014",
+      "reason": "Disclosure of interest."
+    },
+    {
+      "paragraph": "p022",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p023",
+      "reason": "Signature."
+    }
+  ]
+}

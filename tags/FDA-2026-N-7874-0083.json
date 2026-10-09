@@ -1,0 +1,47 @@
+{
+ "comment_id": "FDA-2026-N-7874-0083",
+ "tags": [
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p001",
+   "stance": "conditional-minor",
+   "gist": "Asks FDA to clarify whether pathologists must take diagnostic responsibility for unreviewable foundation-model outputs, keeping accountability for validity and drift with developers."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p002",
+   "stance": "conditional-minor",
+   "gist": "Asks FDA to separate manufacturer re-benchmarking and monitoring duties from laboratory quality control so pathology practices do not inherit continuous surveillance."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p004-p005",
+   "stance": "conditional-minor",
+   "gist": "Wants accountability for the final result defined: manufacturers answer for validity and change control, pathologists for interpretation, with evidence available before sign-out."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p006-p007",
+   "stance": "conditional-minor",
+   "gist": "Wants manufacturers to own model-change detection, re-benchmarking and degradation monitoring, with laboratory quality control kept risk-based and local."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p003",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "List of the discussion questions addressed."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Document footer."
+  }
+ ]
+}

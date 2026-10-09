@@ -1,0 +1,774 @@
+{
+ "comment_id": "FDA-2026-N-7874-0013",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p006-p007",
+   "stance": "conditional-minor",
+   "gist": "Praises the paper's candor, supports its general architecture, and aims criticism at places that would not survive a real submission or failure."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p008-p009",
+   "stance": "conditional-major",
+   "gist": "Wants the two axes reconciled with ISO 14971 and the omitted probability of an error escaping detection added."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p010-p012",
+   "stance": "conditional-minor",
+   "gist": "Wants an explicit published table linking each risk tier to the least evidence required; without it the approach is case-by-case review renamed."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p013-p014",
+   "stance": "conditional-minor",
+   "gist": "Would allow synthetic data for finding failures and rare events but never to establish performance rates, since it supplies no valid denominator."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p015-p016",
+   "stance": "conditional-major",
+   "gist": "Rejects the median clinician standard in favor of prespecified acceptance criteria from decision consequences, with panels as validated adjudication instruments."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p017-p018",
+   "stance": "conditional-minor",
+   "gist": "Wants independence required for any supervisory agent used as evidence, since a same-model monitor shares the device's failure modes."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p019-p020",
+   "stance": "conditional-minor",
+   "gist": "Wants inability to pin a version-identified third-party model with change notice treated as a design deficiency, calling this the paper's largest gap."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p021-p022",
+   "stance": "conditional-major",
+   "gist": "Wants PCCPs for generative systems built on invariants, locked instruments, thresholds and protocols, rather than on lists of planned changes."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p023-p024",
+   "stance": "conditional-major",
+   "gist": "Calls the two axes necessary but insufficient because they ignore how likely an incorrect output is to be acted on."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p025",
+   "stance": "conditional-major",
+   "gist": "Argues the grid captures severity but not probability as ISO 14971 does, and fluent generative errors are inherently harder to detect."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p026",
+   "stance": "conditional-major",
+   "gist": "Wants detectability added as an explicit dimension, with reversibility, safeguards, time pressure and traceability as its determinants."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p027-p028",
+   "stance": "conditional-minor",
+   "gist": "Wants FDA to state how the grid relates to a manufacturer's ISO 14971 risk file, to avoid a duplicate FDA-specific taxonomy."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p029-p030",
+   "stance": "conditional-major",
+   "gist": "Objects that directiveness is an emergent output property, so sponsors cannot honestly attest to it at design time."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p031",
+   "stance": "conditional-major",
+   "gist": "Wants sponsors to specify a directiveness ceiling, its controls and a measured escape rate, with classification resting on the ceiling and bound."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p032-p034",
+   "stance": "conditional-major",
+   "gist": "Wants risk to turn on the user's realistic verification path at the moment of reliance rather than on patient versus clinician category."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p035-p036",
+   "stance": "conditional-major",
+   "gist": "Wants risk assessed against foreseeable off-label users, crediting technical enforcement of user scope but not labeling alone."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p037-p038",
+   "stance": "conditional-minor",
+   "gist": "Wants the session, not the turn, declared the unit of intended use and evaluation, with adversarial multi-turn testing of escape rates."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p039",
+   "stance": "conditional-minor",
+   "gist": "Wants FDA to say plainly that turn-level evaluation of a conversational device is insufficient on its own."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p040-p042",
+   "stance": "conditional-minor",
+   "gist": "Wants the escalation trade-off prespecified as an asymmetric acceptance criterion with clinical justification, not characterized after the fact."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p043",
+   "stance": "conditional-minor",
+   "gist": "Says over-escalation harms are diffuse, delayed and seldom traced back to the device, so postmarket mechanisms under-detect them."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p044-p046",
+   "stance": "conditional-minor",
+   "gist": "Broadly accepts the competency approach but says the clinician analogy rests on an unstated assumption doing more work than it can bear."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p047-p048",
+   "stance": "conditional-minor",
+   "gist": "Argues credentialing can be evidentiarily light only because of continuous individual accountability that a deployed model lacks."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p049-p050",
+   "stance": "conditional-minor",
+   "gist": "Notes generative failures are not legible the way human errors are and can hide from aggregate performance measurement."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p051",
+   "stance": "conditional-minor",
+   "gist": "Wants the competency framing kept as structure while FDA states the analogy justifies the shape of evidence, not its quantity."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p052-p055",
+   "stance": "conditional-minor",
+   "gist": "Wants a published, stable table giving minimum benchmarking, confirmation tier, third-party role and monitoring for each risk band, with a deviation pathway."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p056-p057",
+   "stance": "conditional-minor",
+   "gist": "Wants adversarial input such as prompt injection and jailbreaks as a distinct benchmarking element tied to cybersecurity expectations."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p058",
+   "stance": "conditional-minor",
+   "gist": "Wants citation fidelity measured separately, since a fabricated plausible reference turns the user's verification safeguard into a hazard."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p059",
+   "stance": "conditional-minor",
+   "gist": "Wants boundary behavior tested, distinguishing graceful degradation with visible uncertainty from sharp failure while confidence stays high."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p060-p061",
+   "stance": "conditional-minor",
+   "gist": "Declines to name external standards and asks FDA to survey which AI evaluation standards are mature enough to recognize."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p062-p063",
+   "stance": "conditional-minor",
+   "gist": "Says public benchmark results on third-party models are uninterpretable without a dated training cutoff attestation, preferring temporally held-out data."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p064",
+   "stance": "conditional-minor",
+   "gist": "Wants sponsors to document, per benchmark, the real-world behavior it predicts and the limits of that link, as analytical validation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p065",
+   "stance": "conditional-minor",
+   "gist": "Would permit sponsor benchmarks if locked before evaluation, attested unused in development, and partly escrowed with FDA or a third party."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p066",
+   "stance": "conditional-minor",
+   "gist": "Wants public benchmarks treated as necessary screens that are never counted as proof of effectiveness."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p067",
+   "stance": "conditional-minor",
+   "gist": "Raises a periodically refreshed, never-published evaluation set held by FDA or a recognized steward as a direction worth evaluating."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p068-p069",
+   "stance": "conditional-major",
+   "gist": "Supports the ladder but wants the rung set by the published risk mapping rather than by sponsor justification."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p070",
+   "stance": "conditional-minor",
+   "gist": "Wants shadow deployment presumed for intermediate risk, since curated retrospective inputs omit the malformed cases that cause real-world failure."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p071",
+   "stance": "conditional-minor",
+   "gist": "Wants the anticipated input distribution characterized prospectively and confirmation evidence labeled with its population and setting."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p072-p073",
+   "stance": "conditional-minor",
+   "gist": "Because outputs vary at fixed input, wants performance characterized over repeated runs with within-input and between-input variance reported separately."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p074",
+   "stance": "conditional-minor",
+   "gist": "Wants acceptance criteria judged on a lower confidence bound rather than a point estimate."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p075-p076",
+   "stance": "conditional-minor",
+   "gist": "Wants temperature and similar sampling settings treated as specified device parameters under change control."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p077",
+   "stance": "oppose",
+   "gist": "Recommends against pooling benchmark and confirmation evidence, with confirmation governing acceptance and benchmarking as support and baseline."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p078-p079",
+   "stance": "conditional-minor",
+   "gist": "Agrees with the framing and stresses correlated failure: a same-family generator reproduces the device's blind spots and manufactures false confidence."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p080-p082",
+   "stance": "conditional-minor",
+   "gist": "Wants a line drawn by purpose: synthetic data for stress testing and rare scenarios, never for performance rates needing a real denominator."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p083",
+   "stance": "conditional-minor",
+   "gist": "Wants same-family synthetic generation prohibited for subgroup performance claims, the place correlated blind spots hurt most."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p084",
+   "stance": "conditional-minor",
+   "gist": "Wants any synthetic generator's identity, provenance and lineage disclosed, with its relation to the device's model stated."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p085",
+   "stance": "conditional-minor",
+   "gist": "Knows no validated method for showing a synthetic population matches a real one, and asks FDA to proceed as if none exists."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p086-p088",
+   "stance": "conditional-major",
+   "gist": "Rejects the median clinician as primary standard: it is unmeasured, a moving target, and anchors the bar to practice variation not patient benefit."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p089-p090",
+   "stance": "conditional-major",
+   "gist": "Wants prespecified, defended clinical acceptance criteria derived from what happens when the device is wrong."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p091-p092",
+   "stance": "conditional-minor",
+   "gist": "Wants clinician panels treated as measurement instruments with prespecified composition, protocol, blinding and reported inter-rater reliability."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p093",
+   "stance": "conditional-minor",
+   "gist": "Wants the comparator to match the labeled intended user, since benchmarking a primary care tool against subspecialists measures the wrong thing."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p094-p095",
+   "stance": "conditional-minor",
+   "gist": "Where labeling requires human review, wants team performance primary and designed to detect automation bias with confidently wrong cases."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p096",
+   "stance": "support",
+   "gist": "Supports comparing against care in the device's absence, since access-expanding devices often replace no or delayed assessment."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p097",
+   "stance": "conditional-minor",
+   "gist": "Wants the counterfactual empirically characterized per setting and carried into labeling so a low-bar authorization cannot creep in scope."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p098",
+   "stance": "support",
+   "gist": "Finds third parties well suited to benchmark administration, escrow of held-out sets and clinical adjudication."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p099-p100",
+   "stance": "conditional-minor",
+   "gist": "Wants published recognition criteria so qualifying bodies are not chosen at discretion and entry is contestable."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p101",
+   "stance": "conditional-minor",
+   "gist": "Wants a body that advised a sponsor disqualified from assessing that device, as a rule rather than a disclosure."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p102",
+   "stance": "conditional-minor",
+   "gist": "Wants public disclosure of financial ties and revenue concentration between assessing bodies and sponsors."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p103",
+   "stance": "conditional-minor",
+   "gist": "Wants third-party assessment kept optional, never a mandatory gate, to avoid chokepoints that burden small developers."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p104",
+   "stance": "conditional-minor",
+   "gist": "Notes third-party capacity for generative devices does not yet exist at scale and asks the paper to acknowledge the build-out timeline."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q17",
+   "paragraph": "p105-p107",
+   "stance": "conditional-minor",
+   "gist": "Urges caution for multimodal and world models, whose thin benchmarks mean confirmation evidence has to bear correspondingly more of the weight."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p108-p110",
+   "stance": "conditional-minor",
+   "gist": "Finds the trade appealing but asks FDA to publish data on postmarket obligation completion for software devices before relying on it."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p111",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring made a binding condition of authorization with prespecified triggers and automatic consequences, including suspension of marketing."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p112",
+   "stance": "conditional-minor",
+   "gist": "Wants sponsors to demonstrate a data path linking outputs to observable clinical consequences before monitoring can justify less premarket evidence."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p113",
+   "stance": "conditional-minor",
+   "gist": "Says the trade is unavailable where harm would build up more quickly than the monitoring cadence can catch degradation."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p114",
+   "stance": "conditional-minor",
+   "gist": "Says irreversible harm forecloses the trade, because postmarket detection would only audit damage already done."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p115",
+   "stance": "conditional-minor",
+   "gist": "Wants FDA to state that reduced premarket evidence is unavailable in the high-consequence, high-activity region of the grid."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p116",
+   "stance": "conditional-minor",
+   "gist": "Finds the three approaches complementary but wants cadence event-driven with a calendar floor rather than calendar-driven."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p117",
+   "stance": "conditional-minor",
+   "gist": "Lists triggers such as model, prompt, corpus or sampling changes, input shift and complaint thresholds, with an annual or tighter floor."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p118",
+   "stance": "conditional-minor",
+   "gist": "Wants reassessment triggers defined as change-control triggers inside the QMS rather than as a separate process."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p119-p121",
+   "stance": "conditional-minor",
+   "gist": "Accepts automated supervision as unavoidable but warns a same-model supervisor shares the device's blind spots and confirms nothing."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p122",
+   "stance": "conditional-minor",
+   "gist": "Wants supervisors built on a different model family and provider, or failure-mode correlation reported with credit scaled to independence."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p123",
+   "stance": "conditional-minor",
+   "gist": "Wants the supervisor validated as an instrument by sensitivity for serious harms against human adjudication, re-measured over time."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p124",
+   "stance": "conditional-minor",
+   "gist": "Would limit the supervisor to triaging outputs for human review, keeping the adjudicated endpoint human."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p125",
+   "stance": "conditional-minor",
+   "gist": "Wants any modification of the supervisory agent to prompt the same reassessment a device change would."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p126",
+   "stance": "conditional-minor",
+   "gist": "Wants FDA to state that signal may come from anywhere but the duty to investigate and report stays with the manufacturer."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p127-p129",
+   "stance": "conditional-minor",
+   "gist": "Flags unresolved MDR reportability of caught hallucinations and suggests an aggregate rate-based channel for near-misses."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p130",
+   "stance": "conditional-minor",
+   "gist": "Supports a locked baseline and would categorize changes by whether the locked evaluation instrument stays valid, not by change size."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p131-p134",
+   "stance": "conditional-minor",
+   "gist": "Proposes three tiers: no re-benchmarking for output-neutral changes, QMS-managed full re-benchmarking, and premarket submission for model-family or scope changes."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p135",
+   "stance": "conditional-minor",
+   "gist": "Insists the benchmark suite cannot be modified within the QMS tier; changing the instrument is always a submission event."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p136-p138",
+   "stance": "conditional-major",
+   "gist": "Would invert the PCCP so it prespecifies the invariants that hold after every change, since future modifications cannot be enumerated."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p139-p146",
+   "stance": "conditional-major",
+   "gist": "Lists the invariants: escrowed suite, thresholds with subgroup margins, verification protocol, rollback criteria, scoped categories and notification duties."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p147-p148",
+   "stance": "conditional-major",
+   "gist": "Says escrowing the suite and sending every change to it through a submission are the proposal itself, not optional features."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p149-p150",
+   "stance": "conditional-minor",
+   "gist": "Describes hosted endpoints updated without notice and short deprecation timelines as a condition no quality system can accommodate."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p151",
+   "stance": "conditional-minor",
+   "gist": "Wants FDA to state that execution against a pinned, version-identified endpoint is expected and inability to pin is a design deficiency."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p152",
+   "stance": "conditional-minor",
+   "gist": "Wants contractual change notice long enough to complete re-benchmarking, plus a guaranteed minimum period before pinned versions are deprecated."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p153",
+   "stance": "conditional-minor",
+   "gist": "Wants continuous canary probes against the live endpoint as an expected monitoring element to detect silent upstream change."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p154",
+   "stance": "conditional-minor",
+   "gist": "Wants provider-forced migration treated as a full submission-level change, with a validated fallback planned in advance."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p155-p156",
+   "stance": "conditional-minor",
+   "gist": "Says a master file would be most valuable as a current record of a model's versioning, deprecation and change-notification practices."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p157-p158",
+   "stance": "conditional-major",
+   "gist": "Agrees developers have little reason to catalog their own flaws for an agency that regulates a different company's product."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p159-p161",
+   "stance": "conditional-major",
+   "gist": "Wants the program created with a default that, absent a master file, the device maker bears the full model characterization burden, creating procurement pull."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p162-p163",
+   "stance": "conditional-minor",
+   "gist": "Suggests contents including version lineage, training cutoff date, deprecation policy, failure modes and evaluations, with a currency requirement."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p164",
+   "stance": "conditional-minor",
+   "gist": "Cautions that a master file is context for evaluating the configured device and never a partial substitute for it."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p165-p166",
+   "stance": "conditional-minor",
+   "gist": "Wants acceptance criteria stated for the completed task, since per-step accuracy compounds into much lower end-to-end reliability."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p167-p168",
+   "stance": "conditional-minor",
+   "gist": "Wants a locked inventory of every action classified by reversibility, with irreversible actions confirmed by a qualified user."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p169",
+   "stance": "conditional-minor",
+   "gist": "Wants least-privilege tool access per deployment, cross-referenced to existing cybersecurity expectations."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p170-p171",
+   "stance": "conditional-minor",
+   "gist": "Wants audit logs that can rebuild the whole trajectory reviewed as an explicit premarket element for agentic devices."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p172",
+   "stance": "conditional-minor",
+   "gist": "Wants agentic devices presumptively excluded from the reduced-premarket-evidence pathway, since their errors propagate fastest."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p173-p174",
+   "stance": "conditional-minor",
+   "gist": "Repeats that publishing the risk-tier-to-evidence mapping is what makes a risk-based framework least burdensome."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p175-p176",
+   "stance": "conditional-minor",
+   "gist": "Wants the framework to draw on existing ISO 14971 files, design controls and change control rather than parallel artifacts."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p177-p178",
+   "stance": "conditional-minor",
+   "gist": "Asks FDA to settle whether and how generative outputs are reportable under MDR, since every postmarket element depends on it."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p179-p180",
+   "stance": "conditional-minor",
+   "gist": "Repeats that expecting model version pinning as a design control is achievable now and closes the largest gap."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p181-p182",
+   "stance": "conditional-minor",
+   "gist": "Asks FDA to identify which proposals, such as enforceable postmarket conditions or developer obligations, would need new legal authority."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p183-p184",
+   "stance": "conditional-minor",
+   "gist": "Wants FDA to state the framework can conclude an intended use is not supportable, so it is an evaluation framework, not an entry pathway."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p185",
+   "stance": "support",
+   "gist": "Appreciates FDA publishing preliminary thinking and calls the competency framing a real contribution."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p186",
+   "stance": "conditional-major",
+   "gist": "Worries flexibility outruns the needed infrastructure of trusted benchmarks, settled reporting rules and controllable dependencies, which should come first."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Points to the attachment."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Docket header."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Docket header."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Submission details."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Introduction of the writer and disclaimer."
+  },
+  {
+   "paragraph": "p187",
+   "reason": "Closing thanks."
+  },
+  {
+   "paragraph": "p188",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p189",
+   "reason": "Signature and disclaimer."
+  }
+ ]
+}

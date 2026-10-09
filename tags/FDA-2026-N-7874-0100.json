@@ -1,0 +1,393 @@
+{
+  "comment_id": "FDA-2026-N-7874-0100",
+  "tags": [
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p005",
+      "stance": "support",
+      "gist": "Commends early stakeholder input and supports a risk-proportionate, least-burdensome lifecycle approach where evidence scales with function and consequence, not GenAI's presence."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p007",
+      "stance": "conditional-minor",
+      "gist": "Supports the two axes and recommends traceability to source material and reversibility of the action as engineerable, verifiable risk modifiers."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p008",
+      "stance": "conditional-minor",
+      "gist": "Says both escalation errors should be assessed but are incommensurable; manufacturers should prespecify an operating point and report both directions by acuity."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p009",
+      "stance": "conditional-minor",
+      "gist": "Wants the competency approach to credit architectural controls: hybrid systems with deterministic safety logic can guarantee what generative ones only estimate."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p010",
+      "stance": "conditional-minor",
+      "gist": "Wants the default comparator to be the median practising clinician or a justified no-device counterfactual, with team performance where humans are in the loop."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p011",
+      "stance": "support",
+      "gist": "Strongly supports trading premarket uncertainty for prespecified monitoring, citing its own production clinician review program."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p012",
+      "stance": "conditional-minor",
+      "gist": "Says manufacturers can own third-party model changes through containment, pinning with notice, shadow-mode evaluation and regression gates suited to PCCPs."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p020-p022",
+      "stance": "conditional-minor",
+      "gist": "Supports the framework and wants traceability treated as a formal, verifiable mitigating factor on the consequence axis, since inspectable outputs let errors be caught."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p023",
+      "stance": "conditional-minor",
+      "gist": "Wants reversibility of the resulting action incorporated, sharpening the line between supervised and autonomous action-taking."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p024-p025",
+      "stance": "conditional-minor",
+      "gist": "Agrees directiveness depends on substance and context and asks for published worked examples along that continuum covering common function types."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p026",
+      "stance": "conditional-minor",
+      "gist": "Wants directiveness assessed per characterized output class, such as a bounded disposition set, rather than sentence by sentence."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p027",
+      "stance": "conditional-minor",
+      "gist": "Says greater directiveness is often safer for emergencies, so assessment should ask whether directiveness fits the situation, not disfavour it."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p028",
+      "stance": "conditional-minor",
+      "gist": "Urges keeping the paper's balance: presuming categorically that patient-facing functions are riskier would penalize access-expanding tools and embed paternalism."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p029-p034",
+      "stance": "conditional-minor",
+      "gist": "Would judge patient-facing functions by verifiable safeguards, protocol anchoring, deterministic escalation nets, deferral pathways and comprehension testing, not by audience alone."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p035-p036",
+      "stance": "conditional-minor",
+      "gist": "Strongly supports bidirectional assessment and wants a prespecified, clinically justified escalation operating point, including deliberate asymmetry for severe cases."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p037",
+      "stance": "conditional-minor",
+      "gist": "Wants both error directions reported stratified by acuity, since aggregate concordance hides which way errors run."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p038",
+      "stance": "conditional-minor",
+      "gist": "Wants acceptable escalation error bounds set against documented disagreement among qualified human raters, not an assumed single right answer."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p039-p040",
+      "stance": "support",
+      "gist": "Supports benchmarking then confirmation on the configured device, with evidence scaled by grid position and confirmation not always a prospective study."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p041-p042",
+      "stance": "conditional-minor",
+      "gist": "Endorses the elements but wants architectural verification plus targeted tests accepted for reproducibility, scope and calibration in hybrid deterministic designs."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p043-p046",
+      "stance": "conditional-minor",
+      "gist": "Would establish construct validity through clinician-authored protocol-graded cases, correlation with adjudicated real-world performance, and sequestered third-party sets."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p047",
+      "stance": "conditional-minor",
+      "gist": "Says sponsor benchmarks should not be disfavoured, since a documented one tied to the intended use can beat public assets; address independence by sequestration."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p048-p049",
+      "stance": "conditional-minor",
+      "gist": "Wants the median practising clinician as default standard, with consensus panels as a ceiling, and interrater variability reported alongside device performance."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q15",
+      "paragraph": "p050",
+      "stance": "conditional-minor",
+      "gist": "Wants justified counterfactual comparators permitted, such as baseline disposition behaviour without the device, with a methodological pathway for identifying them."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p051",
+      "stance": "conditional-minor",
+      "gist": "Would tie the basis of evaluation to the deployed workflow: team performance where a clinician reviews, device alone when autonomous."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p052-p053",
+      "stance": "conditional-minor",
+      "gist": "Supports third parties for sequestered datasets and adjudication, wanting multiple accredited bodies per domain with published criteria and capped fees."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p054",
+      "stance": "conditional-minor",
+      "gist": "Wants sponsors able to self-assess using the same published methods, subject to FDA review, instead of third-party certification."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p055",
+      "stance": "conditional-minor",
+      "gist": "Wants independence criteria to cover the model developer too, and an LLM adjudicator should share neither developer nor lineage with the component evaluated."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p056-p057",
+      "stance": "conditional-minor",
+      "gist": "Strongly supports the trade where sponsors precommit to a monitoring plan, triggers, independent adjudication and corrective action, excepting autonomous high-consequence functions."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p058",
+      "stance": "support",
+      "gist": "Confirms the approaches work at production scale, describing weekly clinician review of sampled interactions, regression evaluation and drift monitoring."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p059",
+      "stance": "conditional-minor",
+      "gist": "Wants review sampling stratified by acuity and interaction pattern, where safety signal concentrates, rather than uniform."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p060",
+      "stance": "conditional-minor",
+      "gist": "Wants cadence scaled to volume and change frequency, with model, content, context or drift events triggering off-cycle review."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p061",
+      "stance": "conditional-minor",
+      "gist": "Wants input-population drift monitored as its own signal, since who uses the device can shift performance without any device change."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p062",
+      "stance": "conditional-minor",
+      "gist": "Supports supervisory agents as a scaling layer flagging cases for review, if evaluated and independent, with clinicians keeping final adjudication."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p063",
+      "stance": "conditional-minor",
+      "gist": "Wants clarity that institutions monitoring, validating or configuring within the validated envelope are not thereby manufacturers, or they will be deterred."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p064-p065",
+      "stance": "conditional-minor",
+      "gist": "After losing an upstream vendor, urges architectural containment keeping safety logic outside the third-party model, recognized as a primary mitigation."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p066",
+      "stance": "conditional-minor",
+      "gist": "Wants version pinning with contractual minimum notice and continued access to prior versions, with FDA articulating these as expected practice."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p067",
+      "stance": "conditional-minor",
+      "gist": "Wants new model versions run in shadow mode on production traffic and a regression battery, promoted only on prespecified criteria."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p068",
+      "stance": "conditional-minor",
+      "gist": "Says model version changes passing the regression battery within an envelope are a natural PCCP category needing no new submission."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p069-p070",
+      "stance": "support",
+      "gist": "Supports voluntary master files as structured documentation that would cut duplicative diligence and make review more consistent."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p071",
+      "stance": "conditional-minor",
+      "gist": "Wants no presumption against a device lacking a master file, with sponsor characterization on a defined battery accepted as a full substitute."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p072",
+      "stance": "conditional-minor",
+      "gist": "Wants cloud platform intermediaries eligible to hold master files, since they often control versions and deprecations."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p073",
+      "stance": "conditional-minor",
+      "gist": "Supports leaving care coordination, documentation and outreach agents outside device focus and wants that boundary preserved clearly."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p074",
+      "stance": "conditional-minor",
+      "gist": "Wants human-oversight checkpoints before irreversible actions verified as non-bypassable in the configuration actually deployed, not just documented."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p075",
+      "stance": "conditional-minor",
+      "gist": "Wants prompt-injection resistance evaluated across user input, retrieved EHR content and tool outputs."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p076",
+      "stance": "conditional-minor",
+      "gist": "Wants characterized failure envelopes showing the agent degrades to deferral or handoff when tools fail, rather than improvising."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p077",
+      "stance": "support",
+      "gist": "Calls the paper a substantive, well-constructed foundation whose commitments match what responsible manufacturers already practise."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Organization name."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Docket and address lines."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Address and docket reference."
+    },
+    {
+      "paragraph": "p006",
+      "reason": "Introduction of the organization and lead-in to the summary."
+    },
+    {
+      "paragraph": "p013",
+      "reason": "Heading introducing the organization."
+    },
+    {
+      "paragraph": "p014",
+      "reason": "Introduction of the organization."
+    },
+    {
+      "paragraph": "p015",
+      "reason": "Introduction of the organization's platform."
+    },
+    {
+      "paragraph": "p016",
+      "reason": "Introduction of the organization's products."
+    },
+    {
+      "paragraph": "p017",
+      "reason": "Introduction of the organization's products."
+    },
+    {
+      "paragraph": "p018",
+      "reason": "Introduction of the organization's products."
+    },
+    {
+      "paragraph": "p019",
+      "reason": "Introduction and lead-in to the comments."
+    },
+    {
+      "paragraph": "p078",
+      "reason": "Thanks."
+    },
+    {
+      "paragraph": "p079",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p080",
+      "reason": "Signature."
+    },
+    {
+      "paragraph": "p081",
+      "reason": "Contact details."
+    }
+  ]
+}

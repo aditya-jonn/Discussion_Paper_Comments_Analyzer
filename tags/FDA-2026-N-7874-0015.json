@@ -1,0 +1,12 @@
+{
+  "comment_id": "FDA-2026-N-7874-0015",
+  "tags": [
+    {"code": "RISK", "subcode": "Q1", "paragraph": "p001", "stance": "conditional-major",
+     "gist": "Finds the two-axis framework insufficient without traceability to sources, downstream human oversight and real-time versus asynchronous deployment."},
+    {"code": "RISK", "subcode": "Q1", "paragraph": "p002", "stance": "neutral",
+     "gist": "Describes the commenter's own architecture with human-in-the-loop checkpoints, labeling documentation and multi-gate quality reviews."},
+    {"code": "RISK", "subcode": "Q1", "paragraph": "p003", "stance": "conditional-major",
+     "gist": "Recommends a four-axis model adding degree of human oversight at delivery and traceability of output to verifiable sources."}
+  ],
+  "skipped": []
+}

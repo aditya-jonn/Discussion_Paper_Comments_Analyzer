@@ -1,0 +1,20 @@
+{
+ "comment_id": "FDA-2026-N-7874-0034",
+ "tags": [
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p001",
+   "stance": "conditional-major",
+   "gist": "Insists no device be cleared without existing good practices, including formal requirements, specifications, verification and definitive validation tests."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p002",
+   "stance": "oppose",
+   "gist": "Warns for the record that unconstrained generative AI will expose patients to grievous harm."
+  }
+ ],
+ "skipped": []
+}

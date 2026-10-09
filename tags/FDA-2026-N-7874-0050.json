@@ -1,0 +1,565 @@
+{
+ "comment_id": "FDA-2026-N-7874-0050",
+ "tags": [
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p002",
+   "stance": "conditional-major",
+   "gist": "Says most health systems cannot reliably observe deployed devices, cannot list their AI-enabled functions, and cannot record which model version produced an output."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p003",
+   "stance": "conditional-major",
+   "gist": "Recommends that institutions be asked to receive information and report, not to evaluate devices independently."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p003",
+   "stance": "conditional-major",
+   "gist": "Recommends master files with a public tier instead of a wholly confidential structure."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p006",
+   "stance": "conditional-major",
+   "gist": "Argues that if postmarket monitoring depends on institutions, it should be designed around what they can actually do, since most cannot observe devices reliably."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p007",
+   "stance": "conditional-major",
+   "gist": "Explains that software devices enter through other procurement channels and seldom reach the item master, so many institutions cannot list or monitor them."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p008-p009",
+   "stance": "conditional-minor",
+   "gist": "Warns that re-benchmarking, sample review and drift monitoring need the version, prompt and guardrails behind each output, which most institutions cannot record."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p010-p011",
+   "stance": "conditional-minor",
+   "gist": "Notes institutions have no pathway for learning of third-party model changes, and asks any monitoring role to specify what information they receive and when."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p012-p013",
+   "stance": "conditional-major",
+   "gist": "Warns that monitoring capability is uneven across health systems, and asks CDRH to weigh resting the monitoring burden more heavily on manufacturers."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p014-p015",
+   "stance": "neutral",
+   "gist": "Reports that public FDA device data let the commenter and other researchers do independent postmarket risk analysis without proprietary manufacturer data."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p016",
+   "stance": "conditional-major",
+   "gist": "Proposes a narrow public tier of master files, such as authorized versions and change dates, while weighing the risk to voluntary participation."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p017",
+   "stance": "conditional-major",
+   "gist": "Lists three realistic institutional contributions, all dependent on manufacturer-supplied information, so accountability stays with manufacturers and evaluation is not expected of institutions."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p018",
+   "stance": "conditional-major",
+   "gist": "Summarizes recommendations: institutions receive and report rather than evaluate, and FDA specifies what manufacturers must supply them, such as version identifiers and change notices."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p018",
+   "stance": "conditional-major",
+   "gist": "Summarizes the recommendation of a tiered master file with a defined public subset and confidential competitively sensitive content."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p019",
+   "stance": "conditional-major",
+   "gist": "Concludes that the postmarket approach presumes an institutional observation capability most health systems lack, and should be designed around that reality."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Introduction of the writer and the questions the comment addresses."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Introduction of the writer and the questions addressed; premarket evaluation is outside the commenter's expertise."
+  },
+  {
+   "paragraph": "p020",
+   "reason": "Thanks."
+  },
+  {
+   "paragraph": "p021",
+   "reason": "Signature and research reference."
+  },
+  {
+   "paragraph": "p022",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p023",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p024",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p025",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p026",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p027",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p028",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p029",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p030",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p031",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p032",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p033",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p034",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p035",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p036",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p037",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p038",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p039",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p040",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p041",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p042",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p043",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p044",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p045",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p046",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p047",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p048",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p049",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p050",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p051",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p052",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p053",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p054",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p055",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p056",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p057",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p058",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p059",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p060",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p061",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p062",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p063",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p064",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p065",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p066",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p067",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p068",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p069",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p070",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p071",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p072",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p073",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p074",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p075",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p076",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p077",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p078",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p079",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p080",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p081",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p082",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p083",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p084",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p085",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p086",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p087",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p088",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p089",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p090",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p091",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p092",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p093",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p094",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p095",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p096",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p097",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p098",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p099",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p100",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p101",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p102",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p103",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p104",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p105",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p106",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p107",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p108",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p109",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p110",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p111",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p112",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p113",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p114",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p115",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p116",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p117",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p118",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p119",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p120",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p121",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p122",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p123",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p124",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p125",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p126",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p127",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p128",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p129",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p130",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  },
+  {
+   "paragraph": "p131",
+   "reason": "Outside the paper: attached research paper on scoring recall risk of conventional devices from public FDA data."
+  }
+ ]
+}

@@ -1,0 +1,294 @@
+{
+ "comment_id": "FDA-2026-N-7874-0045",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p005",
+   "stance": "conditional-major",
+   "gist": "Says the paper asks the right questions but frames a product question; the real question is what clinical authority a system has earned and keeps."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p006",
+   "stance": "conditional-major",
+   "gist": "Recommends adapting clinician licensure into nine stages from competency examination through supervised deployment, provisional and independent authorization, monitoring and revalidation."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p007-p008",
+   "stance": "conditional-minor",
+   "gist": "Wants the framework never to make a system that beats the human standard of care harder to deploy than the care it replaces."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p009-p013",
+   "stance": "conditional-major",
+   "gist": "Rests on four principles: risk by consequence and agency, competency by benchmarking and confirmation, autonomy earned not assumed, and authorization maintained by continuous evidence."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p014",
+   "stance": "conditional-major",
+   "gist": "Extends published licensure proposals with a numeric threshold for independent deployment, an agentic autonomy ladder and tiered change regulation."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p015-p023",
+   "stance": "conditional-major",
+   "gist": "Wants five risk axes instead of two: consequence, clinical agency, reversibility, time to harm and human recoverability, with evidence rising with agency."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p024-p025",
+   "stance": "conditional-minor",
+   "gist": "Wants FDA to judge the authority an output actually exercises through specificity, personalization, urgency, ranking and omitted alternatives, not the feature label."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p026-p027",
+   "stance": "conditional-minor",
+   "gist": "Says patient-facing AI is not automatically higher risk; evaluate literacy fit, uncertainty communication, emergency recognition and false reassurance, scaling burden to consequence."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p028-p029",
+   "stance": "conditional-minor",
+   "gist": "Wants the comparator set prospectively from the clinical task and its environment, not from whether the user is a generalist or specialist."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p030-p031",
+   "stance": "conditional-minor",
+   "gist": "Wants realistic trajectories tested, including escalation, contradiction, user pressure and prompt injection, since intended use spans every role a conversation can assume."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p032-p033",
+   "stance": "conditional-minor",
+   "gist": "Wants sponsors to define context-specific costs for each error direction before approval and optimize both, rather than one blended metric."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p034-p036",
+   "stance": "conditional-major",
+   "gist": "Calls benchmarking then confirmation directionally right but only the front end of a nine-stage pipeline where competence is never assumed permanent."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p037-p039",
+   "stance": "conditional-minor",
+   "gist": "Would let low-risk informational functions rely on benchmarking and human factors while high-risk autonomous ones add shadow deployment, prospective and team evaluation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p040-p046",
+   "stance": "conditional-minor",
+   "gist": "Would add scope discipline, clinical humility, longitudinal consistency and human-AI team performance to the competency domains."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p047-p049",
+   "stance": "conditional-minor",
+   "gist": "Wants three evidence layers, public benchmarks, sequestered regulatory benchmarks and real-world confirmation, with none sufficient alone for high-risk AI."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p050-p057",
+   "stance": "conditional-major",
+   "gist": "Would formalize five confirmation tiers from retrospective through shadow, supervised and controlled autonomous deployment, climbed in order with the tier set by risk."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p058-p060",
+   "stance": "conditional-minor",
+   "gist": "Wants both statistical and clinical significance, with prespecified meaningful effect sizes and allowance for rare-event settings."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p061-p063",
+   "stance": "conditional-minor",
+   "gist": "Would let synthetic data expand the test universe but never become the evidence, favoring independently generated and validated datasets for consequential decisions."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p064-p066",
+   "stance": "conditional-minor",
+   "gist": "Says there is no universal comparator: an autonomous function should be compared with the care pathway it actually replaces, even no intervention until morning rounds."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p064-p066",
+   "stance": "conditional-minor",
+   "gist": "Wants an assistive tool judged as the human-AI team against the clinician alone, since value does not require beating the best clinician."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p067-p069",
+   "stance": "conditional-minor",
+   "gist": "Wants an FDA-overseen network of multiple third parties built on ASCA and MDDT, with transparent accreditation, conflict rules and appeals, never a single gatekeeper."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q17",
+   "paragraph": "p070-p072",
+   "stance": "support",
+   "gist": "Agrees competency rules apply across architectures, since every model should face the same questions about function, inputs, authority and failure."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p073-p075",
+   "stance": "conditional-minor",
+   "gist": "Accepts the trade for low and moderate-risk reversible functions with real-time monitoring, but not as a substitute for high-consequence autonomous ones."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p076-p078",
+   "stance": "conditional-minor",
+   "gist": "Proposes a continuous clinical license with scheduled, event-triggered and signal-triggered reassessment running in parallel."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p079-p081",
+   "stance": "conditional-minor",
+   "gist": "Says a supervisory AI needs its own benchmark, independent validation and audit trail, functioning like a clinical monitoring system for high-risk uses."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p082-p084",
+   "stance": "conditional-minor",
+   "gist": "Assigns distinct roles to manufacturer, institution, clinician, model provider, society, evaluator and FDA, with the manufacturer primarily accountable."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p085-p086",
+   "stance": "conditional-minor",
+   "gist": "Proposes minor, material and major modification tiers sorted by clinical behavior change rather than code size or version number."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p087-p088",
+   "stance": "conditional-major",
+   "gist": "Wants a PCCP to define the fence, authorized behavior, required performance, uncrossable boundaries and revalidation triggers, rather than predict each change."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p089-p090",
+   "stance": "conditional-minor",
+   "gist": "Wants version identification, advance notice, rollback and audit logs so a changed foundation model cannot be a liability shield."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p091-p092",
+   "stance": "conditional-major",
+   "gist": "Finds voluntary master files insufficient for the highest-risk systems and would pair them with contractual disclosure duties and FDA authority to request more."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p093-p099",
+   "stance": "conditional-major",
+   "gist": "Proposes a five-level clinical agency ladder from information to autonomous practice, with evidence demands rising steeply at each level."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p100-p109",
+   "stance": "conditional-major",
+   "gist": "Integrates everything into a Clinical AI License with eight elements and nine stages, where scope can expand with performance or be restricted on degradation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p110-p111",
+   "stance": "conditional-major",
+   "gist": "Proposes a falsifiable threshold: provisional authorization at half the specialty clinician baseline under supervision, independent authorization at full parity."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p112-p113",
+   "stance": "conditional-minor",
+   "gist": "Flags state medical boards' objection to licensing AI and asks FDA to say whether it will only authorize autonomy or expect boards to reconcile."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p114-p125",
+   "stance": "conditional-major",
+   "gist": "Lists twelve recommendations, including regulating capability not architecture, graduated earned autonomy, dynamic authorization and rewarding superior outcomes."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p126",
+   "stance": "support",
+   "gist": "Agrees FDA is right that conventional testing may not suffice and right to explore competency evaluation, confirmation, monitoring and agentic approaches."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p127-p128",
+   "stance": "conditional-major",
+   "gist": "Urges regulating AI according to the authority it has been granted, adapting the established system for managing clinician competence under uncertainty."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Points to the attachment."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Docket header."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Title of the comment."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Submitter."
+  },
+  {
+   "paragraph": "p129",
+   "reason": "Offer to discuss further."
+  },
+  {
+   "paragraph": "p130",
+   "reason": "Pointer to the writer's other commentary."
+  },
+  {
+   "paragraph": "p131",
+   "reason": "Signature."
+  }
+ ]
+}

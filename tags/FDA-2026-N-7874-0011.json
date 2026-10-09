@@ -1,0 +1,13 @@
+{
+  "comment_id": "FDA-2026-N-7874-0011",
+  "tags": [
+    {"code": "GENERAL", "subcode": "BKG", "paragraph": "p001", "stance": "oppose",
+     "gist": "Calls GenAI devices hugely problematic because narrow or flawed training data can build in bias against races, ages or other groups."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p004", "stance": "oppose",
+     "gist": "Says GenAI devices should not be allowed into use until bias, liability and accountability questions are settled."}
+  ],
+  "skipped": [
+    {"paragraph": "p002", "reason": "Outside the paper: legal liability, intellectual property and privacy; calls for congressional oversight."},
+    {"paragraph": "p003", "reason": "Outside the paper: legal and financial liability of manufacturers for harm."}
+  ]
+}

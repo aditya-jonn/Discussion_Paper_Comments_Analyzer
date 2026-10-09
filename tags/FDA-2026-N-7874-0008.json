@@ -1,0 +1,89 @@
+{
+ "comment_id": "FDA-2026-N-7874-0008",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p002",
+   "stance": "conditional-minor",
+   "gist": "Says reliance on postmarket monitoring and voluntary developer disclosures both assume, without proof, that parties can detect their own failures."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p003",
+   "stance": "conditional-minor",
+   "gist": "Wants master file filers to disclose their internal detection methodology, not only claimed model behavior, so reviewers can judge the process."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p004",
+   "stance": "conditional-minor",
+   "gist": "Wants sponsors required to show positively how much their monitoring actually covers, since zero adverse events could mean monitoring saw nothing."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Wants degradation monitoring to include at least one detector outside the device's own reporting path, such as re-benchmarking or clinician review."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Frames its recommendations as supporting the framework, asking that monitoring and disclosure prove their reliability before earning premarket credit."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Argues this year's AI safety incidents show developers miss their own anomalies for months, so self-detection should not be load-bearing."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p009-p011",
+   "stance": "conditional-minor",
+   "gist": "Since a model card discloses only what its filer already knows, wants referenced master files conditioned on revealing the filer's detection and monitoring methods."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p012-p013",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring programs that justify reduced premarket evidence to document what share of interactions they capture and which behaviors fall outside their scope."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p014-p015",
+   "stance": "conditional-minor",
+   "gist": "Wants at least one degradation detector, such as re-benchmarking on an independent set or sampled clinician review, outside the device's own output pathway."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p016",
+   "stance": "conditional-minor",
+   "gist": "Does not oppose postmarket reliance but wants monitoring and disclosure mechanisms to show completeness before being credited toward less premarket evidence."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Thanks and lead-in naming the questions addressed."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Docket header."
+  },
+  {
+   "paragraph": "p017",
+   "reason": "Thanks."
+  }
+ ]
+}

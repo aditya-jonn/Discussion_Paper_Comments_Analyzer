@@ -1,0 +1,424 @@
+{
+ "comment_id": "FDA-2026-N-7874-0076",
+ "tags": [
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p002",
+   "stance": "support",
+   "gist": "Endorses the two-axis risk framework as something the paper got right that should carry into policy."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p002",
+   "stance": "support",
+   "gist": "Endorses judging directiveness by an output's substance and setting rather than wording, with a talk-to-your-doctor disclaimer not reducing it."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p003",
+   "stance": "support",
+   "gist": "Endorses judging risk over realistic conversational trajectories spanning many turns rather than isolated outputs."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p004",
+   "stance": "support",
+   "gist": "Endorses evaluating the deployed device configuration rather than the foundation model in isolation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p005",
+   "stance": "support",
+   "gist": "Endorses requiring adjudicators, including LLM adjudicators, to be structurally independent from sponsor and model developer."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p006",
+   "stance": "support",
+   "gist": "Endorses treating both directions of escalation, refusal and deferral error as failures, and a subgroup definition covering dialect and literacy."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p007",
+   "stance": "support",
+   "gist": "Endorses the paper's candor about benchmark contamination, synthetic-data circularity and developers' weak incentive to disclose."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p008",
+   "stance": "conditional-major",
+   "gist": "Would make data exposure a dimension of risk, since where patient inputs go, their retention and training use, and patient disclosure should count."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p009",
+   "stance": "conditional-major",
+   "gist": "Would not trade premarket evidence for monitoring outside the lowest-risk quadrant, and only with a GenAI reporting taxonomy, public thresholds and a patient channel."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p010",
+   "stance": "conditional-major",
+   "gist": "Would make foundation model transparency mandatory, or else place the full evidence burden on the sponsor, with public model cards for marketed devices."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p011",
+   "stance": "conditional-major",
+   "gist": "Wants version pinning, contractual change notice, no silent updates and re-benchmarking of any new version before patients see it; a PCCP cannot cover uncontrolled changes."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p012",
+   "stance": "conditional-minor",
+   "gist": "Says the credentialing analogy justifies competency testing but breaks on identity, accountability, scale and self-knowledge, so evidence should bind to a fixed configuration."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p013",
+   "stance": "conditional-minor",
+   "gist": "Would hold benchmarking to bench-testing standards: distributional reporting, different-lineage synthetic data, different-family LLM judges and sequestered datasets."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p014",
+   "stance": "conditional-major",
+   "gist": "Wants the standard of care, not the median clinician, as comparator, and team evaluation that measures automation bias."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p015",
+   "stance": "conditional-minor",
+   "gist": "Says under-escalation is irreversible while over-escalation is recoverable, so the trade-off should be prespecified, disclosed and weighted toward safety."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p016",
+   "stance": "conditional-minor",
+   "gist": "Says machine supervisors may sort cases for review but cannot stand in for human review."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p016",
+   "stance": "conditional-minor",
+   "gist": "Wants agentic devices to require human sign-off ahead of irreversible actions, immutable audit logs and hard tool boundaries."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p017",
+   "stance": "conditional-minor",
+   "gist": "Supports patient-facing access with disclosure that the user faces a machine, plain-language limits, data-flow disclosure and a path to reach a person."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "States three guiding principles: resolve tensions for the patient, hold evaluation to bench-testing science, and treat data protection as a safety property."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p024",
+   "stance": "support",
+   "gist": "Calls the activity-by-consequence framework a sound organizing heuristic."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p024",
+   "stance": "support",
+   "gist": "Supports judging directiveness by substance and context, and holding that a disclaimer only shifts responsibility to the person least able to evaluate the instruction."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p025",
+   "stance": "support",
+   "gist": "Supports assessing risk across conversational trajectories and treating cumulative out-of-scope drift as a boundary failure, calling it ahead of other regulators."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p026",
+   "stance": "support",
+   "gist": "Calls evaluating the configured user-facing device, not the foundation model, the paper's most important sentence, reinforced by master files not authorizing a model."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p027",
+   "stance": "support",
+   "gist": "Supports structural independence of adjudicators from sponsor and model developer, even where an LLM does the adjudicating."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p028",
+   "stance": "support",
+   "gist": "Supports attention to both directions of escalation, refusal and deferral error, broad subgroup performance including dialect and literacy, and naming automation bias."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p029",
+   "stance": "support",
+   "gist": "Values the paper's candor about benchmark contamination, same-class synthetic data, developers' weak incentive to disclose, and medical paternalism."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p030-p032",
+   "stance": "conditional-major",
+   "gist": "Would make data exposure a third axis or mandatory modifier, covering whether inputs leave the sponsor, are retained, train models, or are disclosed to patients."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p033",
+   "stance": "conditional-minor",
+   "gist": "Wants sponsors to document a function's data flow and, for patient-facing functions, treat a ban on using device inputs for training as a minimum safeguard."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p034-p035",
+   "stance": "conditional-major",
+   "gist": "Gives a qualified no: reduced premarket evidence fits only non-directive, low-consequence functions; elsewhere it shifts risk from sponsor to patient."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p036",
+   "stance": "conditional-minor",
+   "gist": "Would make data exposure a third axis or mandatory modifier, covering whether inputs leave the sponsor, are retained, train models, or are disclosed."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p037",
+   "stance": "conditional-minor",
+   "gist": "Cautions that shared responsibility must not diffuse accountability: others contribute signal, but the sponsor remains responsible, including for licensed components."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p038-p040",
+   "stance": "conditional-major",
+   "gist": "Proposes a rule: developer documentation reaches FDA, or else the sponsor must treat the model as a black box and carry the full evidence burden."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p041",
+   "stance": "conditional-major",
+   "gist": "Would make the model or system card for any model in a marketed device public, since its limitations are labeling, not trade secrets."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p042-p044",
+   "stance": "conditional-major",
+   "gist": "Calls a PCCP the wrong instrument for uncontrolled changes and would require version pinning, notice periods, no silent updates and re-benchmarking before use."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p045-p046",
+   "stance": "conditional-minor",
+   "gist": "Accepts the credentialing analogy for structured assessment and supervised practice, but says it breaks in four places with regulatory consequences."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p047",
+   "stance": "conditional-major",
+   "gist": "Says a model can be silently replaced where a clinician cannot, so competency evidence must bind to an immutable configuration and any change triggers reassessment."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p048",
+   "stance": "conditional-major",
+   "gist": "Says the paper proposes no accountability mechanism and wants a prespecified, trigger-based route to suspend a device's authorization, faster than a recall."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p049",
+   "stance": "conditional-minor",
+   "gist": "Argues acceptance criteria for safety-critical behaviors should be stricter than for one practitioner, since a systematic error hits every patient at once."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p050",
+   "stance": "conditional-minor",
+   "gist": "Says a model's stated uncertainty is itself generated, so deferral should be tested adversarially across paraphrases and not accepted as a safeguard on its say-so."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p051",
+   "stance": "conditional-minor",
+   "gist": "Would adopt the framework for what the analogy supports and explicitly reject invoking it to loosen change control or spread accountability."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p052-p053",
+   "stance": "conditional-minor",
+   "gist": "Strongly supports prespecified methods and criteria and would extend the parallel with bench testing in four ways."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p054",
+   "stance": "conditional-minor",
+   "gist": "Wants performance reported as a distribution with disclosed decoding settings, and variation in safety-critical behavior treated as a firm acceptance failure."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p055",
+   "stance": "conditional-minor",
+   "gist": "Wants synthetic data from a different lineage, never the sole basis for subgroup claims, with its share reported and concordance shown before combining."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p056",
+   "stance": "conditional-minor",
+   "gist": "Wants LLM adjudicators from a different model family, checked against human adjudicators on held-out cases with agreement reported and disclosed."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p057",
+   "stance": "conditional-minor",
+   "gist": "Supports sequestered datasets held by third parties the sponsor never sees, with sponsor benchmarks not the sole gate, under an ASCA-like multi-body model."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p058-p059",
+   "stance": "conditional-major",
+   "gist": "Rejects the median clinician as normalizing care gaps; wants the standard of care as floor, specialist comparators for specialist questions, and automation-bias measurement."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p060-p061",
+   "stance": "conditional-minor",
+   "gist": "Calls escalation errors asymmetric and wants the trade-off prespecified, disclosed in labeling, and not loosened on emergency department cost arguments."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p062-p063",
+   "stance": "conditional-minor",
+   "gist": "Says a supervisory agent shares the device's failure modes, may triage but not replace human review, and needs independent validation first."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p062-p063",
+   "stance": "conditional-minor",
+   "gist": "Wants agentic devices to have a mandatory human checkpoint before irreversible actions, an immutable audit log, and a tested boundary on tools."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p064-p065",
+   "stance": "conditional-minor",
+   "gist": "Supports patient-facing access given machine disclosure, plain labeling, data-flow disclosure and a route to a human, moving functions up only when these are absent."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p066",
+   "stance": "conditional-major",
+   "gist": "Calls the paper serious and forward-looking and asks CDRH to carry its commitments through, including data exposure as safety and transparency as a condition."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Introduction of the writer and pointer to the attachment."
+  },
+  {
+   "paragraph": "p018",
+   "reason": "Pointer to the attachment."
+  },
+  {
+   "paragraph": "p019",
+   "reason": "Docket and submission details."
+  },
+  {
+   "paragraph": "p020",
+   "reason": "Thanks and introduction of the writer."
+  },
+  {
+   "paragraph": "p021",
+   "reason": "Description of how the comment is organized."
+  },
+  {
+   "paragraph": "p023",
+   "reason": "Lead-in to the supported elements."
+  },
+  {
+   "paragraph": "p067",
+   "reason": "Offer of further discussion."
+  },
+  {
+   "paragraph": "p068",
+   "reason": "Sign-off and table header."
+  },
+  {
+   "paragraph": "p069",
+   "reason": "Cross-reference table of recommendations to questions."
+  },
+  {
+   "paragraph": "p070",
+   "reason": "Cross-reference table of recommendations to questions."
+  },
+  {
+   "paragraph": "p071",
+   "reason": "Cross-reference table of recommendations to questions."
+  },
+  {
+   "paragraph": "p072",
+   "reason": "Cross-reference table of recommendations to questions."
+  },
+  {
+   "paragraph": "p073",
+   "reason": "Cross-reference table of recommendations to questions."
+  },
+  {
+   "paragraph": "p074",
+   "reason": "Cross-reference table of recommendations to questions."
+  },
+  {
+   "paragraph": "p075",
+   "reason": "Cross-reference table of recommendations to questions."
+  }
+ ]
+}

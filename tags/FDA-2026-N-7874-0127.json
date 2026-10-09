@@ -1,0 +1,311 @@
+{
+  "comment_id": "FDA-2026-N-7874-0127",
+  "tags": [
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p002",
+      "stance": "conditional-major",
+      "gist": "Calls the two axes sound but says activity placement rests on assertion; what the generative component may architecturally write and initiate is more auditable."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p004",
+      "stance": "conditional-major",
+      "gist": "Recommends basing activity-axis placement, as claimed and verified, on the write authority of the generative component."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p005",
+      "stance": "conditional-major",
+      "gist": "Wants S.3 to separate computed from generated confidence, treating generated confidence passed off as computed as a failure, plus a new Record Integrity element."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p006",
+      "stance": "conditional-minor",
+      "gist": "Would tie competency evidence to a fingerprint of the whole deployed build; any fingerprint change, including third-party model changes, triggers re-benchmarking."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p007",
+      "stance": "conditional-major",
+      "gist": "Finds postmarket reliance defensible only where the record being monitored is honest by construction, supervisory agents held to the same partition and a passivity test."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p008",
+      "stance": "conditional-major",
+      "gist": "For agentic devices, wants irreversible-action gates acting on witnessed state, acts logged with consequences, stops as reflexes, and an audit log the agent cannot write."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p009",
+      "stance": "conditional-minor",
+      "gist": "Would have the model card declare write authority, re-verified whenever the build fingerprint changes."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p010",
+      "stance": "neutral",
+      "gist": "States the partition's limits: it protects the record, not the world, and does not reduce confabulation, protect deterministic-layer inputs or keep documentation current."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p013",
+      "stance": "neutral",
+      "gist": "Comments only on architecture-level controls, claiming not that they cut confabulation but that they bound where errors land and expose each in an incorruptible record."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p016",
+      "stance": "conditional-major",
+      "gist": "Defines a write-authority partition holding a component at its declared activity level by construction, inherently safe design in ISO 14971 terms, unlike prompt-based guardrails."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p017",
+      "stance": "conditional-major",
+      "gist": "Cites a field report of a prompted rule failing within hours; agrees that labelling cannot move a function along the activity axis, but design can."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p018",
+      "stance": "conditional-minor",
+      "gist": "Keeps regulatory stratification apart from lifecycle risk management: the partition is a binding characteristic for the first, a control with residual risks for the second."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p019",
+      "stance": "support",
+      "gist": "Agrees the deployed configuration, not the model, is the object of evaluation, and that a master file would not authorize the underlying model."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p020",
+      "stance": "support",
+      "gist": "Agrees substance, not wording, sets directiveness and disclaimers do not lower it; run the other way, inspectable architecture fixes what a function can do."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p021",
+      "stance": "support",
+      "gist": "Agrees risk should be assessed across conversational trajectories, including cumulative drift out of scope."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p022",
+      "stance": "support",
+      "gist": "Agrees adjudicators must be structurally independent, including when the adjudicator is a language model."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p023",
+      "stance": "support",
+      "gist": "Agrees that false confidence and run-to-run variation in safety-critical behaviour are failures, adding that both are better guaranteed by construction than measured by benchmark scores."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p024",
+      "stance": "support",
+      "gist": "Agrees that re-benchmarking should start from the premarket benchmark as baseline, and that third-party model changes are rightly named as a problem."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p025",
+      "stance": "support",
+      "gist": "Welcomes the paper's candour in asking whether premarket uncertainty may be traded for monitoring and whether a machine supervisor is reliable."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p026-p027",
+      "stance": "conditional-major",
+      "gist": "Defines the partition by seven verifiable properties: records split by author, an honesty invariant, witnessed closure, computed confidence, reflex stops, passive monitors, a build fingerprint."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p028-p029",
+      "stance": "conditional-major",
+      "gist": "Says the framework gauges an output's directiveness but not what the component may do; a component with no write path to fact cannot be action-taking."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p030",
+      "stance": "conditional-major",
+      "gist": "Says the partition meets the test that a credited safeguard be binding, verifiable and maintained, and enforces evidence-inference separation by leaving no write path."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p031",
+      "stance": "conditional-major",
+      "gist": "Under the partition, conversational drift becomes a logged gate refusal, and a conversational device's intended use is characterized by what its gates permit."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p032-p033",
+      "stance": "conditional-major",
+      "gist": "Wants S.3 to distinguish confidence computed over recorded outcomes from model-generated confidence, treating the latter presented as computed as a distinct safety failure."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p034",
+      "stance": "conditional-major",
+      "gist": "Proposes a Record Integrity element verifying no write path to the record of fact, surfaced failed predictions and passive monitors, with harness reproducibility tested separately."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p035-p036",
+      "stance": "conditional-minor",
+      "gist": "Makes the fingerprint the definition of the same device: changes leaving gating and recording layers untouched suit the quality system; changes touching them do not."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p036",
+      "stance": "conditional-minor",
+      "gist": "Says a fingerprint lets the manufacturer detect a third-party model change without the developer's cooperation, marking when re-benchmarking against the baseline is owed."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p037-p038",
+      "stance": "neutral",
+      "gist": "Notes the docket divides on postmarket reliance, and says the dispute turns on a question neither side addresses: what the monitoring reads."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p039",
+      "stance": "conditional-major",
+      "gist": "Accepts greater premarket uncertainty only where the monitored record is honest by construction, and wants monitoring plans to state every component's write authority."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p040",
+      "stance": "conditional-major",
+      "gist": "Would let a supervisory agent read every record yet never write to the record of fact, and pass a passivity test before its readings count."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p040",
+      "stance": "conditional-minor",
+      "gist": "Says such a record lets clinicians and institutions add signal without taking on accountability, since the record they read stays the manufacturer's responsibility."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p041-p042",
+      "stance": "conditional-major",
+      "gist": "Supports agent checkpoints and audit logs, adding three conditions: the agent cannot write the log, gates act on witnessed state, stops stay outside deliberation."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p043",
+      "stance": "conditional-minor",
+      "gist": "Wants a model-card field declaring what the generative component can and cannot write or initiate, re-verified against the build whenever the fingerprint changes."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p044",
+      "stance": "neutral",
+      "gist": "Lists the partition's residual risks: no reduction in confabulation, protection of the record not the world, unprotected deterministic inputs, and stale documentation."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p045-p046",
+      "stance": "neutral",
+      "gist": "Offers a pre-registered, non-clinical research programme with a simple learning agent, showing the partition can be built and tested end to end."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p052",
+      "stance": "conditional-major",
+      "gist": "Closes that the paper's strongest commitments point toward controls checkable on the device as built, and casts the partition as what those commitments imply."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to the attachment."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Lists the other docket comments it is written alongside."
+    },
+    {
+      "paragraph": "p011",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p012",
+      "reason": "Submitter details."
+    },
+    {
+      "paragraph": "p014",
+      "reason": "Explains how other docket comments are cited."
+    },
+    {
+      "paragraph": "p015",
+      "reason": "Roadmap of the comment's parts."
+    },
+    {
+      "paragraph": "p047",
+      "reason": "Cross-reference table of questions to recommendations."
+    },
+    {
+      "paragraph": "p048",
+      "reason": "Cross-reference table."
+    },
+    {
+      "paragraph": "p049",
+      "reason": "Cross-reference table."
+    },
+    {
+      "paragraph": "p050",
+      "reason": "Cross-reference table."
+    },
+    {
+      "paragraph": "p051",
+      "reason": "Cross-reference table."
+    },
+    {
+      "paragraph": "p053",
+      "reason": "Sign-off."
+    },
+    {
+      "paragraph": "p054",
+      "reason": "Signature."
+    }
+  ]
+}

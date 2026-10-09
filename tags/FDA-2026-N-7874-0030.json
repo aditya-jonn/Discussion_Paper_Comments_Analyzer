@@ -1,0 +1,48 @@
+{
+ "comment_id": "FDA-2026-N-7874-0030",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p001",
+   "stance": "support",
+   "gist": "Supports a risk-based lifecycle approach built on established device principles."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p002-p004",
+   "stance": "conditional-major",
+   "gist": "Would use the two axes only as a screening tool, not a classification matrix, with device-level risk analysis covering error recognition, intervention, reversibility and safeguards."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p005-p007",
+   "stance": "conditional-minor",
+   "gist": "Opposes presuming higher risk for patient-facing use and suggests adaptive communication keyed to demonstrated user understanding as a possible risk control."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p008-p010",
+   "stance": "conditional-minor",
+   "gist": "Supports proportionate confirmation driven by the residual uncertainty after benchmarking, with the methods treated as complementary options rather than a fixed hierarchy."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p011-p015",
+   "stance": "conditional-minor",
+   "gist": "Wants third-party models handled like software of unknown provenance under IEC 62304, with change notification, version control, regression benchmarking and behavioral monitoring."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p016",
+   "stance": "conditional-minor",
+   "gist": "Says GenAI's new failure mechanisms do not require replacing established risk-based principles focused on intended use and residual risk."
+  }
+ ],
+ "skipped": []
+}

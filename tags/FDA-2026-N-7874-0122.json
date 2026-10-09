@@ -1,0 +1,188 @@
+{
+  "comment_id": "FDA-2026-N-7874-0122",
+  "tags": [
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p005",
+      "stance": "conditional-major",
+      "gist": "Summarizes four additions for agentic devices: an entity registration spine, evidence-gated state transitions, named silent failures and human-authorized capability expansion."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p006",
+      "stance": "neutral",
+      "gist": "Says agentic deployment shifts what must be reviewed from a model's outputs to a configuration of entities that may change composition after clearance."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p007-p008",
+      "stance": "conditional-major",
+      "gist": "Would define an agentic device as registered, versioned, linked entities: the agent, its models, authorized tools and data sources, and qualification datasets."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p009",
+      "stance": "conditional-major",
+      "gist": "Would have premarket submissions pin a frozen configuration graph of agent, model, data-source and dataset versions for review."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p010",
+      "stance": "conditional-major",
+      "gist": "Would turn any postmarket departure from the registered graph, a new tool or swapped model, into a detectable, reportable event instead of invisible drift."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p011",
+      "stance": "conditional-minor",
+      "gist": "Says the spine makes explicit which entities the sponsor controls versus merely references, linking to master files without conflating device and foundation model."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p012",
+      "stance": "conditional-major",
+      "gist": "Wants each registration event and configuration change to leave a hash-chained record, with the audit trail as the enforceable core."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p013",
+      "stance": "conditional-minor",
+      "gist": "Says no new legal authority is needed; it reuses identification, versioning and supplier controls, which the paper's element set touches only via A.1."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q23",
+      "paragraph": "p014",
+      "stance": "conditional-minor",
+      "gist": "Proposes change control as evidence-gated state transitions: a lifecycle-affecting change may occur only once the evidence the sponsor declared for it exists."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p015-p016",
+      "stance": "conditional-minor",
+      "gist": "Illustrates evidence per transition type: benchmarks for activation, manifest and re-run for model updates, provenance for tool changes, re-verification before return to service."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q23",
+      "paragraph": "p017",
+      "stance": "conditional-minor",
+      "gist": "Wants an unmet requirement to block the transition with a denial receipt, and a paused device to resume only via a fresh evidence-carrying transition."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q23",
+      "paragraph": "p018",
+      "stance": "conditional-minor",
+      "gist": "Says the state-transition frame carries the premarket evidentiary logic forward to each later configuration change, giving both halves one spine."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p019",
+      "stance": "conditional-minor",
+      "gist": "Wants FDA to name silent failure patterns explicitly: failure modes with no error signal that pass conventional performance dashboards."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p020",
+      "stance": "conditional-minor",
+      "gist": "Wants input-distribution drift tracked as a first-class signal, since aggregate accuracy can hold while a shifted subpopulation degrades."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p021",
+      "stance": "conditional-minor",
+      "gist": "Wants staleness of tools, databases or datasets outside their validity window monitored as a lifecycle event rather than found at the next review."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p022",
+      "stance": "conditional-minor",
+      "gist": "Wants observed agent action trajectories compared against the declared operating envelope, since agents can finish tasks by paths nobody evaluated."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p023",
+      "stance": "conditional-minor",
+      "gist": "Would govern the response to each silent failure as a transition, pause, roll back, re-verify, resume through the gate, and list the patterns in guidance."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p024",
+      "stance": "conditional-major",
+      "gist": "Proposes a bright-line rule: an agentic device cannot reach a higher-impact capability tier except by an explicit, evidence-carrying human authorization."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p025",
+      "stance": "conditional-major",
+      "gist": "Would keep technical capability distinct from standing authorization, so invoking an unpermitted function requires an authorization transition."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p026",
+      "stance": "conditional-major",
+      "gist": "Would declare permission tiers at design time, from read-only retrieval to direct clinical influence, with the highest default-denied and human-granted."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p027",
+      "stance": "conditional-major",
+      "gist": "Keeps machine requests and human decisions at the points where consequences step up in kind, each tier crossing leaving an auditable receipt."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p028",
+      "stance": "neutral",
+      "gist": "Says the four recommendations reuse machinery industry already runs and were prototyped as a small state machine, so they are practical."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p029",
+      "stance": "conditional-minor",
+      "gist": "Thanks FDA and hopes the agentic portion of the framework develops along lifecycle-complete lines."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to the attachment."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Docket details and introduction of the submitter."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Note on how the comment was drafted."
+    },
+    {
+      "paragraph": "p030",
+      "reason": "Signature and drafting disclaimer."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "comment_id": "FDA-2026-N-7874-0109",
+  "tags": [
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p001",
+      "stance": "neutral",
+      "gist": "Says FDA's regulation of cell and gene therapy shows how self-perpetuating technologies such as AI can be regulated."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p005",
+      "stance": "conditional-major",
+      "gist": "Argues autonomous agents that act, spawn processes or modify code need a kill switch engineered in from the start, like circuit breakers."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p006",
+      "stance": "conditional-minor",
+      "gist": "Describes monitoring agents that watch other agents and trigger deactivation, warning such layers can be evaded, as hidden code on a model hub showed."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p007",
+      "stance": "conditional-minor",
+      "gist": "Suggests correlating weak signals from independent layers rather than one watchdog, since a single flag can be spoofed by a capable agent."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p008",
+      "stance": "neutral",
+      "gist": "Recounts FDA negotiations over a viral vector's assays and kill switch as an example of case-by-case oversight before codified guidance."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p009",
+      "stance": "neutral",
+      "gist": "Observes gene therapy regulation tightened after patient harm, and expects AI regulation to be reactive in the same way."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p010",
+      "stance": "neutral",
+      "gist": "Cites an inducible caspase-9 safety switch that killed engineered cells within thirty minutes as a proven kill switch for a living agent."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p011-p012",
+      "stance": "neutral",
+      "gist": "Notes FDA's cell and gene therapy guidances built containment logic into oversight, expecting verifiable deactivation before deployment."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p013",
+      "stance": "conditional-major",
+      "gist": "Concedes the biological mechanism does not transfer but says the posture does: no deployment until the developer shows a reviewer exactly how it shuts off."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p014",
+      "stance": "conditional-major",
+      "gist": "Urges a kill switch embedded in autonomous healthcare AI as the primary focus, as CAR-T and gene therapy already require."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p002",
+      "reason": "Attachment title."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Author line."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Outside the paper: whether AI development can be slowed or paused."
+    },
+    {
+      "paragraph": "p015",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p016",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p017",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p018",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p019",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p020",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p021",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p022",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p023",
+      "reason": "Reference."
+    },
+    {
+      "paragraph": "p024",
+      "reason": "Author's note on the company's funding."
+    }
+  ]
+}

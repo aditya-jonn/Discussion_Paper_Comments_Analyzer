@@ -1,0 +1,502 @@
+{
+ "comment_id": "FDA-2026-N-7874-0054",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p001",
+   "stance": "support",
+   "gist": "Welcomes the discussion paper and the chance to help shape a proportionate approach to GenAI-enabled devices."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p002",
+   "stance": "conditional-minor",
+   "gist": "Recommends the unit of assessment be the complete sociotechnical system, from source evidence and controls to human authority and lifecycle monitoring, not the model alone."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p003",
+   "stance": "conditional-minor",
+   "gist": "Wants the activity-and-consequence framework to account explicitly for evidence traceability, independent reviewability, reversibility and time to harm."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p004",
+   "stance": "conditional-minor",
+   "gist": "Wants omission, contradiction, under-escalation and over-escalation measured separately rather than folded into one accuracy score."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Would add evidence fidelity and provenance to premarket competency, with clinical confirmation done in the intended deployed configuration."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Wants evaluation to measure human-AI team performance, including automation bias, usability, comprehension and escalation pathway effectiveness."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring and change control triggered by material changes anywhere in the system, including model versions, prompts, retrieval, tools and population."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p008",
+   "stance": "support",
+   "gist": "Says voluntary master files could give downstream developers more transparency while keeping confidential information protected."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Would regulate agentic systems by the authority they exercise, reversibility of actions, safeguards and the chance for timely human intervention."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p018-p019",
+   "stance": "conditional-minor",
+   "gist": "Argues safety depends on the whole clinical system's architecture, with evidence, controls, reasoning, verification, escalation, human authority and monitoring kept separate."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Supports the competency-based lifecycle direction with four additions: a provenance competency, separate escalation metrics, tested oversight and authority-based agentic rules."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p022-p029",
+   "stance": "conditional-minor",
+   "gist": "Lists eight recommendations, from a layered safety architecture and a provenance competency to event-triggered revalidation, master files and authority-based agentic controls."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p030",
+   "stance": "neutral",
+   "gist": "Describes how GenAI differs from deterministic software: open inputs, variable outputs, tool use and behavior that shifts as models and prompts evolve."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p032-p036",
+   "stance": "neutral",
+   "gist": "Notes the paper's direction matches FDA lifecycle and PCCP guidance, IMDRF machine learning principles, WHO guidance and the NIST GenAI profile."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p042",
+   "stance": "conditional-minor",
+   "gist": "Would make the complete socio-technical system, including oversight and monitoring, the object of regulatory and safety analysis rather than one model."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p044-p047",
+   "stance": "conditional-minor",
+   "gist": "Describes four architecture layers: provenance-preserving source evidence, deterministic safety controls, bounded generative reasoning and verification of outputs against evidence."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p048",
+   "stance": "conditional-minor",
+   "gist": "Would design escalation as a safety function, giving serious under-escalation substantially more weight than low-consequence over-escalation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p049-p050",
+   "stance": "conditional-minor",
+   "gist": "Wants human oversight to be operational, with reviewers given the information, time and interface needed to question or overrule the system."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p051",
+   "stance": "support",
+   "gist": "Treats monitoring and revalidation as part of the safety architecture, since deployed systems change, and notes FDA's lifecycle work already moves this way."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p052-p056",
+   "stance": "conditional-minor",
+   "gist": "Backs the two-axis concept as a foundation and proposes four modifiers: evidence traceability, independent reviewability, reversibility and time to harm."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p057-p060",
+   "stance": "conditional-minor",
+   "gist": "Would not rate patient-facing systems high risk merely for lacking a clinician user; proposes functional categories from organisation to action direction."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p061-p065",
+   "stance": "conditional-minor",
+   "gist": "Wants critical and non-critical under- and over-escalation reported separately, with red-flag sensitivity evaluated apart from overall accuracy."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p066-p067",
+   "stance": "support",
+   "gist": "Supports the competency-based direction and agrees competency must attach to the configured deployed system, since a model benchmark alone proves nothing."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p068-p075",
+   "stance": "conditional-minor",
+   "gist": "Proposes an added competency, evidence fidelity and provenance, covering faithful patient data, source context, separating inference from fact and flagging gaps."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p076-p078",
+   "stance": "conditional-minor",
+   "gist": "Accepts the human-AI configuration as evaluation unit where supervision is intended, but says a human in the loop proves nothing unless oversight is real."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p079",
+   "stance": "conditional-minor",
+   "gist": "Finds more premarket uncertainty potentially acceptable for lower-risk functions with reversible outputs, effective review, rapid rollback, full logging and limited autonomy."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p080",
+   "stance": "conditional-minor",
+   "gist": "Suggests a progressive deployment path from shadow mode to monitored use, with no presumed flexibility for irreversible or life-critical functions."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p081-p091",
+   "stance": "conditional-minor",
+   "gist": "Wants periodic review plus event-triggered reassessment, monitoring hallucination, omissions, escalation errors, drift, component changes, overrides and automation bias."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p092-p094",
+   "stance": "conditional-minor",
+   "gist": "Lists reassessment triggers such as model updates, prompt or tool changes, new populations and new failure modes, within a validate-observe-correct-revalidate loop."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p095",
+   "stance": "support",
+   "gist": "Supports the master file principle because downstream developers hold responsibility while lacking full information about the model they depend on."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p096",
+   "stance": "conditional-minor",
+   "gist": "Lists master file contents from version identifiers and failure modes to update cadence and deprecation, and says the file is no approval of the model."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p097-p098",
+   "stance": "conditional-minor",
+   "gist": "Recommends regulating agentic systems partly by their authority to act, under a graduated authority model, not only a technical definition of agent."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p099",
+   "stance": "conditional-minor",
+   "gist": "Wants audit records of plans, tools, approvals and actions at higher authority levels, with mandatory human checkpoints for irreversible actions unless evidence justifies otherwise."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p100-p102",
+   "stance": "conditional-minor",
+   "gist": "Wants source evidence kept distinguishable from generated interpretation throughout the lifecycle, with interfaces separating report, result, rule, inference and decision."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p103",
+   "stance": "conditional-minor",
+   "gist": "Says deterministic logic should handle safety-critical checks it suits while generative reasoning handles contextual tasks, so no single probabilistic component is the only protection."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p104",
+   "stance": "conditional-minor",
+   "gist": "Says provider updates can change behavior without any code change, so a clinically relevant behavioral change should trigger evaluation on its own."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p105",
+   "stance": "conditional-minor",
+   "gist": "Recommends a controlled model registry and a detection, quarantine, evaluation, approval and controlled deployment path for material model changes."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p118-p120",
+   "stance": "neutral",
+   "gist": "Lists the validation domains, from evidence fidelity and omission to model change and human-AI team, the commenter would use instead of one accuracy metric."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p121-p125",
+   "stance": "conditional-minor",
+   "gist": "Wants named responsibility for model approval, monitoring, incident review and rollback, with change control triggered by model, tool, prompt, population or drift events."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p126",
+   "stance": "support",
+   "gist": "Finds the paper notable for treating GenAI oversight as a problem of systems, since model-level benchmark accuracy alone misses important risks."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p127",
+   "stance": "conditional-minor",
+   "gist": "Explains how the layered architecture makes risks governable by separating provenance, deterministic controls, reasoning, verification, escalation, human authority and monitoring."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p128",
+   "stance": "neutral",
+   "gist": "Acknowledges limits: layering alone does not prove safety, rules can be wrong, and clinicians can still over-rely, so empirical validation remains needed."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p129",
+   "stance": "conditional-minor",
+   "gist": "Says the activity and consequence approach, enhanced with traceability, reversibility, reviewability and time to harm, offers a plausible route to proportionate control."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p130",
+   "stance": "support",
+   "gist": "Says the regulatory objective should be to make GenAI's probabilistic risks observable, measurable, bounded and accountable rather than to eliminate them."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p131",
+   "stance": "conditional-minor",
+   "gist": "Recommends a seven-layer framework with a provenance competency, severity-weighted metrics, tested oversight, change-triggered revalidation and authority-based agentic requirements."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p010",
+   "reason": "Describes the attachment and disclaims any FDA-authorized product."
+  },
+  {
+   "paragraph": "p011",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p012",
+   "reason": "Organization, docket and date."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Fragment of the submission note."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Fragment of the submission note."
+  },
+  {
+   "paragraph": "p015",
+   "reason": "Status note that the paper is not guidance."
+  },
+  {
+   "paragraph": "p016",
+   "reason": "Executive summary describing the discussion paper."
+  },
+  {
+   "paragraph": "p017",
+   "reason": "Fragment of the comment deadline."
+  },
+  {
+   "paragraph": "p021",
+   "reason": "Disclaimer about the report's status and purpose."
+  },
+  {
+   "paragraph": "p031",
+   "reason": "Describes the discussion paper and its invitation to comment."
+  },
+  {
+   "paragraph": "p037",
+   "reason": "Lead-in announcing the questions the report addresses."
+  },
+  {
+   "paragraph": "p038",
+   "reason": "Lead-in announcing the questions and cross-cutting recommendations."
+  },
+  {
+   "paragraph": "p039",
+   "reason": "Description of the report's method."
+  },
+  {
+   "paragraph": "p040",
+   "reason": "Fragment of the method description."
+  },
+  {
+   "paragraph": "p041",
+   "reason": "Fragment of the method description."
+  },
+  {
+   "paragraph": "p043",
+   "reason": "Figure caption."
+  },
+  {
+   "paragraph": "p106",
+   "reason": "Design implications for the commenter's own product, not a point about the paper."
+  },
+  {
+   "paragraph": "p107",
+   "reason": "Design implications for the commenter's own product, not a point about the paper."
+  },
+  {
+   "paragraph": "p108",
+   "reason": "Design implications for the commenter's own product, not a point about the paper."
+  },
+  {
+   "paragraph": "p109",
+   "reason": "Design implications for the commenter's own product, not a point about the paper."
+  },
+  {
+   "paragraph": "p110",
+   "reason": "Design implications for the commenter's own product, not a point about the paper."
+  },
+  {
+   "paragraph": "p111",
+   "reason": "Design implications for the commenter's own product, not a point about the paper."
+  },
+  {
+   "paragraph": "p112",
+   "reason": "Design implications for the commenter's own product, not a point about the paper."
+  },
+  {
+   "paragraph": "p113",
+   "reason": "Design implications for the commenter's own product, not a point about the paper."
+  },
+  {
+   "paragraph": "p114",
+   "reason": "Design implications for the commenter's own product, not a point about the paper."
+  },
+  {
+   "paragraph": "p115",
+   "reason": "Design implications for the commenter's own product, not a point about the paper."
+  },
+  {
+   "paragraph": "p116",
+   "reason": "Design implications for the commenter's own product, not a point about the paper."
+  },
+  {
+   "paragraph": "p117",
+   "reason": "Design implications for the commenter's own product, not a point about the paper."
+  },
+  {
+   "paragraph": "p132",
+   "reason": "Closing note on the proposals' purpose and the commenter's own design direction."
+  },
+  {
+   "paragraph": "p133",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p134",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p135",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p136",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p137",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p138",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p139",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p140",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p141",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p142",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p143",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p144",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p145",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p146",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p147",
+   "reason": "Reference list."
+  },
+  {
+   "paragraph": "p148",
+   "reason": "Reference list."
+  }
+ ]
+}

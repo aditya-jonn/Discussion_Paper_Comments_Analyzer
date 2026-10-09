@@ -1,0 +1,161 @@
+{
+ "comment_id": "FDA-2026-N-7874-0067",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Notes the paper's proposals have mature drug-side analogues, and says new vocabulary for the same mechanisms costs sponsors who work across centers."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p012-p013",
+   "stance": "conditional-minor",
+   "gist": "Asks FDA to explain how the competency approach applies to GenAI functions in combination products led by another center, with one shared risk vocabulary."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p014-p015",
+   "stance": "conditional-minor",
+   "gist": "Asks sponsors to state in advance how they weigh under- and over-escalation, show performance across the trade-off, and justify the chosen operating point."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p016-p017",
+   "stance": "conditional-minor",
+   "gist": "Would describe the two axes with FDA's existing terms, model influence and decision consequence, or state that they mean the same thing."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p016-p017",
+   "stance": "conditional-minor",
+   "gist": "Wants the resulting risk tier to set the evidence level, giving sponsors one assessment that serves both premarket planning and later change control."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p018",
+   "stance": "support",
+   "gist": "Calls the ten benchmarking elements helpful and generally well designed."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p019-p021",
+   "stance": "conditional-minor",
+   "gist": "Would add an element defining the test article and full configuration, with the marketed version matching it and setting changes triggering re-benchmarking."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p022-p023",
+   "stance": "conditional-minor",
+   "gist": "Would tie element E.4 to FDA's human factors framework and clarify whether its evidence can come from a human factors validation study."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p024-p026",
+   "stance": "conditional-minor",
+   "gist": "Wants provenance dating and canary items for public benchmarks, a prespecified construction plan for sponsor benchmarks, and sequestered holdout data for higher-risk functions."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p027-p028",
+   "stance": "conditional-minor",
+   "gist": "Would have third parties qualify and maintain benchmark suites through MDDT, with requalification intervals and structural independence, rather than certify devices."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p029-p030",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring plans to specify parameters, sampling, alert and action limits and responses before authorization, with premarket results as the trending baseline."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p031-p032",
+   "stance": "conditional-minor",
+   "gist": "Would categorize changes by which benchmarking elements they could affect, agreed prospectively in a PCCP as drug change protocols do."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p033-p034",
+   "stance": "conditional-minor",
+   "gist": "Wants an inventory of irreversible actions each gated by human confirmation no model can satisfy, plus audit records that let any interaction be reconstructed."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p035",
+   "stance": "conditional-minor",
+   "gist": "Supports the direction and mainly asks CDRH to reuse existing FDA tools and terminology, from risk terms to change protocols and action limits."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Submitter name."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Submitter title, date and personal-capacity disclaimer."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Note that the comment is attached because of the character limit."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Thanks."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Signature."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Submitter name."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Submitter title, date and personal-capacity disclaimer."
+  },
+  {
+   "paragraph": "p010",
+   "reason": "Description of the writer's work."
+  },
+  {
+   "paragraph": "p036",
+   "reason": "Thanks and offer to take part in future meetings."
+  },
+  {
+   "paragraph": "p037",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p038",
+   "reason": "Signature."
+  },
+  {
+   "paragraph": "p039",
+   "reason": "Contact details."
+  }
+ ]
+}

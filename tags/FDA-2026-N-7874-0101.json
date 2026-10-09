@@ -1,0 +1,18 @@
+{
+  "comment_id": "FDA-2026-N-7874-0101",
+  "tags": [
+    {"code": "RISK", "subcode": "Q1", "paragraph": "p003-p004", "stance": "conditional-minor",
+     "gist": "Wants the sensitivity of data accessed or processed added as a risk modifier, since a correct output can still harm through unnecessary disclosure."},
+    {"code": "AGENTIC", "subcode": "Q26", "paragraph": "p005-p006", "stance": "conditional-minor",
+     "gist": "Wants agentic testing to check that systems access only needed data and tools, including permission boundaries, approval before sensitive actions and auditability."},
+    {"code": "POSTMARKET", "subcode": "Q19", "paragraph": "p007-p008", "stance": "conditional-minor",
+     "gist": "Wants data minimization, retention limits, access controls and de-identification considered in monitoring, which should not retain every interaction."},
+    {"code": "POSTMARKET", "subcode": "Q24", "paragraph": "p009-p010", "stance": "conditional-minor",
+     "gist": "Wants material third-party model changes to include data-handling changes such as retention, logging, training use or tool permissions, in notification expectations."}
+  ],
+  "skipped": [
+    {"paragraph": "p001", "reason": "Thanks and disclaimer."},
+    {"paragraph": "p002", "reason": "Lead-in announcing the points."},
+    {"paragraph": "p011", "reason": "Thanks."}
+  ]
+}

@@ -1,0 +1,208 @@
+{
+ "comment_id": "FDA-2026-N-7874-0009",
+ "tags": [
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p008-p009",
+   "stance": "conditional-major",
+   "gist": "Calls the two axes a reasonable heuristic but wants reversibility and time to consequence added, since slow, auditable, appealable paths differ from triage."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Wants a finer distinction within supervision, crediting independent determination before comparison more than a glance at a generated summary."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p011",
+   "stance": "conditional-major",
+   "gist": "Wants traceability to a source artifact the reviewer can see, such as a photo or recording, as its own risk dimension."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p012-p014",
+   "stance": "conditional-major",
+   "gist": "Proposes a third category of user, trained and supervised non-clinical health workers, who fit neither the patient nor the professional label."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p015",
+   "stance": "conditional-minor",
+   "gist": "Wants risk assessment to weigh the supervisory structure around a user, not only whether the individual holds a license."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p016",
+   "stance": "conditional-minor",
+   "gist": "Wants the communication and comprehension element tested specifically for coordinators, for whom physician-level and consumer-level text both fail."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p017",
+   "stance": "conditional-major",
+   "gist": "Argues omitting the non-clinical worker tier would also omit the homebound, low-literacy and non-English-speaking members they serve."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p018-p020",
+   "stance": "conditional-major",
+   "gist": "Wants routing a finding to an accountable care team recognized as a third option beyond escalate or not, with a different error profile."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p021",
+   "stance": "conditional-minor",
+   "gist": "Doubts any single error ratio generalizes; wants sponsors to state and justify their chosen ratio and report both rates separately."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p022-p023",
+   "stance": "support",
+   "gist": "Finds the range of confirmation approaches sound and agrees that a prospective study need not be demanded in every case."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p024",
+   "stance": "neutral",
+   "gist": "Describes its own blinded adjudication: an independent reviewer records the correct finding from raw home inputs before seeing any output."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p025",
+   "stance": "conditional-minor",
+   "gist": "Wants adjudicator qualification defined by the task, since nurse assessors rather than physicians hold the standard for functional scoring."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p026-p027",
+   "stance": "conditional-minor",
+   "gist": "Wants submissions to state whether the reference determination preceded seeing the output, and unblinded review not treated as equal to blinded."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p028",
+   "stance": "conditional-minor",
+   "gist": "Suggests blinded paired adjudication, feasible for small companies, be defined further as a confirmation method, perhaps through the MDDT program."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p029-p031",
+   "stance": "conditional-minor",
+   "gist": "Says a clinician panel presumes a stable reference standard that Medicaid functional assessment lacks, with over 124 instruments and plan-specific scoring."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p032",
+   "stance": "conditional-minor",
+   "gist": "Notes field inter-rater agreement is largely unmeasured and wants sponsors to demonstrate, not assume, that a human reference standard exists."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p033",
+   "stance": "conditional-minor",
+   "gist": "Wants inter-rater agreement within the reference panel reported beside system-to-panel agreement, with each reviewer's instrument stated."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p034",
+   "stance": "conditional-minor",
+   "gist": "Wants consistency across assessors measurable as an endpoint in its own right where a function aims to reduce variance."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p035",
+   "stance": "conditional-minor",
+   "gist": "Strongly supports comparing against the existing alternative and thinks the paper should give that comparison greater weight."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p036-p038",
+   "stance": "conditional-minor",
+   "gist": "Says the real alternative in home assessment is a rushed, often incomplete and unstandardized paper form, citing improper-payment data on missing documentation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p039",
+   "stance": "conditional-minor",
+   "gist": "Notes unstandardized assessment produces duplication and gaps in equipment delivery, an outcome an idealized standard of care would not surface."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p040",
+   "stance": "conditional-minor",
+   "gist": "Wants sponsors allowed to document how care is actually delivered in the deployment setting and evaluate against that alongside any clinical reference."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p041-p043",
+   "stance": "conditional-minor",
+   "gist": "Proposes health plans supply monitoring samples and outcome linkage under contract, while the manufacturer sets the specification and stays responsible."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Points to the attachment."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Docket header."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Submission details."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Introduction of the company."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Introduction of the writer."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Lead-in announcing the responses."
+  },
+  {
+   "paragraph": "p044",
+   "reason": "Footnote citation."
+  },
+  {
+   "paragraph": "p045",
+   "reason": "Closing thanks."
+  },
+  {
+   "paragraph": "p046",
+   "reason": "Signature and contact details."
+  }
+ ]
+}

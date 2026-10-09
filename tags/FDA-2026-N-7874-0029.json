@@ -1,0 +1,86 @@
+{
+ "comment_id": "FDA-2026-N-7874-0029",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p003-p004",
+   "stance": "support",
+   "gist": "Agrees that variable outputs, third-party models, frequent changes and autonomous action make point-in-time premarket evaluation insufficient for some devices."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p005-p006",
+   "stance": "conditional-minor",
+   "gist": "Wants FDA to distinguish initial authorization from continued reliance, which should depend on the original assumptions still holding."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p007-p013",
+   "stance": "conditional-minor",
+   "gist": "Suggests higher-risk sponsors identify in advance their key assumptions, evidence, dependencies, thresholds, monitoring owners, change triggers and required responses."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p014",
+   "stance": "conditional-minor",
+   "gist": "Says manufacturers on third-party models need a defined evidentiary standard for deciding whether continued reliance remains justified."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p015-p016",
+   "stance": "support",
+   "gist": "Supports independent third parties, especially where sponsors pick their own benchmarks, another company supplies the model, or postmarket evidence gates continued operation."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p017-p018",
+   "stance": "conditional-minor",
+   "gist": "Wants agentic evaluation to ask whether the system had authorization for that specific action under the conditions present, not only whether it worked."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p019",
+   "stance": "support",
+   "gist": "Finds the two axes appropriate and says evidence for continued reliance on action-taking systems should rise with both."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p020",
+   "stance": "support",
+   "gist": "Supports periodic re-benchmarking, degradation monitoring and defined reassessment triggers."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p021-p023",
+   "stance": "conditional-minor",
+   "gist": "Asks FDA to formalize that authorization sets an initial reliance boundary, not permanent reliance, and to say what change requires re-testing the evidence."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Thanks."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Introduction of the firm."
+  },
+  {
+   "paragraph": "p024",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p025",
+   "reason": "Signature."
+  }
+ ]
+}

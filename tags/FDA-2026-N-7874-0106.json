@@ -1,0 +1,104 @@
+{
+  "comment_id": "FDA-2026-N-7874-0106",
+  "tags": [
+    {
+      "code": "GENERAL",
+      "subcode": "BKG",
+      "paragraph": "p011",
+      "stance": "support",
+      "gist": "Finds the paper's account of confabulation, unbounded inputs and drift well supported by studies of planted false details and low diagnostic accuracy, if anything understated."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p012-p013",
+      "stance": "support",
+      "gist": "Calls the clinician-licensure analogy a reasonable organizing principle reflecting live scholarly debate."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p013",
+      "stance": "conditional-minor",
+      "gist": "Wants any comparator clinician panel required to report its own inter-rater reliability, such as Cohen's kappa, since panel disagreement is a known confound."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p014-p015",
+      "stance": "conditional-minor",
+      "gist": "Citing hallucination and accuracy studies, wants sponsors required to disclose their specific mitigations for benchmark contamination and saturation."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p016-p017",
+      "stance": "conditional-minor",
+      "gist": "Flags circularity when a supervisor shares the device's architecture; wants supervisory agents to pass the safety benchmarking elements before being credited."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p018",
+      "stance": "conditional-major",
+      "gist": "Wants master files made mandatory disclosures for higher-consequence devices, since developers have little incentive to disclose limitations."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p019",
+      "stance": "conditional-major",
+      "gist": "Notes no GenAI device has yet been authorized, so the framework is an untested scaffold; asks for reliability reporting, supervisor benchmarking and mandatory disclosure."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to attachment naming the questions addressed."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Thanks."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Signature."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Capacity note."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p006",
+      "reason": "Docket and submitter details."
+    },
+    {
+      "paragraph": "p007",
+      "reason": "Capacity and date."
+    },
+    {
+      "paragraph": "p008",
+      "reason": "Questions addressed and salutation."
+    },
+    {
+      "paragraph": "p009",
+      "reason": "Thanks."
+    },
+    {
+      "paragraph": "p010",
+      "reason": "Introduction of the writer."
+    },
+    {
+      "paragraph": "p020",
+      "reason": "Thanks."
+    },
+    {
+      "paragraph": "p021",
+      "reason": "Signature."
+    }
+  ]
+}

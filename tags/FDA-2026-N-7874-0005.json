@@ -1,0 +1,1451 @@
+{
+ "comment_id": "FDA-2026-N-7874-0005",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p009",
+   "stance": "neutral",
+   "gist": "Summarizes the paper's problem statement and proposals, calling the regulatory realization problem it identifies genuine."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p010",
+   "stance": "neutral",
+   "gist": "Rates the paper partial rather than failing, judging it by its stated purpose as a discussion document."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p011",
+   "stance": "conditional-major",
+   "gist": "Finds the two-axis picture useful but incomplete, converting FDA's own added factors into a fifteen-driver boundary budget with couplings."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p012",
+   "stance": "conditional-minor",
+   "gist": "Counts a benchmark result as only one piece of evidence, never proof of safety by itself, chained to sequestered testing, clinical confirmation and monitoring."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p082-p097",
+   "stance": "conditional-major",
+   "gist": "Lists fifteen boundary drivers, from autonomy and severity to reversibility, traceability, model change, subgroup performance, tool permissions and detectability."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p098-p099",
+   "stance": "conditional-major",
+   "gist": "Would keep the activity-by-consequence gradient as a front-end visual but close risk through the full driver vector, couplings and hard gates."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p100",
+   "stance": "conditional-minor",
+   "gist": "Wants directiveness treated as realized trajectory behavior rather than a keyword class."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p101",
+   "stance": "conditional-minor",
+   "gist": "Wants a user's real ability to review outputs independently and intervene to be measured, rather than relying on patient or clinician labels."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p102",
+   "stance": "conditional-minor",
+   "gist": "Wants the whole conversation modeled and tested as a sequence of states, including how risk drifts as context accumulates."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p103",
+   "stance": "conditional-minor",
+   "gist": "Wants benchmarking to add construct-validity, provenance and change, observer, tool-permission, reversibility and false-lock gates."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p104",
+   "stance": "conditional-minor",
+   "gist": "Wants clinical confirmation escalated to the highest-risk unresolved branch rather than closed on average risk."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p105",
+   "stance": "conditional-minor",
+   "gist": "Wants postmarket monitoring to add residual owners, trigger thresholds, harm-time logic and automatic re-opening of evidence."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p106",
+   "stance": "conditional-minor",
+   "gist": "Says a voluntary master file cannot alone close gaps; sponsors still need identity, version, fingerprint and change evidence for their model."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p107",
+   "stance": "conditional-minor",
+   "gist": "Wants agentic systems evaluated over the whole action sequence, including permissions, irreversible nodes, tool outputs, provenance and rollback."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p108",
+   "stance": "conditional-minor",
+   "gist": "Would credit human oversight in risk assessment only when visibility, authority, time, intervention and reversibility are demonstrated."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p203-p205",
+   "stance": "conditional-minor",
+   "gist": "Because outputs propagate through patients, clinicians, tools and time, wants downstream outcome witnesses and time-series monitoring."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p206-p207",
+   "stance": "conditional-major",
+   "gist": "Says autonomy, consequence, tools, permissions, user capability, change and monitoring interact, so wants paired multi-boundary stress tests."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p208-p209",
+   "stance": "conditional-minor",
+   "gist": "Wants refusals, guardrails, human gates and permissions verified under adversarial, long-context and shifted conditions."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p210-p211",
+   "stance": "conditional-minor",
+   "gist": "Notes personalization, repetition, autonomy or tool access can amplify consequences, and wants before-and-after effects measured when data exist."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p212-p213",
+   "stance": "conditional-minor",
+   "gist": "Warns a passing aggregate benchmark may still hide failures in subgroups, trajectories or hard gates, so results should be disaggregated."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p214-p215",
+   "stance": "conditional-major",
+   "gist": "Says the two-axis picture and aggregate scores flatten behavior with more dimensions; keep the heuristic but require a full boundary ledger."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p216-p217",
+   "stance": "conditional-minor",
+   "gist": "Because public benchmarks can be contaminated or saturated, wants sequestered or rotating test assets, perturbation tests and clinical linkage."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p218-p219",
+   "stance": "conditional-minor",
+   "gist": "Wants validation that outputs, logs, model cards, tools and outcomes actually expose safety-relevant hidden limitations."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p220-p221",
+   "stance": "conditional-minor",
+   "gist": "Says multi-turn and agentic sequences can produce behavior absent from single-turn tests, so full trajectories should be tested."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p222-p223",
+   "stance": "conditional-minor",
+   "gist": "Because third-party changes or hidden behavior can alter a device, wants lineage, version, notification, fingerprints and regression witnesses."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p224-p225",
+   "stance": "conditional-minor",
+   "gist": "Notes the paper gives no closed quantitative acceptance thresholds, and wants device-specific criteria defined before release."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p226-p227",
+   "stance": "conditional-minor",
+   "gist": "Says a benchmark score by itself cannot establish real-world safety; wants clinical and postmarket evidence linked to the intended use."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p228-p230",
+   "stance": "conditional-major",
+   "gist": "Finds the two-axis representation omits or defers other acknowledged factors, to be closed by a full boundary ledger and hard gates."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p231-p232",
+   "stance": "conditional-minor",
+   "gist": "Says doing well on a benchmark need not predict behavior in deployment, requiring a construct-validity gate and clinical or postmarket linkage."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p233-p234",
+   "stance": "conditional-minor",
+   "gist": "Notes a conversation can shift the risk state as it proceeds and calls for trajectory-state testing."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p235-p236",
+   "stance": "conditional-minor",
+   "gist": "Says how well patients and clinicians can spot errors differs and goes unmeasured, so wants user-control validation."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p237-p238",
+   "stance": "conditional-minor",
+   "gist": "Notes output can become external action over multiple steps and wants action-state closure for agentic tool chains."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p239-p240",
+   "stance": "conditional-minor",
+   "gist": "Since sponsors may not control third-party model updates, wants fingerprint, hold, retest and rollback controls."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p241-p242",
+   "stance": "conditional-minor",
+   "gist": "Warns harm may occur before monitoring detects it, so a harm-time gate should limit deferral of premarket uncertainty."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p243-p244",
+   "stance": "conditional-minor",
+   "gist": "Warns same-class generators may reproduce device blind spots and wants independent real-data sentinels."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p245-p246",
+   "stance": "conditional-minor",
+   "gist": "Says nominal supervision can be ineffective and wants meaningful observer criteria before oversight is credited."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p247-p248",
+   "stance": "conditional-major",
+   "gist": "Says a good overall score may conceal poor subgroup performance and wants subgroup floors and hard-gate criteria."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "BKG",
+   "paragraph": "p249",
+   "stance": "neutral",
+   "gist": "Says the gaps it lists are structured mechanisms rather than generic AI variability to be written off as noise."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p250",
+   "stance": "conditional-major",
+   "gist": "Argues the two-axis figure compresses risk so an unrepresented factor can become decisive; wants a full boundary ledger with hard-gate overlay."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p251",
+   "stance": "conditional-minor",
+   "gist": "Says single-output labeling understates cumulative action pressure as neutral information narrows into instruction; wants trajectory-based directiveness tests."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p252",
+   "stance": "conditional-minor",
+   "gist": "Says professional category is only a proxy for review capability; wants comprehension, error-detection and intervention validated."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p253",
+   "stance": "conditional-minor",
+   "gist": "Says boundary crossings appear only at trajectory level; wants state-transition tests, long-context adversarial cases and end-state checks."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p254",
+   "stance": "conditional-minor",
+   "gist": "Warns that passing a saturated benchmark proves little; wants sequestered assets, contamination controls, perturbation and clinical confirmation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p255",
+   "stance": "conditional-minor",
+   "gist": "Says confirmation is valid only inside a demonstrated transportability envelope; wants deployment-distribution specification, strata and out-of-distribution sentinels."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p256",
+   "stance": "conditional-minor",
+   "gist": "Treats the choice of comparator as a boundary condition set by intended use and the counterfactual, separating device-alone from team performance."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p257",
+   "stance": "conditional-minor",
+   "gist": "Would allow deferral to postmarket reliance only with detectability, latency and reversibility evidence, since monitoring may act too late."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p258",
+   "stance": "conditional-minor",
+   "gist": "Wants fingerprints, provider notice, canary and shadow tests, holds, regression and rollback so provider updates do not break prior evidence."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p259",
+   "stance": "conditional-minor",
+   "gist": "Says having a human present does not amount to meaningful control; wants visibility, authority, latency, override and rollback measured."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p260",
+   "stance": "conditional-minor",
+   "gist": "Warns synthetic data can hide blind spots the generator shares with the device; wants lineage separation, independent real sentinels and diverse generators."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p261",
+   "stance": "conditional-minor",
+   "gist": "Says output-only testing fails once actions change external state; wants whole action-sequence, permission, irreversible-node and rollback testing."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p262-p264",
+   "stance": "conditional-minor",
+   "gist": "Wants the exact final device configuration pinned, including model version, prompts, retrieval, guardrails, tools, interface and intended use."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p265-p266",
+   "stance": "conditional-minor",
+   "gist": "Wants each function mapped through foreseeable hazard, user or tool response and harm, with every safety claim linked to a witness."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p267-p268",
+   "stance": "conditional-major",
+   "gist": "Wants a ledger tracking all fifteen drivers and their couplings, keeping the two-axis picture only as a front-end heuristic."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p269-p270",
+   "stance": "conditional-minor",
+   "gist": "Wants multi-turn and agentic state transitions evaluated over complete interaction trajectories."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p271-p272",
+   "stance": "conditional-major",
+   "gist": "Wants a hard-gate screen so catastrophic, irreversible or unauthorized branches cannot be averaged into a pass."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p273-p275",
+   "stance": "conditional-minor",
+   "gist": "Wants a construct-validity gate using prespecified methods, sequestered assets, contamination checks, subgroup coverage and perturbation tests."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p276-p277",
+   "stance": "conditional-minor",
+   "gist": "Keeps FDA's four benchmark groups, evaluated in the final configuration, with prespecified criteria and no hidden hard-gate failure."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p278-p279",
+   "stance": "conditional-minor",
+   "gist": "Wants a confirmation ladder from retrospective to prospective methods, escalated by the highest-risk unresolved branch."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p280-p281",
+   "stance": "conditional-minor",
+   "gist": "Wants human oversight credited only when visibility, authority, timing, intervention ability and reversibility are demonstrated."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p282-p283",
+   "stance": "conditional-minor",
+   "gist": "Wants control of tool permissions, action-state transitions, irreversible nodes, tool-output validation, rollback and post-action checks."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p284-p285",
+   "stance": "conditional-minor",
+   "gist": "Wants model and provider version identity, fingerprints, limitations, update notices and current dependency evidence maintained."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p286-p287",
+   "stance": "conditional-minor",
+   "gist": "Wants changes classified by boundary delta, affected branches tested, and releases held or rolled back when limits are exceeded."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p288-p289",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring to combine rebenchmarking, clinician sampling, drift and subgroup surveillance, complaints, outcomes and sentinel cases."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p290-p291",
+   "stance": "conditional-minor",
+   "gist": "Wants every residual risk given an owner, evidence requirement, pass limit, trigger and re-open rule, or deployment constrained."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p292",
+   "stance": "conditional-major",
+   "gist": "Says the closure object is a fifteen-driver boundary vector with couplings, not the two-dimensional visualization."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p296",
+   "stance": "conditional-major",
+   "gist": "Proposes prespecified hard-gate events, such as an unconfirmed irreversible action, that block closure regardless of favorable aggregate metrics."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p297",
+   "stance": "conditional-minor",
+   "gist": "Wants under- and over-escalation kept separate with severity and timing, with severe under-escalation possibly a hard gate."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p298",
+   "stance": "conditional-minor",
+   "gist": "Wants residuals reported against prespecified acceptance limits, with closure requiring the failure path to stay closed under perturbation."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p299",
+   "stance": "conditional-minor",
+   "gist": "Wants requalification scope to follow the changed boundaries, with hard-gate branches always re-evidenced, making PCCPs a controlled envelope."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p300",
+   "stance": "conditional-minor",
+   "gist": "Wants benchmark, clinical, synthetic and postmarket evidence kept as separate witnesses unless their independence and transportability have been shown."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p302",
+   "stance": "conditional-major",
+   "gist": "Wants the activity-by-consequence matrix used only as a communication layer, with a mandatory boundary ledger and hard gates."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p303",
+   "stance": "conditional-minor",
+   "gist": "Wants directiveness judged as realized action pressure, testing specificity, personalization, imperative force and immediacy across trajectories."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p304",
+   "stance": "conditional-minor",
+   "gist": "Wants evidence that intended users understand limitations, detect errors and act on escalation across health-literacy levels, not just labels."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p305",
+   "stance": "conditional-minor",
+   "gist": "Wants risk based on task-to-competency mismatch, validating generalists' review and the device's specialist escalation where safety depends on it."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p306-p307",
+   "stance": "conditional-minor",
+   "gist": "Wants whole conversations evaluated as state trajectories, tracking migration, order effects, long-context degradation and boundary drift."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p308",
+   "stance": "conditional-minor",
+   "gist": "Wants separate under- and over-escalation residuals, not one score, with severe missed escalation possibly a hard gate."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p309",
+   "stance": "conditional-minor",
+   "gist": "Finds the competency model useful if benchmarking, clinical confirmation and monitoring form one chain tied to the exact deployed configuration."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q8",
+   "paragraph": "p310",
+   "stance": "conditional-major",
+   "gist": "Would tier initially by the two axes but scale evidence by all fifteen drivers plus hard gates, so a low average cannot reduce evidence."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p311",
+   "stance": "conditional-minor",
+   "gist": "Calls the ten benchmark elements a strong core and wants gates added for provenance, model change, human override, reversibility, tool permissions and validity."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p312",
+   "stance": "conditional-minor",
+   "gist": "Wants proof a benchmark predicts intended-use behavior: sequestered assets, contamination controls, perturbation stability and clinical correlation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p313-p314",
+   "stance": "conditional-minor",
+   "gist": "Wants a confirmation ladder by highest-risk branch: retrospective or shadow evidence for low-risk uses, prospective study for autonomous ones."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p315",
+   "stance": "conditional-minor",
+   "gist": "Wants prespecified estimands, strata and intervals, with synthetic and real estimates kept separate unless transportability justifies pooling."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p316",
+   "stance": "conditional-minor",
+   "gist": "Would use synthetic data for stress and rare scenarios but not alone for unknown blind spots, adding real sentinels and lineage disclosure."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p317",
+   "stance": "conditional-minor",
+   "gist": "Wants the comparator derived from the intended use and what would happen without the device, testing team and device-alone performance separately."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p318",
+   "stance": "support",
+   "gist": "Agrees to compare against the care a patient would actually get without the device, such as an unaided clinician or delayed specialist review."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p319-p320",
+   "stance": "conditional-minor",
+   "gist": "Wants qualified third parties for sequestered data, red-teaming and adjudication, with conflict rules, multiple providers and appeals."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q17",
+   "paragraph": "p321",
+   "stance": "conditional-minor",
+   "gist": "Wants a technology-neutral approach with architecture-specific tests such as multimodal consistency and world-model state error."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p322",
+   "stance": "conditional-minor",
+   "gist": "Would permit greater postmarket reliance only where residual risks are bounded and detectable and intervention precedes harm, never for irreversible risk."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p323",
+   "stance": "conditional-minor",
+   "gist": "Wants scheduled reviews plus event-driven triggers, combining rebenchmarking, clinician review, telemetry, outcomes and sentinel cases."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p324",
+   "stance": "conditional-minor",
+   "gist": "Says machine supervisors may assist but not self-certify; wants independent validation, common-mode testing and human fail-safe escalation."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p325",
+   "stance": "conditional-minor",
+   "gist": "Would distribute evidence generation but not accountability, with the manufacturer keeping the master ledger and others supplying witnesses."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p326-p327",
+   "stance": "conditional-minor",
+   "gist": "Would keep cosmetic changes in the QMS, requalify prompt and retrieval changes, and broadly revalidate model, tool or permission changes."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p328",
+   "stance": "conditional-major",
+   "gist": "Wants PCCPs to prespecify an allowable change envelope with maximum deltas, tests, hold points and rollback instead of exact edits."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p329",
+   "stance": "conditional-minor",
+   "gist": "Wants contractual notice plus technical detection such as fingerprints, canary probes, shadow tests, quarantine and rollback."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p330",
+   "stance": "conditional-minor",
+   "gist": "Finds master files helpful if current and versioned, lists contents, and says sponsors must still independently assure their dependencies."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p331",
+   "stance": "conditional-minor",
+   "gist": "Wants acceptance criteria applied to the entire action path, including permissions, prompt injection via tools and irreversible-action confirmation."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p332-p347",
+   "stance": "conditional-minor",
+   "gist": "Prescribes a closure loop: provoke failures with adversarial and shifted scenarios, apply controls, rerun, measure residuals and re-open on change."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p348",
+   "stance": "support",
+   "gist": "Lists what the paper gets right, from treating GenAI risk as different to preserving sponsor responsibility."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p349",
+   "stance": "conditional-major",
+   "gist": "Lists what remains incomplete, including coupling rules, hard gates, measurable oversight and mandatory change detection."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p361",
+   "stance": "conditional-major",
+   "gist": "Calls the paper a strong starting point, not rejected, but partial until boundary inventory, hard gates and closure controls are implemented."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Points to the attachment."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Title page and header of the attachment."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Title page and header of the attachment."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Title page and header of the attachment."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Title page and header of the attachment."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "The audit's own traceability rule; no point about the paper."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Exclusion note about the audit's own method."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Table of contents."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Describes the document's own revision."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Audit metadata: source, scope, attribution, references and claim-preservation notes."
+  },
+  {
+   "paragraph": "p015",
+   "reason": "Audit metadata: source, scope, attribution, references and claim-preservation notes."
+  },
+  {
+   "paragraph": "p016",
+   "reason": "Audit metadata: source, scope, attribution, references and claim-preservation notes."
+  },
+  {
+   "paragraph": "p017",
+   "reason": "Audit metadata: source, scope, attribution, references and claim-preservation notes."
+  },
+  {
+   "paragraph": "p018",
+   "reason": "Audit metadata: source, scope, attribution, references and claim-preservation notes."
+  },
+  {
+   "paragraph": "p019",
+   "reason": "Audit metadata: source, scope, attribution, references and claim-preservation notes."
+  },
+  {
+   "paragraph": "p020",
+   "reason": "Audit metadata: source, scope, attribution, references and claim-preservation notes."
+  },
+  {
+   "paragraph": "p021",
+   "reason": "Audit metadata: source, scope, attribution, references and claim-preservation notes."
+  },
+  {
+   "paragraph": "p022",
+   "reason": "Audit metadata: source, scope, attribution, references and claim-preservation notes."
+  },
+  {
+   "paragraph": "p023",
+   "reason": "Audit metadata: source, scope, attribution, references and claim-preservation notes."
+  },
+  {
+   "paragraph": "p024",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p025",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p026",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p027",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p028",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p029",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p030",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p031",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p032",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p033",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p034",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p035",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p036",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p037",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p038",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p039",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p040",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p041",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p042",
+   "reason": "The audit's own rule registry, not a point about the paper."
+  },
+  {
+   "paragraph": "p043",
+   "reason": "Rows of the audit's anchor ledger (constants and status codes); the findings are restated in Section 19."
+  },
+  {
+   "paragraph": "p044",
+   "reason": "Rows of the audit's anchor ledger (constants and status codes); the findings are restated in Section 19."
+  },
+  {
+   "paragraph": "p045",
+   "reason": "Rows of the audit's anchor ledger (constants and status codes); the findings are restated in Section 19."
+  },
+  {
+   "paragraph": "p046",
+   "reason": "Rows of the audit's anchor ledger (constants and status codes); the findings are restated in Section 19."
+  },
+  {
+   "paragraph": "p047",
+   "reason": "Rows of the audit's anchor ledger (constants and status codes); the findings are restated in Section 19."
+  },
+  {
+   "paragraph": "p048",
+   "reason": "Rows of the audit's anchor ledger (constants and status codes); the findings are restated in Section 19."
+  },
+  {
+   "paragraph": "p049",
+   "reason": "Rows of the audit's anchor ledger (constants and status codes); the findings are restated in Section 19."
+  },
+  {
+   "paragraph": "p050",
+   "reason": "Rows of the audit's anchor ledger (constants and status codes); the findings are restated in Section 19."
+  },
+  {
+   "paragraph": "p051",
+   "reason": "Rows of the audit's anchor ledger (constants and status codes); the findings are restated in Section 19."
+  },
+  {
+   "paragraph": "p052",
+   "reason": "Rows of the audit's anchor ledger (constants and status codes); the findings are restated in Section 19."
+  },
+  {
+   "paragraph": "p053",
+   "reason": "Rows of the audit's anchor ledger (constants and status codes); the findings are restated in Section 19."
+  },
+  {
+   "paragraph": "p054",
+   "reason": "Rows of the audit's anchor ledger (constants and status codes); the findings are restated in Section 19."
+  },
+  {
+   "paragraph": "p055",
+   "reason": "The audit's three-layer map, its own apparatus."
+  },
+  {
+   "paragraph": "p056",
+   "reason": "The audit's three-layer map, its own apparatus."
+  },
+  {
+   "paragraph": "p057",
+   "reason": "The audit's three-layer map, its own apparatus."
+  },
+  {
+   "paragraph": "p058",
+   "reason": "The audit's three-layer map, its own apparatus."
+  },
+  {
+   "paragraph": "p059",
+   "reason": "The audit's three-layer map, its own apparatus."
+  },
+  {
+   "paragraph": "p060",
+   "reason": "The audit's three-layer map, its own apparatus."
+  },
+  {
+   "paragraph": "p061",
+   "reason": "The audit's formula execution table."
+  },
+  {
+   "paragraph": "p062",
+   "reason": "The audit's formula execution table."
+  },
+  {
+   "paragraph": "p063",
+   "reason": "The audit's formula execution table."
+  },
+  {
+   "paragraph": "p064",
+   "reason": "The audit's formula execution table."
+  },
+  {
+   "paragraph": "p065",
+   "reason": "The audit's formula execution table."
+  },
+  {
+   "paragraph": "p066",
+   "reason": "The audit's formula execution table."
+  },
+  {
+   "paragraph": "p067",
+   "reason": "The audit's formula execution table."
+  },
+  {
+   "paragraph": "p068",
+   "reason": "The audit's formula execution table."
+  },
+  {
+   "paragraph": "p069",
+   "reason": "The audit's formula execution table."
+  },
+  {
+   "paragraph": "p070",
+   "reason": "The audit's formula execution table."
+  },
+  {
+   "paragraph": "p071",
+   "reason": "The audit's formula execution table."
+  },
+  {
+   "paragraph": "p072",
+   "reason": "The audit's formula execution table."
+  },
+  {
+   "paragraph": "p073",
+   "reason": "Numerical worksheet counting items in the paper; no point."
+  },
+  {
+   "paragraph": "p074",
+   "reason": "Numerical worksheet counting items in the paper; no point."
+  },
+  {
+   "paragraph": "p075",
+   "reason": "Numerical worksheet counting items in the paper; no point."
+  },
+  {
+   "paragraph": "p076",
+   "reason": "Numerical worksheet counting items in the paper; no point."
+  },
+  {
+   "paragraph": "p077",
+   "reason": "Numerical worksheet counting items in the paper; no point."
+  },
+  {
+   "paragraph": "p078",
+   "reason": "Numerical worksheet counting items in the paper; no point."
+  },
+  {
+   "paragraph": "p079",
+   "reason": "Numerical worksheet counting items in the paper; no point."
+  },
+  {
+   "paragraph": "p080",
+   "reason": "Numerical worksheet counting items in the paper; no point."
+  },
+  {
+   "paragraph": "p081",
+   "reason": "Numerical worksheet counting items in the paper; no point."
+  },
+  {
+   "paragraph": "p109",
+   "reason": "Interpretation rule for the audit's matrix."
+  },
+  {
+   "paragraph": "p110",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p111",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p112",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p113",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p114",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p115",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p116",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p117",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p118",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p119",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p120",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p121",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p122",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p123",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p124",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p125",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p126",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p127",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p128",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p129",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p130",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p131",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p132",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p133",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p134",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p135",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p136",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p137",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p138",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p139",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p140",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p141",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p142",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p143",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p144",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p145",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p146",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p147",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p148",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p149",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p150",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p151",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p152",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p153",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p154",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p155",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p156",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p157",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p158",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p159",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p160",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p161",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p162",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p163",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p164",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p165",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p166",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p167",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p168",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p169",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p170",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p171",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p172",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p173",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p174",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p175",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p176",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p177",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p178",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p179",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p180",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p181",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p182",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p183",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p184",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p185",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p186",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p187",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p188",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p189",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p190",
+   "reason": "Fragment of the audit's traceability matrix table; the response to each question is tagged at its direct response in Section 16."
+  },
+  {
+   "paragraph": "p191",
+   "reason": "Self-check of the document's own traceability."
+  },
+  {
+   "paragraph": "p192",
+   "reason": "Self-check of the document's own traceability."
+  },
+  {
+   "paragraph": "p193",
+   "reason": "Self-check of the document's own traceability."
+  },
+  {
+   "paragraph": "p194",
+   "reason": "Self-check of the document's own traceability."
+  },
+  {
+   "paragraph": "p195",
+   "reason": "Self-check of the document's own traceability."
+  },
+  {
+   "paragraph": "p196",
+   "reason": "Self-check of the document's own traceability."
+  },
+  {
+   "paragraph": "p197",
+   "reason": "Self-check of the document's own traceability."
+  },
+  {
+   "paragraph": "p198",
+   "reason": "Self-check of the document's own traceability."
+  },
+  {
+   "paragraph": "p199",
+   "reason": "Self-check of the document's own traceability."
+  },
+  {
+   "paragraph": "p200",
+   "reason": "Self-check of the document's own traceability."
+  },
+  {
+   "paragraph": "p201",
+   "reason": "Self-check of the document's own traceability."
+  },
+  {
+   "paragraph": "p202",
+   "reason": "Self-check of the document's own traceability."
+  },
+  {
+   "paragraph": "p293",
+   "reason": "The audit's own formulas and note that no coefficients were run."
+  },
+  {
+   "paragraph": "p294",
+   "reason": "The audit's own formulas and note that no coefficients were run."
+  },
+  {
+   "paragraph": "p295",
+   "reason": "The audit's own formulas and note that no coefficients were run."
+  },
+  {
+   "paragraph": "p301",
+   "reason": "Lead-in announcing the direct responses."
+  },
+  {
+   "paragraph": "p350",
+   "reason": "Rows of the audit's closure criteria table, restating the solution stack."
+  },
+  {
+   "paragraph": "p351",
+   "reason": "Rows of the audit's closure criteria table, restating the solution stack."
+  },
+  {
+   "paragraph": "p352",
+   "reason": "Rows of the audit's closure criteria table, restating the solution stack."
+  },
+  {
+   "paragraph": "p353",
+   "reason": "Rows of the audit's closure criteria table, restating the solution stack."
+  },
+  {
+   "paragraph": "p354",
+   "reason": "Rows of the audit's closure criteria table, restating the solution stack."
+  },
+  {
+   "paragraph": "p355",
+   "reason": "Rows of the audit's closure criteria table, restating the solution stack."
+  },
+  {
+   "paragraph": "p356",
+   "reason": "Rows of the audit's closure criteria table, restating the solution stack."
+  },
+  {
+   "paragraph": "p357",
+   "reason": "Rows of the audit's closure criteria table, restating the solution stack."
+  },
+  {
+   "paragraph": "p358",
+   "reason": "Rows of the audit's closure criteria table, restating the solution stack."
+  },
+  {
+   "paragraph": "p359",
+   "reason": "Rows of the audit's closure criteria table, restating the solution stack."
+  },
+  {
+   "paragraph": "p360",
+   "reason": "Rows of the audit's closure criteria table, restating the solution stack."
+  }
+ ]
+}

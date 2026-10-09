@@ -1,0 +1,84 @@
+{
+  "comment_id": "FDA-2026-N-7874-0103",
+  "tags": [
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p006",
+      "stance": "conditional-minor",
+      "gist": "Says regulated AI needs a common, verifiable way to show a model stayed within bounds, bearing on risk scoring and evaluation."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p007-p010",
+      "stance": "conditional-minor",
+      "gist": "Proposes validating the version-locked constraints and deterministic verification around the model, with a human signature as an enforced interlock, rather than the model."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p011-p013",
+      "stance": "conditional-minor",
+      "gist": "Supports the two axes and suggests applicants show that a function cannot structurally climb higher on the independence axis."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p014",
+      "stance": "conditional-minor",
+      "gist": "Would credential the decider, the deterministic gate plus signing person, evaluating and version-locking the constrained configuration premarket."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p015",
+      "stance": "conditional-minor",
+      "gist": "Wants postmarket records independently verifiable offline by a third party: tamper-evident, reproducible, and checkable without the manufacturer."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p016-p017",
+      "stance": "conditional-minor",
+      "gist": "Suggests a sealed, verifiable envelope travelling with the article at each handover, covering PCCP changes and jurisdiction rules through on-premise evaluation."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p018",
+      "stance": "conditional-minor",
+      "gist": "Recommends a common, verifiable way to attest that constrained AI stayed within bounds, built on existing transparency standards such as SCITT and COSE receipts."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to attachment."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Submitter details."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Disclosure note."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Introduction of the organization."
+    },
+    {
+      "paragraph": "p019",
+      "reason": "Thanks and scope note."
+    },
+    {
+      "paragraph": "p020",
+      "reason": "Signature."
+    }
+  ]
+}

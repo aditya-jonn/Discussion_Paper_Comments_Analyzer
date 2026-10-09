@@ -1,0 +1,39 @@
+{
+  "comment_id": "FDA-2026-N-7874-0038",
+  "tags": [
+    {"code": "GENERAL", "subcode": "BKG", "paragraph": "p001", "stance": "support",
+     "gist": "Says the paper correctly identifies GenAI challenges such as emergent behavior, open-ended inputs, variable outputs and third-party model reliance."},
+    {"code": "GENERAL", "subcode": "BKG", "paragraph": "p004", "stance": "support",
+     "gist": "Repeats that the paper correctly identifies the challenges of GenAI, previewing comments on definitions, risk, governance and confirmation."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p005", "stance": "conditional-minor",
+     "gist": "Wants FDA to learn from international regulators and harmonize GenAI approaches where feasible to cut burden and aid safety."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p006", "stance": "conditional-minor",
+     "gist": "Wants developers encouraged to bring patients directly into GenAI development, governance, monitoring and evaluation."},
+    {"code": "GENERAL", "subcode": "GEN", "paragraph": "p007", "stance": "conditional-minor",
+     "gist": "Wants strong developer governance with legal, ethical and clinical consultation, and ethics expertise inside FDA's own reviews."},
+    {"code": "GENERAL", "subcode": "DEF", "paragraph": "p008-p009", "stance": "conditional-minor",
+     "gist": "Wants consensus definitions of AI, generative AI, foundation model and digital health agreed across agencies, noting NIST and FDA terms differ."},
+    {"code": "GENERAL", "subcode": "DEF", "paragraph": "p010-p011", "stance": "conditional-major",
+     "gist": "Accepts that FDA regulates devices not GenAI, but argues a device-only frame misses upstream risks and urges a developer-to-user approach like farm-to-fork food safety."},
+    {"code": "RISK", "subcode": "Q1", "paragraph": "p012-p013", "stance": "conditional-major",
+     "gist": "Says the two axes miss upstream risks like hallucination, bias and contaminated data, ignore ethical duties, and cannot capture risks that change over the lifecycle."},
+    {"code": "RISK", "subcode": "Q1", "paragraph": "p014-p016", "stance": "conditional-major",
+     "gist": "Proposes a three-layer model: the current functional axes, a model-risk layer for hallucination, bias and security, and a lifecycle layer for drift and updates."},
+    {"code": "RISK", "subcode": "Q2", "paragraph": "p017", "stance": "support",
+     "gist": "Agrees action-directing outputs stay higher risk despite disclaimers, since patients are more likely to cross-check with another AI than see a clinician."},
+    {"code": "RISK", "subcode": "Q3", "paragraph": "p018-p023", "stance": "conditional-minor",
+     "gist": "Would give patients plain, bottom-line, non-directive output with optional access to data and uncertainty, and providers detailed, more directive output."},
+    {"code": "RISK", "subcode": "Q3", "paragraph": "p024-p025", "stance": "conditional-minor",
+     "gist": "Suggests patient safeguards: uncertainty indicators, shared decision prompts, recheck reminders, not-a-diagnosis statements and model update notices."},
+    {"code": "PREMARKET", "subcode": "Q11", "paragraph": "p026-p027", "stance": "conditional-minor",
+     "gist": "Would add confirmation approaches: hallucination stress tests, bias and representativeness evaluation, update impact analysis, varied settings and human factors."}
+  ],
+  "skipped": [
+    {"paragraph": "p002", "reason": "Subject line."},
+    {"paragraph": "p003", "reason": "Addressee."},
+    {"paragraph": "p028", "reason": "Sign-off."},
+    {"paragraph": "p029", "reason": "Digital signature."},
+    {"paragraph": "p030", "reason": "Signature and disclaimer."},
+    {"paragraph": "p031", "reason": "Page marker."}
+  ]
+}

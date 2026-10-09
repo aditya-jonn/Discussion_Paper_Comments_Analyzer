@@ -1,0 +1,137 @@
+{
+  "comment_id": "FDA-2026-N-7874-0114",
+  "tags": [
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p001",
+      "stance": "conditional-minor",
+      "gist": "Wants a GenAI device judged as a bounded clinical capability with defined scope, competencies, failure tolerances, supervision needs and continuous requalification."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p003",
+      "stance": "support",
+      "gist": "Supports exploring the competency approach, since validation built on bounded inputs and exhaustive tests fits open-ended, evolving systems poorly."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p004",
+      "stance": "conditional-minor",
+      "gist": "Calls benchmarking plus confirmation a strong foundation and would extend it into a lifecycle where competence is bounded, stress-tested, profiled, monitored and requalified."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p005",
+      "stance": "conditional-minor",
+      "gist": "Says competence means operating safely within an envelope, recognizing limits, failing safely and escalating, and keeping those abilities over the lifecycle."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p006-p007",
+      "stance": "conditional-minor",
+      "gist": "Proposes a sponsor-defined competency envelope of scope, operating and safety boundaries, reinforcing evaluation of the full deployed configuration."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p008-p009",
+      "stance": "conditional-minor",
+      "gist": "Wants failure competence evaluated explicitly, recognize, refuse, escalate, recover, with safe recovery after tool failure a gating competency for agentic systems."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p010-p011",
+      "stance": "conditional-minor",
+      "gist": "Wants the unit of evaluation moved to the interaction trajectory, with scenarios that progressively add contradictions, resistance and escalation across turns."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p012",
+      "stance": "conditional-minor",
+      "gist": "Wants trajectory tests paired with stress testing across normal, edge, adversarial and failure conditions as a repeatable method."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p013",
+      "stance": "conditional-major",
+      "gist": "Cautions against one aggregate score; wants non-compensable minimum floors for safety-critical capabilities alongside overall thresholds."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p014-p015",
+      "stance": "conditional-minor",
+      "gist": "Proposes a competency dependency graph mapping the capabilities each safety-critical function relies on, testing nodes and the integrated workflow."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p016-p017",
+      "stance": "conditional-minor",
+      "gist": "Recommends a hybrid evidence model of public, sequestered and sponsor-specific benchmarks plus clinical confirmation, with public ones as shared vocabulary."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p018-p023",
+      "stance": "conditional-minor",
+      "gist": "Proposes a standardized, versioned Clinical AI Competency Profile disclosing what was tested, under what conditions, with versions and limitations, not a single score."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p024-p026",
+      "stance": "conditional-minor",
+      "gist": "Wants a foundation model capability profile kept distinct from the device competency profile, complementing master files while sponsors stay responsible."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p027-p029",
+      "stance": "conditional-minor",
+      "gist": "Encourages academia, societies, health systems and labs to profile devices against standardized competencies, versioned and multidimensional rather than a leaderboard."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p030-p031",
+      "stance": "conditional-minor",
+      "gist": "Wants benchmark suites as machine-executable regulatory assets, reusable for authorization, component changes and periodic requalification."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p032-p033",
+      "stance": "conditional-minor",
+      "gist": "Proposes a configuration baseline at authorization and competency impact analysis so delta testing scales to which competencies a change could affect."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p034",
+      "stance": "conditional-minor",
+      "gist": "Treats competency as a lifecycle property with predefined risk-based requalification triggers, since guidelines, populations and tools change even when the device does not."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p035-p038",
+      "stance": "conditional-minor",
+      "gist": "Concludes with four principles, bounded competence, knowing when not to act, executable longitudinal evidence and observable benchmarks, reframing the regulatory question."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p002",
+      "reason": "Title line."
+    }
+  ]
+}

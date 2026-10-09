@@ -1,0 +1,100 @@
+{
+  "comment_id": "FDA-2026-N-7874-0097",
+  "tags": [
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p002",
+      "stance": "conditional-minor",
+      "gist": "Supports responsible medical AI but wants a clear regulatory line between AI augmenting a physician and AI supplanting physician judgment."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p003",
+      "stance": "conditional-minor",
+      "gist": "Is especially concerned about systems that diagnose, decide treatment, prescribe or set disposition without meaningful physician oversight."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p004",
+      "stance": "conditional-minor",
+      "gist": "Says overall accuracy cannot establish safety; rare catastrophic errors such as missed time-sensitive diagnoses mean severity must be weighed."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q11",
+      "paragraph": "p005",
+      "stance": "conditional-minor",
+      "gist": "Wants testing under realistic conditions with atypical, complex and vulnerable patients, since benchmarks and retrospective data cannot reproduce clinical medicine."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p006",
+      "stance": "conditional-minor",
+      "gist": "Wants safeguards to rise with autonomy: prospective validation for systems initiating treatment or prescribing, and licensed clinician review for high-risk decisions."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p007",
+      "stance": "conditional-minor",
+      "gist": "Calls post-deployment surveillance essential, monitoring high-risk systems for deterioration, unexpected behavior and adverse outcomes, with significant events reportable."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p008",
+      "stance": "conditional-minor",
+      "gist": "Says physicians should not automatically be blamed for AI chosen by organizations; developers and institutions should bear responsibility, and override authority must be real."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p009-p010",
+      "stance": "conditional-minor",
+      "gist": "Warns that financial gains from replacing physicians may push autonomous AI beyond its safety evidence, and lower cost is not evidence of safety."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p011",
+      "stance": "conditional-minor",
+      "gist": "Says patients deserve to know when AI substantially shapes their care and whether a licensed clinician reviewed consequential decisions."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p012",
+      "stance": "conditional-minor",
+      "gist": "Sets the objective as physician-led, AI-assisted care rather than replacing accountable professionals because it is technically or economically possible."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p013-p014",
+      "stance": "conditional-minor",
+      "gist": "Urges FDA to preserve physician oversight of consequential decisions, require real-world validation and surveillance, set accountability and shield patients from premature substitution."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Introduction of the writer."
+    },
+    {
+      "paragraph": "p015",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p016",
+      "reason": "Signature."
+    },
+    {
+      "paragraph": "p017",
+      "reason": "Signature."
+    }
+  ]
+}

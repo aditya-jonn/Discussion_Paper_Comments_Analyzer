@@ -1,0 +1,120 @@
+{
+  "comment_id": "FDA-2026-N-7874-0130",
+  "tags": [
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p001",
+      "stance": "conditional-minor",
+      "gist": "Wants FDA to name four deployer capabilities, inventory, permissions checked at action time, institution-owned audit trail and a stop, as monitoring expectations manufacturers must enable."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p003",
+      "stance": "support",
+      "gist": "Agrees that generative and especially agentic devices will carry more of their safety case after market than before."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p004",
+      "stance": "conditional-minor",
+      "gist": "Says greater postmarket reliance is reasonable only when monitoring can actually occur where the device is used, which depends on four institutional capabilities."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p005",
+      "stance": "conditional-minor",
+      "gist": "First, an inventory naming every generative function in use, its production version, an owner and authorized settings, or signals and recalls cannot be traced."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p006",
+      "stance": "conditional-minor",
+      "gist": "Second, written permissions for what the device may read, write, order or send, checked as each action occurs; for agentic functions, the whole safety case."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p007",
+      "stance": "conditional-minor",
+      "gist": "Third, a tamper-evident audit trail of inputs, outputs and actions held in the institution's custody, not only in manufacturer systems."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p008",
+      "stance": "conditional-minor",
+      "gist": "Fourth, the institution can immediately suspend or revoke the device's power to act, on its own authority, with who stopped it and why recorded."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p009",
+      "stance": "conditional-minor",
+      "gist": "Would frame these as outcomes the monitoring program must deliver rather than prescribed technology; devices that cannot support them forfeit reduced premarket evidence."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p010",
+      "stance": "conditional-minor",
+      "gist": "Makes log completeness and custody a precondition; adds deployer-side changes as reassessment triggers and denied or out-of-scope actions to sample review."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p011",
+      "stance": "conditional-minor",
+      "gist": "Accepts supervisory agents if independent of the device's manufacturer, institution-configured, able to deny out-of-scope actions, and themselves inventoried, logged and stoppable."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p012",
+      "stance": "conditional-minor",
+      "gist": "Divides accountability by visibility: manufacturers for performance and acting on signals, institutions for conditions of use, keeping inventory, permissions, log and stop, not validating models."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p013",
+      "stance": "conditional-minor",
+      "gist": "Wants any change-control approach to require manufacturers to notify deployers of model, prompt or tool changes before production, with a recordable version identifier."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p013",
+      "stance": "conditional-minor",
+      "gist": "Wants third-party model change notices routed through the manufacturer, which should be able to pin the version or roll it back for the deployer."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p014",
+      "stance": "conditional-major",
+      "gist": "Would offset reduced human review with controls on action: declared default-deny action scopes, per-action checks, records of actions taken and denied, and an institutional stop."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p015",
+      "stance": "conditional-minor",
+      "gist": "Repeats that safety in use requires an institution able to list, limit, log and stop the device, and asks FDA to name those four expectations."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p002",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p016",
+      "reason": "Signature and contact details."
+    }
+  ]
+}

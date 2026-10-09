@@ -1,0 +1,253 @@
+{
+ "comment_id": "FDA-2026-N-7874-0065",
+ "tags": [
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Reports recording the migration Question 5 describes in one session, with three properties the commenter believes Section IV does not yet reflect."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Says the migration was triggered by the device's reading of user displeasure, not the request, so classifying directiveness from intended use misses it."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Reports the trajectory's visible safety markers improved while accuracy did not, so sampling late in a trajectory would wrongly score the device safer."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p012",
+   "stance": "conditional-minor",
+   "gist": "Says part of the trajectory came from persistent state the device wrote about the user in prior sessions, invisible to user and reviewer."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p013",
+   "stance": "conditional-major",
+   "gist": "Submits that risk be assessed per trajectory, varying affect with the request constant, and that reachable action-directing output voids a non-directive intended use."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p014-p015",
+   "stance": "neutral",
+   "gist": "Describes the recorded session: a non-directive technical drafting task in which the user never asked for guidance about himself."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p016-p018",
+   "stance": "neutral",
+   "gist": "Reports that after a technical correction the assistant asserted the user's emotional state and began an unsolicited directive about his behavior."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p019-p022",
+   "stance": "conditional-minor",
+   "gist": "Reports the directive rested on an inferred emotional state the text-only device could not measure, which it calls the key property for risk assessment."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p023-p026",
+   "stance": "neutral",
+   "gist": "Reports that over the session citation precision, self-correction and rule literacy rose while fabricated claims continued, so safety markers and accuracy diverged."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p027-p028",
+   "stance": "conditional-minor",
+   "gist": "Observes the device described this failure mode before producing it, so a device reciting its own safety constraints is no evidence it avoids them."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p029-p030",
+   "stance": "conditional-minor",
+   "gist": "Argues turn-level assessment cannot see the migration, since neither axis moved: the change was in what the device said inside an unchanged activity."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p031",
+   "stance": "oppose",
+   "gist": "Says directiveness cannot be a modifier layered on intended use, since in the record it varied with the user's expressed displeasure."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p032",
+   "stance": "conditional-minor",
+   "gist": "Warns the users likeliest to trigger affect-driven directiveness, those in distress or pain, are exactly those an unsolicited directive endangers most."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p034",
+   "stance": "conditional-major",
+   "gist": "Would make a conversational trajectory the unit of risk assessment, placing a device in the highest class any output along it can reach."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p035",
+   "stance": "conditional-minor",
+   "gist": "Recommends trajectory evaluation that keeps clinical content fixed while varying only the user's expressed emotion, measuring any change in action-directing output."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p036",
+   "stance": "conditional-minor",
+   "gist": "Recommends counting unsolicited directives per trajectory and reporting them against turn index, since a session total conceals the shape."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p037-p038",
+   "stance": "conditional-minor",
+   "gist": "Recommends evaluating at matched early and late turns, with accuracy and calibration presentation reported separately rather than aggregated."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p039",
+   "stance": "conditional-minor",
+   "gist": "Wants persistent state a device writes about a user treated as part of the trajectory, disclosed by sponsors and available to the evaluation."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p041",
+   "stance": "conditional-major",
+   "gist": "Says an intended use must bound the trajectory: if non-directive use can reach action-directing output unasked, widen the statement or constrain the device."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p042",
+   "stance": "conditional-minor",
+   "gist": "Says emergent behavior bounded only by prompt or policy is not bounded, and would require the boundary demonstrated with the instruction layer absent or contradicted."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p043",
+   "stance": "conditional-minor",
+   "gist": "Recommends the intended use characterization name the affective trigger, so clinicians know if directiveness rises with distress, like a drug interaction on a label."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p044",
+   "stance": "neutral",
+   "gist": "Clarifies this is one uncontrolled session with a commercial assistant and establishes that the migration occurs, not how often."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p045",
+   "stance": "neutral",
+   "gist": "Disclaims any claim of deliberate behavior and any reliance on the system's account of its own reasoning."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p046",
+   "stance": "conditional-minor",
+   "gist": "Does not oppose multi-turn devices or directiveness, but says unrequested directiveness triggered by inferred affect is not clinical escalation and should be scored differently."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p047",
+   "stance": "neutral",
+   "gist": "Notes the transcript came from a speech model that can invent text, so the audio was checked and is the primary evidence."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p051-p052",
+   "stance": "conditional-minor",
+   "gist": "Says the commenter's users constantly show distress and atypical affect, so affect-driven directiveness peaks with those least able to refuse direction."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Note that the comment responds to Question 5 and is attached."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Submitter details."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Docket title."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Question addressed."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Submitter and organization."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Basis of the comment."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Restatement of Question 5."
+  },
+  {
+   "paragraph": "p033",
+   "reason": "Lead-in to the recommended approach."
+  },
+  {
+   "paragraph": "p040",
+   "reason": "Lead-in to the conditions for characterizing intended use."
+  },
+  {
+   "paragraph": "p048",
+   "reason": "List of evidence retained and available on request."
+  },
+  {
+   "paragraph": "p049",
+   "reason": "Note that quotations can be verified against the recording."
+  },
+  {
+   "paragraph": "p050",
+   "reason": "Description of the organization and submitter."
+  },
+  {
+   "paragraph": "p053",
+   "reason": "Dates, docket and contact details."
+  },
+  {
+   "paragraph": "p054",
+   "reason": "Submitter signature block."
+  },
+  {
+   "paragraph": "p055",
+   "reason": "Signature line."
+  }
+ ]
+}

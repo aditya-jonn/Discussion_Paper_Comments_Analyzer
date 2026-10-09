@@ -1,0 +1,367 @@
+{
+ "comment_id": "FDA-2026-N-7874-0075",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p003",
+   "stance": "conditional-minor",
+   "gist": "Summarizes recommendations across Questions 18 to 26: enforceable authorization controls, action-level evaluation, intervention-ready monitoring, impact-based change assessment and protected investigation records."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Recommends FDA ask manufacturers to show how they control agent actions, evaluate failures and intervene during operation, scaling evidence to use and harm."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Wants evaluation of the response shown, the actions executed and what state connected systems end in, since a final response can hide a duplicated action."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p012",
+   "stance": "conditional-minor",
+   "gist": "Wants access and approval rules enforced in surrounding software independent of the model, with approvals bound to patient and action and renewed after material change."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p013",
+   "stance": "conditional-minor",
+   "gist": "Says reviewers must have sufficient information and time to judge a proposed action, tested with intended users; authorization is permission, not clinical appropriateness."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p014",
+   "stance": "conditional-minor",
+   "gist": "Wants complete action sequences tested for repeated or conflicting steps and delegation, with enforced limits on cumulative actions, time and resources."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p015",
+   "stance": "conditional-minor",
+   "gist": "Wants prompt-injection tests through inputs, retrieved content, tool results and retained context, checking that enforcement controls block induced unauthorized actions."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p016",
+   "stance": "conditional-minor",
+   "gist": "Wants tests of interrupted or partial execution, duplicate prevention or reconciliation when status is uncertain, and stopping and handoff with reviewers unavailable."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p017",
+   "stance": "conditional-major",
+   "gist": "Wants critical constraints prespecified and violations reported apart from aggregate scores, withholding a capability until an unresolved authorization bypass is fixed."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p018",
+   "stance": "conditional-minor",
+   "gist": "Wants failures reported by hazard, coverage, trial counts and uncertainty, noting that seeing no failures in a finite test set cannot prove failure impossible."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Finds more postmarket reliance acceptable where the manufacturer backs the initial determination, names the remaining uncertainty and shows a workable plan for resolving it."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p020",
+   "stance": "conditional-minor",
+   "gist": "Wants defined outcomes, an evidence target and deadline, exposure limits while uncertainty remains, and prespecified grounds for restricting use when evidence lags."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p021",
+   "stance": "conditional-minor",
+   "gist": "Says monitoring alone is inadequate where serious harm could precede detection and containment; such failures need preventive controls before deployment."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Wants each safety signal assigned an investigator, intervention condition and response time, with scheduled evaluations plus review after changes or incidents."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p023",
+   "stance": "conditional-minor",
+   "gist": "Wants tracking of attempted and completed unauthorized actions, duplicates, failed handoffs and lost records, reported with exposure counts and consequences."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p024",
+   "stance": "conditional-minor",
+   "gist": "Wants review of flagged cases plus an independently drawn sample, with justified coverage across sites and subgroups and reported uncertainty."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p025",
+   "stance": "conditional-minor",
+   "gist": "Says technical monitoring supports but does not establish clinical appropriateness, and manufacturers should document failures monitoring cannot catch in time."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p026",
+   "stance": "conditional-minor",
+   "gist": "Recommends manufacturers write down what deploying institutions and suppliers do while keeping responsibility for the monitoring and response plan."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p027",
+   "stance": "conditional-minor",
+   "gist": "Wants the plan to assign investigation, assessment, restriction, communication and restoration, with cross-organization handoffs shown to fit the response time."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p028",
+   "stance": "conditional-minor",
+   "gist": "Gives institutions, clinicians and societies supporting roles, with agreed staffing and a practical reporting route for users and patients."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p029",
+   "stance": "conditional-minor",
+   "gist": "Wants interventions suited to the device, such as disabling a tool or restricting writes, without requiring unrestricted remote access or universal shutdown."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p030",
+   "stance": "conditional-minor",
+   "gist": "Wants parties to rehearse response procedures, including unavailable decision-makers and failed interventions, and verify restoration criteria before resuming."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p031-p032",
+   "stance": "conditional-minor",
+   "gist": "Wants changes assessed across the whole deployed configuration, from model identifiers to permissions and execution logic, with a versioned record tied to evaluations."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p033",
+   "stance": "conditional-minor",
+   "gist": "Allows targeted testing when the affected functions can be shown, broadening for shared dependencies, cumulative changes and failure modes the baseline missed."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p034",
+   "stance": "neutral",
+   "gist": "Gives an example where changing a laboratory-result selection rule, with the model unchanged, could surface an older result and would need testing."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q23",
+   "paragraph": "p035",
+   "stance": "conditional-minor",
+   "gist": "Distinguishes ordinary inputs from changes to knowledge or behavior through memory, adaptive retrieval or learning, whose permitted scope and triggers should be defined."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p036",
+   "stance": "conditional-minor",
+   "gist": "Wants changes assessed across the whole deployed configuration, model identifiers to permissions and execution logic, with a versioned record tied to evaluations."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p037",
+   "stance": "conditional-minor",
+   "gist": "Wants manufacturers to document supplier version guarantees, notices and retirement terms, and establish what a service identifier actually covers."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p038",
+   "stance": "conditional-minor",
+   "gist": "Wants adoption of a replacement model to be an explicit release decision, with restriction or a different dependency where change cannot be managed safely."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p039",
+   "stance": "conditional-minor",
+   "gist": "Says behavioral checks can help detect supplier changes but their coverage and blind spots should be stated, not treated as proof of no change."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p040",
+   "stance": "conditional-minor",
+   "gist": "Wants a tested fallback for supplier retirement, such as another evaluated configuration or a human workflow with adequate capacity."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p041",
+   "stance": "conditional-minor",
+   "gist": "Wants incident response to cover affected outputs and users, with FDA judging controls without requiring self-hosting, model weights or indefinite support."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p042",
+   "stance": "conditional-minor",
+   "gist": "Wants the supervisor's role, evidence access and intervention authority defined, since screening, triage and blocking need different evaluations."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p043",
+   "stance": "conditional-minor",
+   "gist": "Wants supervisor evaluation with proper reference criteria, separated cases, documented independence, and evidence beyond the agents' own agreement."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p044",
+   "stance": "conditional-minor",
+   "gist": "Wants missed failures, false alarms and shared failure modes reported, with added protection measured by comparison; different vendors alone do not make independence."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p045",
+   "stance": "conditional-minor",
+   "gist": "Wants evaluation to cover missed unsafe actions, wrongful blocking and review workload, with supervisor changes assessed like device changes."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p046",
+   "stance": "conditional-minor",
+   "gist": "Wants a defined response to an unavailable or inconclusive supervisor and no uncontrolled bypass, with evidence scaled to the protection claimed."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p047",
+   "stance": "conditional-minor",
+   "gist": "Would extend existing traceability and risk documentation to agent execution, linking each safety claim to its hazard, control, evaluation and limitation."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p048",
+   "stance": "conditional-minor",
+   "gist": "Wants retained records of configuration, inputs, outputs, approvals, tool calls and state changes, distinguishing proposed, blocked, completed and uncertain actions."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p049",
+   "stance": "conditional-minor",
+   "gist": "Wants records protected from alteration, including by the agent, with loss detected and handled according to its safety impact."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p050",
+   "stance": "conditional-minor",
+   "gist": "Wants justified retention of patient information for investigation, with protected references that let investigators retrieve historical versions."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p051",
+   "stance": "conditional-minor",
+   "gist": "Says investigations should be built on actions and state changes that can be observed, since a model's explanation does not prove the actions occurred."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p052",
+   "stance": "conditional-minor",
+   "gist": "Wants investigations rehearsed with the records available after deployment, and exact user-facing content preserved where wording matters."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p053",
+   "stance": "conditional-minor",
+   "gist": "Concludes FDA should ask manufacturers to back safety claims with tested controls, and plans to say who can intervene, how, and within what time."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Note that the comment is attached."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Personal-capacity disclaimer."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Request to consider the attachment as the full comment."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Signature."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Submitter and questions addressed."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Introduction of the writer."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Disclaimers about capacity, hypothetical examples and the scope of engineering recommendations."
+  },
+  {
+   "paragraph": "p054",
+   "reason": "Signature and reference."
+  },
+  {
+   "paragraph": "p055",
+   "reason": "Reference."
+  },
+  {
+   "paragraph": "p056",
+   "reason": "Reference."
+  },
+  {
+   "paragraph": "p057",
+   "reason": "Reference."
+  },
+  {
+   "paragraph": "p058",
+   "reason": "Reference."
+  }
+ ]
+}

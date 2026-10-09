@@ -1,0 +1,156 @@
+{
+ "comment_id": "FDA-2026-N-7874-0019",
+ "tags": [
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p002-p003",
+   "stance": "oppose",
+   "gist": "A psychiatry resident says the framework does not capture GenAI risk, wants clear warnings on any medical guidance, and prefers human mental health care."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p004-p005",
+   "stance": "oppose",
+   "gist": "Repeats that any output carrying medical guidance needs a clear message and that people should keep relying on human mental health professionals."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Wants every clinic and user to carry a disclaimer that AI is not fail-safe and results may vary, with behavioral health facilities ensuring patient safety."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p007-p008",
+   "stance": "oppose",
+   "gist": "Repeats that patients should keep relying on human professionals rather than AI models in the mental health field."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q3",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Wants every form of AI output translated into different languages and broken down for patients."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q4",
+   "paragraph": "p010-p012",
+   "stance": "oppose",
+   "gist": "Says AI is more work than help, no safeguard can mitigate the risk, and only keeping humans in place fixes it."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p013-p014",
+   "stance": "neutral",
+   "gist": "Describes a clinical AI tool flagging out-of-scope questions but doubts that stops misuse elsewhere, and has stopped using it."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q6",
+   "paragraph": "p015-p016",
+   "stance": "oppose",
+   "gist": "Says there are no acceptable trade-offs in any clinical context and that AI currently carries more risk and responsibility than it is worth."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q7",
+   "paragraph": "p017-p018",
+   "stance": "conditional-minor",
+   "gist": "Finds the approach ideal on its face but asks how patient data would be kept safe during it and who would answer for leaks."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p019-p020",
+   "stance": "oppose",
+   "gist": "Says the two-axis framework is unnecessary and asks how patient data will be protected from breach, theft or sale."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p021-p022",
+   "stance": "conditional-minor",
+   "gist": "Calls the benchmarking structure nice but wants a clinical trial or study with informed consent and safeguards for confidentiality."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p023-p026",
+   "stance": "conditional-minor",
+   "gist": "Has no answer but says the benchmark needs fleshing out through a pilot and a behavioral health study, asking who is responsible for consent."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q11",
+   "paragraph": "p027-p028",
+   "stance": "oppose",
+   "gist": "Rejects skipping prospective studies: run a clinical trial and be open about it with everyone, including the public."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q12",
+   "paragraph": "p029-p030",
+   "stance": "neutral",
+   "gist": "Suggests survey studies and checking accuracy of information and patient data, while calling informed consent dicey."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p031-p032",
+   "stance": "neutral",
+   "gist": "Says almost every group, especially behavioral health, elderly, children, non-English and rural patients, is hard to cover, so limited studies give limited data."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q14",
+   "paragraph": "p033-p034",
+   "stance": "oppose",
+   "gist": "Doubts a clinician-panel comparator makes sense, since few physicians would agree to take part for fear of backlash and risk to their license."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q15",
+   "paragraph": "p035-p037",
+   "stance": "oppose",
+   "gist": "Finds the question unanswerable without a pilot, rejects unaided judgment and delayed specialist review as comparators, and doubts a robot can justify no intervention."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p038-p039",
+   "stance": "conditional-minor",
+   "gist": "Welcomes an independent third party and wants research boards, NIH, NAMI, SAMHSA and the AMA involved, while doubting it is possible."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p040-p042",
+   "stance": "conditional-minor",
+   "gist": "Likes the competency approach but wants FDA to gather public opinion first from many groups, with a plain-language paper."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Introduction and disclaimer that no AI was used."
+  },
+  {
+   "paragraph": "p043",
+   "reason": "Disclaimer and consent statement about the comment itself; no point about the paper."
+  },
+  {
+   "paragraph": "p044",
+   "reason": "Sign-off."
+  },
+  {
+   "paragraph": "p045",
+   "reason": "Signature."
+  }
+ ]
+}

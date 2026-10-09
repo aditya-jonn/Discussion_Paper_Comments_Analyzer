@@ -1,0 +1,347 @@
+{
+  "comment_id": "FDA-2026-N-7874-0118",
+  "tags": [
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p006-p007",
+      "stance": "conditional-major",
+      "gist": "Supports the framework as a starting point but wants reversibility as its own explicit dimension, since anaphylaxis advice and allergen counseling differ in reversibility."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p008-p009",
+      "stance": "conditional-minor",
+      "gist": "Wants clinicians to have a reliable way to verify what a device did or recommends and to reverse or override it, especially for higher-autonomy functions."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p010",
+      "stance": "conditional-minor",
+      "gist": "Asks CDRH to weight the setting's time pressure and make traceability to current practice parameters a core requirement as guidance evolves."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p011-p012",
+      "stance": "conditional-minor",
+      "gist": "Agrees directiveness is judged by substance; wants manufacturers to document where each output type sits and test for unintended drift toward directiveness."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p013-p014",
+      "stance": "conditional-minor",
+      "gist": "Says patient-facing tools deserve more weight than the framework implies, since patients misdescribe symptoms and a tool lacks a trained ear."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p015",
+      "stance": "conditional-minor",
+      "gist": "Notes many patients use tools instead of seeking care, so even low-risk-looking reassurance or remedies can cause harm."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p016",
+      "stance": "conditional-minor",
+      "gist": "Wants patient-facing advice devices to carry a persistent disclaimer, and a probably absent clinician backstop treated as a risk-elevating factor."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q4",
+      "paragraph": "p017-p018",
+      "stance": "conditional-minor",
+      "gist": "Says user training should inform risk; wants manufacturers to identify intended users' expected training and evaluate foreseeable generalist misapplication."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p019-p020",
+      "stance": "conditional-minor",
+      "gist": "Supports trajectory evaluation; wants intended use defined by where a conversation plausibly ends, with multi-turn adversarial scripts probing drift."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p021-p022",
+      "stance": "conditional-minor",
+      "gist": "Wants separate reporting by scenario severity with intentionally asymmetric criteria: very low tolerance for under-escalation near anaphylaxis, more for over-escalation."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p023-p024",
+      "stance": "conditional-minor",
+      "gist": "Finds the framework reasonable but says training data must include real patient conversations, since patients describe symptoms inconsistently."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p025",
+      "stance": "conditional-minor",
+      "gist": "Wants experienced physicians practising in the relevant specialty involved during development, not only in later validation."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p026",
+      "stance": "conditional-minor",
+      "gist": "Wants guidance to state competency evaluation supplements postmarket accountability and to test handling of non-textbook presentations as its own evidence category."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q8",
+      "paragraph": "p027-p028",
+      "stance": "conditional-minor",
+      "gist": "Wants the framework to scale both benchmarking breadth and confirmation rigor, with patient-facing rescue-medication tools needing adjudication or prospective evaluation."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p029-p030",
+      "stance": "conditional-minor",
+      "gist": "Calls the structure thorough and would add a clinical proficiency element for longitudinal chronic disease management reasoning."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p031",
+      "stance": "conditional-minor",
+      "gist": "Wants subgroup testing to explicitly require ethnically and racially diverse populations, plus pregnancy and pediatric age bands."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p032",
+      "stance": "conditional-minor",
+      "gist": "Would add a dedicated element on atypical, non-textbook and ambiguous presentations, where judgment matters most."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p033-p034",
+      "stance": "conditional-minor",
+      "gist": "Wants construct validity shown by correlation with real outcomes, sponsor benchmarks independently validated with unseen items, results and rubrics shared with users."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q11",
+      "paragraph": "p035-p036",
+      "stance": "conditional-minor",
+      "gist": "Supports proportionality with a floor: severe-consequence action-directing devices cannot rely on retrospective review alone; favours shadow deployment with shared results."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p037-p038",
+      "stance": "conditional-minor",
+      "gist": "Defers on methods but wants physicians in results review and evaluation distributions spanning multiple geographies and patient types."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p039-p040",
+      "stance": "conditional-minor",
+      "gist": "Finds synthetic data fine for common presentations but risky for rare conditions; wants an independent non-GenAI reference dataset for any supplemented subgroup."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p041-p042",
+      "stance": "conditional-minor",
+      "gist": "Would match the comparator to workflow: team performance where a physician reviews, device alone against a specialist panel for autonomous or patient-facing use."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p043",
+      "stance": "conditional-minor",
+      "gist": "Wants reviewers practising in the device's specialty represented on any panel judging specialist-level outputs."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p044",
+      "stance": "conditional-minor",
+      "gist": "Suggests a tiered panel, experts first then median clinicians, with practice guidelines anchoring the standard of care where relevant."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q15",
+      "paragraph": "p045-p046",
+      "stance": "conditional-minor",
+      "gist": "Sees no-device comparators as a useful supplement for access-expanding tools, but not a replacement for a specialist panel when available."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p047-p048",
+      "stance": "conditional-minor",
+      "gist": "Supports societies holding specialty datasets and adjudicators, wanting third-party assessments published, conflicts disclosed and barriers to small developers avoided."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q17",
+      "paragraph": "p049-p050",
+      "stance": "conditional-minor",
+      "gist": "Finds the framework largely architecture agnostic; wants image-based devices tested across capture quality, lighting and skin tone."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p051-p052",
+      "stance": "conditional-minor",
+      "gist": "Supports the trade only for lower-risk functions, not anaphylaxis or autonomous dosing, and wants near-real-time monitoring of safety-critical behaviors as a condition."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p053-p054",
+      "stance": "conditional-minor",
+      "gist": "Finds the three approaches complementary; wants a minimum interval plus triggers such as model updates, and clinician review oversampling safety-critical interactions."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p055",
+      "stance": "conditional-minor",
+      "gist": "Wants two standing requirements: a prespecified severity-tiered response protocol for incorrect outputs and a fast, answered clinician feedback channel."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p056-p057",
+      "stance": "conditional-minor",
+      "gist": "Worries a supervisor sharing the device's architecture shares its blind spots; wants ongoing physician review as the final layer for safety-critical flags."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p058",
+      "stance": "conditional-major",
+      "gist": "Wants a required kill switch: a fast, human-controlled way to stop a device whose code is corrupted or output is harming patients."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p059-p060",
+      "stance": "conditional-minor",
+      "gist": "Keeps primary monitoring responsibility with manufacturers, who hold the data; clinicians report and societies advise without taking on responsibility."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p061",
+      "stance": "conditional-minor",
+      "gist": "Says societies should not have to collect or review manufacturer data; participation should be voluntary and funded."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p062",
+      "stance": "conditional-minor",
+      "gist": "Wants manufacturers to maintain a transparent clinical review process, with authorization suspended if adequate monitoring and review prove impossible."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p063",
+      "stance": "conditional-minor",
+      "gist": "Says device-error liability should not fall solely on a physician nominally in the loop; asks CDRH to flag the gap to other authorities."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p064-p065",
+      "stance": "conditional-minor",
+      "gist": "Says a one-time competency assessment cannot cover ongoing change from sponsor updates or uncontrolled foundation model changes."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p066",
+      "stance": "conditional-minor",
+      "gist": "Would scale re-evaluation to affected elements, fully re-benchmark safety after model or guardrail changes, and exclude open-ended model changes from PCCPs."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q23",
+      "paragraph": "p067-p068",
+      "stance": "conditional-minor",
+      "gist": "Suggests a tiered PCCP: narrow prespecified changes handled traditionally, broader evolution governed by a pre-authorized standing re-benchmarking protocol."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p069-p070",
+      "stance": "conditional-minor",
+      "gist": "Would require contractual advance notice as a condition of authorization, safety re-benchmarking before deploying updates, user communication, and automated drift monitoring."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p071-p072",
+      "stance": "conditional-minor",
+      "gist": "Supports master files and suggests an incentive: letting sponsors who reference one satisfy part of their benchmarking burden for model-level behaviors."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p073",
+      "stance": "conditional-minor",
+      "gist": "Wants devices offering clinical advice required to give health systems and physicians training, validation and subgroup results plus periodic real-world performance reports."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p074-p075",
+      "stance": "conditional-minor",
+      "gist": "Wants tested human-confirmation checkpoints before irreversible actions, scaled to the risk framework, and attention to compounding error across long sequences."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p076",
+      "stance": "conditional-major",
+      "gist": "Wants a required kill switch: a fast, human-controlled way to stop an agent mid-sequence before an irreversible action."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to attachment."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Addressee and date."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Subject line."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Introduction of the organization."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Lead-in to the responses."
+    },
+    {
+      "paragraph": "p077",
+      "reason": "Thanks and contact details."
+    },
+    {
+      "paragraph": "p078",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p079",
+      "reason": "Signatures."
+    }
+  ]
+}

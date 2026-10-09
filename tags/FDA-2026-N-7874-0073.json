@@ -1,0 +1,526 @@
+{
+ "comment_id": "FDA-2026-N-7874-0073",
+ "tags": [],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Pointer to the attachment."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p007",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p008",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p009",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p010",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p011",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p012",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p015",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p016",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p017",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p018",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p019",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p020",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p021",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p022",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p023",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p024",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p025",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p026",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p027",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p028",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p029",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p030",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p031",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p032",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p033",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p034",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p035",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p036",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p037",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p038",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p039",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p040",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p041",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p042",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p043",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p044",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p045",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p046",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p047",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p048",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p049",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p050",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p051",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p052",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p053",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p054",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p055",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p056",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p057",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p058",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p059",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p060",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p061",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p062",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p063",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p064",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p065",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p066",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p067",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p068",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p069",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p070",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p071",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p072",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p073",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p074",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p075",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p076",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p077",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p078",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p079",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p080",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p081",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p082",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p083",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p084",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p085",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p086",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p087",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p088",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p089",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p090",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p091",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p092",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p093",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p094",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p095",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p096",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p097",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p098",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p099",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p100",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p101",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p102",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p103",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p104",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p105",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p106",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p107",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p108",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p109",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p110",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p111",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p112",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p113",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p114",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p115",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p116",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p117",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p118",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p119",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p120",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p121",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p122",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p123",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p124",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p125",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p126",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p127",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p128",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p129",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  },
+  {
+   "paragraph": "p130",
+   "reason": "Reproduces the text of FDA's discussion paper itself, with no point by the commenter."
+  }
+ ]
+}

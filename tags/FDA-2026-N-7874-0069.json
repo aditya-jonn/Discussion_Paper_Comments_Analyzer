@@ -1,0 +1,13 @@
+{
+ "comment_id": "FDA-2026-N-7874-0069",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "DEF",
+   "paragraph": "p001",
+   "stance": "conditional-minor",
+   "gist": "Asks whether devices that derive insights from existing research count as generative, and wants a broader explanation or a separate proposal for causal AI."
+  }
+ ],
+ "skipped": []
+}

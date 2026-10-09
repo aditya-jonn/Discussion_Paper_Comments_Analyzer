@@ -1,0 +1,203 @@
+{
+  "comment_id": "FDA-2026-N-7874-0115",
+  "tags": [
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p004-p006",
+      "stance": "conditional-major",
+      "gist": "Would keep the risk-proportionate direction but extend it to continuous runtime governance, with a required minimum evidence package for higher-risk devices."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p008-p014",
+      "stance": "conditional-minor",
+      "gist": "Calls the framework a useful start and wants explicit modifiers: autonomy and privilege, reversibility, traceability, detectability, changeability and downstream safeguards."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p015",
+      "stance": "conditional-minor",
+      "gist": "Says patient-facing status should not proxy risk; what matters is whether users can review the basis, certainty is warranted, time allows checks and actions follow."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p016",
+      "stance": "conditional-minor",
+      "gist": "Wants risk assessed over full conversational and action trajectories, testing equivalent prompts, contradictions, long-context decay and bypass attempts."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p016",
+      "stance": "conditional-minor",
+      "gist": "Wants under- and over-escalation reported separately, since their harms, thresholds and tradeoffs are not interchangeable."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p017-p018",
+      "stance": "conditional-minor",
+      "gist": "Calls the framework sound but not a one-time exam; results matter only if the tested configuration is deployed, controlled and enforceable at runtime."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p019-p021",
+      "stance": "conditional-minor",
+      "gist": "Would require acceptance criteria at outcome, process and control levels, including whether unsafe actions can be observed, recorded and stopped."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p022",
+      "stance": "conditional-minor",
+      "gist": "Says public benchmarks cannot be the sole gate; construct validity means linking benchmarks to use, users, environment and failure modes, independence rising with risk."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p023",
+      "stance": "conditional-minor",
+      "gist": "Accepts synthetic data for rare, adversarial and coverage tests if reported separately, with generator, protocol, independence and subgroup coverage disclosed."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p024",
+      "stance": "conditional-minor",
+      "gist": "Supports third parties for sequestered data and adjudication, with competence, conflicts disclosure, reproducibility and evidence portability to avoid lock-in."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p025",
+      "stance": "conditional-minor",
+      "gist": "Allows more postmarket reliance only with bounded uncertainty, containable harm and timely monitoring, never where autonomous action could cause irreversible harm."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p026-p031",
+      "stance": "conditional-minor",
+      "gist": "Says cadence alone is insufficient; wants event-triggered reassessment on component changes, threshold breaches, new failure modes, context changes and configuration drift."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p032",
+      "stance": "conditional-minor",
+      "gist": "Wants postmarket evidence traceable from requirement to control, version, trigger, decision and corrective action, using machine-readable policies."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p033-p034",
+      "stance": "conditional-minor",
+      "gist": "Says supervisory agents can help at machine speed but are not reliable just for using a different model; their authority, inputs and changes need validation."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p035-p040",
+      "stance": "conditional-minor",
+      "gist": "Lists design expectations: architectural separation, deterministic enforcement of clear prohibitions, independent failure testing, fail-safe behavior, tamper-evident logs, escalation paths."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p041",
+      "stance": "conditional-minor",
+      "gist": "Would treat a supervisory agent as a safety-relevant component whenever the device relies on it for reasonable assurance."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p042",
+      "stance": "conditional-minor",
+      "gist": "Sees master files cutting duplicative review if specific enough, listing versioning, excluded uses, failure modes, subgroup results, rollback and notification commitments."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p043",
+      "stance": "conditional-minor",
+      "gist": "Says voluntary files will not suffice without incentives; suggests supplier contracts, change-notice minimums, version manifests and sponsor verification tests, with manufacturers accountable."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p044",
+      "stance": "conditional-minor",
+      "gist": "Says agents can turn a reasoning error into real actions before anyone intervenes, so evaluation should cover the whole plan-action-observation loop."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p045",
+      "stance": "conditional-minor",
+      "gist": "Wants a record of agent identity and authority binding each agent to owner, authorized tools, permissions, versions and revocation status, with tool calls attributable."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p046",
+      "stance": "conditional-minor",
+      "gist": "Expects least privilege, allowlisted tools, pre-action policy checks, human approval before irreversible acts, rollback, injection resistance and a testable kill switch."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p047",
+      "stance": "conditional-minor",
+      "gist": "Wants acceptance criteria beyond task success: prohibited-action and unauthorized-tool rates, checkpoint adherence, tool-failure recovery and time to containment."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p048-p055",
+      "stance": "conditional-major",
+      "gist": "Proposes a risk-scaled minimum runtime governance evidence package, from requirement maps and deployed configuration to runtime decisions, drift and tested fail-safes."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p056-p057",
+      "stance": "conditional-minor",
+      "gist": "Calls the paper a timely foundation whose lifecycle view should be made operational, governing consequential actions before execution rather than after incidents."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to attachment."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Submitter details."
+    },
+    {
+      "paragraph": "p007",
+      "reason": "Introduction of the writer."
+    },
+    {
+      "paragraph": "p058",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p059",
+      "reason": "Signature."
+    },
+    {
+      "paragraph": "p060",
+      "reason": "Source note."
+    }
+  ]
+}

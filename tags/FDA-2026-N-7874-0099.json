@@ -1,0 +1,100 @@
+{
+  "comment_id": "FDA-2026-N-7874-0099",
+  "tags": [
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p002",
+      "stance": "support",
+      "gist": "Supports the direction of the paper, addressing risk axes, human review, third-party accountability, change control and monitoring."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p003",
+      "stance": "conditional-minor",
+      "gist": "Centrally recommends CDRH make the decision criteria around these controls explicit, since implicit controls are applied inconsistently."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p006",
+      "stance": "support",
+      "gist": "Supports the paper's direction from experience with CAPA, complaints and surveillance, judging what holds up under inspection."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p007-p009",
+      "stance": "conditional-major",
+      "gist": "Agrees the two axes matter most but wants reversibility of the action evaluated as an explicit gating factor before a function's final risk position."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p010-p013",
+      "stance": "conditional-minor",
+      "gist": "Would count human review as risk mitigation only when the reviewer has competence, source information, time, authority and documented responsibility."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p014-p016",
+      "stance": "support",
+      "gist": "Supports keeping manufacturer accountability undiluted, cautioning that vendor relationships transfer work, not responsibility."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p017",
+      "stance": "conditional-minor",
+      "gist": "Finds master files useful but wants sponsor responsibility stated across the lifecycle, so reliance on one never shifts duty to control developer changes."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p018-p021",
+      "stance": "conditional-minor",
+      "gist": "Wants guidance to state that prompt, retrieval, guardrail and orchestration changes affecting outputs are device changes under change control, not exempt configuration."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p022-p025",
+      "stance": "conditional-minor",
+      "gist": "Supports exploring the trade in justified cases, but monitoring must target the specific failure modes benchmarking left open, with thresholds, owners and rollback criteria."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p026",
+      "stance": "support",
+      "gist": "Calls the two-axis framework and competency approach directionally sound and appreciates the public development."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p027",
+      "stance": "conditional-minor",
+      "gist": "Wants future guidance to define when extra risk factors apply, what meaningful review is, how accountability is retained, and which non-code changes need control."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Introduction of the writer."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Submitter details."
+    },
+    {
+      "paragraph": "p028",
+      "reason": "Thanks."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+ "comment_id": "FDA-2026-N-7874-0048",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p001",
+   "stance": "support",
+   "gist": "Supports a risk-proportionate lifecycle approach."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p002",
+   "stance": "conditional-major",
+   "gist": "Wants practical modifiers added: reversibility, time to correction, error detectability, version traceability, safeguard independence, exposure before containment and workflow stability."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q2",
+   "paragraph": "p003",
+   "stance": "conditional-minor",
+   "gist": "Wants directiveness judged by observed behavior, since personalization, urgency, defaults, confidence display and tool use can turn information into direction."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q5",
+   "paragraph": "p003",
+   "stance": "conditional-minor",
+   "gist": "Wants multi-turn evaluation to cover context accumulation or loss, escalation, refusal, interruption and safe stop."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p004",
+   "stance": "conditional-minor",
+   "gist": "Wants claim-specific, traceable evidence naming population, setting, reference standard, criteria and exclusions, with adversarial, shifted and repeated-run testing."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p005",
+   "stance": "conditional-minor",
+   "gist": "Would not presume public benchmarks predict clinical performance, and wants external adjudication, preregistration or locked tests where sponsors control testing."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p006",
+   "stance": "conditional-minor",
+   "gist": "Limits synthetic data to schema tests, fault injection and specified rare cases, keeping its results apart from real data unless both estimate one quantity."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q18",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Says monitoring should add to rather than replace premarket evidence, accepting more uncertainty only when failures are detectable, limited, bounded and containable."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Wants a versioned baseline, indicators, investigation thresholds, review ownership and rollback rules, with reassessment after any material change or new signal."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Wants a versioned dependency inventory with change notice, pinning, regression and canary tests, and narrower permitted use when a dependency cannot be controlled."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p010",
+   "stance": "conditional-minor",
+   "gist": "Wants action-sequence criteria covering tool selection, authorization, least privilege, approval before irreversible acts, interruption and rollback, with oversight before action."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p011",
+   "stance": "conditional-minor",
+   "gist": "Sums up asks for structured modifiers, traceable evidence, explicit uncertainty and versioned records, with null and adverse evidence kept visible."
+  }
+ ],
+ "skipped": []
+}

@@ -1,0 +1,179 @@
+{
+ "comment_id": "FDA-2026-N-7874-0042",
+ "tags": [
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p003-p004",
+   "stance": "conditional-major",
+   "gist": "Says the supervised-versus-autonomous distinction on the activity axis cannot be verified from audit records, which hold one actor per event and so hide drift."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p005",
+   "stance": "conditional-major",
+   "gist": "Wants attribution traceability, whether records separate authenticating, acting and authorizing identities, as a framework dimension raising risk when absent."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p006",
+   "stance": "neutral",
+   "gist": "Notes a thorough public reference implementation still cannot yield a record from which supervision is recoverable, since its trace sits in platform telemetry."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p007",
+   "stance": "conditional-minor",
+   "gist": "Says the HL7 audit extension cannot express an agent acting for another agent, so supervisory-agent records could not name the accountable clinician."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p008",
+   "stance": "conditional-minor",
+   "gist": "Suggests testable criteria: attribution emitted not inferred, unattributed agent actions positively recorded, and attribution strength stated."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p009",
+   "stance": "conditional-minor",
+   "gist": "Says the standards gap has an owner and open process, and an FDA expectation about what records preserve would move it faster than new rules."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p017-p019",
+   "stance": "conditional-major",
+   "gist": "Argues a device authorized as supervised that later runs unsupervised produces records identical to the supervised case, so the drift is unrepresented."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p020",
+   "stance": "conditional-major",
+   "gist": "Frames attribution traceability as a risk dimension, a precondition for supervisory agents and a testable agentic acceptance criterion."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p021-p029",
+   "stance": "conditional-major",
+   "gist": "Separates authenticating, acting and authorizing identities and wants devices whose records cannot preserve that distinction placed at higher risk."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p030-p031",
+   "stance": "neutral",
+   "gist": "Describes a careful twelve-agent prototype whose agent participation survives only in vendor telemetry, so clinician-composed and agent-drafted records look alike."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p032",
+   "stance": "conditional-minor",
+   "gist": "Prefers attribution held as scalar metadata within the audit record rather than retained prompts, which create a disclosure surface over real patients."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p033-p041",
+   "stance": "conditional-minor",
+   "gist": "Details why the draft HL7 on-behalf-of extension excludes devices and misroutes requestor queries, asking FDA to check records can express supervision before relying on supervisors."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p042-p051",
+   "stance": "conditional-minor",
+   "gist": "Wants oversight-checkpoint compliance recorded in production, with emitted attribution, positively marked unattributed actions and stated attribution strength as acceptance criteria."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p052-p055",
+   "stance": "conditional-minor",
+   "gist": "Assigns standards bodies the definition of attribution semantics, keeping manufacturers accountable for what devices emit and helping small providers inherit the capability."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p056-p059",
+   "stance": "conditional-minor",
+   "gist": "Names a fourth change type, erosion of human involvement without any software change, which degradation monitoring can only see if records distinguish authorized actions."
+  },
+  {
+   "code": "AGENTIC",
+   "subcode": "Q26",
+   "paragraph": "p060-p063",
+   "stance": "neutral",
+   "gist": "Limits its claims: attribution cannot detect a non-cooperating agent, is offered within existing criteria rather than as new burden, and its artifacts are not devices."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Lead-in naming the questions addressed."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Disclosure of interests."
+  },
+  {
+   "paragraph": "p010",
+   "reason": "Availability of the writer's artifacts."
+  },
+  {
+   "paragraph": "p011",
+   "reason": "Signature."
+  },
+  {
+   "paragraph": "p012",
+   "reason": "Docket header."
+  },
+  {
+   "paragraph": "p013",
+   "reason": "Submitter and questions addressed."
+  },
+  {
+   "paragraph": "p014",
+   "reason": "Disclosure of interests."
+  },
+  {
+   "paragraph": "p015",
+   "reason": "Disclosure of interests."
+  },
+  {
+   "paragraph": "p016",
+   "reason": "Lead-in to the comment."
+  },
+  {
+   "paragraph": "p064",
+   "reason": "Availability of the writer's artifacts."
+  },
+  {
+   "paragraph": "p065",
+   "reason": "Note on why the artifacts are cited."
+  },
+  {
+   "paragraph": "p066",
+   "reason": "Citation of the illustrated implementation."
+  },
+  {
+   "paragraph": "p067",
+   "reason": "Citation of the HL7 extension."
+  },
+  {
+   "paragraph": "p068",
+   "reason": "Thanks."
+  },
+  {
+   "paragraph": "p069",
+   "reason": "Signature."
+  }
+ ]
+}

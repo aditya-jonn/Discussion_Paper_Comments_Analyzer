@@ -1,0 +1,13 @@
+{
+ "comment_id": "FDA-2026-N-7874-0060",
+ "tags": [
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p001",
+   "stance": "conditional-minor",
+   "gist": "Wants full-loop auditability of how clinician comments on AI outputs are used to adjust the model or are dismissed, with reasons recorded."
+  }
+ ],
+ "skipped": []
+}

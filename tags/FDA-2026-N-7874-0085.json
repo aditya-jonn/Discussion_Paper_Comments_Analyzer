@@ -1,0 +1,161 @@
+{
+ "comment_id": "FDA-2026-N-7874-0085",
+ "tags": [
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p007",
+   "stance": "neutral",
+   "gist": "Clarifies that dataset documentation makes validity, contamination and representativeness inspectable but does not establish any of them."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p008-p012",
+   "stance": "conditional-minor",
+   "gist": "Suggests separating how well a device performs from what the evaluation asset was, so documentation can be machine-checked without being mistaken for a safety judgment."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p013-p023",
+   "stance": "conditional-minor",
+   "gist": "Says judging contamination and representativeness needs documented provenance, population, annotation process, processing, partitions, quality records and dataset version."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p024",
+   "stance": "neutral",
+   "gist": "Cites the commenter's own preprint finding that four public imaging datasets met only a fifth to two-fifths of evaluated documentation dimensions."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p025",
+   "stance": "conditional-minor",
+   "gist": "Recommends that construct-validity evidence come with structured, machine-checkable records describing the benchmark dataset itself."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p026-p027",
+   "stance": "conditional-minor",
+   "gist": "Suggests, as an external standard, a machine-checkable minimum documentation layer for evaluation datasets, separate from any judgment of quality or performance."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p028-p029",
+   "stance": "neutral",
+   "gist": "Describes the commenter's open imaging dataset standard, its required provenance and version fields, and a validator that checks presence and structure only."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p030",
+   "stance": "conditional-minor",
+   "gist": "Offers the standard as proof the concept is implementable, recommending the concept rather than the standard itself."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q16",
+   "paragraph": "p031-p032",
+   "stance": "conditional-minor",
+   "gist": "Says a shared documentation layer would let third parties describe sequestered datasets without disclosing them and is an early candidate for standards work."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p033-p036",
+   "stance": "conditional-minor",
+   "gist": "Says re-benchmarking against a premarket baseline needs the benchmark's exact version, subjects and partitions identified so asset changes do not confound device comparisons."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p037",
+   "stance": "conditional-minor",
+   "gist": "Notes subgroup analysis needs documented dataset composition, which a subject registry partly supplies, though not the dialect and literacy dimensions of R.2."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q13",
+   "paragraph": "p038",
+   "stance": "conditional-minor",
+   "gist": "Suggests an origin declaration distinguishing acquired, synthetic, simulated, phantom-derived and mixed data, with generation methods recorded."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p039",
+   "stance": "conditional-minor",
+   "gist": "Notes the training-data provenance content of master files raises a similar documentation question that could use structured treatment."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q10",
+   "paragraph": "p040",
+   "stance": "conditional-minor",
+   "gist": "Concludes with three recommendations: documented benchmark datasets beside validity evidence, a standardized documentation layer with versioning, and an origin declaration."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p001",
+   "reason": "Pointer to the attachment and its scope."
+  },
+  {
+   "paragraph": "p002",
+   "reason": "Title of the attachment."
+  },
+  {
+   "paragraph": "p003",
+   "reason": "Docket and submitter."
+  },
+  {
+   "paragraph": "p004",
+   "reason": "Date and section heading."
+  },
+  {
+   "paragraph": "p005",
+   "reason": "Description of the organization and its standard."
+  },
+  {
+   "paragraph": "p006",
+   "reason": "Statement of the comment's scope and the questions addressed."
+  },
+  {
+   "paragraph": "p041",
+   "reason": "Thanks and offer of further detail."
+  },
+  {
+   "paragraph": "p042",
+   "reason": "Signature."
+  },
+  {
+   "paragraph": "p043",
+   "reason": "References and contact details."
+  },
+  {
+   "paragraph": "p044",
+   "reason": "References and contact details."
+  },
+  {
+   "paragraph": "p045",
+   "reason": "References and contact details."
+  },
+  {
+   "paragraph": "p046",
+   "reason": "References and contact details."
+  },
+  {
+   "paragraph": "p047",
+   "reason": "References and contact details."
+  },
+  {
+   "paragraph": "p048",
+   "reason": "References and contact details."
+  }
+ ]
+}

@@ -1,0 +1,776 @@
+{
+  "comment_id": "FDA-2026-N-7874-0120",
+  "tags": [
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p007",
+      "stance": "support",
+      "gist": "Says the paper appropriately seeks a risk-proportionate, least-burdensome framework and names supervision, reversibility, traceability and team performance as relevant."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p008-p009",
+      "stance": "conditional-minor",
+      "gist": "Supports oversight when AI diagnoses autonomously or its unverified output enters care, but wants that distinguished from private, non-final drafts for the interpreting radiologist."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p011",
+      "stance": "conditional-major",
+      "gist": "Rather than a non-device declaration, requests a narrowly bounded premarket enforcement-discretion policy for radiologist-supervised generative pre-drafting functions."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p012",
+      "stance": "conditional-major",
+      "gist": "States the requested policy: enforcement discretion for image-analysis functions producing private draft text for the interpreting specialist, with technical controls blocking earlier release."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p013",
+      "stance": "conditional-minor",
+      "gist": "Says output communicated to clinicians or patients, presented as an interpretation or used to direct care before specialist verification should stay under premarket oversight."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p014",
+      "stance": "conditional-minor",
+      "gist": "Would make the human-AI system in its workflow the performance unit, measuring both errors assistance introduces and errors a prompted radiologist catches."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p015",
+      "stance": "conditional-minor",
+      "gist": "Wants four auditable modifiers named: output disposition, persistence and reversibility, verifiability against source material, and whether specialist review is required architecturally."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p015",
+      "stance": "conditional-major",
+      "gist": "Wants the competency framework to treat supervised operation as its own evidentiary stage, sitting between non-clinical testing and independent use."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p021",
+      "stance": "conditional-minor",
+      "gist": "Discloses its commercial interest and says regulation should follow actual intended use, user, source material, error route and safeguards, not a physician's mere presence."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p023-p024",
+      "stance": "conditional-minor",
+      "gist": "Defines the pre-drafting category by auditable deployment conditions, and says any AI interpretation reaching a clinician or patient is a clinical communication whatever its label."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p025-p026",
+      "stance": "neutral",
+      "gist": "Notes the CDS exclusion does not cover image analysis, so such functions remain device software functions under the January 2026 guidance."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p027",
+      "stance": "conditional-major",
+      "gist": "Frames the request as premarket enforcement discretion for a function of low risk whose unverified output cannot enter care before specialist verification."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p028",
+      "stance": "conditional-minor",
+      "gist": "Asks whether its added containment, supervision, validation and monitoring conditions warrant a distinct policy or streamlined pathway beyond existing assistive classifications."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p029-p030",
+      "stance": "conditional-major",
+      "gist": "Says FDA's preserved enforcement-discretion authority lets it create the category while retaining jurisdiction, avoiding a false choice between no regulation and autonomous-diagnostic burden."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p031-p033",
+      "stance": "conditional-minor",
+      "gist": "Says the practice-of-medicine provision does not settle the software's status; the basis is the function's low-risk architecture with sequestered, reversible output."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p036-p038",
+      "stance": "support",
+      "gist": "Endorses evaluating the final configured function rather than the foundation model, since one model may serve research, drafting, decision support or autonomous diagnosis."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p039",
+      "stance": "conditional-minor",
+      "gist": "Says an upstream provider marketing a model for autonomous diagnosis cannot escape device duties, but status should not turn on latent capability alone."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p040-p041",
+      "stance": "conditional-minor",
+      "gist": "Says fine-tuning is no reliable bright line for risk; treatment should follow the final function and architecture, with responsibilities assigned along the chain."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p042-p047",
+      "stance": "conditional-minor",
+      "gist": "Argues a private draft differs in kind from unverifiable measurement devices, since the radiologist holds the source images and can check every statement."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p048-p051",
+      "stance": "conditional-minor",
+      "gist": "Says human-in-the-loop carries no weight by itself; specialist review counts only with source access, time, freedom to reject, no dissemination and affirmative finalization."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p052-p057",
+      "stance": "conditional-major",
+      "gist": "Proposes a graduated structure, benchmarking only, supervised operation with enforced review, then independent use, so stage-three evidence is not the price of stage two."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p058",
+      "stance": "conditional-major",
+      "gist": "Would grant enforcement discretion only when every listed condition holds, so a drafting aid cannot drift into an unreviewed reporting channel."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p059-p060",
+      "stance": "conditional-minor",
+      "gist": "Requires the intended user to be a physician credentialed to interpret the examination independently, not patients, other clinicians or unsupervised trainees."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p061-p062",
+      "stance": "conditional-minor",
+      "gist": "Requires the workflow to force complete source-image access before finalization and to block image-suppressed report signing."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p063-p064",
+      "stance": "conditional-minor",
+      "gist": "Requires the draft to stay sequestered in the radiologist's workspace, outside the record, portals and messaging, with retained copies used only for audit and quality."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p065-p066",
+      "stance": "conditional-minor",
+      "gist": "Bars any automatic finalization or clinical action, and any timer, default or batch process that turns non-editing into authorization."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p067-p068",
+      "stance": "conditional-minor",
+      "gist": "Requires affirmative radiologist issuance with full ability to edit, delete, replace or reject, and an interface that makes blank-start easy."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p069-p070",
+      "stance": "conditional-minor",
+      "gist": "Wants human-factors evaluation of whether timing, prominence and explanation design cause premature closure, testing error detection under realistic workload."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q11",
+      "paragraph": "p071-p072",
+      "stance": "conditional-minor",
+      "gist": "Wants local validation of the configured function on representative data by retrospective, shadow, blinded or paired methods, without presuming a randomized trial."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p073-p074",
+      "stance": "conditional-minor",
+      "gist": "Wants clinically meaningful measures such as omissions, false additions, laterality errors, rejection and correction rates, and team sensitivity versus unaided workflow, not text similarity."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p075-p076",
+      "stance": "conditional-minor",
+      "gist": "Wants deployers to monitor discrepancies, correction and rejection rates, drift by modality, scanner and subgroup, and failures, with thresholds triggering rollback or suspension."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q23",
+      "paragraph": "p077-p079",
+      "stance": "conditional-minor",
+      "gist": "Allows radiologist corrections to feed offline retraining, but a production model must not change behavior after each correction without validated, controlled deployment."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p080-p081",
+      "stance": "conditional-minor",
+      "gist": "Wants records of model version, draft, edits, final report, timing and failures, with access control, cybersecurity and vendor-change notification proportionate to deployment."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p082-p083",
+      "stance": "conditional-minor",
+      "gist": "Excludes from discretion any unverified output reaching clinicians or patients, and treats worklist prioritization as a separate function that does not disqualify a sequestered draft."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q15",
+      "paragraph": "p084-p087",
+      "stance": "conditional-minor",
+      "gist": "Says automation bias and anchoring should be measured against the real baseline of unaided interpretation, which itself suffers fatigue, satisfaction of search and serial dependence."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q15",
+      "paragraph": "p089-p090",
+      "stance": "conditional-minor",
+      "gist": "Wants the assisted workflow compared with realistic unaided practice, measuring errors introduced and prevented, sensitivity, completeness, time, fatigue effects and user variability."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p091-p092",
+      "stance": "conditional-minor",
+      "gist": "Says a structured draft may reduce omissions, the commonest reporting error, and evaluation must capture errors prevented as well as introduced to support benefit-risk."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p093",
+      "stance": "conditional-minor",
+      "gist": "Lists human-factors safeguards: labelled unverified text, blank-report option, no passive acceptance, training, interface testing, separate tracking of AI-induced errors, periodic adjudication."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p094-p098",
+      "stance": "conditional-minor",
+      "gist": "Makes human-AI team performance the principal unit for supervised drafting, asking whether the final report's accuracy, completeness, variability and timeliness hold up."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p099-p104",
+      "stance": "conditional-minor",
+      "gist": "Makes downstream clinical reliance before specialist verification the regulatory boundary, contrasting the sequestered draft pathway with preliminary outputs reaching clinicians."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p105-p108",
+      "stance": "conditional-minor",
+      "gist": "Calls local validation a safety layer, as imaging AI varies by site; wants institutions to validate, start in shadow mode and keep rollback."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p109",
+      "stance": "neutral",
+      "gist": "Notes an IRB may be needed for research activities but is no general substitute for device regulation or everyday clinical AI governance."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q23",
+      "paragraph": "p110-p112",
+      "stance": "conditional-minor",
+      "gist": "Says specialist corrections yield valuable error data for offline retraining, but the production system should never learn silently; release only validated versions."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p113-p116",
+      "stance": "conditional-minor",
+      "gist": "Calls sequestered supervised drafting a strong candidate for the trade, with monitoring as an added control conditioned on enforced sequestration, thresholds, auditability and rollback."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p118-p122",
+      "stance": "conditional-minor",
+      "gist": "Allocates duties to the upstream model provider, downstream developer, deploying organization and interpreting radiologist, from version disclosure to independent image review."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p122",
+      "stance": "support",
+      "gist": "Finds the voluntary master file concept, with the downstream sponsor staying responsible, more appropriate than treating every capable model as a finished diagnostic device."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q8",
+      "paragraph": "p127",
+      "stance": "conditional-minor",
+      "gist": "Says that if premarket review is required, the evidence should stay proportionate to actual intended use, safeguards and residual risk."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p128-p130",
+      "stance": "conditional-minor",
+      "gist": "Calls the axes useful but incomplete, adding traceability, user expertise, dissemination barriers, reversibility, time pressure, mandatory review, monitoring and uncontrolled change."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p131-p132",
+      "stance": "conditional-minor",
+      "gist": "Illustrates with one model producing identical text: private in the radiologist's workspace versus sent to the emergency physician as a preliminary result."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p133",
+      "stance": "conditional-minor",
+      "gist": "Urges distinguishing architecturally enforced review, inspectable in configuration and logs, from advisory review that merely expects user behavior."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p134-p136",
+      "stance": "conditional-minor",
+      "gist": "Would judge directiveness functionally by recipient, specificity, whether it enters records or ordering systems, and whether specialist verification must come first."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q2",
+      "paragraph": "p137-p138",
+      "stance": "conditional-minor",
+      "gist": "Says disclaimers cannot make directive output non-directive, but diagnostic language in a private, non-final draft does not make it action-directing."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p139-p141",
+      "stance": "conditional-minor",
+      "gist": "Says unverified output delivered to patients is riskier, especially diagnoses or care instructions, but patient-facing status alone should not make a function high risk."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q3",
+      "paragraph": "p142-p143",
+      "stance": "conditional-minor",
+      "gist": "Says the pre-draft must be technically blocked from portals and inboxes, with patients receiving only the radiologist-issued report."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q4",
+      "paragraph": "p144-p147",
+      "stance": "conditional-minor",
+      "gist": "Treats specialist expertise as a risk modifier when paired with source access, exclusive finalization and training; status alone does not remove oversight."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p148-p151",
+      "stance": "conditional-minor",
+      "gist": "Wants conversational risk assessed over whole trajectories with testing for migration toward directive output, hard scope boundaries and escalation."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q6",
+      "paragraph": "p152-p155",
+      "stance": "conditional-minor",
+      "gist": "Wants both escalation errors measured separately with context-specific criteria, weighing severity, prevalence, urgency and available review."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p156-p161",
+      "stance": "conditional-minor",
+      "gist": "Calls the framework useful if it evaluates the configured workflow, confirming the radiologist-plus-draft process rather than the model as an autonomous diagnostician."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p162",
+      "stance": "conditional-major",
+      "gist": "Refers back to its proposal of a supervised-operation stage between benchmarking and independent operation, with evidence calibrated per stage."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q8",
+      "paragraph": "p163-p167",
+      "stance": "conditional-minor",
+      "gist": "Would base evidence on residual risk after actual safeguards, rising as output moves toward direct delivery, action-directing behavior or autonomy."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p168-p171",
+      "stance": "conditional-minor",
+      "gist": "Calls the structure a starting point and adds image-grounding tests for omissions, laterality, measurements, prior comparison and consistency, not text-similarity metrics."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p172-p173",
+      "stance": "conditional-minor",
+      "gist": "For supervised drafting, wants correction, rejection, AI-induced and AI-corrected error rates measured, plus tests that drafts cannot be auto-finalized."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p174",
+      "stance": "conditional-minor",
+      "gist": "Proposes a fabricated-specificity element: measurements, comparisons or history asserted that cannot derive from the inputs, plausible yet invented."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p175-p176",
+      "stance": "conditional-minor",
+      "gist": "Proposes measuring whether review functions via adoption rates, edit distances and blinded re-reads, cautioning against seeding errors into live drafts."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p177-p180",
+      "stance": "conditional-minor",
+      "gist": "Treats benchmarks as predictive only when relevant, independent and representative, with sequestration, holdouts, locked configurations and adjudication; public sets are not superior."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q10",
+      "paragraph": "p181-p182",
+      "stance": "conditional-minor",
+      "gist": "Permits documented sponsor benchmarks where no public one fits, not as sole evidence, and accepts reasonable demonstrations of independence from upstream training data."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q11",
+      "paragraph": "p183-p187",
+      "stance": "conditional-minor",
+      "gist": "Lists confirmation methods for private drafting, says randomized trials should not be automatic, and reserves prospective evidence for outputs reaching clinicians or acting."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q12",
+      "paragraph": "p188-p192",
+      "stance": "conditional-minor",
+      "gist": "Wants prespecified endpoints and methods, reporting of intervals, reader and site variability and repeated runs, clustering accounted for, and no automatic pooling of synthetic data."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q13",
+      "paragraph": "p193-p197",
+      "stance": "conditional-minor",
+      "gist": "Finds synthetic data useful for stress tests and rare cases but no substitute for real imaging, with safeguards against reproducing a related model's blind spots."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q14",
+      "paragraph": "p198-p203",
+      "stance": "conditional-minor",
+      "gist": "Uses specialist panels or adjudicated references with criteria on clinically significant agreement; the team is the principal unit and device-alone results characterize failure modes."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q15",
+      "paragraph": "p204-p206",
+      "stance": "conditional-minor",
+      "gist": "Says the comparator should be the care likely without the device, for private drafting realistic unaided reporting with its workload and fatigue."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q15",
+      "paragraph": "p207-p209",
+      "stance": "conditional-minor",
+      "gist": "Would let sponsors justify delayed-specialist-review or unaided comparators by documenting actual turnaround and coverage patterns at deployment sites."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q15",
+      "paragraph": "p210-p211",
+      "stance": "conditional-minor",
+      "gist": "Wants comparisons to capture errors both introduced and prevented, against a real baseline rather than an error-free physician or unintended autonomous use."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q16",
+      "paragraph": "p212-p217",
+      "stance": "conditional-minor",
+      "gist": "Supports risk-proportionate third-party roles but opposes a universal mandate, preserving other routes to independence and avoiding control by a few organizations."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q17",
+      "paragraph": "p218-p224",
+      "stance": "conditional-minor",
+      "gist": "Says the framework applies to multimodal models if it tests cross-modal grounding, study coverage, consistency, reproducibility and sensitivity to configuration changes."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q18",
+      "paragraph": "p225-p228",
+      "stance": "conditional-minor",
+      "gist": "Lists conditions for more postmarket reliance, met by sequestered supervised drafting, and excludes autonomous, direct-to-patient, irreversible or unmonitorable functions."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p229-p234",
+      "stance": "conditional-minor",
+      "gist": "Accepts the three approaches, adds correction and rejection measures, and lists triggers from model updates and scanner changes to shifts in adoption patterns."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q20",
+      "paragraph": "p235-p240",
+      "stance": "conditional-minor",
+      "gist": "Sees supervisory agents screening for inconsistencies and drift, never as sole safeguard, with independent evaluation and attention to correlated failure."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q21",
+      "paragraph": "p241-p245",
+      "stance": "conditional-minor",
+      "gist": "Keeps the developer accountable while institutions, clinicians, societies, standards bodies and providers contribute under contractual data-sharing and escalation duties."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q22",
+      "paragraph": "p246-p251",
+      "stance": "conditional-minor",
+      "gist": "Scales re-benchmarking to likely effect on clinical behavior: formatting in the quality system, model, prompt or guardrail changes re-evaluated, expanded autonomy reviewed by FDA."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q23",
+      "paragraph": "p252-p256",
+      "stance": "conditional-minor",
+      "gist": "Says a PCCP should define permissible categories, boundaries, prohibited changes, required confirmation and rollback, never an open-ended authorization."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q24",
+      "paragraph": "p257-p262",
+      "stance": "conditional-minor",
+      "gist": "Wants pinning, notice, change logs, audit rights, automatic blocking of unvalidated versions and rollback, disclosing any limits; silent replacement should not be permitted."
+    },
+    {
+      "code": "MASTER_FILES",
+      "subcode": "Q25",
+      "paragraph": "p263-p269",
+      "stance": "conditional-minor",
+      "gist": "Supports master files with listed content if kept current and not treated as authorization, plus alternatives such as contractual disclosure, system cards and version APIs."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p270-p273",
+      "stance": "conditional-minor",
+      "gist": "Wants agentic evaluation of planning, tool use, permissions, checkpoints, failure handling and rollback, with human confirmation before irreversible actions unless authorized."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p274-p276",
+      "stance": "conditional-minor",
+      "gist": "Says supervised drafting is not agentic, the label should not decide device status for routing functions, and added action-taking functions are assessed separately."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p277",
+      "stance": "conditional-minor",
+      "gist": "Keeps patient safety primary but asks FDA to weigh the public-health cost of imposing autonomous-diagnostic evidence burdens on supervised drafting tools."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p279",
+      "stance": "conditional-major",
+      "gist": "Argues supervised use yields labeled feedback at clinical volume without added risk, lost if standalone autonomous performance is required before any supervised use."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p280",
+      "stance": "conditional-minor",
+      "gist": "Says a proportionate path of shadow testing, local validation, limited supervised deployment and staged expansion fits FDA's least-burdensome goal."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p281-p282",
+      "stance": "conditional-major",
+      "gist": "Requests guidance stating enforcement discretion for image-analysis functions that only draft private, non-final text for the interpreting specialist under enforced controls."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p283-p286",
+      "stance": "conditional-minor",
+      "gist": "Lists qualifying conditions: mandatory source-image access, output restricted to the specialist, and clear labelling as unverified AI work product."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p288-p297",
+      "stance": "conditional-minor",
+      "gist": "Continues the conditions: non-persistence, no automatic finalization, communication or action, physician control, local validation, human factors, monitoring, change control, rollback and exclusions."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p298",
+      "stance": "conditional-minor",
+      "gist": "Says a separately authorized worklist-prioritization function may share the platform and model, with the combined configuration checked for interactions."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p299",
+      "stance": "conditional-major",
+      "gist": "Asks FDA to keep oversight where safeguards lapse, and failing broad discretion, to create a streamlined low-risk pathway with special controls."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p300-p301",
+      "stance": "conditional-minor",
+      "gist": "Concludes risks should be met through validation, human factors, controls and monitoring, not by treating every image-capable model as an autonomous diagnostician."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "DEF",
+      "paragraph": "p302",
+      "stance": "conditional-major",
+      "gist": "Requests a narrowly bounded policy of premarket enforcement discretion for supervised pre-drafting that preserves jurisdiction and patient protections."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Lead-in to attachment."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p003",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Submitter line."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Roles of the representative."
+    },
+    {
+      "paragraph": "p006",
+      "reason": "Submission date and method."
+    },
+    {
+      "paragraph": "p010",
+      "reason": "Footnote."
+    },
+    {
+      "paragraph": "p016",
+      "reason": "Introduction of the organizations."
+    },
+    {
+      "paragraph": "p017",
+      "reason": "Footnotes."
+    },
+    {
+      "paragraph": "p018",
+      "reason": "Introduction of the organizations."
+    },
+    {
+      "paragraph": "p019",
+      "reason": "Introduction of the representative."
+    },
+    {
+      "paragraph": "p020",
+      "reason": "Disclosure of the organizations' development work."
+    },
+    {
+      "paragraph": "p022",
+      "reason": "Reference to a separate docket submission."
+    },
+    {
+      "paragraph": "p034",
+      "reason": "Footnotes."
+    },
+    {
+      "paragraph": "p035",
+      "reason": "Footnotes."
+    },
+    {
+      "paragraph": "p088",
+      "reason": "Footnotes."
+    },
+    {
+      "paragraph": "p117",
+      "reason": "Footnotes."
+    },
+    {
+      "paragraph": "p123",
+      "reason": "Lead-in to the question responses."
+    },
+    {
+      "paragraph": "p124",
+      "reason": "Scope note on questions outside the proposed category."
+    },
+    {
+      "paragraph": "p125",
+      "reason": "Footnote."
+    },
+    {
+      "paragraph": "p126",
+      "reason": "Scope note on questions outside the proposed category."
+    },
+    {
+      "paragraph": "p278",
+      "reason": "Outside the paper: radiology workforce supply and demand."
+    },
+    {
+      "paragraph": "p287",
+      "reason": "Footnotes."
+    },
+    {
+      "paragraph": "p303",
+      "reason": "Footnote."
+    },
+    {
+      "paragraph": "p304",
+      "reason": "Closing."
+    },
+    {
+      "paragraph": "p305",
+      "reason": "Signature."
+    }
+  ]
+}

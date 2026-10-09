@@ -1,0 +1,387 @@
+{
+ "comment_id": "FDA-2026-N-7874-0032",
+ "tags": [
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p001",
+   "stance": "conditional-major",
+   "gist": "Says the paper dwells on model performance and monitoring but neglects how devices are operated, secured, maintained, repaired, calibrated and retired."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p002-p011",
+   "stance": "conditional-major",
+   "gist": "Lists priorities: safe operation during dependency failures, GenAI cybersecurity, serviceability, lifecycle support, dependency transparency, calibration, ownership, fleet risk and service personnel."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p012-p013",
+   "stance": "conditional-minor",
+   "gist": "Wants sponsors to map which functions depend on cloud, model or identity services and to test behavior under each failure, with a validated fallback state."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p013",
+   "stance": "conditional-major",
+   "gist": "Wants dependence on connectivity, and how fast harm follows an outage, treated as risk modifiers."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p014",
+   "stance": "conditional-minor",
+   "gist": "Wants cybersecurity evaluation to go beyond prompt injection to supply-chain, poisoned retrieval, compromised tools and privileged access, with manufacturers accountable for chosen dependencies."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p015-p017",
+   "stance": "conditional-minor",
+   "gist": "Wants a serviceability and lifecycle plan so hospital technicians and independent servicers have the documentation, diagnostics, calibration tools and access to maintain equipment."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p018",
+   "stance": "conditional-minor",
+   "gist": "Wants lifecycle planning for dependency-driven obsolescence, with disclosed support commitments, end-of-support notice, migration plans and local or non-AI fallback where appropriate."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p019",
+   "stance": "conditional-minor",
+   "gist": "Wants AI calibration distinguished from biomedical calibration, since neither benchmarking nor sensor calibration alone shows a changed model reads measurements safely."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p020",
+   "stance": "conditional-major",
+   "gist": "Wants fleet-level common-mode risk considered, since one shared model, cloud or identity dependency can disable an entire device class at once."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p021",
+   "stance": "conditional-minor",
+   "gist": "Wants benchmarking elements added for cybersecurity and dependency integrity, operational resilience, and maintainability and lifecycle support."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p022",
+   "stance": "conditional-minor",
+   "gist": "Wants healthcare technology management, biomedical technicians, clinical engineers, cybersecurity staff and independent servicers explicitly included in the discussion."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p023",
+   "stance": "conditional-major",
+   "gist": "Says a complete lifecycle framework must ask whether organizations can safely operate, secure, maintain, repair, calibrate, recover, update and retire the device."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p029-p030",
+   "stance": "conditional-major",
+   "gist": "Calls the paper a useful start that does not yet address whether products stay safe, available, secure and serviceable after deployment, especially inside equipment."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p033",
+   "stance": "conditional-minor",
+   "gist": "Wants validated continuity and safe, obvious failure during loss of network, cloud, model or external dependencies."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p034",
+   "stance": "conditional-minor",
+   "gist": "Wants GenAI-specific cybersecurity and dependency-integrity requirements spanning the model, data, API, tool, identity, update and service supply chain."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p035",
+   "stance": "conditional-minor",
+   "gist": "Wants maintainability and qualified repair access preserved so organizations are not responsible for availability without the means to maintain devices."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p036",
+   "stance": "conditional-minor",
+   "gist": "Wants lifecycle-support commitments so withdrawal of support by an OEM, cloud or model provider does not strand functional equipment."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p038",
+   "stance": "conditional-minor",
+   "gist": "Wants end-to-end calibration and return-to-service verification that links physical, software, model and clinical-output checks."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p040",
+   "stance": "conditional-major",
+   "gist": "Wants fleet-level, common-mode and third-party concentration risk evaluated, since one provider or update can hit many facilities and manufacturers."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p041",
+   "stance": "conditional-major",
+   "gist": "Wants operational and lifecycle risks made measurable elements of risk assessment, benchmarking, labeling and monitoring, not procurement afterthoughts."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p042",
+   "stance": "conditional-minor",
+   "gist": "Wants technology management, clinical engineering, cybersecurity and service stakeholders given a defined part in building and monitoring the framework."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p043",
+   "stance": "conditional-minor",
+   "gist": "Requests three new elements: cybersecurity and dependency integrity, operational resilience and continuity, and maintainability and lifecycle support."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p043",
+   "stance": "conditional-major",
+   "gist": "Wants connectivity dependence, time-to-harm during outages, fallback capability and common-mode exposure treated as risk modifiers."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p044-p045",
+   "stance": "conditional-major",
+   "gist": "Warns that addressing only the GenAI component leaves out system-level safety such as downtime behavior, service access, calibration and end-of-life support."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p046-p051",
+   "stance": "conditional-minor",
+   "gist": "Wants device behavior defined and validated under every dependency loss, from internet and model API outages to identity failures, with proportionate fallback requirements."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p052",
+   "stance": "conditional-major",
+   "gist": "Wants connectivity dependency, dependency criticality, detectability of degradation, downstream safeguards and time-to-harm as explicit modifiers in the risk framework."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p053-p057",
+   "stance": "conditional-minor",
+   "gist": "Wants a cybersecurity benchmarking element covering model compromise, retrieval poisoning, tool and API compromise and supply-chain attacks, with a system threat model."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p058-p063",
+   "stance": "conditional-minor",
+   "gist": "Wants a required serviceability plan giving qualified personnel manuals, diagnostics, logs, calibration procedures, parts information and a controlled local service pathway."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q24",
+   "paragraph": "p064-p069",
+   "stance": "conditional-minor",
+   "gist": "Wants enforceable lifecycle-support disclosures and transition plans for when a provider retires a model, API or service, including escrow or continuity mechanisms."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q22",
+   "paragraph": "p074-p079",
+   "stance": "conditional-minor",
+   "gist": "Wants verification of the full measurement-to-output chain defined after maintenance, part replacement, model or prompt changes and migrations, beyond AI benchmarks."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p085-p088",
+   "stance": "conditional-major",
+   "gist": "Wants sponsors to assess shared-dependency failures that can disable whole fleets across facilities and manufacturers, including failover and staged rollout."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p089",
+   "stance": "conditional-minor",
+   "gist": "Wants proof of a response plan for fleet-wide common-mode failures, and wants significant service outages reported postmarket for widely deployed products."
+  },
+  {
+   "code": "PREMARKET",
+   "subcode": "Q9",
+   "paragraph": "p090-p098",
+   "stance": "conditional-minor",
+   "gist": "Proposes elements S.4, R.3 and R.4 with core questions and minimum evidence for dependency integrity, resilience under outages, and serviceability."
+  },
+  {
+   "code": "RISK",
+   "subcode": "Q1",
+   "paragraph": "p099",
+   "stance": "conditional-major",
+   "gist": "Wants the risk framework to weigh connectivity dependence, time-to-harm, fallback, detectability, reversibility of incomplete actions, fleet size and remaining support life."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q19",
+   "paragraph": "p100",
+   "stance": "conditional-minor",
+   "gist": "Wants monitoring to include service interruptions, security incidents, degraded-mode time, failed updates, repair delays, service retirements and fleet events."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p101",
+   "stance": "conditional-minor",
+   "gist": "Says ecosystem roles must not diffuse manufacturer accountability for dependencies the manufacturer selected."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q20",
+   "paragraph": "p101",
+   "stance": "conditional-minor",
+   "gist": "Says supervisory agents cannot be the only safeguard when they share the device's model, cloud, network or identity dependencies."
+  },
+  {
+   "code": "MASTER_FILES",
+   "subcode": "Q25",
+   "paragraph": "p102",
+   "stance": "conditional-minor",
+   "gist": "Suggests master files also carry support and deprecation policies, version-pinning options, notification commitments, data portability and provider-exit arrangements."
+  },
+  {
+   "code": "POSTMARKET",
+   "subcode": "Q21",
+   "paragraph": "p103-p107",
+   "stance": "conditional-minor",
+   "gist": "Wants technology management, biomedical, clinical engineering, cybersecurity and service personnel consulted, since they hold practical evidence on serviceability and downtime."
+  },
+  {
+   "code": "GENERAL",
+   "subcode": "GEN",
+   "paragraph": "p108-p111",
+   "stance": "conditional-major",
+   "gist": "Concludes the framework must cover owning, operating, securing, maintaining, repairing, recovering, updating and retiring the complete product, with clear manufacturer accountability."
+  }
+ ],
+ "skipped": [
+  {
+   "paragraph": "p024",
+   "reason": "Docket header."
+  },
+  {
+   "paragraph": "p025",
+   "reason": "Title of the comment."
+  },
+  {
+   "paragraph": "p026",
+   "reason": "Lead-in listing the focus areas."
+  },
+  {
+   "paragraph": "p027",
+   "reason": "Submitter and date."
+  },
+  {
+   "paragraph": "p028",
+   "reason": "Disclaimer."
+  },
+  {
+   "paragraph": "p031",
+   "reason": "Describes how the recommendations are ranked."
+  },
+  {
+   "paragraph": "p032",
+   "reason": "Describes the scope of the comment."
+  },
+  {
+   "paragraph": "p037",
+   "reason": "Outside the paper: labeling and procurement disclosure of architecture and dependencies."
+  },
+  {
+   "paragraph": "p039",
+   "reason": "Outside the paper: ownership and licensing terms."
+  },
+  {
+   "paragraph": "p070",
+   "reason": "Outside the paper: labeling and procurement disclosure of connectivity and dependencies."
+  },
+  {
+   "paragraph": "p071",
+   "reason": "Outside the paper: labeling and procurement disclosure of connectivity and dependencies."
+  },
+  {
+   "paragraph": "p072",
+   "reason": "Outside the paper: labeling and procurement disclosure of connectivity and dependencies."
+  },
+  {
+   "paragraph": "p073",
+   "reason": "Outside the paper: labeling and procurement disclosure of connectivity and dependencies."
+  },
+  {
+   "paragraph": "p080",
+   "reason": "Outside the paper: ownership, licensing and commercial control terms."
+  },
+  {
+   "paragraph": "p081",
+   "reason": "Outside the paper: ownership, licensing and commercial control terms."
+  },
+  {
+   "paragraph": "p082",
+   "reason": "Outside the paper: ownership, licensing and commercial control terms."
+  },
+  {
+   "paragraph": "p083",
+   "reason": "Outside the paper: ownership, licensing and commercial control terms."
+  },
+  {
+   "paragraph": "p084",
+   "reason": "Outside the paper: ownership, licensing and commercial control terms."
+  },
+  {
+   "paragraph": "p112",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p113",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p114",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p115",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p116",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p117",
+   "reason": "References."
+  },
+  {
+   "paragraph": "p118",
+   "reason": "References."
+  }
+ ]
+}

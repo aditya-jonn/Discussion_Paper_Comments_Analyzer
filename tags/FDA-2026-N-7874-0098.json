@@ -1,0 +1,193 @@
+{
+  "comment_id": "FDA-2026-N-7874-0098",
+  "tags": [
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p003",
+      "stance": "conditional-minor",
+      "gist": "Says the paper credits human involvement as one risk-reducing category, though its strong and weak forms differ exactly where failures occur."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p008",
+      "stance": "conditional-minor",
+      "gist": "Repeats that supervision, deferral, adjudication and checkpoints are not one homogeneous category and proposes a vocabulary to separate strong from weak forms."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p009-p010",
+      "stance": "conditional-minor",
+      "gist": "Recommends sponsors characterize each claimed human-in-the-loop control by domain-match, independence, triggering and timing criteria."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p011",
+      "stance": "conditional-minor",
+      "gist": "Recommends a benchmarking sub-element disclosing and testing fail-open versus fail-closed behavior of escalation subsystems under fault conditions."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p012",
+      "stance": "conditional-minor",
+      "gist": "Recommends multi-turn scope-drift testing over cumulative conversation state as a gate separate from per-turn boundary tests."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p013",
+      "stance": "conditional-minor",
+      "gist": "Recommends a distinct safety element for resisting sycophantic validation of unsafe decisions a patient or caregiver proposes."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p014",
+      "stance": "conditional-minor",
+      "gist": "Recommends LLM adjudicators disclose model-family relationship, decoding mode and training lineage relative to the generating model."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p015",
+      "stance": "conditional-minor",
+      "gist": "Recommends a three-state output classification with mandatory deferral on unverifiable claims, scored as its own competency."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p016",
+      "stance": "conditional-minor",
+      "gist": "Recommends a premarket disclosure of where the verification gate sits, and whether partial output can reach users before verification."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p017",
+      "stance": "conditional-minor",
+      "gist": "Recommends persistent structured logging of safety decisions, beyond transcripts, as a precondition before any postmarket monitoring credit is given."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p018",
+      "stance": "conditional-minor",
+      "gist": "Recommends the same domain-match, independence, triggering and pre-action gating criteria for agentic oversight checkpoints."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p019-p026",
+      "stance": "conditional-minor",
+      "gist": "Proposes expert-in-the-loop as four properties, domain-matched reviewer, structural independence, deterministic triggering and pre-delivery gating, for sponsors to document."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q1",
+      "paragraph": "p027-p028",
+      "stance": "conditional-minor",
+      "gist": "Wants the activity axis paired with an oversight-quality modifier, since all supervised action-taking now sits at one point regardless of review quality."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p029-p030",
+      "stance": "conditional-minor",
+      "gist": "Reports a generative triage layer failing open on API timeouts; wants an S.1 sub-element testing escalation subsystems under fault conditions."
+    },
+    {
+      "code": "RISK",
+      "subcode": "Q5",
+      "paragraph": "p031-p032",
+      "stance": "conditional-minor",
+      "gist": "Confirms cumulative reassurance drift from its own testing and wants a drift check over whole-conversation state as a separate gate."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p033-p034",
+      "stance": "conditional-minor",
+      "gist": "Describes devices affirming a caregiver's risky plan to stop therapy; wants a safety sub-element for sycophantic validation tested in user-initiated scenarios."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p035-p037",
+      "stance": "conditional-minor",
+      "gist": "Says organizational independence is insufficient for LLM adjudicators; wants disclosure of vendor relationship, decoding mode and shared training lineage."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q9",
+      "paragraph": "p038-p039",
+      "stance": "conditional-minor",
+      "gist": "Wants claims classified as supported, contradicted or unverifiable, with prespecified deferral on unverifiable scored separately from accuracy."
+    },
+    {
+      "code": "PREMARKET",
+      "subcode": "Q7",
+      "paragraph": "p040-p041",
+      "stance": "conditional-minor",
+      "gist": "Reports streamed draft text reaching users before verification; wants gate placement relative to display disclosed premarket, apart from benchmark metrics."
+    },
+    {
+      "code": "POSTMARKET",
+      "subcode": "Q19",
+      "paragraph": "p042-p043",
+      "stance": "conditional-minor",
+      "gist": "Says re-benchmarking, clinician review and supervisory agents all depend on persisted safety metadata, so structured logging should be a monitoring precondition."
+    },
+    {
+      "code": "AGENTIC",
+      "subcode": "Q26",
+      "paragraph": "p044-p045",
+      "stance": "conditional-minor",
+      "gist": "Wants agentic checkpoints to meet expert-in-the-loop standards, with compliance meaning no action without an affirmative, logged, domain-matched review."
+    },
+    {
+      "code": "GENERAL",
+      "subcode": "GEN",
+      "paragraph": "p046",
+      "stance": "conditional-minor",
+      "gist": "Finds the frameworks well-constructed but says human involvement as a mitigating factor needs the same evidentiary rigor as the AI system."
+    }
+  ],
+  "skipped": [
+    {
+      "paragraph": "p001",
+      "reason": "Introduction of the writer's architecture."
+    },
+    {
+      "paragraph": "p002",
+      "reason": "Scope statement for the comment."
+    },
+    {
+      "paragraph": "p004",
+      "reason": "Title line."
+    },
+    {
+      "paragraph": "p005",
+      "reason": "Docket and submitter details."
+    },
+    {
+      "paragraph": "p006",
+      "reason": "Introduction of the writer and architecture."
+    },
+    {
+      "paragraph": "p007",
+      "reason": "Scope statement for the comment."
+    },
+    {
+      "paragraph": "p047",
+      "reason": "Thanks."
+    },
+    {
+      "paragraph": "p048",
+      "reason": "Closing and signature."
+    }
+  ]
+}
