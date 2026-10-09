@@ -22,7 +22,7 @@ docs/_build/
 # Tools
 my_tools/
 trace_comment.py
-*.png
+#*.png
 *.svg
 
 corpus_v0/
